@@ -1,0 +1,511 @@
+podman run --network none ghcr.io/chains-project/breaking-updates:f5fe6b784898301536f8733eba0ce43109488f5c-breaking
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Detecting the operating system and CPU architecture
+[INFO] ------------------------------------------------------------------------
+[INFO] os.detected.name: linux
+[INFO] os.detected.arch: x86_64
+[INFO] os.detected.bitness: 64
+[INFO] os.detected.version: 6.19
+[INFO] os.detected.version.major: 6
+[INFO] os.detected.version.minor: 19
+[INFO] os.detected.release: alpine
+[INFO] os.detected.release.version: 3.18.2
+[INFO] os.detected.release.like.alpine: true
+[INFO] os.detected.classifier: linux-x86_64
+[INFO] 
+[INFO] -----------< com.google.cloud:pubsub-group-kafka-connector >------------
+[INFO] Building Pub/Sub Group Kafka Connector 1.2.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ pubsub-group-kafka-connector ---
+[INFO] 
+[INFO] --- enforcer:3.1.0:enforce (enforce) @ pubsub-group-kafka-connector ---
+[INFO] Adding ignore: module-info
+[INFO] Adding ignore: META-INF/versions/*/module-info
+[ERROR] Rule 2: org.apache.maven.plugins.enforcer.RequireUpperBoundDeps failed with message:
+Failed while enforcing RequireUpperBoundDeps. The error(s) are [
+Require upper bound dependencies error for com.google.protobuf:protobuf-java:3.21.12 paths to dependency are:
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.protobuf:protobuf-java:3.21.12
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.api.grpc:proto-google-cloud-pubsublite-v1:1.11.1
+    +-com.google.protobuf:protobuf-java:3.21.12 (managed) <-- com.google.protobuf:protobuf-java:3.21.12
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsublite:1.11.1
+    +-com.google.protobuf:protobuf-java:3.21.12 (managed) <-- com.google.protobuf:protobuf-java:3.21.12
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:pubsublite-kafka:1.1.2
+    +-com.google.protobuf:protobuf-java:3.21.12 (managed) <-- com.google.protobuf:protobuf-java:3.21.12
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsub:1.123.14
+    +-com.google.protobuf:protobuf-java:3.21.12 (managed) <-- com.google.protobuf:protobuf-java:3.23.2
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.api:gax:2.24.0
+    +-com.google.protobuf:protobuf-java:3.21.12 (managed) <-- com.google.protobuf:protobuf-java:3.21.12
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.api.grpc:proto-google-cloud-pubsub-v1:1.105.14
+    +-com.google.protobuf:protobuf-java:3.21.12 (managed) <-- com.google.protobuf:protobuf-java:3.23.2
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.protobuf:protobuf-java-util:3.21.12
+    +-com.google.protobuf:protobuf-java:3.21.12 (managed) <-- com.google.protobuf:protobuf-java:3.21.12
+, 
+Require upper bound dependencies error for com.google.api.grpc:proto-google-common-protos:2.15.0 paths to dependency are:
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.api.grpc:proto-google-cloud-pubsublite-v1:1.11.1
+    +-com.google.api.grpc:proto-google-common-protos:2.15.0 (managed) <-- com.google.api.grpc:proto-google-common-protos:2.14.1
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsublite:1.11.1
+    +-com.google.api.grpc:proto-google-common-protos:2.15.0 (managed) <-- com.google.api.grpc:proto-google-common-protos:2.14.1
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:pubsublite-kafka:1.1.2
+    +-com.google.api.grpc:proto-google-common-protos:2.15.0 (managed) <-- com.google.api.grpc:proto-google-common-protos:2.14.1
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsub:1.123.14
+    +-com.google.api.grpc:proto-google-common-protos:2.15.0 (managed) <-- com.google.api.grpc:proto-google-common-protos:2.20.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.api:gax:2.24.0
+    +-com.google.api.grpc:proto-google-common-protos:2.15.0 (managed) <-- com.google.api.grpc:proto-google-common-protos:2.15.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.api:gax-grpc:2.24.0
+    +-com.google.api.grpc:proto-google-common-protos:2.15.0 (managed) <-- com.google.api.grpc:proto-google-common-protos:2.15.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.api.grpc:proto-google-cloud-pubsub-v1:1.105.14
+    +-com.google.api.grpc:proto-google-common-protos:2.15.0 (managed) <-- com.google.api.grpc:proto-google-common-protos:2.20.0
+, 
+Require upper bound dependencies error for com.google.api:api-common:2.7.0 paths to dependency are:
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.api:api-common:2.7.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.api.grpc:proto-google-cloud-pubsublite-v1:1.11.1
+    +-com.google.api:api-common:2.7.0 (managed) <-- com.google.api:api-common:2.6.1
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsublite:1.11.1
+    +-com.google.api:api-common:2.7.0 (managed) <-- com.google.api:api-common:2.6.1
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:pubsublite-kafka:1.1.2
+    +-com.google.api:api-common:2.7.0 (managed) <-- com.google.api:api-common:2.6.1
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsub:1.123.14
+    +-com.google.api:api-common:2.7.0 (managed) <-- com.google.api:api-common:2.12.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.api:gax:2.24.0
+    +-com.google.api:api-common:2.7.0 (managed) <-- com.google.api:api-common:2.7.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.api:gax-grpc:2.24.0
+    +-com.google.api:api-common:2.7.0 (managed) <-- com.google.api:api-common:2.7.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.api.grpc:proto-google-cloud-pubsub-v1:1.105.14
+    +-com.google.api:api-common:2.7.0 (managed) <-- com.google.api:api-common:2.12.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsublite:1.11.1
+    +-com.google.api.grpc:grpc-google-cloud-pubsublite-v1:1.11.1 (managed) <-- com.google.api.grpc:grpc-google-cloud-pubsublite-v1:1.11.1
+      +-com.google.api:api-common:2.7.0 (managed) <-- com.google.api:api-common:2.6.1
+, 
+Require upper bound dependencies error for com.google.protobuf:protobuf-java-util:3.21.12 paths to dependency are:
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.protobuf:protobuf-java-util:3.21.12
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsublite:1.11.1
+    +-com.google.protobuf:protobuf-java-util:3.21.12 (managed) <-- com.google.protobuf:protobuf-java-util:3.21.12
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:pubsublite-kafka:1.1.2
+    +-com.google.protobuf:protobuf-java-util:3.21.12 (managed) <-- com.google.protobuf:protobuf-java-util:3.21.12
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsub:1.123.14
+    +-com.google.protobuf:protobuf-java-util:3.21.12 (managed) <-- com.google.protobuf:protobuf-java-util:3.23.2
+, 
+Require upper bound dependencies error for io.grpc:grpc-api:1.54.0 paths to dependency are:
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsublite:1.11.1
+    +-io.grpc:grpc-api:1.54.0 (managed) <-- io.grpc:grpc-api:1.53.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:pubsublite-kafka:1.1.2
+    +-io.grpc:grpc-api:1.54.0 (managed) <-- io.grpc:grpc-api:1.53.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsub:1.123.14
+    +-io.grpc:grpc-api:1.54.0 (managed) <-- io.grpc:grpc-api:1.55.1
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.api:gax-grpc:2.24.0
+    +-io.grpc:grpc-api:1.54.0 (managed) <-- io.grpc:grpc-api:1.54.0
+, 
+Require upper bound dependencies error for io.grpc:grpc-context:1.54.0 paths to dependency are:
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsublite:1.11.1
+    +-io.grpc:grpc-context:1.54.0 (managed) <-- io.grpc:grpc-context:1.53.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:pubsublite-kafka:1.1.2
+    +-io.grpc:grpc-context:1.54.0 (managed) <-- io.grpc:grpc-context:1.53.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsub:1.123.14
+    +-io.grpc:grpc-context:1.54.0 (managed) <-- io.grpc:grpc-context:1.55.1
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsublite:1.11.1
+    +-com.google.api.grpc:grpc-google-cloud-pubsublite-v1:1.11.1 (managed) <-- com.google.api.grpc:grpc-google-cloud-pubsublite-v1:1.11.1
+      +-io.grpc:grpc-context:1.54.0 (managed) <-- io.grpc:grpc-context:1.53.0
+, 
+Require upper bound dependencies error for io.grpc:grpc-stub:1.54.0 paths to dependency are:
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsublite:1.11.1
+    +-io.grpc:grpc-stub:1.54.0 (managed) <-- io.grpc:grpc-stub:1.53.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:pubsublite-kafka:1.1.2
+    +-io.grpc:grpc-stub:1.54.0 (managed) <-- io.grpc:grpc-stub:1.53.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsub:1.123.14
+    +-io.grpc:grpc-stub:1.54.0 [runtime] (managed) <-- io.grpc:grpc-stub:1.55.1 [runtime]
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.api:gax-grpc:2.24.0
+    +-io.grpc:grpc-stub:1.54.0 (managed) <-- io.grpc:grpc-stub:1.54.0
+, 
+Require upper bound dependencies error for com.google.api:gax:2.24.0 paths to dependency are:
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.api:gax:2.24.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsublite:1.11.1
+    +-com.google.api:gax:2.24.0 (managed) <-- com.google.api:gax:2.23.1
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:pubsublite-kafka:1.1.2
+    +-com.google.api:gax:2.24.0 (managed) <-- com.google.api:gax:2.23.1
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsub:1.123.14
+    +-com.google.api:gax:2.24.0 (managed) <-- com.google.api:gax:2.29.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.api:gax-grpc:2.24.0
+    +-com.google.api:gax:2.24.0 (managed) <-- com.google.api:gax:2.24.0
+, 
+Require upper bound dependencies error for com.google.auth:google-auth-library-credentials:1.16.0 paths to dependency are:
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.auth:google-auth-library-credentials:1.16.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsublite:1.11.1
+    +-com.google.auth:google-auth-library-credentials:1.16.0 (managed) <-- com.google.auth:google-auth-library-credentials:1.16.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:pubsublite-kafka:1.1.2
+    +-com.google.auth:google-auth-library-credentials:1.16.0 (managed) <-- com.google.auth:google-auth-library-credentials:1.16.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsub:1.123.14
+    +-com.google.auth:google-auth-library-credentials:1.16.0 (managed) <-- com.google.auth:google-auth-library-credentials:1.17.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.api:gax:2.24.0
+    +-com.google.auth:google-auth-library-credentials:1.16.0 (managed) <-- com.google.auth:google-auth-library-credentials:1.16.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.api:gax-grpc:2.24.0
+    +-com.google.auth:google-auth-library-credentials:1.16.0 (managed) <-- com.google.auth:google-auth-library-credentials:1.16.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.auth:google-auth-library-oauth2-http:1.16.0
+    +-com.google.auth:google-auth-library-credentials:1.16.0 (managed) <-- com.google.auth:google-auth-library-credentials:1.16.0
+, 
+Require upper bound dependencies error for com.google.auth:google-auth-library-oauth2-http:1.16.0 paths to dependency are:
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.auth:google-auth-library-oauth2-http:1.16.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsublite:1.11.1
+    +-com.google.auth:google-auth-library-oauth2-http:1.16.0 (managed) <-- com.google.auth:google-auth-library-oauth2-http:1.16.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:pubsublite-kafka:1.1.2
+    +-com.google.auth:google-auth-library-oauth2-http:1.16.0 (managed) <-- com.google.auth:google-auth-library-oauth2-http:1.16.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsub:1.123.14
+    +-com.google.auth:google-auth-library-oauth2-http:1.16.0 (managed) <-- com.google.auth:google-auth-library-oauth2-http:1.17.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.api:gax:2.24.0
+    +-com.google.auth:google-auth-library-oauth2-http:1.16.0 (managed) <-- com.google.auth:google-auth-library-oauth2-http:1.16.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.api:gax-grpc:2.24.0
+    +-com.google.auth:google-auth-library-oauth2-http:1.16.0 (managed) <-- com.google.auth:google-auth-library-oauth2-http:1.16.0
+, 
+Require upper bound dependencies error for io.grpc:grpc-protobuf-lite:1.54.0 paths to dependency are:
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsublite:1.11.1
+    +-io.grpc:grpc-protobuf-lite:1.54.0 (managed) <-- io.grpc:grpc-protobuf-lite:1.53.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:pubsublite-kafka:1.1.2
+    +-io.grpc:grpc-protobuf-lite:1.54.0 (managed) <-- io.grpc:grpc-protobuf-lite:1.53.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsub:1.123.14
+    +-io.grpc:grpc-protobuf-lite:1.54.0 (managed) <-- io.grpc:grpc-protobuf-lite:1.55.1
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsublite:1.11.1
+    +-com.google.api.grpc:grpc-google-cloud-pubsublite-v1:1.11.1 (managed) <-- com.google.api.grpc:grpc-google-cloud-pubsublite-v1:1.11.1
+      +-io.grpc:grpc-protobuf-lite:1.54.0 (managed) <-- io.grpc:grpc-protobuf-lite:1.53.0
+, 
+Require upper bound dependencies error for com.google.api.grpc:proto-google-iam-v1:1.10.0 paths to dependency are:
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsublite:1.11.1
+    +-com.google.api.grpc:proto-google-iam-v1:1.10.0 (managed) <-- com.google.api.grpc:proto-google-iam-v1:1.9.1
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:pubsublite-kafka:1.1.2
+    +-com.google.api.grpc:proto-google-iam-v1:1.10.0 (managed) <-- com.google.api.grpc:proto-google-iam-v1:1.9.1
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsub:1.123.14
+    +-com.google.api.grpc:proto-google-iam-v1:1.10.0 (managed) <-- com.google.api.grpc:proto-google-iam-v1:1.15.0
+, 
+Require upper bound dependencies error for io.grpc:grpc-alts:1.54.0 paths to dependency are:
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsublite:1.11.1
+    +-io.grpc:grpc-alts:1.54.0 (managed) <-- io.grpc:grpc-alts:1.53.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:pubsublite-kafka:1.1.2
+    +-io.grpc:grpc-alts:1.54.0 (managed) <-- io.grpc:grpc-alts:1.53.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsub:1.123.14
+    +-io.grpc:grpc-alts:1.54.0 (managed) <-- io.grpc:grpc-alts:1.55.1
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.api:gax-grpc:2.24.0
+    +-io.grpc:grpc-alts:1.54.0 (managed) <-- io.grpc:grpc-alts:1.54.0
+, 
+Require upper bound dependencies error for io.grpc:grpc-grpclb:1.54.0 paths to dependency are:
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsublite:1.11.1
+    +-io.grpc:grpc-grpclb:1.54.0 (managed) <-- io.grpc:grpc-grpclb:1.53.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:pubsublite-kafka:1.1.2
+    +-io.grpc:grpc-grpclb:1.54.0 (managed) <-- io.grpc:grpc-grpclb:1.53.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsub:1.123.14
+    +-io.grpc:grpc-grpclb:1.54.0 (managed) <-- io.grpc:grpc-grpclb:1.55.1
+, 
+Require upper bound dependencies error for io.grpc:grpc-auth:1.54.0 paths to dependency are:
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsublite:1.11.1
+    +-io.grpc:grpc-auth:1.54.0 (managed) <-- io.grpc:grpc-auth:1.53.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:pubsublite-kafka:1.1.2
+    +-io.grpc:grpc-auth:1.54.0 (managed) <-- io.grpc:grpc-auth:1.53.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsub:1.123.14
+    +-io.grpc:grpc-auth:1.54.0 (managed) <-- io.grpc:grpc-auth:1.55.1
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.api:gax-grpc:2.24.0
+    +-io.grpc:grpc-auth:1.54.0 (managed) <-- io.grpc:grpc-auth:1.54.0
+, 
+Require upper bound dependencies error for io.grpc:grpc-netty-shaded:1.54.0 paths to dependency are:
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsublite:1.11.1
+    +-io.grpc:grpc-netty-shaded:1.54.0 (managed) <-- io.grpc:grpc-netty-shaded:1.53.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:pubsublite-kafka:1.1.2
+    +-io.grpc:grpc-netty-shaded:1.54.0 (managed) <-- io.grpc:grpc-netty-shaded:1.53.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsub:1.123.14
+    +-io.grpc:grpc-netty-shaded:1.54.0 (managed) <-- io.grpc:grpc-netty-shaded:1.55.1
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.api:gax-grpc:2.24.0
+    +-io.grpc:grpc-netty-shaded:1.54.0 [runtime] (managed) <-- io.grpc:grpc-netty-shaded:1.54.0 [runtime]
+, 
+Require upper bound dependencies error for io.grpc:grpc-googleapis:1.54.0 [runtime] paths to dependency are:
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsublite:1.11.1
+    +-io.grpc:grpc-googleapis:1.54.0 [runtime] (managed) <-- io.grpc:grpc-googleapis:1.53.0 [runtime]
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:pubsublite-kafka:1.1.2
+    +-io.grpc:grpc-googleapis:1.54.0 [runtime] (managed) <-- io.grpc:grpc-googleapis:1.53.0 [runtime]
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsub:1.123.14
+    +-io.grpc:grpc-googleapis:1.54.0 [runtime] (managed) <-- io.grpc:grpc-googleapis:1.55.1 [runtime]
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.api:gax-grpc:2.24.0
+    +-io.grpc:grpc-googleapis:1.54.0 [runtime] (managed) <-- io.grpc:grpc-googleapis:1.54.0 [runtime]
+, 
+Require upper bound dependencies error for io.grpc:grpc-xds:1.54.0 [runtime] paths to dependency are:
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsublite:1.11.1
+    +-io.grpc:grpc-xds:1.54.0 [runtime] (managed) <-- io.grpc:grpc-xds:1.53.0 [runtime]
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:pubsublite-kafka:1.1.2
+    +-io.grpc:grpc-xds:1.54.0 [runtime] (managed) <-- io.grpc:grpc-xds:1.53.0 [runtime]
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsub:1.123.14
+    +-io.grpc:grpc-xds:1.54.0 [runtime] (managed) <-- io.grpc:grpc-xds:1.55.1 [runtime]
+, 
+Require upper bound dependencies error for io.grpc:grpc-services:1.54.0 [runtime] paths to dependency are:
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsublite:1.11.1
+    +-io.grpc:grpc-services:1.54.0 [runtime] (managed) <-- io.grpc:grpc-services:1.53.0 [runtime]
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:pubsublite-kafka:1.1.2
+    +-io.grpc:grpc-services:1.54.0 [runtime] (managed) <-- io.grpc:grpc-services:1.53.0 [runtime]
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsub:1.123.14
+    +-io.grpc:grpc-services:1.54.0 [runtime] (managed) <-- io.grpc:grpc-services:1.55.1 [runtime]
+, 
+Require upper bound dependencies error for com.google.api:gax-httpjson:0.109.0 paths to dependency are:
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsublite:1.11.1
+    +-com.google.api:gax-httpjson:0.109.0 (managed) <-- com.google.api:gax-httpjson:0.108.1
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:pubsublite-kafka:1.1.2
+    +-com.google.api:gax-httpjson:0.109.0 (managed) <-- com.google.api:gax-httpjson:0.108.1
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsub:1.123.14
+    +-com.google.api:gax-httpjson:0.109.0 (managed) <-- com.google.api:gax-httpjson:0.114.0
+, 
+Require upper bound dependencies error for io.grpc:grpc-core:1.54.0 [runtime] paths to dependency are:
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsublite:1.11.1
+    +-io.grpc:grpc-core:1.54.0 [runtime] (managed) <-- io.grpc:grpc-core:1.53.0 [runtime]
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:pubsublite-kafka:1.1.2
+    +-io.grpc:grpc-core:1.54.0 [runtime] (managed) <-- io.grpc:grpc-core:1.53.0 [runtime]
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsub:1.123.14
+    +-io.grpc:grpc-core:1.54.0 [runtime] (managed) <-- io.grpc:grpc-core:1.55.1 [runtime]
+, 
+Require upper bound dependencies error for org.threeten:threetenbp:1.6.7 paths to dependency are:
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-org.threeten:threetenbp:1.6.7
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsublite:1.11.1
+    +-org.threeten:threetenbp:1.6.7 (managed) <-- org.threeten:threetenbp:1.6.5
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:pubsublite-kafka:1.1.2
+    +-org.threeten:threetenbp:1.6.7 (managed) <-- org.threeten:threetenbp:1.6.5
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsub:1.123.14
+    +-org.threeten:threetenbp:1.6.7 (managed) <-- org.threeten:threetenbp:1.6.8
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.api:gax:2.24.0
+    +-org.threeten:threetenbp:1.6.7 (managed) <-- org.threeten:threetenbp:1.6.7
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.api:gax-grpc:2.24.0
+    +-org.threeten:threetenbp:1.6.7 (managed) <-- org.threeten:threetenbp:1.6.7
+, 
+Require upper bound dependencies error for com.google.api:gax-grpc:2.24.0 paths to dependency are:
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.api:gax-grpc:2.24.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsublite:1.11.1
+    +-com.google.api:gax-grpc:2.24.0 (managed) <-- com.google.api:gax-grpc:2.23.1
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:pubsublite-kafka:1.1.2
+    +-com.google.api:gax-grpc:2.24.0 (managed) <-- com.google.api:gax-grpc:2.23.1
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsub:1.123.14
+    +-com.google.api:gax-grpc:2.24.0 (managed) <-- com.google.api:gax-grpc:2.29.0
+, 
+Require upper bound dependencies error for io.grpc:grpc-protobuf:1.54.0 paths to dependency are:
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsublite:1.11.1
+    +-io.grpc:grpc-protobuf:1.54.0 (managed) <-- io.grpc:grpc-protobuf:1.53.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:pubsublite-kafka:1.1.2
+    +-io.grpc:grpc-protobuf:1.54.0 (managed) <-- io.grpc:grpc-protobuf:1.53.0
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.cloud:google-cloud-pubsub:1.123.14
+    +-io.grpc:grpc-protobuf:1.54.0 (managed) <-- io.grpc:grpc-protobuf:1.55.1
+and
++-com.google.cloud:pubsub-group-kafka-connector:1.2.0
+  +-com.google.api:gax-grpc:2.24.0
+    +-io.grpc:grpc-protobuf:1.54.0 (managed) <-- io.grpc:grpc-protobuf:1.54.0
+]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.004 s
+[INFO] Finished at: 2026-03-18T15:01:06Z
+[INFO] ------------------------------------------------------------------------
+[WARNING] 
+[WARNING] Plugin validation issues were detected in 2 plugin(s)
+[WARNING] 
+[WARNING]  * org.apache.maven.plugins:maven-enforcer-plugin:3.1.0
+[WARNING]  * org.xolstice.maven.plugins:protobuf-maven-plugin:0.6.1
+[WARNING] 
+[WARNING] For more or less details, use 'maven.plugin.validation' property with one of the values (case insensitive): [BRIEF, DEFAULT, VERBOSE]
+[WARNING] 
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-enforcer-plugin:3.1.0:enforce (enforce) on project pubsub-group-kafka-connector: Some Enforcer rules have failed. Look above for specific messages explaining why the rule failed. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

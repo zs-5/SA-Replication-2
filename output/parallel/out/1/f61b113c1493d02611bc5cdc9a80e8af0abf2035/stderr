@@ -1,0 +1,10 @@
+Mar 18, 2026 3:01:11 PM org.springframework.test.context.web.WebTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Mar 18, 2026 3:01:11 PM org.springframework.test.context.web.WebTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+Mar 18, 2026 3:01:11 PM org.springframework.test.context.web.WebTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+Mar 18, 2026 3:01:11 PM org.springframework.test.context.web.WebTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@71d44a3, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7b98f307, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4802796d]
+Mar 18, 2026 3:01:11 PM org.springframework.web.context.support.GenericWebApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7a8c8dcf: startup date [Wed Mar 18 15:01:11 GMT 2026]; root of context hierarchy

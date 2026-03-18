@@ -1,0 +1,701 @@
+podman run --network none ghcr.io/chains-project/breaking-updates:98d9528e879a954fdf0751d659755b04912700cd-breaking
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Jannovar                                                           [pom]
+[INFO] de.charite.compbio:jannovar-hgvs                                   [jar]
+[INFO] de.charite.compbio:jannovar-core                                   [jar]
+[INFO] de.charite.compbio:jannovar-htsjdk                                 [jar]
+[INFO] de.charite.compbio:jannovar-vardbs                                 [jar]
+[INFO] de.charite.compbio:jannovar-filter                                 [jar]
+[INFO] de.charite.compbio:jannovar-stats                                  [jar]
+[INFO] de.charite.compbio:jannovar-cli                                    [jar]
+[INFO] 
+[INFO] --------------------< de.charite.compbio:Jannovar >---------------------
+[INFO] Building Jannovar 0.42-SNAPSHOT                                    [1/8]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ Jannovar ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven) @ Jannovar ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce) @ Jannovar ---
+[INFO] 
+[INFO] --- jacoco:0.8.3:prepare-agent (pre-unit-test) @ Jannovar ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.3/org.jacoco.agent-0.8.3-runtime.jar=destfile=/jannovar/target/jacoco.exec
+[INFO] 
+[INFO] --- jacoco:0.8.3:report (post-unit-test) @ Jannovar ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO] 
+[INFO] ------------------< de.charite.compbio:jannovar-hgvs >------------------
+[INFO] Building de.charite.compbio:jannovar-hgvs 0.42-SNAPSHOT            [2/8]
+[INFO]   from jannovar-hgvs/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ jannovar-hgvs ---
+[INFO] Deleting /jannovar/jannovar-hgvs/target
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven) @ jannovar-hgvs ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce) @ jannovar-hgvs ---
+[INFO] 
+[INFO] --- resources:2.6:copy-resources (copy-resources) @ jannovar-hgvs ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /jannovar/jannovar-hgvs/src/main/resources
+[INFO] 
+[INFO] --- jacoco:0.8.3:prepare-agent (pre-unit-test) @ jannovar-hgvs ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.3/org.jacoco.agent-0.8.3-runtime.jar=destfile=/jannovar/jannovar-hgvs/target/jacoco.exec
+[INFO] 
+[INFO] --- build-helper:3.0.0:add-source (add-source) @ jannovar-hgvs ---
+[INFO] Source directory: /jannovar/jannovar-hgvs/target/generated-sources/antlr4 added.
+[INFO] 
+[INFO] --- antlr4:4.7.2:antlr4 (default) @ jannovar-hgvs ---
+[INFO] ANTLR 4: Processing source directory /jannovar/jannovar-hgvs/src/main/antlr4
+[INFO] Processing grammar: de/charite/compbio/jannovar/hgvs/parser/Antlr4HGVSLexer.g4
+[INFO] Processing grammar: de/charite/compbio/jannovar/hgvs/parser/Antlr4HGVSParser.g4
+[INFO] 
+[INFO] --- resources:2.6:resources (default-resources) @ jannovar-hgvs ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /jannovar/jannovar-hgvs/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.3:compile (default-compile) @ jannovar-hgvs ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 64 source files to /jannovar/jannovar-hgvs/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- resources:2.6:testResources (default-testResources) @ jannovar-hgvs ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /jannovar/jannovar-hgvs/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.3:testCompile (default-testCompile) @ jannovar-hgvs ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 92 source files to /jannovar/jannovar-hgvs/target/test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[WARNING] No processor claimed any of these annotations: org.junit.jupiter.api.Test,org.junit.jupiter.api.BeforeEach
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ jannovar-hgvs ---
+[WARNING] The system property user.language is configured twice! The property appears in <argLine/> and any of <systemPropertyVariables/>, <systemProperties/> or user property.
+[WARNING] The system property user.region is configured twice! The property appears in <argLine/> and any of <systemPropertyVariables/>, <systemProperties/> or user property.
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.protein.change.HGVSParserProteinIndelTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.nts.change.HGVSParserNucleotideSequencedRepeatTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.protein.change.HGVSParserProteinMiscChangeTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.562 s - in de.charite.compbio.jannovar.hgvs.parser.nts.change.HGVSParserNucleotideSequencedRepeatTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.nts.variant.HGVSparserNucleotideSingleAlleleVariantTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.657 s - in de.charite.compbio.jannovar.hgvs.parser.protein.change.HGVSParserProteinMiscChangeTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.protein.change.HGVSParserProteinDuplicationTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.777 s - in de.charite.compbio.jannovar.hgvs.parser.protein.change.HGVSParserProteinIndelTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.protein.change.HGVSParserProteinDeletionTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in de.charite.compbio.jannovar.hgvs.parser.protein.change.HGVSParserProteinDuplicationTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.protein.change.HGVSParserProteinInsertionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in de.charite.compbio.jannovar.hgvs.parser.protein.change.HGVSParserProteinInsertionTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in de.charite.compbio.jannovar.hgvs.parser.protein.change.HGVSParserProteinDeletionTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.protein.change.HGVSParserProteinShortSequenceRepeatVariabilityTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.protein.change.HGVSParserProteinExtensionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in de.charite.compbio.jannovar.hgvs.parser.protein.change.HGVSParserProteinExtensionTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.protein.ProteinParsingTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in de.charite.compbio.jannovar.hgvs.parser.protein.change.HGVSParserProteinShortSequenceRepeatVariabilityTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.protein.change.HGVSParserProteinSubstitutionTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.174 s - in de.charite.compbio.jannovar.hgvs.parser.nts.variant.HGVSparserNucleotideSingleAlleleVariantTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.nts.variant.HGVSparserNucleotideMultiAlleleVariantTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in de.charite.compbio.jannovar.hgvs.parser.protein.change.HGVSParserProteinSubstitutionTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.protein.change.HGVSParserProteinFrameshiftTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in de.charite.compbio.jannovar.hgvs.parser.nts.variant.HGVSparserNucleotideMultiAlleleVariantTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.nts.HGVSParserNucleotideRangeTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 s - in de.charite.compbio.jannovar.hgvs.parser.protein.change.HGVSParserProteinFrameshiftTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.protein.HGVSParserProteinPointLocationTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 s - in de.charite.compbio.jannovar.hgvs.parser.nts.HGVSParserNucleotideRangeTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.nts.NucleotideParsingTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s - in de.charite.compbio.jannovar.hgvs.parser.nts.NucleotideParsingTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.HGVSParserDriverNucleotideSingleAlleleMultiChangeTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.102 s - in de.charite.compbio.jannovar.hgvs.parser.protein.HGVSParserProteinPointLocationTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.protein.HGVSParserProteinRangeTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in de.charite.compbio.jannovar.hgvs.parser.protein.HGVSParserProteinRangeTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.nts.change.HGVSParserNucleotideDuplicationTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in de.charite.compbio.jannovar.hgvs.parser.nts.change.HGVSParserNucleotideDuplicationTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.nts.change.HGVSParserNucleotideInsertionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in de.charite.compbio.jannovar.hgvs.parser.nts.change.HGVSParserNucleotideInsertionTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.nts.change.HGVSParserNucleotideMiscChangeTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in de.charite.compbio.jannovar.hgvs.parser.nts.change.HGVSParserNucleotideMiscChangeTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.nts.change.HGVSParserNucleotideNotSequencedRepeatTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in de.charite.compbio.jannovar.hgvs.parser.nts.change.HGVSParserNucleotideNotSequencedRepeatTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.LegacyMutationParserDeletionTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.372 s - in de.charite.compbio.jannovar.hgvs.parser.protein.ProteinParsingTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.protein.variant.HGVSParserProteinSingleAlleleVariantTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in de.charite.compbio.jannovar.hgvs.parser.protein.variant.HGVSParserProteinSingleAlleleVariantTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.protein.variant.HGVSparserProteinMultiAlleleVariantTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in de.charite.compbio.jannovar.hgvs.parser.protein.variant.HGVSparserProteinMultiAlleleVariantTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.nts.change.HGVSParserNucleotideStringTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in de.charite.compbio.jannovar.hgvs.parser.nts.change.HGVSParserNucleotideStringTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.nts.change.HGVSParserNucleotideShortSequenceRepeatVariabilityTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in de.charite.compbio.jannovar.hgvs.parser.nts.change.HGVSParserNucleotideShortSequenceRepeatVariabilityTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.nts.change.HGVSParserNucleotideDeletionTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in de.charite.compbio.jannovar.hgvs.parser.nts.change.HGVSParserNucleotideDeletionTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.nts.change.HGVSParserNucleotideSubstitutionTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in de.charite.compbio.jannovar.hgvs.parser.nts.change.HGVSParserNucleotideSubstitutionTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.nts.change.HGVSParserNucleotideInversionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in de.charite.compbio.jannovar.hgvs.parser.nts.change.HGVSParserNucleotideInversionTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.nts.change.HGVSParserNucleotideIndelTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in de.charite.compbio.jannovar.hgvs.parser.nts.change.HGVSParserNucleotideIndelTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.nts.HGVSParserNucleotidePointLocationTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in de.charite.compbio.jannovar.hgvs.parser.nts.HGVSParserNucleotidePointLocationTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.HGVSParserDriverNucleotideIndelTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.258 s - in de.charite.compbio.jannovar.hgvs.parser.HGVSParserDriverNucleotideSingleAlleleMultiChangeTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.HGVSParserDriverNucleotideNotSequencedRepeatTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in de.charite.compbio.jannovar.hgvs.parser.HGVSParserDriverNucleotideNotSequencedRepeatTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.HGVSParserDriverNucleotideSequencedRepeatTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in de.charite.compbio.jannovar.hgvs.parser.HGVSParserDriverNucleotideSequencedRepeatTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.AntlrHGVSParserJustParseTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.248 s - in de.charite.compbio.jannovar.hgvs.parser.LegacyMutationParserDeletionTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.HGVSParserDriverNucleotideShortSequenceVariabilityTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.097 s - in de.charite.compbio.jannovar.hgvs.parser.AntlrHGVSParserJustParseTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.HGVSParserDriverNucleotideSubstitutionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.134 s - in de.charite.compbio.jannovar.hgvs.parser.HGVSParserDriverNucleotideShortSequenceVariabilityTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.AntlrHGVSLexerJustLexTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.117 s - in de.charite.compbio.jannovar.hgvs.parser.HGVSParserDriverNucleotideSubstitutionTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.HGVSParserDriverNucleotideMiscChangeTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in de.charite.compbio.jannovar.hgvs.parser.AntlrHGVSLexerJustLexTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.LegacyMutationParserIndelTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in de.charite.compbio.jannovar.hgvs.parser.LegacyMutationParserIndelTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.LegacyMutationParserInsertionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in de.charite.compbio.jannovar.hgvs.parser.HGVSParserDriverNucleotideMiscChangeTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.HGVSParserDriverNucleotideDuplicationTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in de.charite.compbio.jannovar.hgvs.parser.LegacyMutationParserInsertionTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.HGVSParserDriverTranscriptParsingTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in de.charite.compbio.jannovar.hgvs.parser.HGVSParserDriverTranscriptParsingTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.HGVSParserDriverNucleotideInsertionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s - in de.charite.compbio.jannovar.hgvs.parser.HGVSParserDriverNucleotideDuplicationTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.nts.change.NucleotideRepeatSequenceTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in de.charite.compbio.jannovar.hgvs.nts.change.NucleotideRepeatSequenceTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.nts.change.NucleotideInversionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in de.charite.compbio.jannovar.hgvs.parser.HGVSParserDriverNucleotideInsertionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in de.charite.compbio.jannovar.hgvs.nts.change.NucleotideInversionTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.nts.change.NucleotideIndelTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.nts.change.NucleotideDuplicationTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in de.charite.compbio.jannovar.hgvs.nts.change.NucleotideIndelTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.nts.change.NucleotideNotSequencedRepeatTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in de.charite.compbio.jannovar.hgvs.nts.change.NucleotideDuplicationTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.nts.change.NucleotideInsertionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in de.charite.compbio.jannovar.hgvs.nts.change.NucleotideNotSequencedRepeatTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.nts.change.NucleotideSubstitutionTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in de.charite.compbio.jannovar.hgvs.nts.change.NucleotideInsertionTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.nts.variant.SingleAlleleNucleotideVariantTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in de.charite.compbio.jannovar.hgvs.nts.change.NucleotideSubstitutionTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.nts.variant.NucleotideChangeAlleleTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in de.charite.compbio.jannovar.hgvs.nts.variant.SingleAlleleNucleotideVariantTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.nts.NucleotideSeqSpecificationTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in de.charite.compbio.jannovar.hgvs.nts.variant.NucleotideChangeAlleleTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.nts.NucleotidePointLocationTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in de.charite.compbio.jannovar.hgvs.nts.NucleotidePointLocationTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.nts.NucleotideRangeTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in de.charite.compbio.jannovar.hgvs.nts.NucleotideRangeTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.protein.change.ProteinDeletionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in de.charite.compbio.jannovar.hgvs.nts.NucleotideSeqSpecificationTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.protein.change.ProteinDuplicationTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in de.charite.compbio.jannovar.hgvs.protein.change.ProteinDeletionTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.protein.change.ProteinSubstitutionTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in de.charite.compbio.jannovar.hgvs.protein.change.ProteinDuplicationTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.protein.ProteinRangeTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 s - in de.charite.compbio.jannovar.hgvs.protein.change.ProteinSubstitutionTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.protein.change.ProteinShortSequenceRepeatVariabilityTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in de.charite.compbio.jannovar.hgvs.protein.change.ProteinShortSequenceRepeatVariabilityTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.protein.change.ProteinInsertionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in de.charite.compbio.jannovar.hgvs.protein.change.ProteinInsertionTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.protein.variant.SingleAlleleProteinVariantTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in de.charite.compbio.jannovar.hgvs.protein.variant.SingleAlleleProteinVariantTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.protein.variant.MultiAlleleProteinVariantTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in de.charite.compbio.jannovar.hgvs.protein.variant.MultiAlleleProteinVariantTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.legacy.LegacyInsertionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in de.charite.compbio.jannovar.hgvs.legacy.LegacyInsertionTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.107 s - in de.charite.compbio.jannovar.hgvs.protein.ProteinRangeTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.protein.ProteinPointLocationTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.charite.compbio.jannovar.hgvs.protein.ProteinPointLocationTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.VariantConfigurationTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.legacy.LegacyLoationTypeTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in de.charite.compbio.jannovar.hgvs.legacy.LegacyLoationTypeTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in de.charite.compbio.jannovar.hgvs.VariantConfigurationTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.legacy.LegacyIndelTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in de.charite.compbio.jannovar.hgvs.legacy.LegacyIndelTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.legacy.LegacyLocationTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in de.charite.compbio.jannovar.hgvs.legacy.LegacyLocationTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.legacy.LegacySubstitutionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in de.charite.compbio.jannovar.hgvs.legacy.LegacySubstitutionTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.669 s - in de.charite.compbio.jannovar.hgvs.parser.HGVSParserDriverNucleotideIndelTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.HGVSParserDriverNucleotideDeletionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in de.charite.compbio.jannovar.hgvs.parser.HGVSParserDriverNucleotideDeletionTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.HGVSParserDriverNucleotideInversionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in de.charite.compbio.jannovar.hgvs.parser.HGVSParserDriverNucleotideInversionTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.HGVSParserDriverNucleotideMultiAlleleSingleChangeTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in de.charite.compbio.jannovar.hgvs.parser.HGVSParserDriverNucleotideMultiAlleleSingleChangeTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.parser.LegacyMutationParserSubstitutionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in de.charite.compbio.jannovar.hgvs.parser.LegacyMutationParserSubstitutionTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.nts.change.NucleotideSequencedRepeatTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in de.charite.compbio.jannovar.hgvs.nts.change.NucleotideSequencedRepeatTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.nts.change.NucleotideShortSequenceRepeatVariabilityTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.charite.compbio.jannovar.hgvs.nts.change.NucleotideShortSequenceRepeatVariabilityTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.nts.change.NucleotideMiscChangeTypeTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in de.charite.compbio.jannovar.hgvs.nts.change.NucleotideMiscChangeTypeTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.nts.change.NucleotideMiscChangeTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in de.charite.compbio.jannovar.hgvs.nts.change.NucleotideMiscChangeTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.nts.change.NucleotideDeletionTest
+NucleotideDeletion [range=NucleotideRange [firstPos=NucleotidePointLocation [basePos=123, offset=0, downstreamOfCDS=false], lastPos=NucleotidePointLocation [basePos=124, offset=0, downstreamOfCDS=false]], seq=NucleotideSeqDescription [nts=null, ntCount=2]]
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in de.charite.compbio.jannovar.hgvs.nts.change.NucleotideDeletionTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.nts.variant.MultiAlleleNucleotideVariantTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in de.charite.compbio.jannovar.hgvs.nts.variant.MultiAlleleNucleotideVariantTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.protein.change.ProteinMiscChangeTypeTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in de.charite.compbio.jannovar.hgvs.protein.change.ProteinMiscChangeTypeTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.protein.change.ProteinIndelTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in de.charite.compbio.jannovar.hgvs.protein.change.ProteinIndelTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.protein.change.ProteinExtensionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in de.charite.compbio.jannovar.hgvs.protein.change.ProteinExtensionTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.protein.change.ProteinFrameshiftTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in de.charite.compbio.jannovar.hgvs.protein.change.ProteinFrameshiftTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.protein.variant.ProteinChangeAlleleTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in de.charite.compbio.jannovar.hgvs.protein.variant.ProteinChangeAlleleTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.protein.ProteinSeqSpecificationTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in de.charite.compbio.jannovar.hgvs.protein.ProteinSeqSpecificationTest
+[INFO] Running de.charite.compbio.jannovar.hgvs.legacy.LegacyDeletionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in de.charite.compbio.jannovar.hgvs.legacy.LegacyDeletionTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 352, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jacoco:0.8.3:report (post-unit-test) @ jannovar-hgvs ---
+[INFO] Loading execution data file /jannovar/jannovar-hgvs/target/jacoco.exec
+[INFO] Analyzed bundle 'de.charite.compbio:jannovar-hgvs' with 125 classes
+[INFO] 
+[INFO] ------------------< de.charite.compbio:jannovar-core >------------------
+[INFO] Building de.charite.compbio:jannovar-core 0.42-SNAPSHOT            [3/8]
+[INFO]   from jannovar-core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/apache/commons/commons-compress/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/maven-metadata.xml
+[WARNING] Could not transfer metadata org.apache.commons:commons-compress/maven-metadata.xml from/to sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots): oss.sonatype.org: Try again
+[WARNING] Could not transfer metadata org.apache.commons:commons-compress/maven-metadata.xml from/to central (https://repo.maven.apache.org/maven2): repo.maven.apache.org: Try again
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ jannovar-core ---
+[INFO] Deleting /jannovar/jannovar-core/target
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven) @ jannovar-core ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce) @ jannovar-core ---
+[INFO] 
+[INFO] --- resources:2.6:copy-resources (copy-resources) @ jannovar-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- jacoco:0.8.3:prepare-agent (pre-unit-test) @ jannovar-core ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.3/org.jacoco.agent-0.8.3-runtime.jar=destfile=/jannovar/jannovar-core/target/jacoco.exec
+[INFO] 
+[INFO] --- resources:2.6:resources (default-resources) @ jannovar-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.3:compile (default-compile) @ jannovar-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 177 source files to /jannovar/jannovar-core/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- resources:2.6:testResources (default-testResources) @ jannovar-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 42 resources
+[INFO] 
+[INFO] --- compiler:3.3:testCompile (default-testCompile) @ jannovar-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 97 source files to /jannovar/jannovar-core/target/test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[WARNING] No processor claimed any of these annotations: org.junit.jupiter.api.Test,org.junit.jupiter.api.BeforeEach,org.junit.jupiter.params.ParameterizedTest,org.junit.jupiter.api.AfterEach,org.junit.jupiter.api.BeforeAll,org.junit.jupiter.api.Disabled,org.junit.jupiter.params.provider.MethodSource
+[WARNING] /jannovar/jannovar-core/src/test/java/de/charite/compbio/jannovar/pedigree/GenotypeListTest.java:[18,9] de.charite.compbio.jannovar.pedigree.GenotypeList in de.charite.compbio.jannovar.pedigree has been deprecated
+[WARNING] /jannovar/jannovar-core/src/test/java/de/charite/compbio/jannovar/pedigree/GenotypeListTest.java:[18,9] de.charite.compbio.jannovar.pedigree.GenotypeList in de.charite.compbio.jannovar.pedigree has been deprecated
+[WARNING] /jannovar/jannovar-core/src/test/java/de/charite/compbio/jannovar/pedigree/GenotypeListTest.java:[18,9] de.charite.compbio.jannovar.pedigree.GenotypeList in de.charite.compbio.jannovar.pedigree has been deprecated
+[WARNING] /jannovar/jannovar-core/src/test/java/de/charite/compbio/jannovar/pedigree/GenotypeListTest.java:[37,33] de.charite.compbio.jannovar.pedigree.GenotypeList in de.charite.compbio.jannovar.pedigree has been deprecated
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ jannovar-core ---
+[WARNING] The system property user.language is configured twice! The property appears in <argLine/> and any of <systemPropertyVariables/>, <systemProperties/> or user property.
+[WARNING] The system property user.region is configured twice! The property appears in <argLine/> and any of <systemPropertyVariables/>, <systemProperties/> or user property.
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running de.charite.compbio.jannovar.annotation.builders.AnnotateIndelTranscriptVariantsMyh7Test
+[INFO] Running de.charite.compbio.jannovar.annotation.builders.DeletionAnnotationBuilderTest
+[INFO] Running de.charite.compbio.jannovar.annotation.builders.SVDuplicationAnnotationBuilderTest
+2026-03-18 13:14:07,527 INFO  de.charite.compbio.jannovar.data.JannovarDataSerializer [main] - Deserializing JannovarData from /tmp/1773839643660-0/hg19_refseq_indels.ser
+[WARNING] Tests run: 52, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 4.148 s - in de.charite.compbio.jannovar.annotation.builders.DeletionAnnotationBuilderTest
+[INFO] Running de.charite.compbio.jannovar.annotation.builders.SVInsertionAnnotationBuilderTest
+2026-03-18 13:14:07,797 INFO  de.charite.compbio.jannovar.data.JannovarDataSerializer [main] - Deserialization took 0.26 sec.
+2026-03-18 13:14:07,791 INFO  de.charite.compbio.jannovar.data.JannovarDataSerializer [main] - Deserializing JannovarData from /tmp/1773839644100-0/chr1_oma1_to_jun.ser
+2026-03-18 13:14:07,797 INFO  de.charite.compbio.jannovar.data.JannovarDataSerializer [main] - Deserializing JannovarData from /tmp/1773839647769-0/chr1_oma1_to_jun.ser
+2026-03-18 13:14:08,022 INFO  de.charite.compbio.jannovar.data.JannovarDataSerializer [main] - Deserialization took 0.20 sec.
+2026-03-18 13:14:08,059 INFO  de.charite.compbio.jannovar.data.JannovarDataSerializer [main] - Deserialization took 0.26 sec.
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.338 s - in de.charite.compbio.jannovar.annotation.builders.SVInsertionAnnotationBuilderTest
+[INFO] Running de.charite.compbio.jannovar.annotation.builders.SVInversionAnnotationBuilderTest
+2026-03-18 13:14:08,088 INFO  de.charite.compbio.jannovar.data.JannovarDataSerializer [main] - Deserializing JannovarData from /tmp/1773839648085-0/chr1_oma1_to_jun.ser
+2026-03-18 13:14:08,107 INFO  de.charite.compbio.jannovar.data.JannovarDataSerializer [main] - Deserialization took 0.02 sec.
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.095 s - in de.charite.compbio.jannovar.annotation.builders.SVInversionAnnotationBuilderTest
+[INFO] Running de.charite.compbio.jannovar.annotation.builders.SVBreakendAnnotationBuilderTest
+2026-03-18 13:14:08,182 INFO  de.charite.compbio.jannovar.data.JannovarDataSerializer [main] - Deserializing JannovarData from /tmp/1773839648181-0/chr1_oma1_to_jun.ser
+2026-03-18 13:14:08,195 INFO  de.charite.compbio.jannovar.data.JannovarDataSerializer [main] - Deserialization took 0.01 sec.
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.366 s - in de.charite.compbio.jannovar.annotation.builders.SVDuplicationAnnotationBuilderTest
+[INFO] Running de.charite.compbio.jannovar.annotation.builders.SVTandemDuplicationAnnotationBuilderTest
+2026-03-18 13:14:08,249 INFO  de.charite.compbio.jannovar.data.JannovarDataSerializer [main] - Deserializing JannovarData from /tmp/1773839648246-0/chr1_oma1_to_jun.ser
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 s - in de.charite.compbio.jannovar.annotation.builders.SVBreakendAnnotationBuilderTest
+[INFO] Running de.charite.compbio.jannovar.annotation.builders.SVDeletionAnnotationBuilderTest
+2026-03-18 13:14:08,262 INFO  de.charite.compbio.jannovar.data.JannovarDataSerializer [main] - Deserializing JannovarData from /tmp/1773839648260-0/chr1_oma1_to_jun.ser
+2026-03-18 13:14:08,277 INFO  de.charite.compbio.jannovar.data.JannovarDataSerializer [main] - Deserialization took 0.01 sec.
+2026-03-18 13:14:08,287 INFO  de.charite.compbio.jannovar.data.JannovarDataSerializer [main] - Deserialization took 0.04 sec.
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s - in de.charite.compbio.jannovar.annotation.builders.SVTandemDuplicationAnnotationBuilderTest
+[INFO] Running de.charite.compbio.jannovar.annotation.builders.AnnotateIndelTranscriptVariantsLtbp4Test
+2026-03-18 13:14:08,317 INFO  de.charite.compbio.jannovar.data.JannovarDataSerializer [main] - Deserializing JannovarData from /tmp/1773839648316-0/hg19_refseq_indels.ser
+2026-03-18 13:14:08,335 INFO  de.charite.compbio.jannovar.data.JannovarDataSerializer [main] - Deserialization took 0.02 sec.
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 s - in de.charite.compbio.jannovar.annotation.builders.SVDeletionAnnotationBuilderTest
+[INFO] Running de.charite.compbio.jannovar.annotation.builders.SVMobileElementInsertionAnnotationBuilderTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.853 s - in de.charite.compbio.jannovar.annotation.builders.AnnotateIndelTranscriptVariantsMyh7Test
+2026-03-18 13:14:08,380 INFO  de.charite.compbio.jannovar.data.JannovarDataSerializer [main] - Deserializing JannovarData from /tmp/1773839648369-0/chr1_oma1_to_jun.ser
+[INFO] Running de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerARLarge2Test
+2026-03-18 13:14:08,403 INFO  de.charite.compbio.jannovar.data.JannovarDataSerializer [main] - Deserialization took 0.02 sec.
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.118 s - in de.charite.compbio.jannovar.annotation.builders.SVMobileElementInsertionAnnotationBuilderTest
+[INFO] Running de.charite.compbio.jannovar.annotation.builders.GenomicNucleotideChangeBuilderTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in de.charite.compbio.jannovar.annotation.builders.GenomicNucleotideChangeBuilderTest
+[INFO] Running de.charite.compbio.jannovar.annotation.builders.SVMobileElementDeletionAnnotationBuilderTest
+2026-03-18 13:14:08,540 INFO  de.charite.compbio.jannovar.data.JannovarDataSerializer [main] - Deserializing JannovarData from /tmp/1773839648538-0/chr1_oma1_to_jun.ser
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.148 s - in de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerARLarge2Test
+[INFO] Running de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerXRSmallMaleTest
+2026-03-18 13:14:08,554 INFO  de.charite.compbio.jannovar.data.JannovarDataSerializer [main] - Deserialization took 0.01 sec.
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 s - in de.charite.compbio.jannovar.annotation.builders.SVMobileElementDeletionAnnotationBuilderTest
+[INFO] Running de.charite.compbio.jannovar.annotation.builders.AnnotateIndelTranscriptVariantsHfm1Test
+2026-03-18 13:14:08,626 INFO  de.charite.compbio.jannovar.data.JannovarDataSerializer [main] - Deserializing JannovarData from /tmp/1773839648622-0/hg19_refseq_indels.ser
+2026-03-18 13:14:08,642 INFO  de.charite.compbio.jannovar.data.JannovarDataSerializer [main] - Deserialization took 0.01 sec.
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.483 s - in de.charite.compbio.jannovar.annotation.builders.AnnotateIndelTranscriptVariantsLtbp4Test
+[INFO] Tests run: 59, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.259 s - in de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerXRSmallMaleTest
+[INFO] Running de.charite.compbio.jannovar.annotation.builders.InsertionAnnotationBuilderTest
+[INFO] Running de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerADMediumTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.29 s - in de.charite.compbio.jannovar.annotation.builders.AnnotateIndelTranscriptVariantsHfm1Test
+[INFO] Running de.charite.compbio.jannovar.annotation.builders.SVCopyNumberVariantAnnotationBuilderTest
+2026-03-18 13:14:08,916 INFO  de.charite.compbio.jannovar.data.JannovarDataSerializer [main] - Deserializing JannovarData from /tmp/1773839648915-0/chr1_oma1_to_jun.ser
+2026-03-18 13:14:08,941 INFO  de.charite.compbio.jannovar.data.JannovarDataSerializer [main] - Deserialization took 0.02 sec.
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 s - in de.charite.compbio.jannovar.annotation.builders.SVCopyNumberVariantAnnotationBuilderTest
+[INFO] Running de.charite.compbio.jannovar.annotation.builders.StructuralVariantAnnotationBuilderTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in de.charite.compbio.jannovar.annotation.builders.StructuralVariantAnnotationBuilderTest
+[INFO] Running de.charite.compbio.jannovar.annotation.VariantEffectTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in de.charite.compbio.jannovar.annotation.VariantEffectTest
+[INFO] Running de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerXDSmallMaleTest
+[INFO] Tests run: 50, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.45 s - in de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerADMediumTest
+[INFO] Running de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerXRSingletonMaleTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.13 s - in de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerXRSingletonMaleTest
+[INFO] Running de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerXDSmallFemaleTest
+[INFO] Tests run: 65, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.452 s - in de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerXDSmallMaleTest
+[INFO] Running de.charite.compbio.jannovar.mendel.InheritanceCheckerMTSinglePersonTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in de.charite.compbio.jannovar.mendel.InheritanceCheckerMTSinglePersonTest
+[INFO] Running de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerXDSingletonFemaleTest
+[INFO] Tests run: 60, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.709 s - in de.charite.compbio.jannovar.annotation.builders.InsertionAnnotationBuilderTest
+[INFO] Running de.charite.compbio.jannovar.annotation.builders.BlockSubstitutionAnnotationBuilderTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerXDSingletonFemaleTest
+[INFO] Running de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerADSmallTest
+[INFO] Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerADSmallTest
+[INFO] Running de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerTest
+[INFO] Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.142 s - in de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerXDSmallFemaleTest
+[INFO] Running de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerARSmallTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 s - in de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerTest
+[INFO] Running de.charite.compbio.jannovar.mendel.GenotypeBuilderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in de.charite.compbio.jannovar.mendel.GenotypeBuilderTest
+[INFO] Running de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerARSiblingsTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.155 s - in de.charite.compbio.jannovar.annotation.builders.BlockSubstitutionAnnotationBuilderTest
+[INFO] Running de.charite.compbio.jannovar.annotation.builders.SNVAnnotationBuilderTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerARSiblingsTest
+[INFO] Running de.charite.compbio.jannovar.mendel.InheritanceCheckerMTSmallTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.11 s - in de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerARSmallTest
+[INFO] Running de.charite.compbio.jannovar.pedigree.DiseaseTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in de.charite.compbio.jannovar.mendel.InheritanceCheckerMTSmallTest
+[INFO] Running de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerARMediumTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s - in de.charite.compbio.jannovar.pedigree.DiseaseTest
+[INFO] Running de.charite.compbio.jannovar.pedigree.PersonTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in de.charite.compbio.jannovar.pedigree.PersonTest
+[INFO] Running de.charite.compbio.jannovar.pedigree.PedFileWriterTest
+[INFO] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.102 s - in de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerARMediumTest
+[INFO] Running de.charite.compbio.jannovar.pedigree.GenotypeListTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in de.charite.compbio.jannovar.pedigree.GenotypeListTest
+[INFO] Running de.charite.compbio.jannovar.reference.HGVSPositionBuilderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.096 s - in de.charite.compbio.jannovar.pedigree.PedFileWriterTest
+[INFO] Running de.charite.compbio.jannovar.pedigree.PedigreeTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in de.charite.compbio.jannovar.pedigree.PedigreeTest
+[INFO] Running de.charite.compbio.jannovar.pedigree.SexTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in de.charite.compbio.jannovar.pedigree.SexTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.074 s - in de.charite.compbio.jannovar.reference.HGVSPositionBuilderTest
+[INFO] Running de.charite.compbio.jannovar.reference.AnchorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in de.charite.compbio.jannovar.reference.AnchorTest
+[INFO] Running de.charite.compbio.jannovar.reference.TranscriptProjectionDecoratorTest
+[INFO] Running de.charite.compbio.jannovar.pedigree.PedFileReaderTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in de.charite.compbio.jannovar.reference.TranscriptProjectionDecoratorTest
+[INFO] Running de.charite.compbio.jannovar.reference.TranscriptSequenceDecoratorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in de.charite.compbio.jannovar.reference.TranscriptSequenceDecoratorTest
+[INFO] Running de.charite.compbio.jannovar.reference.GenomeVariantTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in de.charite.compbio.jannovar.reference.GenomeVariantTest
+[INFO] Running de.charite.compbio.jannovar.impl.intervals.IntervalArrayTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 s - in de.charite.compbio.jannovar.impl.intervals.IntervalArrayTest
+[INFO] Running de.charite.compbio.jannovar.impl.intervals.IntervalTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in de.charite.compbio.jannovar.impl.intervals.IntervalTest
+[INFO] Running de.charite.compbio.jannovar.impl.parse.FASTARecordTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.123 s - in de.charite.compbio.jannovar.pedigree.PedFileReaderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in de.charite.compbio.jannovar.impl.parse.FASTARecordTest
+[INFO] Running de.charite.compbio.jannovar.impl.parse.gtfgff.GTFRecordParserTest
+[INFO] Running de.charite.compbio.jannovar.pedigree.PedPersonTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in de.charite.compbio.jannovar.impl.parse.gtfgff.GTFRecordParserTest
+[INFO] Running de.charite.compbio.jannovar.impl.parse.refseq.RefSeqFastaRecordIdFormatTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in de.charite.compbio.jannovar.pedigree.PedPersonTest
+[INFO] Running de.charite.compbio.jannovar.pedigree.PedigreeQueryDecoratorTest
+2026-03-18 13:14:10,180 ERROR de.charite.compbio.jannovar.impl.parse.refseq.RefSeqFastaRecordIdFormat [main] - ID null in FASTA did not have any of the expected formats.
+2026-03-18 13:14:10,180 ERROR de.charite.compbio.jannovar.impl.parse.refseq.RefSeqFastaRecordIdFormat [main] - ID  in FASTA did not have any of the expected formats.
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in de.charite.compbio.jannovar.pedigree.PedigreeQueryDecoratorTest
+[INFO] Running de.charite.compbio.jannovar.reference.AnchorsTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in de.charite.compbio.jannovar.reference.AnchorsTest
+[INFO] Running de.charite.compbio.jannovar.reference.TranscriptModelEnsemblHgncMappingTest
+2026-03-18 13:14:10,216 INFO  de.charite.compbio.jannovar.data.JannovarDataSerializer [main] - Deserializing JannovarData from /tmp/1773839650215-0/chr15_whammp3.ser
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in de.charite.compbio.jannovar.reference.TranscriptModelEnsemblHgncMappingTest
+[INFO] Running de.charite.compbio.jannovar.reference.CDSPositionTest
+2026-03-18 13:14:10,228 INFO  de.charite.compbio.jannovar.data.JannovarDataSerializer [main] - Deserialization took 0.01 sec.
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s - in de.charite.compbio.jannovar.impl.parse.refseq.RefSeqFastaRecordIdFormatTest
+[INFO] Running de.charite.compbio.jannovar.impl.parse.FASTAParserTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in de.charite.compbio.jannovar.reference.CDSPositionTest
+[INFO] Running de.charite.compbio.jannovar.reference.CDSIntervalTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in de.charite.compbio.jannovar.impl.parse.FASTAParserTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in de.charite.compbio.jannovar.reference.CDSIntervalTest
+[INFO] Running de.charite.compbio.jannovar.reference.PositionTypeTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in de.charite.compbio.jannovar.reference.PositionTypeTest
+[INFO] Running de.charite.compbio.jannovar.reference.TranscriptSequenceOntologyDecoratorTest
+[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 s - in de.charite.compbio.jannovar.reference.TranscriptSequenceOntologyDecoratorTest
+[INFO] Running de.charite.compbio.jannovar.reference.VariantDataCorrectorTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in de.charite.compbio.jannovar.reference.VariantDataCorrectorTest
+[INFO] Running de.charite.compbio.jannovar.reference.TranscriptIntervalTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in de.charite.compbio.jannovar.reference.TranscriptIntervalTest
+[INFO] Running de.charite.compbio.jannovar.reference.GenomePositionTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in de.charite.compbio.jannovar.reference.GenomePositionTest
+[INFO] Running de.charite.compbio.jannovar.reference.TranscriptPositionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in de.charite.compbio.jannovar.reference.TranscriptPositionTest
+[INFO] Running de.charite.compbio.jannovar.impl.parse.ensembl.EnsemblParserTest
+2026-03-18 13:14:10,492 INFO  de.charite.compbio.jannovar.impl.parse.ensembl.EnsemblParser [main] - Loading feature records
+2026-03-18 13:14:10,501 INFO  de.charite.compbio.jannovar.impl.parse.gtfgff.GFFParser [main] - Determined GTF/GFF file version to be GTF
+[INFO] Tests run: 132, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.838 s - in de.charite.compbio.jannovar.annotation.builders.SNVAnnotationBuilderTest
+[INFO] Running de.charite.compbio.jannovar.mendel.GenotypeTest
+2026-03-18 13:14:10,556 INFO  de.charite.compbio.jannovar.impl.parse.ensembl.EnsemblParser [main] - Parsed 166 GFF records as 10 TranscriptModels
+2026-03-18 13:14:10,557 INFO  de.charite.compbio.jannovar.impl.parse.ensembl.EnsemblParser [main] - Loading ENSEMBL to HGNC mappings...
+2026-03-18 13:14:10,594 INFO  de.charite.compbio.jannovar.impl.parse.ensembl.EnsemblParser [main] - Loading ENSEMBL to ENTREZ mappings...
+Genotype [alleleNumbers=[1, 2]]
+Genotype [alleleNumbers=[]]
+2026-03-18 13:14:10,615 INFO  de.charite.compbio.jannovar.impl.parse.ensembl.EnsemblParser [main] - Assigning additional HGNC information to transcripts..
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.105 s - in de.charite.compbio.jannovar.mendel.GenotypeTest
+[INFO] Running de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerADVerySmallTest
+2026-03-18 13:14:10,698 INFO  de.charite.compbio.jannovar.impl.parse.ensembl.EnsemblParser [main] - Adding sequence information from cdna FASTA...
+2026-03-18 13:14:10,713 INFO  de.charite.compbio.jannovar.impl.parse.ensembl.EnsemblParser [main] - Ignoring 1 transcripts without sequence.
+2026-03-18 13:14:10,714 INFO  de.charite.compbio.jannovar.impl.parse.ensembl.EnsemblParser [main] - Successfully processed 9 transcripts with sequence.
+2026-03-18 13:14:10,714 INFO  de.charite.compbio.jannovar.impl.parse.ensembl.EnsemblParser [main] - Finalising TranscriptModels...
+STRN ENST00000263918.4(2:g.37070783_37193615) 
+STRN ENST00000379213.2(2:g.37075472_37193606) 
+STRN ENST00000495595.1(2:g.37096846_37130071) 
+SLC25A6 ENST00000381401.5(X:g.1505045_1511617) 
+SLC25A6 2026-03-18 13:14:10,714 INFO  de.charite.compbio.jannovar.impl.parse.ensembl.EnsemblParser [main] - Built 9 TranscriptModels
+ENST00000475167.1(X:g.1506204_1510996) 
+SLC25A6 ENST00000484026.1(X:g.1506238_1510981) 
+SH3RF3 ENST00000309415.6(2:g.109745997_110259248) 
+SH3RF3 ENST00000418513.1(2:g.109745804_110065945) 
+SH3RF3 ENST00000444352.1(2:g.110259080_110262207) 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.332 s - in de.charite.compbio.jannovar.impl.parse.ensembl.EnsemblParserTest
+[INFO] Running de.charite.compbio.jannovar.impl.parse.gtfgff.GTFParserWithTranscriptVersionTest
+2026-03-18 13:14:10,736 INFO  de.charite.compbio.jannovar.impl.parse.gtfgff.GFFParser [main] - Determined GTF/GFF file version to be GTF
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in de.charite.compbio.jannovar.impl.parse.gtfgff.GTFParserWithTranscriptVersionTest
+[INFO] Running de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParserTest
+2026-03-18 13:14:10,778 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Loading feature records
+2026-03-18 13:14:10,780 INFO  de.charite.compbio.jannovar.impl.parse.gtfgff.GFFParser [main] - Determined GTF/GFF file version to be GFF3
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.226 s - in de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerADVerySmallTest
+[INFO] Running de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerARLargeTest
+2026-03-18 13:14:10,951 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Parsed 324 GFF records as 12 TranscriptModels
+2026-03-18 13:14:10,952 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Assigning additional HGNC information to 12 transcripts..
+2026-03-18 13:14:10,954 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - The genome does not have a chrMT, skipping.
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 s - in de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerARLargeTest
+[INFO] Running de.charite.compbio.jannovar.mendel.GenotypeCallsBuilderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in de.charite.compbio.jannovar.mendel.GenotypeCallsBuilderTest
+[INFO] Running de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerXRSingletonFemaleTest
+2026-03-18 13:14:10,988 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Ignoring 0 transcripts without sequence.
+2026-03-18 13:14:10,991 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Successfully processed 12 transcripts with sequence.
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerXRSingletonFemaleTest
+[INFO] Running de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerXDSingletonMaleTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerXDSingletonMaleTest
+[INFO] Running de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerXRSmallStupidFemaleTest
+2026-03-18 13:14:11,077 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Loading feature records
+2026-03-18 13:14:11,084 INFO  de.charite.compbio.jannovar.impl.parse.gtfgff.GFFParser [main] - Determined GTF/GFF file version to be GFF3
+2026-03-18 13:14:11,125 WARN  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Transcript NM_001636.3 has 2 possible transcript models - picking best by cDNA_match
+2026-03-18 13:14:11,145 WARN  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Transcript NM_001099289.1 has 2 possible transcript models - picking best by cDNA_match
+2026-03-18 13:14:11,145 WARN  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - 2 duplicated transcript ids
+2026-03-18 13:14:11,145 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Parsed 119 GFF records as 5 TranscriptModels
+2026-03-18 13:14:11,145 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Assigning additional HGNC information to 5 transcripts..
+2026-03-18 13:14:11,146 WARN  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Key for chrMT FASTA File does not exist, skipping.
+2026-03-18 13:14:11,152 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Ignoring 0 transcripts without sequence.
+2026-03-18 13:14:11,156 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Successfully processed 5 transcripts with sequence.
+NM_001636.3,293,SLC25A6,-,Y:g.1455495_1460902,[Y:g.1460792_1461039, Y:g.1458134_1458620, Y:g.1456172_1456312, Y:g.1455045_1455652],Y:g.1455045_1461039,-1,GGCGTCTTAGCGGCTGCGCGGTGGCTGCTCCGTCCTTTCGGTCCAGGCGGCGGCAGGGCTGAGCCAGCGACGCCCTCCATTCACTCTCCGCGCCCGTTCTCCGGCTGTCCTCCCGTTCCGCTGCCCGCCCTGCCACCATGACGGAACAGGCCATCTCCTTCGCCAAAGACTTCTTGGCCGGAGGCATCGCCGCCGCCATCTCCAAGACGGCCGTGGCTCCGATCGAGCGGGTCAAGCTGCTGCTGCAGGTCCAGCACGCCAGCAAGCAGATCGCCGCCGACAAGCAGTACAAGGGCATCGTGGACTGCATTGTCCGCATCCCCAAGGAGCAGGGCGTGCTGTCCTTCTGGAGGGGCAACCTTGCCAACGTCATTCGCTACTTCCCCACTCAAGCCCTCAACTTCGCCTTCAAGGATAAGTACAAGCAGATCTTCCTGGGGGGCGTGGACAAGCACACGCAGTTCTGGAGGTACTTTGCGGGCAACCTGGCCTCCGGCGGTGCGGCCGGCGCGACCTCCCTCTGCTTCGTGTACCCGCTGGATTTCGCCAGAACCCGCCTGGCAGCGGACGTGGGAAAGTCAGGCACAGAGCGCGAGTTCCGAGGCCTGGGAGACTGCCTGGTGAAGATCACCAAGTCCGACGGCATCCGGGGCCTGTACCAGGGCTTCAGTGTCTCCGTGCAGGGCATCATCATCTACCGGGCGGCCTACTTCGGCGTGTACGATACGGCCAAGGGCATGCTCCCCGACCCCAAGAACACGCACATCGTGGTGAGCTGGATGATCGCGCAGACCGTGACGGCCGTGGCCGGCGTGGTGTCCTACCCCTTCGACACGGTGCGGCGGCGCATGATGATGCAGTCCGGGCGCAAAGGAGCTGACATCATGTACACGGGCACCGTCGACTGTTGGAGGAAGATCTTCAGAGATGAGGGGGGCAAGGCCTTCTTCAAGGGTGCGTGGTCCAACGTCCTGCGGGGCATGGGGGGCGCCTTCGTGCTGGTCCTGTACGACGAGCTCAAGAAGGTGATCTAAGGGCCGCGGCCTCCTCCACACACACACACACACCAGGGGAACCAAGAGAACCACGTAGAATCCTCAACCGTGCGGACCATCAACCTTCGAGAAATTCCAGTTGTCTTTTTCCCAGCCGCATCCTGCCTGTAGATGGCCGGGGAAGGCTCTAGAAAAGGGGCGCATTGCGATCCAACCATCGGCAGCCGATTCCGTGTCTTGATCACGGGGTGGGAGGGAACCGTGGCGTCCCTGCGTGGGGCCCATGGGTGAGACACTCCAGTACTGAGACCTAGAGTCCAGATGCTTGTAGGAGCCAAGTCGTGTTCTAAGTATTTATTTAAAACAAAAGAATCACGTTTTCCCATTTGTACTTCAGCGCTAGCCCCTGTTTTGCACAGCCGAGTACTGGCGAGTATGTTCTATGTTGGGCCTCCTGCTGCAAAACAATAAACAGAGGACGCAGAGGTCAAAAAAAAAAAAAAAAAA
+NR_024390.1,646999,LOC646999,+,7:g.39649086_39649085,[7:g.39649086_39651687],7:g.39649086_39651687,-1,AACAGAGACAAATCTTCGTTATAAGTTTATCAGAAAATGATGATGTTATCGAATTGGGAGAATGGGGAAAGTTGTGGGGACAGTGATAACAGAGCCAAATCTCTGTCTATCCAATTGTCTATCAAAACAGGAACTCAACGGATTGGAGCCTACTGGGCTTGAGAGCCCCGCTGAGGAGTCCGGAGGTTGGGACGCAACTACTGCCGCGTCCCCTCCCGGTCCCCGGCCACATGGCGAGCGGGGCGACACCGAAGCAGCCCACGGAGCTCGAGGCGACGCTGCTGAGCCTGGTTCCCCAAAGCGGCCGCGCCACTCCCCGCTTCCCCGCCCGGCTCCGGGCCCCAGGCCCTGGGACGCCGAGCCACCGCCGGCGTTTCAGACGCAAACCCCACCGCGACCCTGCAGCAGCCTGCCCCGCCTGGCCGCCAGAGGCACCTTCCAACTCCGAAACACATTTTTCAACATATAATAGAATCATTATCAGAGGTGGACACATTTAGAAGTTGTTCTTAATCAGAGGGCAGCTTGTGCTTAGGAAAGCCAGCCTCAGTCCTCAGCACCCAGCACCCAGTGCTGCAGGTTTCTCCTGGGTGAAGATGGACCAGCCCACCTTGGCCCTCCGGCAAGCTAGAACAATATGTACACGTCTCTCAAACTATGAAGAGAAGATTTGGGAGGAGTATGAGAAAATCCTCAATACCAAACTAGCAGAGCAATACGAGTCGTTTGTGAAATTCACACATGAGCAGATTATGCGACCATGTGGGACAAGCCCAACAAACTATGTGTCTTGAAGCTTTTTGTTGCAGATCTCGGTACCAGGTTTGACCTCAAGGCATGGTTGCTATACATTTTTTGCAACTGTTTGATATCACATTTCAGCTCCAACTTTGCATCCTGAGAACATTCCAACGTTTCTGCAGGTCCATTTTATACGACTTGAAAGACCTTAAAACTTTCTGGTTGCCACAGGTATATCTTTCTTTTCTGTTCATCCAGTAAATAGTCATACCCTACTGTGACAGATTTTTCCAAACAAAAATACCTGGAGCAGCAGTGTAGCAAAATATGCCTTCAGTGGCACTCAACAAATGGAGTTTCCCCAAGCACAGTTCTGTAAGAAGTGTGTGTGAGAGTGTGTATGTGTCTGTACATGTACTTTAGATTATGGTTTGTATTGTGCAAATTTTTTTGATCTTGGGGATTCTGGCTGTGGATTTGATGCAGAAAATTATGGTTAAAAACTATGGTCTACAGAAGATACTTAATGCTTTGTGACTATATAAATTGTAACAGTGGATTGTTTTATGTGTAGGTATTATTGTTAAATATGGGGACTGTTCACCAGGCACAAAATAGGAATCATAAATTAGGATGCAGGCTGGGTATGGTGGCTCATGCCTGTAATCCCAGCACTTTGGGAGGAGGCCGAGCTGGGCGGATCGCTTGAGGAGAGTTCGTGATCAGCCTGGCCAACGTGGAGAAACCCTGTCCCTACTAAAAATACAAAAATTAGGTGGACATGGTGGCGAGCACCTGTAATCCCAGCTTCTCGGGAGGCTGAGGCAGGAGAATCACTTGAACCAGGGAGGCAGAGGTTGCAGTGAGCCCAGATTGTGCCACTGCACTCTAGCCTCGGTGACAGAGTAAGATTCCATCTCAAAGAAAAAAAAAAAAAGTGAAGATGGCCATTGGCTGTGGTTATGACAATACAGTGAAAGTCTGTTGTCTTAGATATACAAATACATAGTGAGAAATTAGAACAAACTGGAGACTGGCCTTTGACACATGGACTCTGCCTAGCTGTGTTAGAAAAATATTTAACTCCAAGCCTTAAAATTCCCAAATGGAGTTGGTGCTTACCTCATTCACACAATCCAAGAGTTCACTGGGTCCTGAACCTCTAAAGGGAAAAGGTCTCCCCTGGAGCAGGAGCATCAGAGTTTGCTCGGGGGCATAAGGTAGGTGAGTGCTGGGCCGAGGCAGGCTCCCCTGGCACTGCTAGTTGCAGGAGCACTTTACCTTTGTATCAGTTACTAAAAACAAAATTTGAATCCTTTGGTCAGGTTCCCCCAAATTATTTTGAGGTAGCCATGTTTAAGTGCTTGAGCTTTTGTGTTGGCAAACCCCTGCCCAAGGTTGCTAATAGGGTATTCTGCCCCTTGTTTCCACAGCTGAGGCACAGAAAGTAGCCTCTTTTGTGAGGAGTTGGGAGTTAAGTATACATTTATTTTTTTACCATGATTTGTTCAGGACCACATTTTACAAGATACCTTGTTTCCTTTATTATTGTTTCTGGAAAGTCCTATTCATATTATTTTATTTGAATATAGAATATAGTTTTTTTAAATGAGGGCTTATTTTGAAAAATTCTGAGCTTAATTCAAATTTATGCCAATACCTTCCCAAATAAGGTAATAGTCAAAGACAGATGTTCTGATCAAATGGCTTAGAGATAGTCCTGGAATATTCATATTCAAAGATTCCTTATTAATGAATGTCTTTAACTTAAATCTACCCAATAATTGCAACATGGTTCTTTGTACATTTTCATTATATGGTGTTAACAAGCTTCACTGCAAACAAATAAATTACTTAAGTT
+NM_001099289.1,344558,SH3RF3,+,2:g.110259067_110259248,[2:g.110259067_110262207],2:g.110259067_110262207,-1,ATGCTGCTCGGAGCGTCCTGGCTGTGCGCATCCAAGGCGGCCGCCGCTGCTGCGCAGAGCGAGGGCGACGAGGACAGGCCAGGCGAGCGACGGCGGCGTCGGGCGGCGGCCACCGCCGCGGGGGCGGGCGAGGACATGGACGAGTCGTCGCTGCTGGACCTGCTGGAGTGCTCCGTGTGTCTGGAGCGCCTGGACACCACGGCCAAGGTGCTGCCATGCCAACACACTTTCTGCCGCCGCTGCCTGGAGAGCATCGTGTGCTCGCGCCACGAGCTGCGCTGCCCCGAGTGCCGCATCCTGGTGGGCTGCGGCGTGGACGAACTGCCCGCCAACATCTTGCTGGTGCGACTGCTGGACGGCATCCGTCAGCGGCCCCGCGCGGGCACCAGCCCCGGCGGCAGCCCGCCCGCGCGTCCCATCCCAGGCCAGAGTGCGGCCCCCACGCTCGCGGGCGGCGGGGGCGGCGCGGCAGGCAGCACCCCGGGTTCCCCGGTTTTCCTCTCCGCGGCCGCGGGCAGCACCGCCGGCAGTCTGCGGGAGCTGGCGACCAGCAGGACCGCGCCGGCGGCAAAGAATCCCTGCCTGCTTCCCTATGGCAAGGCCCTCTACAGCTACGAGGGGAAGGAACCTGGTGACCTCAAGTTCAACAAGGGGGACATCATCGTCCTGCGGCGCAAGGTGGATGAACAGTGGTACCACGGCGAGCTGCACGGCACACAGGGCTTCCTCCCAGCCAGCTATATCCAGTGCATCCAGCCCTTGCCACACGCCCCGCCCCAGGGAAAAGCACTTTATGATTTCGAGATGAAGGACAAAGACCAAGACAAGGACTGTCTGACCTTCACCAAGGACGAGATTCTGACGGTGCTCAGGAGAGTGGATGAGAACTGGGCGGAAGGCATGCTGGGAGACAAGATCGGGATCTTCCCGCTCCTGTACGTGGAGCTCAATGACTCCGCCAAGCAGCTCATTGAGATGGACAAGCCATGCCCAGCCGCTGCATCCAGCTGCAATGCCTCCCTGCCCTCTGACTCCGGCGCTGTGGCCAGCGTGGCCCCAAGTCCCACTTTAAGCAGCTCAGGGGCGGTCAGTGCCTTTCAGCGGCGTGTGGATGGCAAGAAGAACACCAAGAAACGCCACTCCTTCACCGCGCTCAGTGTGACGCACAGATCCTCCCAGGCTGCCAGCCACAGGCATTCCATGGAAATTAGTGCTCCAGTGTTGATCAGCTCCAGCGATCCCCGAGCCGCGGCCAGGATTGGAGACCTTGCTCATCTGTCGTGCGCTGCTCCCACCCAGGATGTCTCCTCCTCGGCGGGATCTACCCCCACGGCTGTCCCACGGGCTGCCTCGGTGTCTGGAGAGCAGGGCACGCCTCCCAAGGTCCAGCTGCCCCTCAACGTGTACCTGGCGCTCTACGCCTACAAGCCCCAGAAGAGTGACGAGCTGGAGCTGCACAAGGGAGAGATGTACCGGGTCCTCGAGAAGTGTCAGGATGGCTGGTTCAAGGGGGCGTCTCTGAGGACCGGGGTCTCTGGGGTGTTCCCCGGAAACTACGTGACACCCGTTTCCAGGGTGCCTGCAGGAGGGGCAGGGCCGCCCCGGAATAATGTAGTCGGAGGGTCTCCACTGGCCAAAGGGATAACCACAACCATGCACCCAGGCAGTGGGAGTCTGAGCAGCCTGGCCACTGCCACCAGGCCCGCCCTGCCCATCACCACTCCCCAGGCCCACGCCCAGCACCCCACAGCCTCGCCCCCAACAGGCAGCTGTCTACGGCACTCAGCCCAGCCAACGGCCAGCCAAGCCCGGAGCACCATTTCAACAGCTGCCCACTCTGCAGCCCAGGCTCAGGACCGGCCAACTGCCACCGTGTCACCCCTGCGCACCCAGAACTCTCCATCCCGCCTGCCTGCCACCAGCCTCAGGCCCCACTCGGTGGTGTCCCCGCAGCACAGCCACCAGCCCCCGGTGCAGATGTGCCCACGGCCGGCCATCCCCCTCACATCAGCAGCATCAGCCATCACACCTCCCAACGTCAGTGCCGCAAACCTCAACGGGGAGGCTGGAGGGGGGCCCATCGGTGTTCTGTCCACATCCAGCCCCACCAACACGGGATGCAAACTAGACGAGAAGAAAAGTGAAAAGAAAGAGAAGAAGAGTGGGCTCCTGAAGCTTCTAGCCGGAGCATCCACCAAGAAGAAGTCACGCTCCCCGCCATCTGTGTCTCCAACCCACGACCCCCAGGTGGCCGTGGACGCCCTGCTCCAAGGTGCAGTGGGCCCCGAAGTGTCCTCACTGTCCATCCACGGCAGGGCAGGGTCCTGCCCCATAGAGAGCGAGATGCAGGGTGCCATGGGGATGGAGCCTCTGCACAGGAAGGCAGGCTCCTTGGATCTAAACTTCACATCTCCTTCCCGGCAAGCTCCGCTGTCCATGGCTGCCATCCGCCCCGAGCCCAAGCTGTTGCCCAGAGAGAGGTACCGCGTGGTGGTCTCGTACCCACCCCAGAGTGAGGCGGAGATCGAGCTGAAGGAAGGCGACATCGTCTTTGTGCACAAGAAGCGTGAGGACGGCTGGTACAAGGGGACCCTGCAGCGGAACGGCCGCACAGGCCTCTTCCCGGGCAGCTTCGTCGAGAGCTTCTGAGAACTGGTGCTCCCTGCACCCAGCTCACAGAGGGGGAGGCCGCCTGGGAAGCTCCACGGCACACAGAGAGGGAGCCATGGCGCCCCAAGGGTTCCAGGTCATCTCCAAGGCACCTGGCGGGGGATACCCTGGCCCAGGGTGGGGGCCAGGGACTGTGGAGGTCGTGCCTTCTCCCAAAACCCCCAAACGGAGAGCACACCTGGGATGTTCTTCAAGGAAATGCCCACCCCCTCTGTGGAAACTGCAAAGAAAGCACCTTGAGGAAGAGAGGCAGGTGCCGGCGCAGGCAGGCCTGTGGCTGTGGTTTGCAGCCATGGCAGCGTTCTCATTTACCACCTAAGCAGGGTTGGAGGTTGCAGGAGGTCTGCAGGCGAGGTGGGTGGCATGGGGGCCAGGAGCGCTGGAGATCATCTTTCTGGGCTGCCCTGGGCTTCCCGCGGGGCCCAGGTTGCTCTGTCACCATTCTATATACCTCAGTCACCTGCCGCCCGGCTGCTCAGCAGGGGTGTTTGTGAGGCCCTGGGGGTGCCCCGGAAGGGGCACCCCACCGCCCCTGTTGGGAACCAGAGCAGAATCTGTGGGCTTGTCGCCTGCCAGTAGTATAAGCAACACTTTCTGTTCACCACCATTGTCCCTTGCATTACTTCTTTCTTACAGCATATTTTTAACATAAAGCTGTTAGACTTTATATATTTCTAATAGGTCAGACATTGCCTATTTTTCATACATCTGGTGCTGCCTTTTTGTAAAACTAATAATGACTTGGTTGAGCTTGAAAGAAAAGATGTCTGAGGCGACATCAAAGGGGCAGAATTTTTATATTTCCCATATGGCTTTGGGAGAGCGCCGAGAAGCCGCCATCCCGCACCTCAGCGCTGGCCAGTACTCTGGGGGCTGGCGGGGTGGATCCATTGAGGGGGTCGGAGGGAGCTTGGAAGCAGCCGGTTTCTTTAAACTCTTACCAAAACCCCGCGCTCTGTCTAGACGGTGATGATTATTATTCAAGACCTGGAAACATTTCGAGGAAGGGCCACTATAATTGTCCTTTTGTGTGGCGGTAGAAGGAGCACGCAGGTCAACCCCAGCCGGGAAGGCAAAATCTTCCCTTTATTGCCTCAGAGAGAACTGCAATTAGCATTCTCAGAAGATGATTTCTTGGTATCAAAATGTGCAGTTTCTACAACAGTTTAGATCACCACCACCATTTTTCTTCTTTTTTAAAAATAAATAACTGCTCCCATTTCAGGCAGTGCAAACCTTCATCTGCTGGAGACCAGAGGTACAAGGAGATCAGGGGGTTGCAGCACCGCTGCAGGCTTGCAAGATCGGGGAGTTGGGAGGGCGAGAGAGGAGGAGGTGCAGCTTTGATGCTGGGACCTCCCTGAGTGGGGCTGATGAATGTATATTCATTAGCACCATGGCTCACTTCCCAGGAAGACTGATCAGGAGCCCTTCAGGGACAATTTTGTTCTCAAGATTCACACCTTAGGAACACATTTTTATCACCTCAAAATTTTGATCCATCACCCCTCTCTCCACCTATATTTTTACAAATACCATTCAGACTTAAATTAAGCTGAAGAAACTAGCCTTTGGTAACATAGGGTGTCATTGGTTTTCAGGGATGTAACCAATTCCAGAAATACATTCTTTTGCCTGGCATGAAGACTTTGAAACACGGGCCGCTTATTTTCAGAGTTCCTGTTTTGGGACGTGACTTGGCTACTTGTTACTTCCAGGTGGTTACCACACGGCGGGGGTCATGCCTTTCCCTCCCCCAAGATGATAATAGATTTAATAGACTCAAAGAAGTTGTTCAGAATCAAAGAAGAAAAAGTCTGGCTTAAACATAGTAACTTCTGTGTGCCAGGTTAATGACAACCAAAAGCTCTCTATTTACCATTATTGCCAAACTTCATCAGTTGCCCATCCTGCACCAAAATCCTGTGCGTGTTTAAATTCACGTTGTCACCAAAGAGGTGCACAGATCAACAACCTGGATGACGCAGGTGTTCTCCAGGGAAACCAGACCAAGTCAAGTCTCCAGGTAACTTTTTTGAAGTCTTTTTTTTAAGGCGCGCAGGTACCAAGCAACAGAATAGAGTAACCTGAACGTTCTTACTCTCCCAGGCATGGCCCACGTGGTGCTTCAGGTAGAAATGTGCTTCACCCTCCTGGTGGGGGGCGAGGACACAGCCCACTGCATGCAGCATGGTAGAGAGCTGGGGCGAATATCTCCATGTCTTTGGAGGATGTCAGCTGGCCGCTTTCAGGGCAGAGTCGGGTGGGCGTTGGTGCCACCTTAGGAAGGAGAGCGATGCGTGGGTCTGGCCAGAGCTCTGGAGCCAATGCCGGGCTGCCTGAGAGCAGAGGAAATGCATGGCCCATGTGCATTTCTGAGTATTTTAAACTCGTTCAGGCCCTGCAGCCTTCATGATGATGTAGCTCGCAGAGAAGAGCAGGAGCAGAATTAGCCCTTTCTTCAGGCCATCTTGCCTCAAAGGGTACACATGTTTGGCGGTTAAGATGAAACTAACCCTTATGTTTCATCCTGGCCCCATGATGTACACATCTTAGCCATGTAGTGGCCTTGGGGGGCCACAGAGATTTCCTTTGAGGAGCATGGTAGAGTCCACAGCCATGGCTGAAGTCAGTGGACACCGAGGGGACAGGACTGCAGGCCACCAGGGGCCTCTGCCCAGAGGGAGGCAGAGAGGATGGCGGCCACGGGTGCTCTCCTGGCATCCTCATGGGGTGATGCCAGGCCGGGCACTTCAAAACAGGCTCAGCCGACTGGGAGATCCTTTGTACTTTGCACAGTTCACACACACAAACACACACACCCTATCCCAAGTGTTTTTGTTAGACACAAATGTCAGCGTGTGATTTTGGAAGACTTGTCAGTGATGACAAACCATGATGCCTGTGTTTCTGAGTCTTTAAATAAAAATGAACATGG
+XM_005264519.1,6801,STRN,-,2:g.37076599_37193606,[2:g.37193373_37193673, 2:g.37152248_37152351, 2:g.37143221_37143294, 2:g.37132683_37132761, 2:g.37129727_37129894, 2:g.37126666_37126801, 2:g.37121041_37121176, 2:g.37111075_37111218, 2:g.37105034_37105170, 2:g.37096697_37096872, 2:g.37094957_37095004, 2:g.37088275_37088396, 2:g.37084999_37085166, 2:g.37082355_37082495, 2:g.37078143_37078250, 2:g.37076857_37076943, 2:g.37070934_37076768],2:g.37070934_37193673,-1,CTGCTTGCCGCCGCTGTTGCCTCCGCTGCTGGGCGCCGGGGCAGCTCCCCGGGTATCTGCGGCCGCCATGGACGAGCAGGCGGGTCCCGGCGTCTTCTTCAGCAACAACCACCCGGGCGCCGGCGGTGCCAAGGGGCTCGGGCCTCTGGCGGAGGCTGCCGCGGCCGGCGACGGGGCGGCTGCGGCGGGGGCGGCCCGAGCCCAGTACAGTCTCCCGGGGATCCTGCACTTCCTGCAGCACGAGTGGGCCCGCTTCGAGGTGGAGAGAGCCCAGTGGGAGGTGGAGCGGGCGGAGCTGCAGGCCCAGATTGCCTTCCTGCAGGGAGAAAGGAAGGGCCAAGAAAATTTGAAGAAGGATCTTGTGAGGAGGATCAAAATGTTGGAGTATGCTCTTAAACAGGAAAGAGCCAAATACCACAAGTTGAAATACGGGACAGAATTGAATCAGGGAGATATGAAGCCTCCAAGCTATGATTCTGATGAAGGTAATGAAACAGAAGTGCAGCCACAACAAAACAGCCAGTTAATGTGGAAACAAGGTCGACAACTACTCAGACAGTATCTACAGGAGGTGGGTTATACAGATACTATTCTAGATGTGAAATCTAAACGAGTGCGAGCTTTGTTGGGCTTTTCAAGTGATGTCACGGACAGGGAAGATGACAAAAATCAGGACTCAGTTGTAAATGGCACAGAGGCTGAAGTTAAAGAGACAGCAATGATTGCAAAATCTGAGTTAACAGATTCTGCCTCCGTGCTGGATAATTTCAAATTCCTTGAAAGTGCAGCTGCAGATTTCAGTGATGAAGATGAAGATGATGATGTTGATGGAAGAGAGAAAAGCGTCATTGATACTTCAACAATTGTTAGGAAAAAAGCATTGCCTGACAGCGGTGAAGATCGAGATACAAAAGAAGCTCTAAAGGAGTTTGACTTCTTGGTTACATCAGAGGAAGGAGACAATGAATCTAGAAGTGCAGGCGATGGAACAGACTGGGGGCCCAATAGGTCAAAACTACAAGATATGCTTGCTAATTTGAGAGATGTTGATGAACTTCCTTCATTGCAGCCATCTGTGGGTTCACCTTCCAGACCCAGCAGCTCCAGGCTTCCTGAACATGAAATTAATAGGGCAGATGAAGTGGAAGCATTGACATTTCCTCCTTCTTCTGGAAAGTCATTCATCATGGGAGCAGATGAAGCCCTTGAAAGTGAACTGGGACTTGGAGAACTAGCAGGCCTTACGGTGGCCAATGAAGCAGACTCACTAACTTATGATATAGCAAACAATAAAGATGCATTGAGGAAGACATGGAACCCTAAGTTTACATTGAGAAGTCACTTTGATGGCATCCGAGCCCTTGCTTTCCATCCCATTGAGCCTGTTTTGATAACAGCATCAGAGGATCACACATTAAAAATGTGGAATTTACAGAAAACAGCCCCAGCCAAAAAGAGCACTTCTCTTGATGTAGAACCTATCTATACATTCAGAGCCCATAAAGGTCCAGTGCTTTGTGTGGTAATGAGCAGCAATGGTGAGCAGTGTTACAGTGGTGGTACTGATGGACTGATCCAGGGCTGGAATACCACTAATCCCAACATCGACCCCTATGATTCTTATGATCCTTCTGTTTTACGAGGCCCTCTGCTAGGCCACACGGATGCAGTCTGGGGTTTGGCTTATAGTGCAGCACATCAGCGTTTGTTGTCCTGTTCAGCAGATGGCACTCTGCGTTTATGGAATACAACTGAGGTTGCTCCAGCACTAAGTGTATTTAATGATACTAAAGAACTGGGAATCCCTGCCTCTGTGGATCTAGTGAGCAGTGACCCGAGCCATATGGTAGCATCATTCAGCAAGGGATATACAAGCATTTTTAACATGGAAACACAACAACGCATTCTCACTTTAGAATCCAATGTAGATACAACAGCCAACTCTTCCTGCCAAATAAATAGAGTCATCAGTCATCCTACTCTTCCGATCAGCATCACTGCTCATGAAGACAGGCACATCAAATTCTATGATAACAATACAGGCAAACTGATCCACTCGATGGTAGCCCACCTAGAAGCTGTTACAAGTTTAGCAGTTGATCCCAATGGCCTTTACTTGATGTCTGGCAGTCATGACTGTTCAATACGTTTATGGAATCTAGAAAGTAAGACGTGTATCCAAGAATTCACAGCTCATCGAAAAAAGTTTGAAGAATCGATTCATGATGTAGCTTTCCACCCATCCAAATGCTATATAGCCAGTGCTGGAGCTGACGCACTGGCTAAAGTCTTTGTATGACGCAATGCATCATCTTCACCTTCTAGCTGTTTATAAGTAATCAACTGCACACAAGAGATACAGAAGACGAGGGCAAGAATCATCTCGTCCTGCCCTTTTGTTCTGCTGAAGGAGCACAGAGAACATTTGTTGAAGTATAGTTTTGCAATTCATATACTGTTTTCTAAAACTAAGGTTTGTTCAGGTTGCTGCAAGCTCAGCTGAATCTGTGAGCCTGAGGTCTGTTTCAAATTTCTCCCCAATAGGCGCCTTTATTTCTGAGGTGGTTCTAATTCGCTAGGCAGGCCTGAGCGAATACAAGTTTAGCTTGTCCCTGTTGAGTAAGTAGGGCATGCTACAATGGATAATTTAAAAGCTTGATAGCTGGGACTGAATAGAAGAAAACGGGAAACTTAGACCAAGTTCTCCCCTGAGAAATCTTGTTAAAACACATTAAGTAGTCAAAATAGTAATCTTTATCATATCTGCCATATTAACCCCTTTGTGTATAATGACCAGGCAGTGTTAAACTGAGTTTTTAATTTGACTCTCCTTTCAGCTGTTCACATAAAGCACCTGGCAAAGCATTTTACCTGTTAGGGGGAGAAAAATGCAATAATATGTTAAATATATTATTATTCAGAAATGCTAGACAAATAGTTTGCAAGCAGATTTCTATATTGTATTACAGTTTTGAAAACAGATTTGGTATCATTCTAAAGTTTAGCTATCAAGCACTCACCATTGTGAAGAATAGTTGATCGACTCTGCTTTTACTAACAGATTTAACTTATTCAGGTTTGAAATTCTGTTTATTTTTAAGGGTAAACAGGGCATATCTCTTTAATAATTTCTATTTTAAAATTCACTTTATTCATGTGACATTTATAGTACCAGAGTGATTATTTCATACCAATGAAATCTTACTTTTCAGTGACTGAAAAGATAGAATTTATTTGCTAATAATCATTTATCAACACCCACCTAATCATGCTTCAGATGATCTGTGCTCTTTCTTCTTTGTCACGTTCAAGTTATCTGACATCTACCAAGAACAGTTCATAATTATTAATAGCCCAAAGAGTATGGTTAACTTCACGCAGCTGCTTTTGCAGAAGCACTAATAAAAACAAATATTTTGTACCCTAGAAGTCCTCTATTAATCCCTGTAAGAATCTCCTGGAAACCTGGATGAAAGAGTTTAATGCCAAATATTGGCTAAAAAGTTCTGTCTTTCTCTCTCCCTATTCCTCCCCCATTGTTTAATTGAGATATACATGTTTTAATGGGCAGTGGATCAGTATTGTTTCTGGGGAAATCCACACCTTAAAAGGCCAGGCTTCCCCAGCCCAACTTACCTGTGACCCACCTACATGTGTTCACCTTTTGGGATTCTGAAGACCCTGCTATCTAGACCTAGTCTCCTGTCATAAAGACATTATTTCTATAGTGGTTTATGTCTCTCTTACTCTTTGTCCCAAATGACAGAGACCAATCTAGAAATTGGAAATAAATTATTAACGTCCAACTTTCCACCAAAAAACATATAAATAGGCTCTTAGATTTTAAAAATATTAAATCTATAGATATTTTAACCAATTAAAACAATTTCTACATATTCCATTCCCCACATTTTCCATCGTCATAACAATGATGCTTCTCATGATACGTACATCTACTCCTTGAAAAAGTATTCTGGTGGTGGTGTGGCTAATGATTGACAAATATTTCTGTAAAATTTCTGCCTGTTTGCCTCTAGAATTCTGCATTATACAGGCAAATTTTCTTTAAAGCTAGAGACTTGTGCTAAATTTGCCTGATTTTCATACAGATATGCTGTAGTAATACAGCTACCTTTTCATTTCATCTTTGTGCTTTGGTTAACAAGCAGGCTCAAGAGACTGCTTTGTGTAATTAAATGAATTGACCTAAACATGAGCTGTCAGGTGAATACTTAATATTTCCATGCAGATACAGAATTCCATATTGTGTTCAGTAAATTTCTTTTGGTTCTTCACAGTGAAGAAAGAATGTTTCTAACCTAACATTTGTAGAAGGATACTGGAAAATTCCTTCCAGGAAGGAAGGAAGGAAGATGCCATTACTTGGTGTATTTATGATGGATGACCACAAAGCTATTGTTCTACCAGTTATTAATTACCTTCTAAGATCTTCAGTTACTGCTTTATTAATGTCACTGAAATTCTAAAAACCAGGACATTCTTCCCCCGTTCATTTTATGCTTCATGGTTGAAATTTTTCTGTCAGTGAGTGGAAAATAACCATGAGATACATAGACTGTAGCGCAAATGGAACTGTTGAAAGTTCCTTAGAAAGCCAGTGCTGTGGCATTGGAGACTACGGAGAGAGTCTTCTCTACCAGCACTGCATGATCTCAGCCTAGAAATGAGCCAAAGCTGTCTTCCAACCAGAGTAGCATATACATGTGTCTGACTTTTCCCCTAGCCTGTTGAACATTCAATGAAAATTCACAGAATGAACAAATTCAATGTTTAAACAGCCATTGAAATGCTTTCATAGTGCTTCATTTGTAAATATTTTGTTTGAAATGTATTGGAATAGTATGAAAATTAGCGGGAGGTTTGGATCCCTGCCTTATTTTCATATGCTGTGGATACATCTCTGGGAGCTTGCAGCACCCTTCTCAAAACTCAACTGTCATATGGAGCTCATTTGCTACTCAAACCATAGACAGATTATTTAACAAAAGTGATATAATGACCTTCAGTATTTTTCTATTGAACAAGTTTAACAACTTTTGCCATTAAACAAATACTTAGTTATGCAAAATATTTCGCTTTTATAATCATTTTAGTTATGACTAAAACGGGGGAAATTGAGCTGCATCACTGATGATGAACTTTGTGAGAAATTTTTTTTTTAATCTGACTTTCATTCCTTCAGTATTCTTGCTATAAATTTCTTTTGGAGATAATGATGAAGATTTATTTGAAAATGTCTAAAATGTATGTATATTTTATAAATATATATTATATATATTGTAAGAATATATATAATATATAAACTATATATATATATATATATATATATATATATATATATATATAAACCATAGGTGCATTTTACTGTTTTGTATTTTCATTTTTGGAGGTAGTATACACAGCAGATAATGATGAGTATGATGAGTGTTGTGCTGTTTGCTTTTGCAGTATAATATATAGTTCTAAGTGTTTAAATTACTGTATATACAATATTCATTATAGGCTAGCATGCTTGTTTTAAAGACTGTCATTCTAGTGTATTAAAATCTGAATGTAAGAAAACCTGGCTATTCAAATGTGAATTGAAAAATATTTTATTCTCAGTACTGAACTATTTCCATTGAACATTCAGACTTTTTAACAAAAACAAATATCATCAAGAAGGCAATAGCTAGAAAATGAGAGGTGCCTTTAAAAAAAAAAATGCAGCCTTACAGTGAGGATGAAGATTGAGTTTGGGGAGGGGGTGGGAGGGGGGGCACAGAGAGAGAGAGAGAGTTAGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGCATGCATGCGTGTGTGTGTGTGTGTGTGTGTTTACCAATCTGTGAAGGTCCTGATTTGTGACCATCAATGTCTTTTTAATGTATCTGCTCAACTTCTAGGACTTCAGGGGACATTTCATGCGCTTTGTGCTCTTCTGAGCACCATATATACTTTCCAAGAATTTTGAATGTGAATTCCTAGAAATTTCAGTAGAGAAAACAATAGCTATTCTTTAATTATAGTAAAGTTCAGGTAGAAGGAGAAATTATTTGTTCACCAAAATTATGGGATCTCATTAATGTTGGCTAAGTAAATGTAATTTTTTAAAGGCTCACTTTTTAATACTTCATATATTTCCCTCTTACAAAACAGCATGTCATGAAGTTCTTATGTGGTAAAGATTCAACTAGTAAATATTTTTAGGTTAAATACCTGAACTAGTTAAAATTCCACCTAAGAATAGTCTTAAAATATTTAAAAAGCATCTCTCATATCTACCTCTTTGTCATTGCTGCCATTTTAACTGAAGCAAATCTTTATGACATCTGAAATGATGGTTGGATGCAATTAAAAAAAAATCTATGTTGGTGCTTTTCTCAGGCTTTGTCATTTAAGTTATATTGTATTAAGATGTCACAAATCAGACTGAAAGGCTTAGAATTAATTTTGTTTTTCTTTGAAAGAATTGCTTAAAATTAACCATCAATGTTTTTAGCGAGTGGAGATAATGAATCTTTGGTTGGTGTCTGTCTGTGTGATGTTTTCAACCAATAGCCAAATAATTATTGAACTTACATGAAAAAGAGTGCTAAGTATAATTTTATTTAGATTACTTTATTCTTTGAAAGTGACTACAAGGCTATTAAGTACATAATCATTCATTTTATTTACTCAGAAGTTGCCTCTCCATTACTGTTAACTTGTTTAGTAATTTATATAATTGCAGTACTTTTAAGTGTTGGACACTGGGATTCAGGTTGTATACAAAGTAGTAGCTGACGAAAAATATGTATATTTTTGTGAAATGTATCAAGCCCTAAAGTTCATTTTAGAGAAAGGCCCAGAAAAACGTATCTGTGTTTAAAAACAAAGGACAGGTCATTCGTCAATTTGAATCATTTTTACTTTTGCCACTACAAACTTTTTAATTGGCAATATCCATCATCCAACTGGATCTTCATGTCAGTGTCAGGGATGCCAGGTTGACAAAGTATTTAACAGATCCTTTCAGTTTTTGTTTTGTTTTTTTAATTCTAAAAAAAACAAATGTTAGGCCAAACAGATCCCTAGATCCCACTCATTGATTCTGGCGGTATTCCTAAAGTGGTGCTTAGGGGGTCAGAATTTTCTGGATCTTTGCTAATCCAAGCTTTAGATTTAATTTAACCAGGACCACATGCTTGTCATCTCTCTGATGCAAATTTTCAAAATCATTTTAATTTAGATTCTAATGTCTGCCTGGGTTTTTAACAGGCTGTGAACCAGTGAGTGCCTTGTTAATGTAGAATGATTTTTCCCCCCTGGGTGGGTGTTAGTTAGCTCCTCTCTGAAAATGTCTCAGAGAATGGTATTTTAATTGACTTGTAGAGAGCTGCTAAATTTGTTATTATCAGCAATCAGAAAGTCTTTGGTCTACCACACATCTCCCTCCCTACTATCTCTTCATTGTTTGGCTGAAGTTTGCCTCTTGTGAGAAAACAATACAACTCCCCTTCTCCACACACTTTTTTTCCAGCCCAGATTAATAGGTATCCCCTACCCTAATCCCAACTCTATGATCTAATACCTTTTTTAGGAGGAACCACTTCTTTTTAATATTGAAATCTGCTGGTTACTTTATGTTTTCTCAAGTTCAGTTGACTAGAGCTGACCACAGGGTGTCATCAATTCAGATTCCTAAATAACCCTTTCTCTCCACACCCAGTCCTCCAGCTGGTGAGCCCTGGGCCAGATTGTTTGATCTTCAGGTATTTTAAATTTTAGTTACATCAATTAATGTAAATTAATCCAAATGCTAATTTTTGTGGTGCAAGAAGTTTCTTATGTAAATTCAGGGTATGGATAAGCTAATTAAGATATCCATCTTTGGTGGCTCTAAGTGTATTATTTGTTTTTAAATAAAGTGTACAAATATAGATAACATGC
+[INFO] Tests run: 46, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.102 s - in de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerXRSmallStupidFemaleTest
+NM_003162.3,6801,STRN,-,2:g.37076599_37193606,[2:g.37193373_37193615, 2:g.37152248_37152351, 2:g.37143221_37143294, 2:g.37132683_37132761, 2:g.37129727_37129894, 2:g.37126666_37126801, 2:g.37121041_37121176, 2:g.37113859_37113969, 2:g.37111075_37111218, 2:g.37105034_37105170, 2:g.37096697_37096872, 2:g.37094957_37095004, 2:g.37088275_37088396, 2:g.37084999_37085166, 2:g.37082355_37082495, 2:g.37078143_37078250, 2:g.37076857_37076943, 2:g.37064841_37076768],2:g.37064841_37193615,-1,GCGGCCGCCATGGACGAGCAGGCGGGTCCCGGCGTCTTCTTCAGCAACAACCACCCGGGCGCCGGCGGTGCCAAGGGGCTCGGGCCTCTGGCGGAGGCTGCCGCGGCCGGCGACGGGGCGGCTGCGGCGGGGGCGGCCCGAGCCCAGTACAGTCTCCCGGGGATCCTGCACTTCCTGCAGCACGAGTGGGCCCGCTTCGAGGTGGAGAGAGCCCAGTGGGAGGTGGAGCGGGCGGAGCTGCAGGCCCAGATTGCCTTCCTGCAGGGAGAAAGGAAGGGCCAAGAAAATTTGAAGAAGGATCTTGTGAGGAGGATCAAAATGTTGGAGTATGCTCTTAAACAGGAAAGAGCCAAATACCACAAGTTGAAATACGGGACAGAATTGAATCAGGGAGATATGAAGCCTCCAAGCTATGATTCTGATGAAGGTAATGAAACAGAAGTGCAGCCACAACAAAACAGCCAGTTAATGTGGAAACAAGGTCGACAACTACTCAGACAGTATCTACAGGAGGTGGGTTATACAGATACTATTCTAGATGTGAAATCTAAACGAGTGCGAGCTTTGTTGGGCTTTTCAAGTGATGTCACGGACAGGGAAGATGACAAAAATCAGGACTCAGTTGTAAATGGCACAGAGGCTGAAGTTAAAGAGACAGCAATGATTGCAAAATCTGAGTTAACAGATTCTGCCTCCGTGCTGGATAATTTCAAATTCCTTGAAAGTGCAGCTGCAGATTTCAGTGATGAAGATGAAGATGATGATGTTGATGGAAGAGAGAAAAGCGTCATTGATACTTCAACAATTGTTAGGAAAAAAGCATTGCCTGACAGCGGTGAAGATCGAGATACAAAAGAAGCTCTAAAGGAGTTTGACTTCTTGGTTACATCAGAGGAAGGAGACAATGAATCTAGAAGTGCAGGCGATGGAACAGACTGGGAAAAGGAAGACCAGTGTCTCATGCCTGAAGCCTGGAATGTGGACCAGGGAGTAATTACCAAACTCAAGGAACAATACAAAAAGGAGAGAAAGGGGAAAAAGGGGGTGAAGAGGCCCAATAGGTCAAAACTACAAGATATGCTTGCTAATTTGAGAGATGTTGATGAACTTCCTTCATTGCAGCCATCTGTGGGTTCACCTTCCAGACCCAGCAGCTCCAGGCTTCCTGAACATGAAATTAATAGGGCAGATGAAGTGGAAGCATTGACATTTCCTCCTTCTTCTGGAAAGTCATTCATCATGGGAGCAGATGAAGCCCTTGAAAGTGAACTGGGACTTGGAGAACTAGCAGGCCTTACGGTGGCCAATGAAGCAGACTCACTAACTTATGATATAGCAAACAATAAAGATGCATTGAGGAAGACATGGAACCCTAAGTTTACATTGAGAAGTCACTTTGATGGCATCCGAGCCCTTGCTTTCCATCCCATTGAGCCTGTTTTGATAACAGCATCAGAGGATCACACATTAAAAATGTGGAATTTACAGAAAACAGCCCCAGCCAAAAAGAGCACTTCTCTTGATGTAGAACCTATCTATACATTCAGAGCCCATAAAGGTCCAGTGCTTTGTGTGGTAATGAGCAGCAATGGTGAGCAGTGTTACAGTGGTGGTACTGATGGACTGATCCAGGGCTGGAATACCACTAATCCCAACATCGACCCCTATGATTCTTATGATCCTTCTGTTTTACGAGGCCCTCTGCTAGGCCACACGGATGCAGTCTGGGGTTTGGCTTATAGTGCAGCACATCAGCGTTTGTTGTCCTGTTCAGCAGATGGCACTCTGCGTTTATGGAATACAACTGAGGTTGCTCCAGCACTAAGTGTATTTAATGATACTAAAGAACTGGGAATCCCTGCCTCTGTGGATCTAGTGAGCAGTGACCCGAGCCATATGGTAGCATCATTCAGCAAGGGATATACAAGCATTTTTAACATGGAAACACAACAACGCATTCTCACTTTAGAATCCAATGTAGATACAACAGCCAACTCTTCCTGCCAAATAAATAGAGTCATCAGTCATCCTACTCTTCCGATCAGCATCACTGCTCATGAAGACAGGCACATCAAATTCTATGATAACAATACAGGCAAACTGATCCACTCGATGGTAGCCCACCTAGAAGCTGTTACAAGTTTAGCAGTTGATCCCAATGGCCTTTACTTGATGTCTGGCAGTCATGACTGTTCAATACGTTTATGGAATCTAGAAAGTAAGACGTGTATCCAAGAATTCACAGCTCATCGAAAAAAGTTTGAAGAATCGATTCATGATGTAGCTTTCCACCCATCCAAATGCTATATAGCCAGTGCTGGAGCTGACGCACTGGCTAAAGTCTTTGTATGACGCAATGCATCATCTTCACCTTCTAGCTGTTTATAAGTAATCAACTGCACACAAGAGATACAGAAGACGAGGGCAAGAATCATCTCGTCCTGCCCTTTTGTTCTGCTGAAGGAGCACAGAGAACATTTGTTGAAGTATAGTTTTGCAATTCATATACTGTTTTCTAAAACTAAGGTTTGTTCAGGTTGCTGCAAGCTCAGCTGAATCTGTGAGCCTGAGGTCTGTTTCAAATTTCTCCCCAATAGGCGCCTTTATTTCTGAGGTGGTTCTAATTCGCTAGGCAGGCCTGAGCGAATACAAGTTTAGCTTGTCCCTGTTGAGTAAGTAGGGCATGCTACAATGGATAATTTAAAAGCTTGATAGCTGGGACTGAATAGAAGAAAACGGGAAACTTAGACCAAGTTCTCCCCTGAGAAATCTTGTTAAAACACATTAAGTAGTCAAAATAGTAATCTTTATCATATCTGCCATATTAACCCCTTTGTGTATAATGACCAGGCAGTGTTAAACTGAGTTTTTAATTTGACTCTCCTTTCAGCTGTTCACATAAAGCACCTGGCAAAGCATTTTACCTGTTAGGGGGAGAAAAATGCAATAATATGTTAAATATATTATTATTCAGAAATGCTAGACAAATAGTTTGCAAGCAGATTTCTATATTGTATTACAGTTTTGAAAACAGATTTGGTATCATTCTAAAGTTTAGCTATCAAGCACTCACCATTGTGAAGAATAGTTGATCGACTCTGCTTTTACTAACAGATTTAACTTATTCAGGTTTGAAATTCTGTTTATTTTTAAGGGTAAACAGGGCATATCTCTTTAATAATTTCTATTTTAAAATTCACTTTATTCATGTGACATTTATAGTACCAGAGTGATTATTTCATACCAATGAAATCTTACTTTTCAGTGACTGAAAAGATAGAATTTATTTGCTAATAATCATTTATCAACACCCACCTAATCATGCTTCAGATGATCTGTGCTCTTTCTTCTTTGTCACGTTCAAGTTATCTGACATCTACCAAGAACAGTTCATAATTATTAATAGCCCAAAGAGTATGGTTAACTTCACGCAGCTGCTTTTGCAGAAGCACTAATAAAAACAAATATTTTGTACCCTAGAAGTCCTCTATTAATCCCTGTAAGAATCTCCTGGAAACCTGGATGAAAGAGTTTAATGCCAAATATTGGCTAAAAAGTTCTGTCTTTCTCTCTCCCTATTCCTCCCCCATTGTTTAATTGAGATATACATGTTTTAATGGGCAGTGGATCAGTATTGTTTCTGGGGAAATCCACACCTTAAAAGGCCAGGCTTCCCCAGCCCAACTTACCTGTGACCCACCTACATGTGTTCACCTTTTGGGATTCTGAAGACCCTGCTATCTAGACCTAGTCTCCTGTCATAAAGACATTATTTCTATAGTGGTTTATGTCTCTCTTACTCTTTGTCCCAAATGACAGAGACCAATCTAGAAATTGGAAATAAATTATTAACGTCCAACTTTCCACCAAAAAACATATAAATAGGCTCTTAGATTTTAAAAATATTAAATCTATAGATATTTTAACCAATTAAAACAATTTCTACATATTCCATTCCCCACATTTTCCATCGTCATAACAATGATGCTTCTCATGATACGTACATCTACTCCTTGAAAAAGTATTCTGGTGGTGGTGTGGCTAATGATTGACAAATATTTCTGTAAAATTTCTGCCTGTTTGCCTCTAGAATTCTGCATTATACAGGCAAATTTTCTTTAAAGCTAGAGACTTGTGCTAAATTTGCCTGATTTTCATACAGATATGCTGTAGTAATACAGCTACCTTTTCATTTCATCTTTGTGCTTTGGTTAACAAGCAGGCTCAAGAGACTGCTTTGTGTAATTAAATGAATTGACCTAAACATGAGCTGTCAGGTGAATACTTAATATTTCCATGCAGATACAGAATTCCATATTGTGTTCAGTAAATTTCTTTTGGTTCTTCACAGTGAAGAAAGAATGTTTCTAACCTAACATTTGTAGAAGGATACTGGAAAATTCCTTCCAGGAAGGAAGGAAGGAAGATGCCATTACTTGGTGTATTTATGATGGATGACCACAAAGCTATTGTTCTACCAGTTATTAATTACCTTCTAAGATCTTCAGTTACTGCTTTATTAATGTCACTGAAATTCTAAAAACCAGGACATTCTTCCCCCGTTCATTTTATGCTTCATGGTTGAAATTTTTCTGTCAGTGAGTGGAAAATAACCATGAGATACATAGACTGTAGCGCAAATGGAACTGTTGAAAGTTCCTTAGAAAGCCAGTGCTGTGGCATTGGAGACTACGGAGAGAGTCTTCTCTACCAGCACTGCATGATCTCAGCCTAGAAATGAGCCAAAGCTGTCTTCCAACCAGAGTAGCATATACATGTGTCTGACTTTTCCCCTAGCCTGTTGAACATTCAATGAAAATTCACAGAATGAACAAATTCAATGTTTAAACAGCCATTGAAATGCTTTCATAGTGCTTCATTTGTAAATATTTTGTTTGAAATGTATTGGAATAGTATGAAAATTAGCGGGAGGTTTGGATCCCTGCCTTATTTTCATATGCTGTGGATACATCTCTGGGAGCTTGCAGCACCCTTCTCAAAACTCAACTGTCATATGGAGCTCATTTGCTACTCAAACCATAGACAGATTATTTAACAAAAGTGATATAATGACCTTCAGTATTTTTCTATTGAACAAGTTTAACAACTTTTGCCATTAAACAAATACTTAGTTATGCAAAATATTTCGCTTTTATAATCATTTTAGTTATGACTAAAACGGGGGAAATTGAGCTGCATCACTGATGATGAACTTTGTGAGAAATTTTTTTTTTAATCTGACTTTCATTCCTTCAGTATTCTTGCTATAAATTTCTTTTGGAGATAATGATGAAGATTTATTTGAAAATGTCTAAAATGTATGTATATTTTATAAATATATATTATATATATTGTAAGAATATATATAATATATAAACTATATATATATATATATATATATATATATATATATATATATAAACCATAGGTGCATTTTACTGTTTTGTATTTTCATTTTTGGAGGTAGTATACACAGCAGATAATGATGAGTATGATGAGTGTTGTGCTGTTTGCTTTTGCAGTATAATATATAGTTCTAAGTGTTTAAATTACTGTATATACAATATTCATTATAGGCTAGCATGCTTGTTTTAAAGACTGTCATTCTAGTGTATTAAAATCTGAATGTAAGAAAACCTGGCTATTCAAATGTGAATTGAAAAATATTTTATTCTCAGTACTGAACTATTTCCATTGAACATTCAGACTTTTTAACAAAAACAAATATCATCAAGAAGGCAATAGCTAGAAAATGAGAGGTGCCTTTAAAAAAAAAAATGCAGCCTTACAGTGAGGATGAAGATTGAGTTTGGGGAGGGGGTGGGAGGGGGGGCACAGAGAGAGAGAGAGAGTTAGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGCATGCATGCGTGTGTGTGTGTGTGTGTGTGTTTACCAATCTGTGAAGGTCCTGATTTGTGACCATCAATGTCTTTTTAATGTATCTGCTCAACTTCTAGGACTTCAGGGGACATTTCATGCGCTTTGTGCTCTTCTGAGCACCATATATACTTTCCAAGAATTTTGAATGTGAATTCCTAGAAATTTCAGTAGAGAAAACAATAGCTATTCTTTAATTATAGTAAAGTTCAGGTAGAAGGAGAAATTATTTGTTCACCAAAATTATGGGATCTCATTAATGTTGGCTAAGTAAATGTAATTTTTTAAAGGCTCACTTTTTAATACTTCATATATTTCCCTCTTACAAAACAGCATGTCATGAAGTTCTTATGTGGTAAAGATTCAACTAGTAAATATTTTTAGGTTAAATACCTGAACTAGTTAAAATTCCACCTAAGAATAGTCTTAAAATATTTAAAAAGCATCTCTCATATCTACCTCTTTGTCATTGCTGCCATTTTAACTGAAGCAAATCTTTATGACATCTGAAATGATGGTTGGATGCAATTAAAAAAAAATCTATGTTGGTGCTTTTCTCAGGCTTTGTCATTTAAGTTATATTGTATTAAGATGTCACAAATCAGACTGAAAGGCTTAGAATTAATTTTGTTTTTCTTTGAAAGAATTGCTTAAAATTAACCATCAATGTTTTTAGCGAGTGGAGATAATGAATCTTTGGTTGGTGTCTGTCTGTGTGATGTTTTCAACCAATAGCCAAATAATTATTGAACTTACATGAAAAAGAGTGCTAAGTATAATTTTATTTAGATTACTTTATTCTTTGAAAGTGACTACAAGGCTATTAAGTACATAATCATTCATTTTATTTACTCAGAAGTTGCCTCTCCATTACTGTTAACTTGTTTAGTAATTTATATAATTGCAGTACTTTTAAGTGTTGGACACTGGGATTCAGGTTGTATACAAAGTAGTAGCTGACGAAAAATATGTATATTTTTGTGAAATGTATCAAGCCCTAAAGTTCATTTTAGAGAAAGGCCCAGAAAAACGTATCTGTGTTTAAAAACAAAGGACAGGTCATTCGTCAATTTGAATCATTTTTACTTTTGCCACTACAAACTTTTTAATTGGCAATATCCATCATCCAACTGGATCTTCATGTCAGTGTCAGGGATGCCAGGTTGACAAAGTATTTAACAGATCCTTTCAGTTTTTGTTTTGTTTTTTTAATTCTAAAAAAAACAAATGTTAGGCCAAACAGATCCCTAGATCCCACTCATTGATTCTGGCGGTATTCCTAAAGTGGTGCTTAGGGGGTCAGAATTTTCTGGATCTTTGCTAATCCAAGCTTTAGATTTAATTTAACCAGGACCACATGCTTGTCATCTCTCTGATGCAAATTTTCAAAATCATTTTAATTTAGATTCTAATGTCTGCCTGGGTTTTTAACAGGCTGTGAACCAGTGAGTGCCTTGTTAATGTAGAATGATTTTTCCCCCCTGGGTGGGTGTTAGTTAGCTCCTCTCTGAAAATGTCTCAGAGAATGGTATTTTAATTGACTTGTAGAGAGCTGCTAAATTTGTTATTATCAGCAATCAGAAAGTCTTTGGTCTACCACACATCTCCCTCCCTACTATCTCTTCATTGTTTGGCTGAAGTTTGCCTCTTGTGAGAAAACAATACAACTCCCCTTCTCCACACACTTTTTTTCCAGCCCAGATTAATAGGTATCCCCTACCCTAATCCCAACTCTATGATCTAATACCTTTTTTAGGAGGAACCACTTCTTTTTAATATTGAAATCTGCTGGTTACTTTATGTTTTCTCAAGTTCAGTTGACTAGAGCTGACCACAGGGTGTCATCAATTCAGATTCCTAAATAACCCTTTCTCTCCACACCCAGTCCTCCAGCTGGTGAGCCCTGGGCCAGATTGTTTGATCTTCAGGTATTTTAAATTTTAGTTACATCAATTAATGTAAATTAATCCAAATGCTAATTTTTGTGGTGCAAGAAGTTTCTTATGTAAATTCAGGGTATGGATAAGCTAATTAAGATATCCATCTTTGGTGGCTCTAAGTGTATTATTTGTTTTTAAATAAAGTGTACAAATATAGATAACATGCTATAGGTGTCTCATGAATTGGAATATTTGTCAGATTTGGGATCTAGCTGTGGCTTTACAGTAATCAGTTAAATTAACATAGTCTGATTTGGGGCTTTTGGGGGAGGAGTTGTAGAGGGGTGCAGAGAAATAAAAGGATATTAGACAAAGTATACATGAGTCCAAAATTAATGAACCAGTCTTAATTACTGATTGTGAGGAAGGAGAAGTTTATAGAGAATTTGGGCCTCTGAAAAGCCAAATTAAAATAGCTTCTAGGATTGGGTCAGTGGTACTTTCAGAGACACATATGTTTAATGAATAGGTTTTATGTTTTTCAAATGTTCAGTTTAAATGGCTTTTAAAATTTATACACATATATAAATACAATGTTTTTATTTTTTGTTTCGCTACTTAACAGACATACACAAGCCTTCCACACTCCCTGCCCCTTCAAATCAACATTATTTTTCAAGGCCTTTGGCCTGCCCAGAACTCACAGTCTTTTTGTTCCAATCAGGATCCACAATACAATATGAAATTTAAAAGGCATCTCTTCTGATATCCTTGAAACTATCCACCATTGTTTGGTGTTCTGTATGCTGGTATACTAATGAGTATTATATCCTTTGGTATGTACACACATTTTCAGTAGTGTTGGAAACACCTCTTTTATCTTTTTAATGAGAACTGAGACATGATTAGCTTGAGTAATTTTGGAGATCTATCTCAGGAGGTCATTAAAACTCCAAAAATTATTCACGGATTGATGAACCTCCTGGGGTCAGCCTAAGATTGCCAGGTAGTATTCTGACCTCCTCTGGGTTTCCCAAGATCACTGATGTTTTGCAGGGCCCCAGCATTGTCCTGGCACATAAAATATTCCCAGAACACCTTGGGAGTCAAGCATACCTTTTAACCTAAACATTATAATCATGGAGCATCCCTCCGCCTGTTACTTCTCAGGATGACCAGAACACTCCAGTTCTCTAAGGAAGCACTGACATACGGCTCTGAAAATTGGAATCCGTTTTCTGAAACACAAATTTTAACTCAGTAAGTTTTGTATATCAAATGATTCAAAACCCACCAAACATAAAATGACTCGCTTCTAAGTATCACTCAAACCCTACAAAACCTAACCCTTTCCTTATTCCTAATTGATATTTCACTAAAGGTAATGGTAGTTTCAGTTAGATTGGAAGTCATTATTTGGGTGAGCAAAGTCTGCAATAACCTACTGATAGGAAGGACCTATTTCATAGAAAAGTATCTTGTCCTTGGTGATTTAGCCATTCACCTTACGTGAAGAGTGGTCCAGATGCCAGCTCCACATTGACTTTTTCTGTGTCCCTCTTTAGGTAATTAACCCAGTGATGTAAAGGAGAGCCCACAGTAAAACATCTGTTAAACAGCACTTGGAGTACTATAGTGTTATTAATTTATGTGCTATAATTTCTTATGCCATCATAAAATCTAGTGTATGTACCAGGTTCCCAATTCATTGCCTCAAACAAAAGATTTTTAAAAATTCTAATAGCATCAAATTAAGGGTAATGGTAGGGAAACCCATCATCCACAATTAAATATGCCCAAACTGAAAACTTTAAGAAAAAAAAGCACATGGAAAGCAACGTTTTACATTAATCGTGAGTTGTAGAAATAAACAGCTTGTGGTTTGTATATGTGCCGAAATGTTAAAGTATGCTGGCATCCAACTACTTCCCTTTGGAAATGGGACCAAGACAATAATTTTTCATGCATAAACAAAATTAACTTAGAGCAAAAGTAATTTTATCAGAAACAGTTTATTTTGGGGGCTGGATAACTTGGGTGAGAGTGTGGGGAAAGAAGTACCTTACCAAAAAGGAGAAGCAACTGACCCTGTGGCCTGAGCCACATTGTCTTCCATTTCAACTTCAATGGGCTGGCAGTATACCACTTCTGACCTCAAAGAATGAATGGTTCCAATTCTGGCTTGTCATTGGTCCTTGTTATCTAAATTAAATATTTTTAGGAAATATATCAAAAGTATCCTAGAGCCCCATGGCAAAGTGTCAGAGGAAATAGTTTTCATTATATTTTAGGAAGCTGTAAAAATATAAGCCCAAGTATTTTGTGTCATCTGCATATGTCAGGATGAAGACCAGGCATGTAAGAAATATCCTAAAGTAGCCAAGTGATAATCTCATGAAAAAATATGAGAATCGTTTTTACAGAGTGAGTTCTCTTTTGAATGGTTTTGACTATGCTTTTAAAAACATTTTTAAAATGTACTTACATCTTTTTCGATAGCCCACGTATTTCAGAATATCCTCTTGATAGAATAATATCACTCAGTGTGATTTTTAGAAAAAGAAAAACTCGGTGGTCTCATATCTTTTGACAGTTGTTTGTGAATAATACCCTCCCCAACAACCTTCCCAGTACTCAACTGCTATGTAAGAATGCTTTCTTATGTGGTAAATGTCTCAGTATTTTGCTGCCTGGTATTTGTTCAGTTTCCTTGTATATCTCAGGGTCAGAAGGAATCAGGCTTTCTCCCAACTCTGAAACATTCAGACTTACTTTCTTTTTGGTCAGCCTTTTAACAAGCAAGACAATAAACTCCTTTTGTCAGAATCGATTTGATTAAAAAAAAAAAAAAAGAATGTGCTCCTTATTTCTCATTGCTGTAGAATACGTAGGAATACACATCTACTAATCACAATTAAAAAATAAGAGAATCTTTAGAAACATCATTGCTTTCTGGAGGTAGAAATTTTGAACTTGAAGGTTGTAGTTCCAGGCAATTTTGTGCCCTTGAGGTGTCCAATTGATAGTATAGCTTGCCTCTGCTAATAAATACACAAAAGTTTTCTTTCCTGTGATTTTCAGAAATTATTTTTGGAATACAAAGATTAATAAGGAATATGTGATGTTTATCTCCTGCATTTCAAAATCTTCTGGATTTTTTTTGAGGCATGAGGAGCAGGTAATGAGATTTTTTTTCTGAATATCTTGATTCTCTCCCTTAACCCAGATTTTGCATATTATGCATTGCTCATTTGTCACCTACAAAAATAAAGGTTAATGATTATTTGTTTGCTTTTGTCTATATAAGCTCCCTAAGGCACAGACCATGTTCGTTTTTCTTATGTTCCTCTTAGCACTGTGCCTGGTGCCTTGCCATATAAAAGGTACCCTATAAATATTTGTTGGCTGAGTAATCAGAGAGCCCATTTCAAAATCTAAATTATACAAATCATCAAAGACCAAAAAAAAAAAAAAAAAATCTCTTGACAGTTGATGCTCAAATGCATTTGGTTCTGTGGAGCTTATCCTGAGATTGAGGTCTGCACCTTGACTGGAGAGGAATTTGGACTTTACCTCACAGGTAGCAACAAAATGCCTGAGTAGCAACGTCTTTATACTGCACAGTTCCAGTCCTGCCTGCGTGAAAACTGAGCAGAGCATGGTGGGGACAGGAAGGTGTCCCTAAACCCTGTTGATGACCTCCCATCTATCCCCGGACCCCCATATCTCCTCTGCTCATCCCCTGTTCCCCACTGGCCTCTGATCAGTTGAAAGGGAGCTTTTCTAGCCTGGAACCTGAGCCTGCCTTGATTATCCTGGGCTCAGAACAGGTCCACTTCCACACTCTTTCCTTGCAACCTACAGATGGCCCTACTGACTGCTGTTGTCCAGGAGAAAGACGAACCTCCCAGTGGAATCTTGTCAGGAAAGGCATCCCTCTGGGGAGCTTTCTTTGGAGAGGAAAATTCTGGGACAAAGTTCCTCAGGATGCTCTCAGGCTGGTTTTTGTCTTGAAGATTTTATAGTAATTGTACCAATGTTTATTAACTCTCCTAGGAACATCTCTGTCTTTGGTTTTCTGACAGCACTCCAGCAGGGCCCAGGGCTTTAGCTGAACAGTGCAATTGTTTTAGGAATAAAACAGTCAACAAGTTAGAGACCAACTATTTATATTTAATATTCAAATGACTTTAAATCATTAAAAGAATCAGCAAATTACATATGAAATATTCAACGAATAATCTCAACATTAAACATATACCATGTAAGAACTGTCATTAAAATTACTAAAAATATGATTCCTTTAAGATCAGTTCAACACAGAAGAAAGCAGGAATTTGGCCTGGACAATAGGACATTTATTGTCTGTTAGATTTTAGACAAGTCAACTCTTCTAAATTGGCTTCTCATCTATGAAATGGGGATAATAGATCTGCCTAATTAGGTTGATTTGAGATAACGGATGTAAAACACCTAATAAAATAAGCATCCAGCAAATGACTTGTTCACTCTCTGAATACAGACTTCTGGTCATGTAGTTCGGTCACACTCCTGATAGCTTCTAGAACATCAGGGTTTTAGGAGAAATAGGTTAAAATGAACATCAAGAGTAGCAGAAGACTACTTTCCTTAATATTTGAGTGCCAGCTATATGCCACACAGTTCTAGTTGCTGGCAGTCAGCAGTAAACAAAAACTTCACCTGATGCAGCACATTCCAGGTGGGGGAACAAGTGAAAATATAGGGAATATTAGTGATAAGTGCAGAGGGAAAAAAAATAGAGCAGGGAAGGGGGATGATTTGATGTTTTTCAGGTTAAGAAAGTGACAGAAATGAATTTAAATGCAAAAAACAATGCATAAAGATTCATAATGGCAAAACGAAGCATGTCCCATCATACCCCTTCATTCCTACCTCCCTGATATGTATCTTTCTAATTATTCATACAAATGTGTATACCCAGTTATTACATATGGGGTTTTATTCTACATATTATGCTGCACTTGCTTTTTCTAATATAATGTGTATCATGAGCACCTTACAAATTTTTAAAGGTCTCTCAAATTTATCAGTAAACATATACAGTCTAACGTTAATGAGAAGATATTTTGGTGGGCAGTTTGCTTTAAATAAATGGGATCATGTACGTTCTCTGCATCTCACATTTCTCATTTAACAATGTAGGATGAGAATTTCTCTAAGTCTATCATAGCTCTTATTTCCTTTTTATTATTACAATAAACATTCCTGTGTATATGTTTGTCACCATGATGGTTTTACGTCTGCGGAATAGATTCCCTGGAGTAGGATTGCTGCATTGAGGAGTATGTATATTTAAATTTTTAAATAAATATTGACAGATTGTTTCCCAAAGTGGCCGGAACAGTTTTTATTTCCATCAGTAAATGTATAAAAACACTTTTCCCTTAATACTCATGGCAATAACTATTGTAACATTAAAAAATACGTAGAAAAAAGAAAAAAATCCTGGTGGATGTAGTGATTTTTCAGTGTTATTTTAATTTCCATTTTCCTGACTACTATAAATGTAGACATCTTTTCAAATGTTTTGGTCATCTGGATTGCACTCAGAACTGAATTATCTATTCAAAGTTCTGTAGGTTAGAACTCCAGGGAAACTCAACTGGGCTGTCTGTTCAAGGCCCAACAAGGCTGAAATGAAAGTGTCTTCCAGGGTGGGTACTCAACTAAAGCTCTGAGGAGGAATTCGCTTCCAGCCTCATTAAAGTCAGAGGATGGAGGTCCCTGTCTCCTAGCTGACTGTCAAATCTGATCCTTTAGAGGTTGCTCCGTGGTCCTTGCACGTGGTCCCTTCCACCTTCAAAGCTTGCCAGGGTGCATCAAATTATTTTTATACTTTGACTCTACTTCTACCAGCCAGAGAAAACTGCTTTTAAAGGGCTCTTGTGACTAGTTTAAGCACACCCAGATTGTTAAGGTCAACTGATTAGTAGCTTTAATTACATCTGCCAAGTCCCTCTGCCCTGCAATGTAACATCAACCATGGAAGTAACATGAGGGGCAGAGTTCATGGGGGCCATCTTAGAATTCTGCCTACCACAAATATTCGTAGTTATACTTTTATATACATTTTTAAATTTTTCTTATTTTTGGTCCATATGTTTGTACCGTTTGTCTTTTTAGTTAACTAGTTTGTGAAAGCATTTTGTATGTTGTACAATATATGTTCAGATTTTCTTATCTTGGATGCAAACATTTTTTTCCAACTCTTGTAAGTTGTCTGTTGACCACATTCAAAAGTACTTTTTCCAAATAAAACTTTGCCTTTTGAATTTCA
+Chromosomes: [2, 7, 24]
+[INFO] Running de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerXRSmallFemaleTest
+2026-03-18 13:14:11,194 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Loading feature records
+2026-03-18 13:14:11,194 INFO  de.charite.compbio.jannovar.impl.parse.gtfgff.GFFParser [main] - Determined GTF/GFF file version to be GFF3
+2026-03-18 13:14:11,225 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Parsed 324 GFF records as 6 TranscriptModels
+2026-03-18 13:14:11,225 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Assigning additional HGNC information to 6 transcripts..
+2026-03-18 13:14:11,226 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - The genome does not have a chrMT, skipping.
+2026-03-18 13:14:11,239 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Ignoring 0 transcripts without sequence.
+2026-03-18 13:14:11,239 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Successfully processed 6 transcripts with sequence.
+[INFO] Tests run: 59, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.091 s - in de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerXRSmallFemaleTest
+[INFO] Running de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerARSingletonTest
+2026-03-18 13:14:11,296 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Loading feature records
+2026-03-18 13:14:11,299 INFO  de.charite.compbio.jannovar.impl.parse.gtfgff.GFFParser [main] - Determined GTF/GFF file version to be GFF3
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerARSingletonTest
+[INFO] Running de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerADLargeTest
+2026-03-18 13:14:11,329 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Parsed 292 GFF records as 3 TranscriptModels
+2026-03-18 13:14:11,330 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Assigning additional HGNC information to 3 transcripts..
+2026-03-18 13:14:11,330 WARN  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Key for chrMT FASTA File does not exist, skipping.
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerADLargeTest
+[INFO] Running de.charite.compbio.jannovar.mendel.ModeOfInheritanceTest
+2026-03-18 13:14:11,334 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Ignoring 0 transcripts without sequence.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.charite.compbio.jannovar.mendel.ModeOfInheritanceTest
+[INFO] Running de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerADSingletonTest
+2026-03-18 13:14:11,336 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Successfully processed 3 transcripts with sequence.
+2026-03-18 13:14:11,343 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Loading feature records
+2026-03-18 13:14:11,347 INFO  de.charite.compbio.jannovar.impl.parse.gtfgff.GFFParser [main] - Determined GTF/GFF file version to be GFF3
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in de.charite.compbio.jannovar.mendel.MendelianCompatibilityCheckerADSingletonTest
+[INFO] Running de.charite.compbio.jannovar.reference.AminoAcidChangeTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in de.charite.compbio.jannovar.reference.AminoAcidChangeTest
+[INFO] Running de.charite.compbio.jannovar.reference.TranscriptModelTest
+2026-03-18 13:14:11,359 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Parsed 197 GFF records as 3 TranscriptModels
+2026-03-18 13:14:11,362 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Assigning additional HGNC information to 3 transcripts..
+2026-03-18 13:14:11,365 WARN  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Key for chrMT FASTA File does not exist, skipping.
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in de.charite.compbio.jannovar.reference.TranscriptModelTest
+[INFO] Running de.charite.compbio.jannovar.reference.DuplicationTesterTest
+2026-03-18 13:14:11,371 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Ignoring 0 transcripts without sequence.
+2026-03-18 13:14:11,374 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Successfully processed 3 transcripts with sequence.
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in de.charite.compbio.jannovar.reference.DuplicationTesterTest
+[INFO] Running de.charite.compbio.jannovar.reference.TranscriptSequenceChangeHelperTest
+2026-03-18 13:14:11,420 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Loading feature records
+2026-03-18 13:14:11,420 INFO  de.charite.compbio.jannovar.impl.parse.gtfgff.GFFParser [main] - Determined GTF/GFF file version to be GFF3
+[INFO] Tests run: 44, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in de.charite.compbio.jannovar.reference.TranscriptSequenceChangeHelperTest
+[INFO] Running de.charite.compbio.jannovar.reference.GenomeChangeNormalizerTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in de.charite.compbio.jannovar.reference.GenomeChangeNormalizerTest
+[INFO] Running de.charite.compbio.jannovar.reference.TranscriptModelBuilderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in de.charite.compbio.jannovar.reference.TranscriptModelBuilderTest
+[INFO] Running de.charite.compbio.jannovar.reference.AlignmentTest
+2026-03-18 13:14:11,459 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Parsed 277 GFF records as 4 TranscriptModels
+2026-03-18 13:14:11,464 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Assigning additional HGNC information to 4 transcripts..
+2026-03-18 13:14:11,464 WARN  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Key for chrMT FASTA File does not exist, skipping.
+2026-03-18 13:14:11,468 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Ignoring 0 transcripts without sequence.
+2026-03-18 13:14:11,472 INFO  de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParser [main] - Successfully processed 4 transcripts with sequence.
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in de.charite.compbio.jannovar.reference.AlignmentTest
+[INFO] Running de.charite.compbio.jannovar.reference.GenomeIntervalTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.714 s - in de.charite.compbio.jannovar.impl.parse.refseq.RefSeqParserTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in de.charite.compbio.jannovar.reference.GenomeIntervalTest
+[INFO] Running de.charite.compbio.jannovar.impl.parse.gtfgff.GFFParserTest
+2026-03-18 13:14:11,522 INFO  de.charite.compbio.jannovar.impl.parse.gtfgff.GFFParser [main] - Determined GTF/GFF file version to be GFF3
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.138 s - in de.charite.compbio.jannovar.impl.parse.gtfgff.GFFParserTest
+[INFO] Running de.charite.compbio.jannovar.impl.parse.gtfgff.GFFRecordParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in de.charite.compbio.jannovar.impl.parse.gtfgff.GFFRecordParserTest
+[INFO] Running de.charite.compbio.jannovar.impl.parse.gtfgff.FeatureRecordTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in de.charite.compbio.jannovar.impl.parse.gtfgff.FeatureRecordTest
+2026-03-18 13:14:11,657 WARN  de.charite.compbio.jannovar.impl.parse.gtfgff.GFFRecordParser [main] - Found attribute not following key=value format (skipping) 
+[INFO] Running de.charite.compbio.jannovar.impl.parse.gtfgff.FeatureParserTest
+2026-03-18 13:14:11,661 INFO  de.charite.compbio.jannovar.impl.parse.gtfgff.GFFParser [main] - Determined GTF/GFF file version to be GTF
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in de.charite.compbio.jannovar.impl.parse.gtfgff.FeatureParserTest
+[INFO] Running de.charite.compbio.jannovar.impl.parse.gtfgff.GTFParserTest
+2026-03-18 13:14:11,667 INFO  de.charite.compbio.jannovar.impl.parse.gtfgff.GFFParser [main] - Determined GTF/GFF file version to be GTF
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in de.charite.compbio.jannovar.impl.parse.gtfgff.GTFParserTest
+[INFO] Running de.charite.compbio.jannovar.impl.util.TranslatorTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in de.charite.compbio.jannovar.impl.util.TranslatorTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 1311, Failures: 0, Errors: 0, Skipped: 1
+[INFO] 
+[INFO] 
+[INFO] --- jacoco:0.8.3:report (post-unit-test) @ jannovar-core ---
+[INFO] Loading execution data file /jannovar/jannovar-core/target/jacoco.exec
+[INFO] Analyzed bundle 'de.charite.compbio:jannovar-core' with 196 classes
+[INFO] 
+[INFO] -----------------< de.charite.compbio:jannovar-htsjdk >-----------------
+[INFO] Building de.charite.compbio:jannovar-htsjdk 0.42-SNAPSHOT          [4/8]
+[INFO]   from jannovar-htsjdk/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] org.apache.commons:commons-compress/maven-metadata.xml failed to transfer from https://oss.sonatype.org/content/repositories/snapshots during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of sonatype-nexus-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.commons:commons-compress/maven-metadata.xml from/to sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots): oss.sonatype.org: Try again
+[WARNING] org.apache.commons:commons-compress/maven-metadata.xml failed to transfer from https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.commons:commons-compress/maven-metadata.xml from/to central (https://repo.maven.apache.org/maven2): repo.maven.apache.org: Try again
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ jannovar-htsjdk ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven) @ jannovar-htsjdk ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce) @ jannovar-htsjdk ---
+[INFO] artifact org.apache.commons:commons-compress: checking for updates from central
+[WARNING] repository metadata for: 'artifact org.apache.commons:commons-compress' could not be retrieved from repository: central due to an error: transfer failed for https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/maven-metadata.xml
+[WARNING] 
+Dependency convergence error for commons-net:commons-net:3.9.0 paths to dependency are:
++-de.charite.compbio:jannovar-htsjdk:0.42-SNAPSHOT
+  +-commons-net:commons-net:3.9.0
+and
++-de.charite.compbio:jannovar-htsjdk:0.42-SNAPSHOT
+  +-de.charite.compbio:jannovar-core:0.42-SNAPSHOT
+    +-commons-net:commons-net:3.3
+
+[WARNING] Rule 0: org.apache.maven.plugins.enforcer.DependencyConvergence failed with message:
+Failed while enforcing releasability the error(s) are [
+Dependency convergence error for commons-net:commons-net:3.9.0 paths to dependency are:
++-de.charite.compbio:jannovar-htsjdk:0.42-SNAPSHOT
+  +-commons-net:commons-net:3.9.0
+and
++-de.charite.compbio:jannovar-htsjdk:0.42-SNAPSHOT
+  +-de.charite.compbio:jannovar-core:0.42-SNAPSHOT
+    +-commons-net:commons-net:3.3
+]
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Jannovar 0.42-SNAPSHOT:
+[INFO] 
+[INFO] Jannovar ........................................... SUCCESS [  2.598 s]
+[INFO] de.charite.compbio:jannovar-hgvs ................... SUCCESS [ 17.938 s]
+[INFO] de.charite.compbio:jannovar-core ................... SUCCESS [ 29.675 s]
+[INFO] de.charite.compbio:jannovar-htsjdk ................. FAILURE [  5.201 s]
+[INFO] de.charite.compbio:jannovar-vardbs ................. SKIPPED
+[INFO] de.charite.compbio:jannovar-filter ................. SKIPPED
+[INFO] de.charite.compbio:jannovar-stats .................. SKIPPED
+[INFO] de.charite.compbio:jannovar-cli .................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  55.768 s
+[INFO] Finished at: 2026-03-18T13:14:18Z
+[INFO] ------------------------------------------------------------------------
+[WARNING] 
+[WARNING] Plugin validation issues were detected in 7 plugin(s)
+[WARNING] 
+[WARNING]  * org.apache.maven.plugins:maven-resources-plugin:2.6
+[WARNING]  * org.codehaus.mojo:build-helper-maven-plugin:3.0.0
+[WARNING]  * org.apache.maven.plugins:maven-enforcer-plugin:1.4.1
+[WARNING]  * org.apache.maven.plugins:maven-compiler-plugin:3.3
+[WARNING]  * org.apache.maven.plugins:maven-surefire-plugin:2.22.2
+[WARNING]  * org.antlr:antlr4-maven-plugin:4.7.2
+[WARNING]  * org.jacoco:jacoco-maven-plugin:0.8.3
+[WARNING] 
+[WARNING] For more or less details, use 'maven.plugin.validation' property with one of the values (case insensitive): [BRIEF, DEFAULT, VERBOSE]
+[WARNING] 
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-enforcer-plugin:1.4.1:enforce (enforce) on project jannovar-htsjdk: Some Enforcer rules have failed. Look above for specific messages explaining why the rule failed. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :jannovar-htsjdk

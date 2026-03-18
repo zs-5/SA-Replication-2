@@ -1,0 +1,7 @@
+create class io.arex.inst.ArexTest injector failed.create class test1 injector failed.create class io.arex.inst.ArexTest injector failed.add single class to advice failed, clazz: io.arex.agent.bootstrap.util.AdviceClassesCollectorTest
+add jar classes to advice failed, file: /arex-agent-java/arex-agent-bootstrap/name
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[main] INFO io.arex.inst.runtime.util.IgnoreUtils - [[title=arex.ignoreMock]]service:service all operations ignore mock result
+[main] INFO io.arex.inst.runtime.util.IgnoreUtils - [[title=arex.ignoreMock]]operation:service.operation ignore mock result

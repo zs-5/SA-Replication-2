@@ -1,0 +1,30 @@
+podman run --network none ghcr.io/chains-project/breaking-updates:8d55e2e454692c14deeffa58518698ad112602a0-breaking
+[INFO] Scanning for projects...
+[INFO] Artifact org.jenkins-ci.tools:maven-hpi-plugin:pom:3.46 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [incrementals (https://repo.jenkins-ci.org/incrementals/, default, releases), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.jenkins-ci.tools:maven-hpi-plugin:pom:3.46 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [incrementals (https://repo.jenkins-ci.org/incrementals/, default, releases), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Downloading from incrementals: https://repo.jenkins-ci.org/incrementals/org/jenkins-ci/tools/maven-hpi-plugin/3.46/maven-hpi-plugin-3.46.pom
+[WARNING] Failed to build parent project for sp.sd:file-operations:hpi:999999-SNAPSHOT
+[INFO] 
+[INFO] -----------------------< sp.sd:file-operations >------------------------
+[INFO] Building File Operations Plugin 999999-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ hpi ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ file-operations ---
+[INFO] 
+[INFO] --- hpi:3.46:validate (default-validate) @ file-operations ---
+[INFO] 
+[INFO] --- hpi:3.46:validate-hpi (default-validate-hpi) @ file-operations ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.918 s
+[INFO] Finished at: 2026-03-18T13:09:15Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.jenkins-ci.tools:maven-hpi-plugin:3.46:validate-hpi (default-validate-hpi) on project file-operations: Dependency org.jenkins-ci.plugins:branch-api:jar:2.1109.vdf225489a_16d requires Jenkins 2.387.3 or higher. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

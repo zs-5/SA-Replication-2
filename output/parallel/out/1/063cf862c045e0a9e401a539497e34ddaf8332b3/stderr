@@ -1,0 +1,145 @@
+Note: Wrote REST docs for 1 apis to new file at /tmp/wsdoc-1773835941880/org.versly.rest.wsdoc.web-service-api.ser
+log4j:WARN No appenders could be found for logger (freemarker.cache).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Wrote REST docs to /tmp/wsdoc-1773835941880/ApiLevelDocs-UltimateApi.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835941880/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835941880/AllMethods.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835941880/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835941880/AllMethods.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835941880/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835941880/UriFirstParameterValidation.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835941880/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835941880/UriParameterNormalization.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835941880/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835941880/AuthorizationScopes.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835941880/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835941880/ApiLevelTemplateDocs-fooID.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.SnowReportController.SnowReport (erasure org$versly$rest$wsdoc$jaxrs$SnowReportController$SnowReport), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.SnowReportController.SnowReport (erasure org$versly$rest$wsdoc$jaxrs$SnowReportController$SnowReport), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835941880/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773835941880/SnowReportController.html
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.SnowReportController.SnowReport (erasure org$versly$rest$wsdoc$jaxrs$SnowReportController$SnowReport), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.SnowReportController.SnowReport (erasure org$versly$rest$wsdoc$jaxrs$SnowReportController$SnowReport), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835941880/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773835941880/SnowReportController.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.SnowReportController.SnowReport (erasure org$versly$rest$wsdoc$jaxrs$SnowReportController$SnowReport), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.SnowReportController.SnowReport (erasure org$versly$rest$wsdoc$jaxrs$SnowReportController$SnowReport), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835941880/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773835941880/SnowReportController.html
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.SnowReportController.SnowReport (erasure org$versly$rest$wsdoc$jaxrs$SnowReportController$SnowReport), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.SnowReportController.SnowReport (erasure org$versly$rest$wsdoc$jaxrs$SnowReportController$SnowReport), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835941880/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773835941880/SnowReportController.raml
+Note: Wrote REST docs for 2 apis to existing file at /tmp/wsdoc-1773835941880/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835941880/MultiApiLevelDocs-RestApi1.raml
+Wrote REST docs to /tmp/wsdoc-1773835941880/MultiApiLevelDocs-RestApi2.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.NonRecursiveMultiUse.NonRecursiveParent (erasure org$versly$rest$wsdoc$jaxrs$NonRecursiveMultiUse$NonRecursiveParent), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.NonRecursiveMultiUse.NonRecursiveParent (erasure org$versly$rest$wsdoc$jaxrs$NonRecursiveMultiUse$NonRecursiveParent), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835941880/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773835941880/NonRecursiveMultiUse.html
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.NonRecursiveMultiUse.NonRecursiveParent (erasure org$versly$rest$wsdoc$jaxrs$NonRecursiveMultiUse$NonRecursiveParent), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.NonRecursiveMultiUse.NonRecursiveParent (erasure org$versly$rest$wsdoc$jaxrs$NonRecursiveMultiUse$NonRecursiveParent), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835941880/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773835941880/NonRecursiveMultiUse.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835941880/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835941880/TraitsAnnotations.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835941880/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835941880/PublicationScopes.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835941880/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835941880/PublicationScopes.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835941880/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835941880/PublicationScopes.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835941880/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835941880/PublicationScopes.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835941880/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835941880/PublicationScopes.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835941880/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835941880/PublicationScopes.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835941880/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835941880/PublicationScopes.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835941880/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835941880/PublicationScopes.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835941880/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835941880/ClassPathOnly.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835941880/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835941880/ClassPathOnly.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835941880/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835941880/NoPath.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835941880/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835941880/NoPath.raml
+Note: Wrote REST docs for 1 apis to new file at /tmp/wsdoc-1773835950972/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835950972/ApiLevelDocs-UltimateApi.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835950972/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835950972/UriFirstParameterValidation.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835950972/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835950972/UriParameterNormalization.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835950972/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835950972/AuthorizationScopes.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835950972/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835950972/ApiLevelTemplateDocs-fooID.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.SnowReportController.SnowReport (erasure org$versly$rest$wsdoc$springmvc$SnowReportController$SnowReport), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835950972/org.versly.rest.wsdoc.web-service-api.ser
+1 warning
+Wrote REST docs to /tmp/wsdoc-1773835950972/SnowReportController.html
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.SnowReportController.SnowReport (erasure org$versly$rest$wsdoc$springmvc$SnowReportController$SnowReport), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835950972/org.versly.rest.wsdoc.web-service-api.ser
+1 warning
+Wrote REST docs to /tmp/wsdoc-1773835950972/SnowReportController.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.SnowReportController.SnowReport (erasure org$versly$rest$wsdoc$springmvc$SnowReportController$SnowReport), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835950972/org.versly.rest.wsdoc.web-service-api.ser
+1 warning
+Wrote REST docs to /tmp/wsdoc-1773835950972/SnowReportController.html
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.SnowReportController.SnowReport (erasure org$versly$rest$wsdoc$springmvc$SnowReportController$SnowReport), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835950972/org.versly.rest.wsdoc.web-service-api.ser
+1 warning
+Wrote REST docs to /tmp/wsdoc-1773835950972/SnowReportController.raml
+Note: Wrote REST docs for 2 apis to existing file at /tmp/wsdoc-1773835950972/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835950972/MultiApiLevelDocs-RestApi1.raml
+Wrote REST docs to /tmp/wsdoc-1773835950972/MultiApiLevelDocs-RestApi2.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.NonRecursiveMultiUse.NonRecursiveParent (erasure org$versly$rest$wsdoc$springmvc$NonRecursiveMultiUse$NonRecursiveParent), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835950972/org.versly.rest.wsdoc.web-service-api.ser
+1 warning
+Wrote REST docs to /tmp/wsdoc-1773835950972/NonRecursiveMultiUse.html
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.NonRecursiveMultiUse.NonRecursiveParent (erasure org$versly$rest$wsdoc$springmvc$NonRecursiveMultiUse$NonRecursiveParent), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835950972/org.versly.rest.wsdoc.web-service-api.ser
+1 warning
+Wrote REST docs to /tmp/wsdoc-1773835950972/NonRecursiveMultiUse.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835950972/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835950972/TraitsAnnotations.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835950972/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835950972/PublicationScopes.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835950972/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835950972/PublicationScopes.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835950972/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835950972/PublicationScopes.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835950972/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835950972/PublicationScopes.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835950972/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835950972/PublicationScopes.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835950972/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835950972/PublicationScopes.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835950972/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835950972/PublicationScopes.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835950972/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835950972/PublicationScopes.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835950972/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835950972/AllMethods.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835950972/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835950972/AllMethods.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835950972/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835950972/AllMethods.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835950972/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835950972/AllMethods.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835950972/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835950972/AllMethods.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773835950972/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773835950972/AllMethods.raml
+warning: wsdoc encountered an unsupported generics construct while processing type java.util.concurrent.Callable<?>. Generic: ?
+1 warning

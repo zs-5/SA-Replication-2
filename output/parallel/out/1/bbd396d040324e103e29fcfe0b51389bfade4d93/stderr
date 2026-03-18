@@ -1,0 +1,374 @@
+Note: Wrote REST docs for 1 apis to new file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+log4j:WARN No appenders could be found for logger (freemarker.cache).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Wrote REST docs to /tmp/wsdoc-1773845375364/ApiLevelDocs-UltimateApi.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845375364/AllMethods.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845375364/AllMethods.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845375364/GenericResponse.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845375364/GenericResponse.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+6 warnings
+Wrote REST docs to /tmp/wsdoc-1773845375364/RestDocEndpoint.html
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+6 warnings
+Wrote REST docs to /tmp/wsdoc-1773845375364/RestDocEndpoint.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+6 warnings
+Wrote REST docs to /tmp/wsdoc-1773845375364/RestDocEndpoint.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+6 warnings
+Wrote REST docs to /tmp/wsdoc-1773845375364/RestDocEndpoint.html
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+6 warnings
+Wrote REST docs to /tmp/wsdoc-1773845375364/RestDocEndpoint.html
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+6 warnings
+Wrote REST docs to /tmp/wsdoc-1773845375364/RestDocEndpoint.html
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+6 warnings
+Wrote REST docs to /tmp/wsdoc-1773845375364/RestDocEndpoint.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+6 warnings
+Wrote REST docs to /tmp/wsdoc-1773845375364/RestDocEndpoint.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845375364/UriFirstParameterValidation.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845375364/UriParameterNormalization.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+6 warnings
+Wrote REST docs to /tmp/wsdoc-1773845375364/RestDocEndpoint.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845375364/AuthorizationScopes.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845375364/ApiLevelTemplateDocs-fooID.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.SnowReportController.SnowReport (erasure org$versly$rest$wsdoc$jaxrs$SnowReportController$SnowReport), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.SnowReportController.SnowReport (erasure org$versly$rest$wsdoc$jaxrs$SnowReportController$SnowReport), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773845375364/SnowReportController.html
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.SnowReportController.SnowReport (erasure org$versly$rest$wsdoc$jaxrs$SnowReportController$SnowReport), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.SnowReportController.SnowReport (erasure org$versly$rest$wsdoc$jaxrs$SnowReportController$SnowReport), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773845375364/SnowReportController.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.SnowReportController.SnowReport (erasure org$versly$rest$wsdoc$jaxrs$SnowReportController$SnowReport), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.SnowReportController.SnowReport (erasure org$versly$rest$wsdoc$jaxrs$SnowReportController$SnowReport), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773845375364/SnowReportController.html
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.SnowReportController.SnowReport (erasure org$versly$rest$wsdoc$jaxrs$SnowReportController$SnowReport), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.SnowReportController.SnowReport (erasure org$versly$rest$wsdoc$jaxrs$SnowReportController$SnowReport), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773845375364/SnowReportController.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+6 warnings
+Wrote REST docs to /tmp/wsdoc-1773845375364/RestDocEndpoint.html
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+6 warnings
+Wrote REST docs to /tmp/wsdoc-1773845375364/RestDocEndpoint.raml
+Note: Wrote REST docs for 2 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845375364/MultiApiLevelDocs-RestApi1.raml
+Wrote REST docs to /tmp/wsdoc-1773845375364/MultiApiLevelDocs-RestApi2.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.NonRecursiveMultiUse.NonRecursiveParent (erasure org$versly$rest$wsdoc$jaxrs$NonRecursiveMultiUse$NonRecursiveParent), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.NonRecursiveMultiUse.NonRecursiveParent (erasure org$versly$rest$wsdoc$jaxrs$NonRecursiveMultiUse$NonRecursiveParent), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773845375364/NonRecursiveMultiUse.html
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.NonRecursiveMultiUse.NonRecursiveParent (erasure org$versly$rest$wsdoc$jaxrs$NonRecursiveMultiUse$NonRecursiveParent), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.NonRecursiveMultiUse.NonRecursiveParent (erasure org$versly$rest$wsdoc$jaxrs$NonRecursiveMultiUse$NonRecursiveParent), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773845375364/NonRecursiveMultiUse.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845375364/TraitsAnnotations.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+6 warnings
+Wrote REST docs to /tmp/wsdoc-1773845375364/RestDocEndpoint.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$jaxrs$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+6 warnings
+Wrote REST docs to /tmp/wsdoc-1773845375364/RestDocEndpoint.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845375364/PublicationScopes.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845375364/PublicationScopes.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845375364/PublicationScopes.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845375364/PublicationScopes.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845375364/PublicationScopes.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845375364/PublicationScopes.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845375364/PublicationScopes.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845375364/PublicationScopes.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845375364/ClassPathOnly.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845375364/ClassPathOnly.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845375364/NoPath.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845375364/NoPath.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.PostWithRequestBody.ComplexBody (erasure org$versly$rest$wsdoc$jaxrs$PostWithRequestBody$ComplexBody), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.jaxrs.PostWithRequestBody.ComplexBody (erasure org$versly$rest$wsdoc$jaxrs$PostWithRequestBody$ComplexBody), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845375364/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773845375364/PostWithRequestBody.html
+Note: Wrote REST docs for 1 apis to new file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/ApiLevelDocs-UltimateApi.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/GenericResponse.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/GenericResponse.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773845383379/RestDocEndpoint.html
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773845383379/RestDocEndpoint.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773845383379/RestDocEndpoint.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773845383379/RestDocEndpoint.html
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773845383379/RestDocEndpoint.html
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773845383379/RestDocEndpoint.html
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773845383379/RestDocEndpoint.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773845383379/RestDocEndpoint.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/UriFirstParameterValidation.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/UriParameterNormalization.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773845383379/RestDocEndpoint.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/AuthorizationScopes.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/ApiLevelTemplateDocs-fooID.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.SnowReportController.SnowReport (erasure org$versly$rest$wsdoc$springmvc$SnowReportController$SnowReport), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+1 warning
+Wrote REST docs to /tmp/wsdoc-1773845383379/SnowReportController.html
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.SnowReportController.SnowReport (erasure org$versly$rest$wsdoc$springmvc$SnowReportController$SnowReport), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+1 warning
+Wrote REST docs to /tmp/wsdoc-1773845383379/SnowReportController.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.SnowReportController.SnowReport (erasure org$versly$rest$wsdoc$springmvc$SnowReportController$SnowReport), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+1 warning
+Wrote REST docs to /tmp/wsdoc-1773845383379/SnowReportController.html
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.SnowReportController.SnowReport (erasure org$versly$rest$wsdoc$springmvc$SnowReportController$SnowReport), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+1 warning
+Wrote REST docs to /tmp/wsdoc-1773845383379/SnowReportController.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773845383379/RestDocEndpoint.html
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773845383379/RestDocEndpoint.raml
+Note: Wrote REST docs for 2 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/MultiApiLevelDocs-RestApi1.raml
+Wrote REST docs to /tmp/wsdoc-1773845383379/MultiApiLevelDocs-RestApi2.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.NonRecursiveMultiUse.NonRecursiveParent (erasure org$versly$rest$wsdoc$springmvc$NonRecursiveMultiUse$NonRecursiveParent), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+1 warning
+Wrote REST docs to /tmp/wsdoc-1773845383379/NonRecursiveMultiUse.html
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.NonRecursiveMultiUse.NonRecursiveParent (erasure org$versly$rest$wsdoc$springmvc$NonRecursiveMultiUse$NonRecursiveParent), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+1 warning
+Wrote REST docs to /tmp/wsdoc-1773845383379/NonRecursiveMultiUse.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/TraitsAnnotations.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773845383379/RestDocEndpoint.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773845383379/RestDocEndpoint.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/PublicationScopes.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/PublicationScopes.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/PublicationScopes.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/PublicationScopes.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/PublicationScopes.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/PublicationScopes.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/PublicationScopes.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/PublicationScopes.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/AllMethods.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/AllMethods.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/AllMethods.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/AllMethods.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/genericdomain/AsyncController.html
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773845383379/RestDocEndpoint.html
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773845383379/RestDocEndpoint.raml
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773845383379/RestDocEndpoint.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/AllMethods.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/AllMethods.raml
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/Spring43ComposedAnnotationController.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/Spring43ComposedAnnotationController.raml
+warning: wsdoc encountered an unsupported generics construct while processing type java.util.concurrent.Callable<?>. Generic: ?
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+1 warning
+Wrote REST docs to /tmp/wsdoc-1773845383379/genericdomain/WildcardController.html
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithRecursion), class not found
+warning: cannot generate json-schema for class org.versly.rest.wsdoc.springmvc.RestDocEndpoint.ValueWithListRecursion (erasure org$versly$rest$wsdoc$springmvc$RestDocEndpoint$ValueWithListRecursion), class not found
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+2 warnings
+Wrote REST docs to /tmp/wsdoc-1773845383379/RestDocEndpoint.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/genericdomain/ChildController.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/EnumSetController.html
+Note: Wrote REST docs for 1 apis to existing file at /tmp/wsdoc-1773845383379/org.versly.rest.wsdoc.web-service-api.ser
+Wrote REST docs to /tmp/wsdoc-1773845383379/genericdomain/ParentController.html

@@ -1,0 +1,289 @@
+podman run --network none ghcr.io/chains-project/breaking-updates:20e787c7e1e6d0f8de9449551a3749575348a341-breaking
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 9 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 9 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Google Cloud Firestore Parent                                      [pom]
+[INFO] proto-google-cloud-firestore-v1                                    [jar]
+[INFO] proto-google-cloud-firestore-bundle-v1                             [jar]
+[INFO] grpc-google-cloud-firestore-v1                                     [jar]
+[INFO] Google Cloud Firestore                                             [jar]
+[INFO] proto-google-cloud-firestore-admin-v1                              [jar]
+[INFO] grpc-google-cloud-firestore-admin-v1                               [jar]
+[INFO] Google Cloud Firestore Admin Client                                [jar]
+[INFO] Google Cloud Firestore BOM                                         [pom]
+[INFO] 
+[INFO] -----------< com.google.cloud:google-cloud-firestore-parent >-----------
+[INFO] Building Google Cloud Firestore Parent 3.7.4-SNAPSHOT              [1/9]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ google-cloud-firestore-parent ---
+[INFO] Deleting /java-firestore/target
+[INFO] 
+[INFO] --- enforcer:3.1.0:enforce (enforce) @ google-cloud-firestore-parent ---
+[INFO] Adding ignore: module-info
+[INFO] Adding ignore: META-INF/versions/*/module-info
+[INFO] 
+[INFO] --- checkstyle:3.2.0:check (checkstyle) @ google-cloud-firestore-parent ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.8:prepare-agent (default) @ google-cloud-firestore-parent ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar=destfile=/java-firestore/target/jacoco.exec
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-resource (add-main-proto-resources) @ google-cloud-firestore-parent ---
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-test-resource (add-test-proto-resources) @ google-cloud-firestore-parent ---
+[INFO] 
+[INFO] --- animal-sniffer:1.22:check (java8) @ google-cloud-firestore-parent ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[INFO] 
+[INFO] --- jacoco:0.8.8:report (report) @ google-cloud-firestore-parent ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO] 
+[INFO] --------< com.google.api.grpc:proto-google-cloud-firestore-v1 >---------
+[INFO] Building proto-google-cloud-firestore-v1 3.7.4-SNAPSHOT            [2/9]
+[INFO]   from proto-google-cloud-firestore-v1/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ proto-google-cloud-firestore-v1 ---
+[INFO] Deleting /java-firestore/proto-google-cloud-firestore-v1/target
+[INFO] 
+[INFO] --- flatten:1.2.7:clean (flatten.clean) @ proto-google-cloud-firestore-v1 ---
+[INFO] Deleting /java-firestore/proto-google-cloud-firestore-v1/.flattened-pom.xml
+[INFO] 
+[INFO] --- enforcer:3.1.0:enforce (enforce) @ proto-google-cloud-firestore-v1 ---
+[INFO] Adding ignore: module-info
+[INFO] Adding ignore: META-INF/versions/*/module-info
+[INFO] 
+[INFO] --- checkstyle:3.2.0:check (checkstyle) @ proto-google-cloud-firestore-v1 ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.8:prepare-agent (default) @ proto-google-cloud-firestore-v1 ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar=destfile=/java-firestore/proto-google-cloud-firestore-v1/target/jacoco.exec
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-resource (add-main-proto-resources) @ proto-google-cloud-firestore-v1 ---
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ proto-google-cloud-firestore-v1 ---
+[INFO] skip non existing resourceDirectory /java-firestore/proto-google-cloud-firestore-v1/src/main/resources
+[INFO] Copying 8 resources
+[INFO] 
+[INFO] --- flatten:1.2.7:flatten (flatten) @ proto-google-cloud-firestore-v1 ---
+[INFO] Generating flattened POM of project com.google.api.grpc:proto-google-cloud-firestore-v1:jar:3.7.4-SNAPSHOT...
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ proto-google-cloud-firestore-v1 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 104 source files to /java-firestore/proto-google-cloud-firestore-v1/target/classes
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-test-resource (add-test-proto-resources) @ proto-google-cloud-firestore-v1 ---
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ proto-google-cloud-firestore-v1 ---
+[INFO] skip non existing resourceDirectory /java-firestore/proto-google-cloud-firestore-v1/src/test/resources
+[INFO] skip non existing resourceDirectory /java-firestore/proto-google-cloud-firestore-v1/src/test/proto
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ proto-google-cloud-firestore-v1 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- animal-sniffer:1.22:check (java8) @ proto-google-cloud-firestore-v1 ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[INFO] 
+[INFO] --- surefire:3.0.0-M7:test (default-test) @ proto-google-cloud-firestore-v1 ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jacoco:0.8.8:report (report) @ proto-google-cloud-firestore-v1 ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO] 
+[INFO] ------< com.google.cloud:proto-google-cloud-firestore-bundle-v1 >-------
+[INFO] Building proto-google-cloud-firestore-bundle-v1 3.7.4-SNAPSHOT     [3/9]
+[INFO]   from proto-google-cloud-firestore-bundle-v1/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ proto-google-cloud-firestore-bundle-v1 ---
+[INFO] Deleting /java-firestore/proto-google-cloud-firestore-bundle-v1/target
+[INFO] 
+[INFO] --- flatten:1.2.7:clean (flatten.clean) @ proto-google-cloud-firestore-bundle-v1 ---
+[INFO] Deleting /java-firestore/proto-google-cloud-firestore-bundle-v1/.flattened-pom.xml
+[INFO] 
+[INFO] --- enforcer:3.1.0:enforce (enforce) @ proto-google-cloud-firestore-bundle-v1 ---
+[INFO] Adding ignore: module-info
+[INFO] Adding ignore: META-INF/versions/*/module-info
+[INFO] 
+[INFO] --- checkstyle:3.2.0:check (checkstyle) @ proto-google-cloud-firestore-bundle-v1 ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.8:prepare-agent (default) @ proto-google-cloud-firestore-bundle-v1 ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar=destfile=/java-firestore/proto-google-cloud-firestore-bundle-v1/target/jacoco.exec
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-resource (add-main-proto-resources) @ proto-google-cloud-firestore-bundle-v1 ---
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ proto-google-cloud-firestore-bundle-v1 ---
+[INFO] skip non existing resourceDirectory /java-firestore/proto-google-cloud-firestore-bundle-v1/src/main/resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- flatten:1.2.7:flatten (flatten) @ proto-google-cloud-firestore-bundle-v1 ---
+[INFO] Generating flattened POM of project com.google.cloud:proto-google-cloud-firestore-bundle-v1:jar:3.7.4-SNAPSHOT...
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ proto-google-cloud-firestore-bundle-v1 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to /java-firestore/proto-google-cloud-firestore-bundle-v1/target/classes
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-test-resource (add-test-proto-resources) @ proto-google-cloud-firestore-bundle-v1 ---
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ proto-google-cloud-firestore-bundle-v1 ---
+[INFO] skip non existing resourceDirectory /java-firestore/proto-google-cloud-firestore-bundle-v1/src/test/resources
+[INFO] skip non existing resourceDirectory /java-firestore/proto-google-cloud-firestore-bundle-v1/src/test/proto
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ proto-google-cloud-firestore-bundle-v1 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- animal-sniffer:1.22:check (java8) @ proto-google-cloud-firestore-bundle-v1 ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[INFO] 
+[INFO] --- surefire:3.0.0-M7:test (default-test) @ proto-google-cloud-firestore-bundle-v1 ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jacoco:0.8.8:report (report) @ proto-google-cloud-firestore-bundle-v1 ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO] 
+[INFO] ---------< com.google.api.grpc:grpc-google-cloud-firestore-v1 >---------
+[INFO] Building grpc-google-cloud-firestore-v1 3.7.4-SNAPSHOT             [4/9]
+[INFO]   from grpc-google-cloud-firestore-v1/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ grpc-google-cloud-firestore-v1 ---
+[INFO] Deleting /java-firestore/grpc-google-cloud-firestore-v1/target
+[INFO] 
+[INFO] --- flatten:1.2.7:clean (flatten.clean) @ grpc-google-cloud-firestore-v1 ---
+[INFO] Deleting /java-firestore/grpc-google-cloud-firestore-v1/.flattened-pom.xml
+[INFO] 
+[INFO] --- enforcer:3.1.0:enforce (enforce) @ grpc-google-cloud-firestore-v1 ---
+[INFO] Adding ignore: module-info
+[INFO] Adding ignore: META-INF/versions/*/module-info
+[INFO] 
+[INFO] --- checkstyle:3.2.0:check (checkstyle) @ grpc-google-cloud-firestore-v1 ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.8:prepare-agent (default) @ grpc-google-cloud-firestore-v1 ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar=destfile=/java-firestore/grpc-google-cloud-firestore-v1/target/jacoco.exec
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-resource (add-main-proto-resources) @ grpc-google-cloud-firestore-v1 ---
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ grpc-google-cloud-firestore-v1 ---
+[INFO] skip non existing resourceDirectory /java-firestore/grpc-google-cloud-firestore-v1/src/main/resources
+[INFO] skip non existing resourceDirectory /java-firestore/grpc-google-cloud-firestore-v1/src/main/proto
+[INFO] 
+[INFO] --- flatten:1.2.7:flatten (flatten) @ grpc-google-cloud-firestore-v1 ---
+[INFO] Generating flattened POM of project com.google.api.grpc:grpc-google-cloud-firestore-v1:jar:3.7.4-SNAPSHOT...
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ grpc-google-cloud-firestore-v1 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /java-firestore/grpc-google-cloud-firestore-v1/target/classes
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-test-resource (add-test-proto-resources) @ grpc-google-cloud-firestore-v1 ---
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ grpc-google-cloud-firestore-v1 ---
+[INFO] skip non existing resourceDirectory /java-firestore/grpc-google-cloud-firestore-v1/src/test/resources
+[INFO] skip non existing resourceDirectory /java-firestore/grpc-google-cloud-firestore-v1/src/test/proto
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ grpc-google-cloud-firestore-v1 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- animal-sniffer:1.22:check (java8) @ grpc-google-cloud-firestore-v1 ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[INFO] 
+[INFO] --- surefire:3.0.0-M7:test (default-test) @ grpc-google-cloud-firestore-v1 ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jacoco:0.8.8:report (report) @ grpc-google-cloud-firestore-v1 ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO] 
+[INFO] --------------< com.google.cloud:google-cloud-firestore >---------------
+[INFO] Building Google Cloud Firestore 3.7.4-SNAPSHOT                     [5/9]
+[INFO]   from google-cloud-firestore/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ google-cloud-firestore ---
+[INFO] 
+[INFO] --- flatten:1.2.7:clean (flatten.clean) @ google-cloud-firestore ---
+[INFO] 
+[INFO] --- enforcer:3.1.0:enforce (enforce) @ google-cloud-firestore ---
+[INFO] Adding ignore: module-info
+[INFO] Adding ignore: META-INF/versions/*/module-info
+[ERROR] Rule 2: org.apache.maven.plugins.enforcer.RequireUpperBoundDeps failed with message:
+Failed while enforcing RequireUpperBoundDeps. The error(s) are [
+Require upper bound dependencies error for com.google.auto.value:auto-value-annotations:1.10 paths to dependency are:
++-com.google.cloud:google-cloud-firestore:3.7.4-SNAPSHOT
+  +-com.google.auto.value:auto-value-annotations:1.10
+and
++-com.google.cloud:google-cloud-firestore:3.7.4-SNAPSHOT
+  +-com.google.api:api-common:2.2.2
+    +-com.google.auto.value:auto-value-annotations:1.10 [runtime] (managed) <-- com.google.auto.value:auto-value-annotations:1.9 [runtime]
+and
++-com.google.cloud:google-cloud-firestore:3.7.4-SNAPSHOT
+  +-com.google.cloud:google-cloud-core:2.9.0
+    +-com.google.auto.value:auto-value-annotations:1.10 (managed) <-- com.google.auto.value:auto-value-annotations:1.10.1
+and
++-com.google.cloud:google-cloud-firestore:3.7.4-SNAPSHOT
+  +-com.google.api:gax:2.20.1
+    +-com.google.auth:google-auth-library-oauth2-http:1.13.0 (managed) <-- com.google.auth:google-auth-library-oauth2-http:1.13.0
+      +-com.google.auto.value:auto-value-annotations:1.10 (managed) <-- com.google.auto.value:auto-value-annotations:1.10
+and
++-com.google.cloud:google-cloud-firestore:3.7.4-SNAPSHOT
+  +-com.google.api:gax-grpc:2.20.1
+    +-io.grpc:grpc-googleapis:1.51.0 [runtime] (managed) <-- io.grpc:grpc-googleapis:1.51.0 [runtime]
+      +-io.grpc:grpc-xds:1.51.0 [runtime] (managed) <-- io.grpc:grpc-xds:[1.51.0] [runtime]
+        +-com.google.auto.value:auto-value-annotations:1.10 [runtime] (managed) <-- com.google.auto.value:auto-value-annotations:1.9 [runtime]
+]
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Google Cloud Firestore Parent 3.7.4-SNAPSHOT:
+[INFO] 
+[INFO] Google Cloud Firestore Parent ...................... SUCCESS [  3.843 s]
+[INFO] proto-google-cloud-firestore-v1 .................... SUCCESS [  9.749 s]
+[INFO] proto-google-cloud-firestore-bundle-v1 ............. SUCCESS [  2.230 s]
+[INFO] grpc-google-cloud-firestore-v1 ..................... SUCCESS [  1.955 s]
+[INFO] Google Cloud Firestore ............................. FAILURE [  1.076 s]
+[INFO] proto-google-cloud-firestore-admin-v1 .............. SKIPPED
+[INFO] grpc-google-cloud-firestore-admin-v1 ............... SKIPPED
+[INFO] Google Cloud Firestore Admin Client ................ SKIPPED
+[INFO] Google Cloud Firestore BOM ......................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  21.096 s
+[INFO] Finished at: 2026-03-18T12:19:29Z
+[INFO] ------------------------------------------------------------------------
+[WARNING] 
+[WARNING] Plugin validation issues were detected in 8 plugin(s)
+[WARNING] 
+[WARNING]  * org.jacoco:jacoco-maven-plugin:0.8.8
+[WARNING]  * org.codehaus.mojo:build-helper-maven-plugin:3.3.0
+[WARNING]  * org.codehaus.mojo:animal-sniffer-maven-plugin:1.22
+[WARNING]  * org.apache.maven.plugins:maven-compiler-plugin:3.10.1
+[WARNING]  * org.codehaus.mojo:flatten-maven-plugin:1.2.7
+[WARNING]  * org.apache.maven.plugins:maven-enforcer-plugin:3.1.0
+[WARNING]  * org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M7
+[WARNING]  * org.apache.maven.plugins:maven-resources-plugin:3.3.0
+[WARNING] 
+[WARNING] For more or less details, use 'maven.plugin.validation' property with one of the values (case insensitive): [BRIEF, DEFAULT, VERBOSE]
+[WARNING] 
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-enforcer-plugin:3.1.0:enforce (enforce) on project google-cloud-firestore: Some Enforcer rules have failed. Look above for specific messages explaining why the rule failed. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :google-cloud-firestore

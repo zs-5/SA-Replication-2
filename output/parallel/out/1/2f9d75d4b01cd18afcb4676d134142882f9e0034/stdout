@@ -1,0 +1,595 @@
+podman run --network none ghcr.io/chains-project/breaking-updates:2f9d75d4b01cd18afcb4676d134142882f9e0034-breaking
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 16 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 16 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] SCIM - Parent                                                      [pom]
+[INFO] SCIM - Specification                                               [pom]
+[INFO] SCIM - Specification - Schema                                      [jar]
+[INFO] SCIM - Specification - Protocol                                    [jar]
+[INFO] SCIM - Common                                                      [jar]
+[INFO] SCIM - Client                                                      [jar]
+[INFO] SCIM - Server                                                      [pom]
+[INFO] SCIM - Server - Common                                             [jar]
+[INFO] SCIM - Server - Examples                                           [pom]
+[INFO] SCIM - Server - Memory                                             [war]
+[INFO] SCIM - Tools                                                       [pom]
+[INFO] SCIM - Tools - Common                                              [jar]
+[INFO] SCIM - Compliance                                                  [pom]
+[INFO] SCIM - Compliance - Client                                         [jar]
+[INFO] SCIM - Compliance - Server                                         [jar]
+[INFO] SCIM - Total Test Coverage                                         [jar]
+[INFO] 
+[INFO] ---------------< org.apache.directory.scim:scim-parent >----------------
+[INFO] Building SCIM - Parent 2.23-SNAPSHOT                              [1/16]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ scim-parent ---
+[INFO] Deleting /directory-scimple/target
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ scim-parent ---
+[INFO] 
+[INFO] --- buildnumber:3.0.0:create (default) @ scim-parent ---
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd '/directory-scimple' && 'git' 'rev-parse' '--verify' '--short=7' 'HEAD'
+[INFO] Working directory: /directory-scimple
+[INFO] Storing buildNumber: null at timestamp: 1773836619316
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: not a git repository (or any of the parent directories): .git
+
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd '/directory-scimple' && 'git' 'rev-parse' '--verify' '--short=7' 'HEAD'
+[INFO] Working directory: /directory-scimple
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- jacoco:0.8.8:prepare-agent (prepare-agent) @ scim-parent ---
+[INFO] jacoco.argline set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar=destfile=/directory-scimple/target/jacoco.exec
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ scim-parent ---
+[INFO] 
+[INFO] ----------------< org.apache.directory.scim:scim-spec >-----------------
+[INFO] Building SCIM - Specification 2.23-SNAPSHOT                       [2/16]
+[INFO]   from scim-spec/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ scim-spec ---
+[INFO] Deleting /directory-scimple/scim-spec/target
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ scim-spec ---
+[INFO] 
+[INFO] --- buildnumber:3.0.0:create (default) @ scim-spec ---
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd '/directory-scimple/scim-spec' && 'git' 'rev-parse' '--verify' '--short=7' 'HEAD'
+[INFO] Working directory: /directory-scimple/scim-spec
+[INFO] Storing buildNumber: null at timestamp: 1773836619987
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: not a git repository (or any of the parent directories): .git
+
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd '/directory-scimple/scim-spec' && 'git' 'rev-parse' '--verify' '--short=7' 'HEAD'
+[INFO] Working directory: /directory-scimple/scim-spec
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- jacoco:0.8.8:prepare-agent (prepare-agent) @ scim-spec ---
+[INFO] jacoco.argline set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar=destfile=/directory-scimple/scim-spec/target/jacoco.exec
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ scim-spec ---
+[INFO] 
+[INFO] -------------< org.apache.directory.scim:scim-spec-schema >-------------
+[INFO] Building SCIM - Specification - Schema 2.23-SNAPSHOT              [3/16]
+[INFO]   from scim-spec/scim-spec-schema/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'showDeprecations' is unknown for plugin 'maven-compiler-plugin:3.7.0:compile (default-compile)'
+[WARNING] Parameter 'showDeprecations' is unknown for plugin 'maven-compiler-plugin:3.7.0:testCompile (default-testCompile)'
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ scim-spec-schema ---
+[INFO] Deleting /directory-scimple/scim-spec/scim-spec-schema/target
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ scim-spec-schema ---
+[INFO] 
+[INFO] --- buildnumber:3.0.0:create (default) @ scim-spec-schema ---
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd '/directory-scimple/scim-spec/scim-spec-schema' && 'git' 'rev-parse' '--verify' '--short=7' 'HEAD'
+[INFO] Working directory: /directory-scimple/scim-spec/scim-spec-schema
+[INFO] Storing buildNumber: null at timestamp: 1773836620489
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: not a git repository (or any of the parent directories): .git
+
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd '/directory-scimple/scim-spec/scim-spec-schema' && 'git' 'rev-parse' '--verify' '--short=7' 'HEAD'
+[INFO] Working directory: /directory-scimple/scim-spec/scim-spec-schema
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- jacoco:0.8.8:prepare-agent (prepare-agent) @ scim-spec-schema ---
+[INFO] jacoco.argline set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar=destfile=/directory-scimple/scim-spec/scim-spec-schema/target/jacoco.exec
+[INFO] 
+[INFO] --- antlr4:4.5.3:antlr4 (default) @ scim-spec-schema ---
+[INFO] ANTLR 4: Processing source directory /directory-scimple/scim-spec/scim-spec-schema/src/main/antlr4
+[INFO] Processing grammar: org/apache/directory/scim/spec/phonenumber/PhoneNumberLexer.g4
+[INFO] Processing grammar: org/apache/directory/scim/spec/phonenumber/PhoneNumberParser.g4
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ scim-spec-schema ---
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ scim-spec-schema ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 17 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ scim-spec-schema ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 47 source files to /directory-scimple/scim-spec/scim-spec-schema/target/classes
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ scim-spec-schema ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /directory-scimple/scim-spec/scim-spec-schema/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ scim-spec-schema ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /directory-scimple/scim-spec/scim-spec-schema/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.0.0-M5:test (default-test) @ scim-spec-schema ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.directory.scim.spec.resources.PhoneNumberJsonTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.328 s - in org.apache.directory.scim.spec.resources.PhoneNumberJsonTest
+[INFO] Running org.apache.directory.scim.spec.resources.PhoneNumberBuilderTest
+[INFO] Tests run: 324, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.37 s - in org.apache.directory.scim.spec.resources.PhoneNumberBuilderTest
+[INFO] Running org.apache.directory.scim.spec.schema.SchemaTest
+[WARNING] Tests run: 14, Failures: 0, Errors: 0, Skipped: 8, Time elapsed: 0.714 s - in org.apache.directory.scim.spec.schema.SchemaTest
+[INFO] Running org.apache.directory.scim.spec.phonenumber.PhoneNumberTest
+[INFO] Tests run: 109, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.262 s - in org.apache.directory.scim.spec.phonenumber.PhoneNumberTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 448, Failures: 0, Errors: 0, Skipped: 8
+[INFO] 
+[INFO] 
+[INFO] ------------< org.apache.directory.scim:scim-spec-protocol >------------
+[INFO] Building SCIM - Specification - Protocol 2.23-SNAPSHOT            [4/16]
+[INFO]   from scim-spec/scim-spec-protocol/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'showDeprecations' is unknown for plugin 'maven-compiler-plugin:3.7.0:compile (default-compile)'
+[WARNING] Parameter 'showDeprecations' is unknown for plugin 'maven-compiler-plugin:3.7.0:testCompile (default-testCompile)'
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ scim-spec-protocol ---
+[INFO] Deleting /directory-scimple/scim-spec/scim-spec-protocol/target
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ scim-spec-protocol ---
+[INFO] 
+[INFO] --- buildnumber:3.0.0:create (default) @ scim-spec-protocol ---
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd '/directory-scimple/scim-spec/scim-spec-protocol' && 'git' 'rev-parse' '--verify' '--short=7' 'HEAD'
+[INFO] Working directory: /directory-scimple/scim-spec/scim-spec-protocol
+[INFO] Storing buildNumber: null at timestamp: 1773836635561
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: not a git repository (or any of the parent directories): .git
+
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd '/directory-scimple/scim-spec/scim-spec-protocol' && 'git' 'rev-parse' '--verify' '--short=7' 'HEAD'
+[INFO] Working directory: /directory-scimple/scim-spec/scim-spec-protocol
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- jacoco:0.8.8:prepare-agent (prepare-agent) @ scim-spec-protocol ---
+[INFO] jacoco.argline set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar=destfile=/directory-scimple/scim-spec/scim-spec-protocol/target/jacoco.exec
+[INFO] 
+[INFO] --- antlr4:4.5.3:antlr4 (default) @ scim-spec-protocol ---
+[INFO] ANTLR 4: Processing source directory /directory-scimple/scim-spec/scim-spec-protocol/src/main/antlr4
+[INFO] Processing grammar: org/apache/directory/scim/server/filter/Filter.g4
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ scim-spec-protocol ---
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ scim-spec-protocol ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /directory-scimple/scim-spec/scim-spec-protocol/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ scim-spec-protocol ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 50 source files to /directory-scimple/scim-spec/scim-spec-protocol/target/classes
+[INFO] /directory-scimple/scim-spec/scim-spec-protocol/src/main/java/org/apache/directory/scim/spec/protocol/filter/ExpressionBuildingListener.java: Some input files use or override a deprecated API.
+[INFO] /directory-scimple/scim-spec/scim-spec-protocol/src/main/java/org/apache/directory/scim/spec/protocol/filter/ExpressionBuildingListener.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ scim-spec-protocol ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /directory-scimple/scim-spec/scim-spec-protocol/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ scim-spec-protocol ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /directory-scimple/scim-spec/scim-spec-protocol/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.0.0-M5:test (default-test) @ scim-spec-protocol ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.directory.scim.spec.protocol.filter.FilterTest
+[INFO] Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.689 s - in org.apache.directory.scim.spec.protocol.filter.FilterTest
+[INFO] Running org.apache.directory.scim.spec.protocol.attribute.AttributeReferenceTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in org.apache.directory.scim.spec.protocol.attribute.AttributeReferenceTest
+[INFO] Running org.apache.directory.scim.spec.protocol.data.PatchOperationPathTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.apache.directory.scim.spec.protocol.data.PatchOperationPathTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 46, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] ---------------< org.apache.directory.scim:scim-common >----------------
+[INFO] Building SCIM - Common 2.23-SNAPSHOT                              [5/16]
+[INFO]   from scim-common/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'showDeprecations' is unknown for plugin 'maven-compiler-plugin:3.7.0:compile (default-compile)'
+[WARNING] Parameter 'showDeprecations' is unknown for plugin 'maven-compiler-plugin:3.7.0:testCompile (default-testCompile)'
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ scim-common ---
+[INFO] Deleting /directory-scimple/scim-common/target
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ scim-common ---
+[INFO] 
+[INFO] --- buildnumber:3.0.0:create (default) @ scim-common ---
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd '/directory-scimple/scim-common' && 'git' 'rev-parse' '--verify' '--short=7' 'HEAD'
+[INFO] Working directory: /directory-scimple/scim-common
+[INFO] Storing buildNumber: null at timestamp: 1773836640801
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: not a git repository (or any of the parent directories): .git
+
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd '/directory-scimple/scim-common' && 'git' 'rev-parse' '--verify' '--short=7' 'HEAD'
+[INFO] Working directory: /directory-scimple/scim-common
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- jacoco:0.8.8:prepare-agent (prepare-agent) @ scim-common ---
+[INFO] jacoco.argline set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar=destfile=/directory-scimple/scim-common/target/jacoco.exec
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ scim-common ---
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ scim-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /directory-scimple/scim-common/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ scim-common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /directory-scimple/scim-common/target/classes
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ scim-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /directory-scimple/scim-common/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ scim-common ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.0.0-M5:test (default-test) @ scim-common ---
+[INFO] 
+[INFO] ---------------< org.apache.directory.scim:scim-client >----------------
+[INFO] Building SCIM - Client 2.23-SNAPSHOT                              [6/16]
+[INFO]   from scim-client/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'showDeprecations' is unknown for plugin 'maven-compiler-plugin:3.7.0:compile (default-compile)'
+[WARNING] Parameter 'showDeprecations' is unknown for plugin 'maven-compiler-plugin:3.7.0:testCompile (default-testCompile)'
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ scim-client ---
+[INFO] Deleting /directory-scimple/scim-client/target
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ scim-client ---
+[INFO] 
+[INFO] --- buildnumber:3.0.0:create (default) @ scim-client ---
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd '/directory-scimple/scim-client' && 'git' 'rev-parse' '--verify' '--short=7' 'HEAD'
+[INFO] Working directory: /directory-scimple/scim-client
+[INFO] Storing buildNumber: null at timestamp: 1773836641305
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: not a git repository (or any of the parent directories): .git
+
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd '/directory-scimple/scim-client' && 'git' 'rev-parse' '--verify' '--short=7' 'HEAD'
+[INFO] Working directory: /directory-scimple/scim-client
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- jacoco:0.8.8:prepare-agent (prepare-agent) @ scim-client ---
+[INFO] jacoco.argline set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar=destfile=/directory-scimple/scim-client/target/jacoco.exec
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ scim-client ---
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ scim-client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /directory-scimple/scim-client/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ scim-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to /directory-scimple/scim-client/target/classes
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ scim-client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /directory-scimple/scim-client/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ scim-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /directory-scimple/scim-client/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.0.0-M5:test (default-test) @ scim-client ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.directory.scim.client.filter.FilterBuilderTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.562 s - in org.apache.directory.scim.client.filter.FilterBuilderTest
+[INFO] Running org.apache.directory.scim.client.filter.FilterBuilderGreaterTest
+[INFO] Tests run: 62, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.576 s - in org.apache.directory.scim.client.filter.FilterBuilderGreaterTest
+[INFO] Running org.apache.directory.scim.client.filter.FilterBuilderLessThanTest
+[INFO] Tests run: 50, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.148 s - in org.apache.directory.scim.client.filter.FilterBuilderLessThanTest
+[INFO] Running org.apache.directory.scim.client.filter.FilterBuilderStringTests
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.directory.scim.client.filter.FilterBuilderStringTests
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 125, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] ---------------< org.apache.directory.scim:scim-server >----------------
+[INFO] Building SCIM - Server 2.23-SNAPSHOT                              [7/16]
+[INFO]   from scim-server/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ scim-server ---
+[INFO] Deleting /directory-scimple/scim-server/target
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ scim-server ---
+[INFO] 
+[INFO] --- buildnumber:3.0.0:create (default) @ scim-server ---
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd '/directory-scimple/scim-server' && 'git' 'rev-parse' '--verify' '--short=7' 'HEAD'
+[INFO] Working directory: /directory-scimple/scim-server
+[INFO] Storing buildNumber: null at timestamp: 1773836645620
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: not a git repository (or any of the parent directories): .git
+
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd '/directory-scimple/scim-server' && 'git' 'rev-parse' '--verify' '--short=7' 'HEAD'
+[INFO] Working directory: /directory-scimple/scim-server
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- jacoco:0.8.8:prepare-agent (prepare-agent) @ scim-server ---
+[INFO] jacoco.argline set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar=destfile=/directory-scimple/scim-server/target/jacoco.exec
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ scim-server ---
+[INFO] 
+[INFO] ------------< org.apache.directory.scim:scim-server-common >------------
+[INFO] Building SCIM - Server - Common 2.23-SNAPSHOT                     [8/16]
+[INFO]   from scim-server/scim-server-common/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'showDeprecations' is unknown for plugin 'maven-compiler-plugin:3.7.0:compile (default-compile)'
+[WARNING] Parameter 'showDeprecations' is unknown for plugin 'maven-compiler-plugin:3.7.0:testCompile (default-testCompile)'
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ scim-server-common ---
+[INFO] Deleting /directory-scimple/scim-server/scim-server-common/target
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ scim-server-common ---
+[INFO] 
+[INFO] --- buildnumber:3.0.0:create (default) @ scim-server-common ---
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd '/directory-scimple/scim-server/scim-server-common' && 'git' 'rev-parse' '--verify' '--short=7' 'HEAD'
+[INFO] Working directory: /directory-scimple/scim-server/scim-server-common
+[INFO] Storing buildNumber: null at timestamp: 1773836645963
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: not a git repository (or any of the parent directories): .git
+
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd '/directory-scimple/scim-server/scim-server-common' && 'git' 'rev-parse' '--verify' '--short=7' 'HEAD'
+[INFO] Working directory: /directory-scimple/scim-server/scim-server-common
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- jacoco:0.8.8:prepare-agent (prepare-agent) @ scim-server-common ---
+[INFO] jacoco.argline set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar=destfile=/directory-scimple/scim-server/scim-server-common/target/jacoco.exec
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ scim-server-common ---
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ scim-server-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ scim-server-common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 44 source files to /directory-scimple/scim-server/scim-server-common/target/classes
+[INFO] /directory-scimple/scim-server/scim-server-common/src/main/java/org/apache/directory/scim/server/rest/ScimResourceDeserializer.java: Some input files use or override a deprecated API.
+[INFO] /directory-scimple/scim-server/scim-server-common/src/main/java/org/apache/directory/scim/server/rest/ScimResourceDeserializer.java: Recompile with -Xlint:deprecation for details.
+[INFO] /directory-scimple/scim-server/scim-server-common/src/main/java/org/apache/directory/scim/server/provider/PrioritySortingComparitor.java: /directory-scimple/scim-server/scim-server-common/src/main/java/org/apache/directory/scim/server/provider/PrioritySortingComparitor.java uses unchecked or unsafe operations.
+[INFO] /directory-scimple/scim-server/scim-server-common/src/main/java/org/apache/directory/scim/server/provider/PrioritySortingComparitor.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ scim-server-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /directory-scimple/scim-server/scim-server-common/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ scim-server-common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /directory-scimple/scim-server/scim-server-common/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.0.0-M5:test (default-test) @ scim-server-common ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.directory.scim.server.utility.AttributeUtilTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.727 s - in org.apache.directory.scim.server.utility.AttributeUtilTest
+[INFO] Running org.apache.directory.scim.server.provider.ProviderTest
+[ERROR] Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.095 s <<< FAILURE! - in org.apache.directory.scim.server.provider.ProviderTest
+[ERROR] org.apache.directory.scim.server.provider.ProviderTest.handleException_runtimeExceptionTest  Time elapsed: 0.078 s  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.jboss.resteasy.specimpl.ResponseBuilderImpl does not define or inherit an implementation of the resolved method 'abstract javax.ws.rs.core.Response$ResponseBuilder status(int, java.lang.String)' of abstract class javax.ws.rs.core.Response$ResponseBuilder.
+	at org.apache.directory.scim.server.provider.ProviderTest.handleException_runtimeExceptionTest(ProviderTest.java:37)
+
+[ERROR] org.apache.directory.scim.server.provider.ProviderTest.handleException_nullExceptionTest  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.jboss.resteasy.specimpl.ResponseBuilderImpl does not define or inherit an implementation of the resolved method 'abstract javax.ws.rs.core.Response$ResponseBuilder status(int, java.lang.String)' of abstract class javax.ws.rs.core.Response$ResponseBuilder.
+	at org.apache.directory.scim.server.provider.ProviderTest.handleException_nullExceptionTest(ProviderTest.java:45)
+
+[ERROR] org.apache.directory.scim.server.provider.ProviderTest.handleException_jaxrsExceptionTest  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.jboss.resteasy.specimpl.ResponseBuilderImpl does not define or inherit an implementation of the resolved method 'abstract javax.ws.rs.core.Response$ResponseBuilder status(int, java.lang.String)' of abstract class javax.ws.rs.core.Response$ResponseBuilder.
+	at org.apache.directory.scim.server.provider.ProviderTest.handleException_jaxrsExceptionTest(ProviderTest.java:28)
+
+[INFO] Running org.apache.directory.scim.server.provider.UpdateRequestTest
+Number of operations: 2
+PatchOperation(operation=REPLACE, path=name.formatted, value=)
+PatchOperation(operation=ADD, path=nickName, value=John Xander Anyman)
+Number of operations: 7
+PatchOperation(operation=REPLACE, path=urn:ietf:params:scim:schemas:extension:example:2.0:Object:list[value EQ "Z"], value=A)
+PatchOperation(operation=REMOVE, path=urn:ietf:params:scim:schemas:extension:example:2.0:Object:list[value EQ "Z"], value=null)
+PatchOperation(operation=REMOVE, path=urn:ietf:params:scim:schemas:extension:example:2.0:Object:list[value EQ "Z"], value=null)
+PatchOperation(operation=REMOVE, path=urn:ietf:params:scim:schemas:extension:example:2.0:Object:list[value EQ "Z"], value=null)
+PatchOperation(operation=REMOVE, path=urn:ietf:params:scim:schemas:extension:example:2.0:Object:list[value EQ "D"], value=null)
+PatchOperation(operation=REMOVE, path=urn:ietf:params:scim:schemas:extension:example:2.0:Object:list[value EQ "M"], value=null)
+PatchOperation(operation=REMOVE, path=urn:ietf:params:scim:schemas:extension:example:2.0:Object:list[value EQ "Y"], value=null)
+Number of operations: 1
+PatchOperation(operation=REMOVE, path=urn:ietf:params:scim:schemas:extension:example:2.0:Object:list, value=null)
+Number of operations: 1
+PatchOperation(operation=REMOVE, path=urn:ietf:params:scim:schemas:extension:example:2.0:Object:list, value=null)
+Number of operations: 1
+PatchOperation(operation=ADD, path=urn:ietf:params:scim:schemas:extension:example:2.0:Object:list, value=A)
+Number of operations: 3
+PatchOperation(operation=ADD, path=urn:ietf:params:scim:schemas:extension:example:2.0:Object:list, value=A)
+PatchOperation(operation=ADD, path=urn:ietf:params:scim:schemas:extension:example:2.0:Object:list, value=B)
+PatchOperation(operation=ADD, path=urn:ietf:params:scim:schemas:extension:example:2.0:Object:list, value=C)
+Number of operations: 1
+PatchOperation(operation=REMOVE, path=urn:ietf:params:scim:schemas:extension:example:2.0:Object:list, value=null)
+Number of operations: 1
+PatchOperation(operation=REMOVE, path=urn:ietf:params:scim:schemas:extension:example:2.0:Object:list, value=null)
+Number of operations: 1
+PatchOperation(operation=ADD, path=urn:ietf:params:scim:schemas:extension:example:2.0:Object:list, value=A)
+Number of operations: 3
+PatchOperation(operation=ADD, path=urn:ietf:params:scim:schemas:extension:example:2.0:Object:list, value=A)
+PatchOperation(operation=ADD, path=urn:ietf:params:scim:schemas:extension:example:2.0:Object:list, value=B)
+PatchOperation(operation=ADD, path=urn:ietf:params:scim:schemas:extension:example:2.0:Object:list, value=C)
+Number of operations: 1
+PatchOperation(operation=REMOVE, path=urn:ietf:params:scim:schemas:extension:example:2.0:Object:list[value EQ "A"], value=null)
+Number of operations: 1
+PatchOperation(operation=REMOVE, path=urn:ietf:params:scim:schemas:extension:example:2.0:Object:list[value EQ "A"], value=null)
+Number of operations: 1
+PatchOperation(operation=ADD, path=urn:ietf:params:scim:schemas:extension:example:2.0:Object:list, value=A)
+Number of operations: 1
+PatchOperation(operation=ADD, path=urn:ietf:params:scim:schemas:extension:example:2.0:Object:list, value=A)
+Number of operations: 2
+PatchOperation(operation=ADD, path=urn:ietf:params:scim:schemas:extension:example:2.0:Object:list, value=B)
+PatchOperation(operation=ADD, path=urn:ietf:params:scim:schemas:extension:example:2.0:Object:list, value=C)
+[WARNING] Tests run: 46, Failures: 0, Errors: 0, Skipped: 7, Time elapsed: 3.687 s - in org.apache.directory.scim.server.provider.UpdateRequestTest
+[INFO] Running org.apache.directory.scim.server.provider.PrioritySortingComparitorTest
+[home, work, local]
+[1P, 2P, 1, 2, 3, 4]
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.apache.directory.scim.server.provider.PrioritySortingComparitorTest
+[INFO] Running org.apache.directory.scim.server.provider.ProviderRegistryTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.directory.scim.server.provider.ProviderRegistryTest
+[INFO] Running org.apache.directory.scim.server.rest.SelfResourceImplTest
+[ERROR] Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.64 s <<< FAILURE! - in org.apache.directory.scim.server.rest.SelfResourceImplTest
+[ERROR] org.apache.directory.scim.server.rest.SelfResourceImplTest.noSelfIdResolverTest  Time elapsed: 0.18 s  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.jboss.resteasy.specimpl.ResponseBuilderImpl does not define or inherit an implementation of the resolved method 'abstract javax.ws.rs.core.Response$ResponseBuilder status(int, java.lang.String)' of abstract class javax.ws.rs.core.Response$ResponseBuilder.
+	at org.apache.directory.scim.server.rest.SelfResourceImplTest.noSelfIdResolverTest(SelfResourceImplTest.java:44)
+
+[INFO] Running org.apache.directory.scim.server.rest.BaseResourceTypeResourceImplTest
+[ERROR] Tests run: 7, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.317 s <<< FAILURE! - in org.apache.directory.scim.server.rest.BaseResourceTypeResourceImplTest
+[ERROR] org.apache.directory.scim.server.rest.BaseResourceTypeResourceImplTest.testUpdate_ErrorIfBothAttributesAndExcludedAttributesExist  Time elapsed: 0.097 s  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.jboss.resteasy.specimpl.ResponseBuilderImpl does not define or inherit an implementation of the resolved method 'abstract javax.ws.rs.core.Response$ResponseBuilder status(int, java.lang.String)' of abstract class javax.ws.rs.core.Response$ResponseBuilder.
+	at org.apache.directory.scim.server.rest.BaseResourceTypeResourceImplTest.testUpdate_ErrorIfBothAttributesAndExcludedAttributesExist(BaseResourceTypeResourceImplTest.java:186)
+
+[ERROR] org.apache.directory.scim.server.rest.BaseResourceTypeResourceImplTest.testPatch_ErrorIfBothAttributesAndExcludedAttributesExist  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.jboss.resteasy.specimpl.ResponseBuilderImpl does not define or inherit an implementation of the resolved method 'abstract javax.ws.rs.core.Response$ResponseBuilder status(int, java.lang.String)' of abstract class javax.ws.rs.core.Response$ResponseBuilder.
+	at org.apache.directory.scim.server.rest.BaseResourceTypeResourceImplTest.testPatch_ErrorIfBothAttributesAndExcludedAttributesExist(BaseResourceTypeResourceImplTest.java:206)
+
+[ERROR] org.apache.directory.scim.server.rest.BaseResourceTypeResourceImplTest.testFind_ErrorIfBothAttributesAndExcludedAttributesExist  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.jboss.resteasy.specimpl.ResponseBuilderImpl does not define or inherit an implementation of the resolved method 'abstract javax.ws.rs.core.Response$ResponseBuilder status(int, java.lang.String)' of abstract class javax.ws.rs.core.Response$ResponseBuilder.
+	at org.apache.directory.scim.server.rest.BaseResourceTypeResourceImplTest.testFind_ErrorIfBothAttributesAndExcludedAttributesExist(BaseResourceTypeResourceImplTest.java:161)
+
+[ERROR] org.apache.directory.scim.server.rest.BaseResourceTypeResourceImplTest.testCreate_ErrorIfBothAttributesAndExcludedAttributesExist  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.jboss.resteasy.specimpl.ResponseBuilderImpl does not define or inherit an implementation of the resolved method 'abstract javax.ws.rs.core.Response$ResponseBuilder status(int, java.lang.String)' of abstract class javax.ws.rs.core.Response$ResponseBuilder.
+	at org.apache.directory.scim.server.rest.BaseResourceTypeResourceImplTest.testCreate_ErrorIfBothAttributesAndExcludedAttributesExist(BaseResourceTypeResourceImplTest.java:139)
+
+[ERROR] org.apache.directory.scim.server.rest.BaseResourceTypeResourceImplTest.testGetById_ForbiddenIfNoFilter  Time elapsed: 0.167 s  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.jboss.resteasy.specimpl.ResponseBuilderImpl does not define or inherit an implementation of the resolved method 'abstract javax.ws.rs.core.Response$ResponseBuilder status(int, java.lang.String)' of abstract class javax.ws.rs.core.Response$ResponseBuilder.
+	at org.apache.directory.scim.server.rest.BaseResourceTypeResourceImplTest.testGetById_ForbiddenIfNoFilter(BaseResourceTypeResourceImplTest.java:93)
+
+[ERROR] org.apache.directory.scim.server.rest.BaseResourceTypeResourceImplTest.testQuery_NullParametersValid  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.jboss.resteasy.specimpl.ResponseBuilderImpl does not define or inherit an implementation of the resolved method 'abstract javax.ws.rs.core.Response$ResponseBuilder status(int, java.lang.String)' of abstract class javax.ws.rs.core.Response$ResponseBuilder.
+	at org.apache.directory.scim.server.rest.BaseResourceTypeResourceImplTest.testQuery_NullParametersValid(BaseResourceTypeResourceImplTest.java:110)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   ProviderTest.handleException_jaxrsExceptionTest:28 » AbstractMethod Receiver c...
+[ERROR]   ProviderTest.handleException_nullExceptionTest:45 » AbstractMethod Receiver cl...
+[ERROR]   ProviderTest.handleException_runtimeExceptionTest:37 » AbstractMethod Receiver...
+[ERROR]   BaseResourceTypeResourceImplTest.testCreate_ErrorIfBothAttributesAndExcludedAttributesExist:139 » AbstractMethod
+[ERROR]   BaseResourceTypeResourceImplTest.testFind_ErrorIfBothAttributesAndExcludedAttributesExist:161 » AbstractMethod
+[ERROR]   BaseResourceTypeResourceImplTest.testGetById_ForbiddenIfNoFilter:93 » AbstractMethod
+[ERROR]   BaseResourceTypeResourceImplTest.testPatch_ErrorIfBothAttributesAndExcludedAttributesExist:206 » AbstractMethod
+[ERROR]   BaseResourceTypeResourceImplTest.testQuery_NullParametersValid:110 » AbstractMethod
+[ERROR]   BaseResourceTypeResourceImplTest.testUpdate_ErrorIfBothAttributesAndExcludedAttributesExist:186 » AbstractMethod
+[ERROR]   SelfResourceImplTest.noSelfIdResolverTest:44 » AbstractMethod Receiver class o...
+[INFO] 
+[ERROR] Tests run: 67, Failures: 0, Errors: 10, Skipped: 7
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for SCIM - Parent 2.23-SNAPSHOT:
+[INFO] 
+[INFO] SCIM - Parent ...................................... SUCCESS [  1.626 s]
+[INFO] SCIM - Specification ............................... SUCCESS [  0.091 s]
+[INFO] SCIM - Specification - Schema ...................... SUCCESS [ 15.215 s]
+[INFO] SCIM - Specification - Protocol .................... SUCCESS [  5.435 s]
+[INFO] SCIM - Common ...................................... SUCCESS [  0.473 s]
+[INFO] SCIM - Client ...................................... SUCCESS [  4.426 s]
+[INFO] SCIM - Server ...................................... SUCCESS [  0.061 s]
+[INFO] SCIM - Server - Common ............................. FAILURE [ 15.338 s]
+[INFO] SCIM - Server - Examples ........................... SKIPPED
+[INFO] SCIM - Server - Memory ............................. SKIPPED
+[INFO] SCIM - Tools ....................................... SKIPPED
+[INFO] SCIM - Tools - Common .............................. SKIPPED
+[INFO] SCIM - Compliance .................................. SKIPPED
+[INFO] SCIM - Compliance - Client ......................... SKIPPED
+[INFO] SCIM - Compliance - Server ......................... SKIPPED
+[INFO] SCIM - Total Test Coverage ......................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  45.588 s
+[INFO] Finished at: 2026-03-18T12:24:21Z
+[INFO] ------------------------------------------------------------------------
+[WARNING] 
+[WARNING] Plugin validation issues were detected in 10 plugin(s)
+[WARNING] 
+[WARNING]  * org.apache.maven.plugins:maven-compiler-plugin:3.7.0
+[WARNING]  * org.apache.maven.plugins:maven-resources-plugin:3.1.0
+[WARNING]  * org.apache.maven.plugins:maven-remote-resources-plugin:1.5
+[WARNING]  * org.apache.maven.plugins:maven-clean-plugin:3.1.0
+[WARNING]  * org.codehaus.mojo:buildnumber-maven-plugin:3.0.0
+[WARNING]  * org.jacoco:jacoco-maven-plugin:0.8.8
+[WARNING]  * org.apache.maven.plugins:maven-site-plugin:3.7.1
+[WARNING]  * org.apache.maven.plugins:maven-enforcer-plugin:1.4.1
+[WARNING]  * org.antlr:antlr4-maven-plugin:4.5.3
+[WARNING]  * org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M5
+[WARNING] 
+[WARNING] For more or less details, use 'maven.plugin.validation' property with one of the values (case insensitive): [BRIEF, DEFAULT, VERBOSE]
+[WARNING] 
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M5:test (default-test) on project scim-server-common: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /directory-scimple/scim-server/scim-server-common/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :scim-server-common

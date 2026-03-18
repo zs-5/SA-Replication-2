@@ -1,0 +1,620 @@
+podman run --network none ghcr.io/chains-project/breaking-updates:fa6503da9fd5431abca41561a34d54e07fbbf7d0-breaking
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] sparql.anything                                                    [pom]
+[INFO] sparql-anything-model                                              [jar]
+[INFO] sparql-anything-metadata                                           [jar]
+[INFO] sparql-anything-parser                                             [jar]
+[INFO] sparql-anything-csv                                                [jar]
+[INFO] sparql-anything-testutils                                          [jar]
+[INFO] sparql-anything-xml                                                [jar]
+[INFO] sparql-anything-docs                                               [jar]
+[INFO] sparql-anything-html                                               [jar]
+[INFO] sparql-anything-text                                               [jar]
+[INFO] sparql-anything-json                                               [jar]
+[INFO] sparql-anything-yaml                                               [jar]
+[INFO] sparql-anything-markdown                                           [jar]
+[INFO] sparql-anything-bib                                                [jar]
+[INFO] sparql-anything-archive                                            [jar]
+[INFO] sparql-anything-binary                                             [jar]
+[INFO] sparql-anything-spreadsheet                                        [jar]
+[INFO] sparql-anything-rdf                                                [jar]
+[INFO] sparql-anything-engine                                             [jar]
+[INFO] sparql-anything-cli                                                [jar]
+[INFO] sparql-anything-it                                                 [jar]
+[INFO] sparql-anything-fuseki                                             [jar]
+[INFO] 
+[INFO] ----------< com.github.sparqlanything:sparql-anything-parent >----------
+[INFO] Building sparql.anything 0.8.0-SNAPSHOT                           [1/22]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ sparql-anything-parent ---
+[INFO] 
+[INFO] ----------< com.github.sparqlanything:sparql-anything-model >-----------
+[INFO] Building sparql-anything-model 0.8.0-SNAPSHOT                     [2/22]
+[INFO]   from sparql-anything-model/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ sparql-anything-model ---
+[INFO] Deleting /sparql.anything/sparql-anything-model/target
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ sparql-anything-model ---
+[INFO] skip non existing resourceDirectory /sparql.anything/sparql-anything-model/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ sparql-anything-model ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 15 source files to /sparql.anything/sparql-anything-model/target/classes
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ sparql-anything-model ---
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ sparql-anything-model ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /sparql.anything/sparql-anything-model/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.0.0:test (default-test) @ sparql-anything-model ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.github.sparqlanything.model.test.ResourceManagerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.182 s - in com.github.sparqlanything.model.test.ResourceManagerTest
+[INFO] Running com.github.sparqlanything.model.test.TestTriplifierEscaper
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.sparqlanything.model.test.TestTriplifierEscaper
+[INFO] Running com.github.sparqlanything.model.test.HTTPHelperTest
+file
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.github.sparqlanything.model.test.HTTPHelperTest
+[INFO] Running com.github.sparqlanything.model.test.TripleFilteringFacadeXBuilderTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.707 s - in com.github.sparqlanything.model.test.TripleFilteringFacadeXBuilderTest
+[INFO] Running com.github.sparqlanything.model.test.TriplifierGetPropertyValuesTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.github.sparqlanything.model.test.TriplifierGetPropertyValuesTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] ---------< com.github.sparqlanything:sparql-anything-metadata >---------
+[INFO] Building sparql-anything-metadata 0.8.0-SNAPSHOT                  [3/22]
+[INFO]   from sparql-anything-metadata/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ sparql-anything-metadata ---
+[INFO] Deleting /sparql.anything/sparql-anything-metadata/target
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ sparql-anything-metadata ---
+[INFO] skip non existing resourceDirectory /sparql.anything/sparql-anything-metadata/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ sparql-anything-metadata ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /sparql.anything/sparql-anything-metadata/target/classes
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ sparql-anything-metadata ---
+[INFO] skip non existing resourceDirectory /sparql.anything/sparql-anything-metadata/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ sparql-anything-metadata ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /sparql.anything/sparql-anything-metadata/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.0.0:test (default-test) @ sparql-anything-metadata ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.github.sparqlanything.metadata.test.MetadataTriplifierTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.108 s - in com.github.sparqlanything.metadata.test.MetadataTriplifierTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] ----------< com.github.sparqlanything:sparql-anything-parser >----------
+[INFO] Building sparql-anything-parser 0.8.0-SNAPSHOT                    [4/22]
+[INFO]   from sparql-anything-parser/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ sparql-anything-parser ---
+[INFO] Deleting /sparql.anything/sparql-anything-parser/target
+[INFO] 
+[INFO] --- antlr4:4.7:antlr4 (default) @ sparql-anything-parser ---
+[INFO] ANTLR 4: Processing source directory /sparql.anything/sparql-anything-parser/src/main/antlr4
+[INFO] Processing grammar: com/github/sparqlanything/facadeiri/antlr/FacadeIRI.g4
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ sparql-anything-parser ---
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ sparql-anything-parser ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /sparql.anything/sparql-anything-parser/target/classes
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ sparql-anything-parser ---
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ sparql-anything-parser ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /sparql.anything/sparql-anything-parser/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.0.0:test (default-test) @ sparql-anything-parser ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.github.sparqlanything.parser.test.FacadeIRIParserTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.173 s - in com.github.sparqlanything.parser.test.FacadeIRIParserTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] -----------< com.github.sparqlanything:sparql-anything-csv >------------
+[INFO] Building sparql-anything-csv 0.8.0-SNAPSHOT                       [5/22]
+[INFO]   from sparql-anything-csv/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ sparql-anything-csv ---
+[INFO] Deleting /sparql.anything/sparql-anything-csv/target
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ sparql-anything-csv ---
+[INFO] skip non existing resourceDirectory /sparql.anything/sparql-anything-csv/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ sparql-anything-csv ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /sparql.anything/sparql-anything-csv/target/classes
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ sparql-anything-csv ---
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ sparql-anything-csv ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /sparql.anything/sparql-anything-csv/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.0.0:test (default-test) @ sparql-anything-csv ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.github.sparqlanything.csv.CSVTriplifierTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.055 s - in com.github.sparqlanything.csv.CSVTriplifierTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --------< com.github.sparqlanything:sparql-anything-testutils >---------
+[INFO] Building sparql-anything-testutils 0.8.0-SNAPSHOT                 [6/22]
+[INFO]   from sparql-anything-testutils/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ sparql-anything-testutils ---
+[INFO] Deleting /sparql.anything/sparql-anything-testutils/target
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ sparql-anything-testutils ---
+[INFO] skip non existing resourceDirectory /sparql.anything/sparql-anything-testutils/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ sparql-anything-testutils ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /sparql.anything/sparql-anything-testutils/target/classes
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ sparql-anything-testutils ---
+[INFO] skip non existing resourceDirectory /sparql.anything/sparql-anything-testutils/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ sparql-anything-testutils ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.0.0:test (default-test) @ sparql-anything-testutils ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -----------< com.github.sparqlanything:sparql-anything-xml >------------
+[INFO] Building sparql-anything-xml 0.8.0-SNAPSHOT                       [7/22]
+[INFO]   from sparql-anything-xml/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ sparql-anything-xml ---
+[INFO] Deleting /sparql.anything/sparql-anything-xml/target
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ sparql-anything-xml ---
+[INFO] skip non existing resourceDirectory /sparql.anything/sparql-anything-xml/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ sparql-anything-xml ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /sparql.anything/sparql-anything-xml/target/classes
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ sparql-anything-xml ---
+[INFO] Copying 12 resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ sparql-anything-xml ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /sparql.anything/sparql-anything-xml/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.0.0:test (default-test) @ sparql-anything-xml ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.github.sparqlanything.xml.XMLTriplifierTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.144 s - in com.github.sparqlanything.xml.XMLTriplifierTest
+[INFO] Running com.github.sparqlanything.xml.MoreXMLTriplifierTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.37 s - in com.github.sparqlanything.xml.MoreXMLTriplifierTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] -----------< com.github.sparqlanything:sparql-anything-docs >-----------
+[INFO] Building sparql-anything-docs 0.8.0-SNAPSHOT                      [8/22]
+[INFO]   from sparql-anything-docs/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ sparql-anything-docs ---
+[INFO] Deleting /sparql.anything/sparql-anything-docs/target
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ sparql-anything-docs ---
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ sparql-anything-docs ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /sparql.anything/sparql-anything-docs/target/classes
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ sparql-anything-docs ---
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ sparql-anything-docs ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /sparql.anything/sparql-anything-docs/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.0.0:test (default-test) @ sparql-anything-docs ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.github.sparqlanything.docs.test.TestTriplifier
+[WARNING] Tests run: 4, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 0.091 s - in com.github.sparqlanything.docs.test.TestTriplifier
+[INFO] Running com.github.sparqlanything.docs.test.DocxTriplifierTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.732 s - in com.github.sparqlanything.docs.test.DocxTriplifierTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 7, Failures: 0, Errors: 0, Skipped: 4
+[INFO] 
+[INFO] 
+[INFO] -----------< com.github.sparqlanything:sparql-anything-html >-----------
+[INFO] Building sparql-anything-html 0.8.0-SNAPSHOT                      [9/22]
+[INFO]   from sparql-anything-html/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from apache.snapshots: https://repository.apache.org/snapshots/com/google/code/findbugs/jsr305/maven-metadata.xml
+[INFO] Downloading from bintray-allenai-maven: https://allenai.bintray.com/maven/com/google/code/findbugs/jsr305/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/maven-metadata.xml
+[INFO] Downloading from oss.sonatype.org-snapshot: https://oss.sonatype.org/content/repositories/snapshots/com/google/code/findbugs/jsr305/maven-metadata.xml
+[INFO] Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/com/google/code/findbugs/jsr305/maven-metadata.xml
+[WARNING] Could not transfer metadata com.google.code.findbugs:jsr305/maven-metadata.xml from/to oss.sonatype.org-snapshot (https://oss.sonatype.org/content/repositories/snapshots): oss.sonatype.org: Try again
+[WARNING] Could not transfer metadata com.google.code.findbugs:jsr305/maven-metadata.xml from/to central (https://repo.maven.apache.org/maven2): repo.maven.apache.org: Try again
+[WARNING] Could not transfer metadata com.google.code.findbugs:jsr305/maven-metadata.xml from/to bintray-allenai-maven (https://allenai.bintray.com/maven): allenai.bintray.com: Try again
+[WARNING] Could not transfer metadata com.google.code.findbugs:jsr305/maven-metadata.xml from/to apache.snapshots (https://repository.apache.org/snapshots): repository.apache.org: Try again
+[WARNING] Could not transfer metadata com.google.code.findbugs:jsr305/maven-metadata.xml from/to sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots): oss.sonatype.org
+[INFO] Downloading from bintray-allenai-maven: https://allenai.bintray.com/maven/org/slf4j/slf4j-api/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/maven-metadata.xml
+[INFO] Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/slf4j/slf4j-api/maven-metadata.xml
+[INFO] Downloading from oss.sonatype.org-snapshot: https://oss.sonatype.org/content/repositories/snapshots/org/slf4j/slf4j-api/maven-metadata.xml
+[INFO] Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/slf4j/slf4j-api/maven-metadata.xml
+[WARNING] Could not transfer metadata org.slf4j:slf4j-api/maven-metadata.xml from/to oss.sonatype.org-snapshot (https://oss.sonatype.org/content/repositories/snapshots): oss.sonatype.org
+[WARNING] Could not transfer metadata org.slf4j:slf4j-api/maven-metadata.xml from/to central (https://repo.maven.apache.org/maven2): repo.maven.apache.org
+[WARNING] Could not transfer metadata org.slf4j:slf4j-api/maven-metadata.xml from/to bintray-allenai-maven (https://allenai.bintray.com/maven): allenai.bintray.com
+[WARNING] Could not transfer metadata org.slf4j:slf4j-api/maven-metadata.xml from/to apache.snapshots (https://repository.apache.org/snapshots): repository.apache.org
+[WARNING] Could not transfer metadata org.slf4j:slf4j-api/maven-metadata.xml from/to sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots): oss.sonatype.org
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ sparql-anything-html ---
+[INFO] Deleting /sparql.anything/sparql-anything-html/target
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ sparql-anything-html ---
+[INFO] skip non existing resourceDirectory /sparql.anything/sparql-anything-html/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ sparql-anything-html ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /sparql.anything/sparql-anything-html/target/classes
+[INFO] /sparql.anything/sparql-anything-html/src/main/java/com/github/sparqlanything/html/HTMLTriplifier.java: /sparql.anything/sparql-anything-html/src/main/java/com/github/sparqlanything/html/HTMLTriplifier.java uses unchecked or unsafe operations.
+[INFO] /sparql.anything/sparql-anything-html/src/main/java/com/github/sparqlanything/html/HTMLTriplifier.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ sparql-anything-html ---
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ sparql-anything-html ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /sparql.anything/sparql-anything-html/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.0.0:test (default-test) @ sparql-anything-html ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.github.sparqlanything.html.HTMLMicrodataRemoteTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.593 s <<< FAILURE! - in com.github.sparqlanything.html.HTMLMicrodataRemoteTest
+[ERROR] com.github.sparqlanything.html.HTMLMicrodataRemoteTest.testMicrodata1  Time elapsed: 6.533 s  <<< ERROR!
+java.net.UnknownHostException: raw.githubusercontent.com
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.github.sparqlanything.model.HTTPHelper.getInputStream(HTTPHelper.java:365)
+	at com.github.sparqlanything.model.Triplifier.getInputStream(Triplifier.java:288)
+	at com.github.sparqlanything.model.Triplifier.getInputStream(Triplifier.java:316)
+	at com.github.sparqlanything.html.HTMLTriplifier.triplify(HTMLTriplifier.java:107)
+	at com.github.sparqlanything.testutils.AbstractTriplifierTester.perform(AbstractTriplifierTester.java:185)
+	at com.github.sparqlanything.testutils.AbstractTriplifierTester.run(AbstractTriplifierTester.java:142)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:61)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+[INFO] Running com.github.sparqlanything.html.HTMLMicrodataTest
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.831 s <<< FAILURE! - in com.github.sparqlanything.html.HTMLMicrodataTest
+[ERROR] com.github.sparqlanything.html.HTMLMicrodataTest.testMicrodata1  Time elapsed: 0.828 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.github.sparqlanything.testutils.TestUtils.assertIsomorphic(TestUtils.java:144)
+	at com.github.sparqlanything.testutils.AbstractTriplifierTester.assertResultIsIsomorphicWithExpected(AbstractTriplifierTester.java:199)
+	at com.github.sparqlanything.html.HTMLMicrodataTest.testMicrodata1(HTMLMicrodataTest.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:61)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+[INFO] Running com.github.sparqlanything.html.HTMLTriplifierTest
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xhtml: <http://www.w3.org/1999/xhtml#> .
+
+[ rdf:type  <http://sparql.xyz/facade-x/ns/root> , xhtml:html ;
+  rdf:_1    [ rdf:type  xhtml:head ;
+              rdf:_1    [ rdf:type  xhtml:title ;
+                          rdf:_1    "Hello world!" ;
+                          <https://html.spec.whatwg.org/#innerHTML>
+                                  "Hello world!" ;
+                          <https://html.spec.whatwg.org/#innerText>
+                                  "Hello world!"
+                        ] ;
+              <https://html.spec.whatwg.org/#innerHTML>
+                      "<title>Hello world!</title>" ;
+              <https://html.spec.whatwg.org/#innerText>
+                      "Hello world! Hello world!"
+            ] ;
+  rdf:_2    [ rdf:type  xhtml:body ;
+              rdf:_1    [ rdf:type     xhtml:p ;
+                          rdf:_1       "Hello world" ;
+                          xhtml:class  "paragraph" ;
+                          <https://html.spec.whatwg.org/#innerHTML>
+                                  "Hello world" ;
+                          <https://html.spec.whatwg.org/#innerText>
+                                  "Hello world"
+                        ] ;
+              <https://html.spec.whatwg.org/#innerHTML>
+                      "<p class=\"paragraph\">Hello world</p>" ;
+              <https://html.spec.whatwg.org/#innerText>
+                      "Hello world Hello world"
+            ] ;
+  <https://html.spec.whatwg.org/#innerHTML>
+          "<head>\n <title>Hello world!</title>\n</head>\n<body>\n <p class=\"paragraph\">Hello world</p>\n</body>" ;
+  <https://html.spec.whatwg.org/#innerText>
+          "Hello world! Hello world Hello world! Hello world! Hello world Hello world"
+] .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xhtml: <http://www.w3.org/1999/xhtml#> .
+
+[ rdf:type  <http://sparql.xyz/facade-x/ns/root> , xhtml:html ;
+  rdf:_1    [ rdf:type  xhtml:head ] ;
+  rdf:_2    [ rdf:type  xhtml:body ;
+              rdf:_1    [ rdf:type     xhtml:div ;
+                          rdf:_1       [ rdf:type     xhtml:span ;
+                                         rdf:_1       " Image Caption " ;
+                                         xhtml:class  "title" ;
+                                         <https://html.spec.whatwg.org/#innerHTML>
+                                                 "Image Caption" ;
+                                         <https://html.spec.whatwg.org/#innerText>
+                                                 "Image Caption"
+                                       ] ;
+                          rdf:_2       [ rdf:type  xhtml:div ;
+                                         rdf:_1    [ rdf:type    xhtml:a ;
+                                                     rdf:_1      "Paula Rego" ;
+                                                     xhtml:href  "/artists/paula-rego" ;
+                                                     <https://html.spec.whatwg.org/#innerHTML>
+                                                             "Paula Rego" ;
+                                                     <https://html.spec.whatwg.org/#innerText>
+                                                             "Paula Rego"
+                                                   ] ;
+                                         rdf:_2    ", " ;
+                                         rdf:_3    [ rdf:type  xhtml:em ;
+                                                     rdf:_1    "The Baker’s Wife" ;
+                                                     <https://html.spec.whatwg.org/#innerHTML>
+                                                             "The Baker’s Wife" ;
+                                                     <https://html.spec.whatwg.org/#innerText>
+                                                             "The Baker’s Wife"
+                                                   ] ;
+                                         rdf:_4    ", 1989, Etching and aquatint on hand-made paper, 33.5 x 26.3 cm, Collection Irish Museum of Modern Art, Purchase, 1997 " ;
+                                         rdf:_5    [ rdf:type     xhtml:p ;
+                                                     rdf:_1       "For copyright information, please contact the IMMA Collections team: " ;
+                                                     rdf:_2       [ rdf:type    xhtml:a ;
+                                                                    rdf:_1      [ rdf:type            xhtml:span ;
+                                                                                  rdf:_1              "[email&nbsp;protected]" ;
+                                                                                  xhtml:class         "__cf_email__" ;
+                                                                                  xhtml:data-cfemail  "741d1a121b341d1919155a1d11" ;
+                                                                                  <https://html.spec.whatwg.org/#innerHTML>
+                                                                                          "[email&nbsp;protected]" ;
+                                                                                  <https://html.spec.whatwg.org/#innerText>
+                                                                                          "[email protected]"
+                                                                                ] ;
+                                                                    xhtml:href  "/cdn-cgi/l/email-protection#254c4b434a654c4848440b4c40" ;
+                                                                    <https://html.spec.whatwg.org/#innerHTML>
+                                                                            "<span class=\"__cf_email__\" data-cfemail=\"741d1a121b341d1919155a1d11\">[email&nbsp;protected]</span>" ;
+                                                                    <https://html.spec.whatwg.org/#innerText>
+                                                                            "[email protected] [email protected]"
+                                                                  ] ;
+                                                     rdf:_3       "." ;
+                                                     xhtml:style  "display: none" ;
+                                                     <https://html.spec.whatwg.org/#innerHTML>
+                                                             "For copyright information, please contact the IMMA Collections team: <a href=\"/cdn-cgi/l/email-protection#254c4b434a654c4848440b4c40\"><span class=\"__cf_email__\" data-cfemail=\"741d1a121b341d1919155a1d11\">[email&nbsp;protected]</span></a>." ;
+                                                     <https://html.spec.whatwg.org/#innerText>
+                                                             "For copyright information, please contact the IMMA Collections team: [email protected]. [email protected] [email protected]"
+                                                   ] ;
+                                         <https://html.spec.whatwg.org/#innerHTML>
+                                                 "<a href=\"/artists/paula-rego\">Paula Rego</a>, <em>The Baker’s Wife</em>, 1989, Etching and aquatint on hand-made paper, 33.5 x 26.3 cm, Collection Irish Museum of Modern Art, Purchase, 1997 \n<p style=\"display: none\">For copyright information, please contact the IMMA Collections team: <a href=\"/cdn-cgi/l/email-protection#254c4b434a654c4848440b4c40\"><span class=\"__cf_email__\" data-cfemail=\"741d1a121b341d1919155a1d11\">[email&nbsp;protected]</span></a>.</p>" ;
+                                         <https://html.spec.whatwg.org/#innerText>
+                                                 "Paula Rego, The Baker’s Wife, 1989, Etching and aquatint on hand-made paper, 33.5 x 26.3 cm, Collection Irish Museum of Modern Art, Purchase, 1997 For copyright information, please contact the IMMA Collections team: [email protected]. Paula Rego The Baker’s Wife For copyright information, please contact the IMMA Collections team: [email protected]. [email protected] [email protected]"
+                                       ] ;
+                          xhtml:class  "annotation expander" ;
+                          <https://html.spec.whatwg.org/#innerHTML>
+                                  "<span class=\"title\"> Image Caption </span>\n<div><a href=\"/artists/paula-rego\">Paula Rego</a>, <em>The Baker’s Wife</em>, 1989, Etching and aquatint on hand-made paper, 33.5 x 26.3 cm, Collection Irish Museum of Modern Art, Purchase, 1997 \n <p style=\"display: none\">For copyright information, please contact the IMMA Collections team: <a href=\"/cdn-cgi/l/email-protection#254c4b434a654c4848440b4c40\"><span class=\"__cf_email__\" data-cfemail=\"741d1a121b341d1919155a1d11\">[email&nbsp;protected]</span></a>.</p>\n</div>" ;
+                          <https://html.spec.whatwg.org/#innerText>
+                                  "Image Caption Paula Rego, The Baker’s Wife, 1989, Etching and aquatint on hand-made paper, 33.5 x 26.3 cm, Collection Irish Museum of Modern Art, Purchase, 1997 For copyright information, please contact the IMMA Collections team: [email protected]. Image Caption Paula Rego, The Baker’s Wife, 1989, Etching and aquatint on hand-made paper, 33.5 x 26.3 cm, Collection Irish Museum of Modern Art, Purchase, 1997 For copyright information, please contact the IMMA Collections team: [email protected]. Paula Rego The Baker’s Wife For copyright information, please contact the IMMA Collections team: [email protected]. [email protected] [email protected]"
+                        ] ;
+              <https://html.spec.whatwg.org/#innerHTML>
+                      "<div class=\"annotation expander\"><span class=\"title\"> Image Caption </span>\n <div><a href=\"/artists/paula-rego\">Paula Rego</a>, <em>The Baker’s Wife</em>, 1989, Etching and aquatint on hand-made paper, 33.5 x 26.3 cm, Collection Irish Museum of Modern Art, Purchase, 1997 \n  <p style=\"display: none\">For copyright information, please contact the IMMA Collections team: <a href=\"/cdn-cgi/l/email-protection#254c4b434a654c4848440b4c40\"><span class=\"__cf_email__\" data-cfemail=\"741d1a121b341d1919155a1d11\">[email&nbsp;protected]</span></a>.</p>\n </div>\n</div>" ;
+              <https://html.spec.whatwg.org/#innerText>
+                      "Image Caption Paula Rego, The Baker’s Wife, 1989, Etching and aquatint on hand-made paper, 33.5 x 26.3 cm, Collection Irish Museum of Modern Art, Purchase, 1997 For copyright information, please contact the IMMA Collections team: [email protected]. Image Caption Paula Rego, The Baker’s Wife, 1989, Etching and aquatint on hand-made paper, 33.5 x 26.3 cm, Collection Irish Museum of Modern Art, Purchase, 1997 For copyright information, please contact the IMMA Collections team: [email protected]. Image Caption Paula Rego, The Baker’s Wife, 1989, Etching and aquatint on hand-made paper, 33.5 x 26.3 cm, Collection Irish Museum of Modern Art, Purchase, 1997 For copyright information, please contact the IMMA Collections team: [email protected]. Paula Rego The Baker’s Wife For copyright information, please contact the IMMA Collections team: [email protected]. [email protected] [email protected]"
+            ] ;
+  <https://html.spec.whatwg.org/#innerHTML>
+          "<head></head>\n<body>\n <div class=\"annotation expander\"><span class=\"title\"> Image Caption </span>\n  <div><a href=\"/artists/paula-rego\">Paula Rego</a>, <em>The Baker’s Wife</em>, 1989, Etching and aquatint on hand-made paper, 33.5 x 26.3 cm, Collection Irish Museum of Modern Art, Purchase, 1997 \n   <p style=\"display: none\">For copyright information, please contact the IMMA Collections team: <a href=\"/cdn-cgi/l/email-protection#254c4b434a654c4848440b4c40\"><span class=\"__cf_email__\" data-cfemail=\"741d1a121b341d1919155a1d11\">[email&nbsp;protected]</span></a>.</p>\n  </div>\n </div>\n</body>" ;
+  <https://html.spec.whatwg.org/#innerText>
+          "Image Caption Paula Rego, The Baker’s Wife, 1989, Etching and aquatint on hand-made paper, 33.5 x 26.3 cm, Collection Irish Museum of Modern Art, Purchase, 1997 For copyright information, please contact the IMMA Collections team: [email protected].  Image Caption Paula Rego, The Baker’s Wife, 1989, Etching and aquatint on hand-made paper, 33.5 x 26.3 cm, Collection Irish Museum of Modern Art, Purchase, 1997 For copyright information, please contact the IMMA Collections team: [email protected]. Image Caption Paula Rego, The Baker’s Wife, 1989, Etching and aquatint on hand-made paper, 33.5 x 26.3 cm, Collection Irish Museum of Modern Art, Purchase, 1997 For copyright information, please contact the IMMA Collections team: [email protected]. Image Caption Paula Rego, The Baker’s Wife, 1989, Etching and aquatint on hand-made paper, 33.5 x 26.3 cm, Collection Irish Museum of Modern Art, Purchase, 1997 For copyright information, please contact the IMMA Collections team: [email protected]. Paula Rego The Baker’s Wife For copyright information, please contact the IMMA Collections team: [email protected]. [email protected] [email protected]"
+] .
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s - in com.github.sparqlanything.html.HTMLTriplifierTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   HTMLMicrodataTest.testMicrodata1:33->AbstractTriplifierTester.assertResultIsIsomorphicWithExpected:199
+[ERROR] Errors: 
+[ERROR]   HTMLMicrodataRemoteTest>AbstractTriplifierTester.run:142->AbstractTriplifierTester.perform:185 » UnknownHost raw.githubusercontent.com
+[INFO] 
+[ERROR] Tests run: 5, Failures: 1, Errors: 1, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for sparql.anything 0.8.0-SNAPSHOT:
+[INFO] 
+[INFO] sparql.anything .................................... SUCCESS [  0.140 s]
+[INFO] sparql-anything-model .............................. SUCCESS [  4.252 s]
+[INFO] sparql-anything-metadata ........................... SUCCESS [  1.169 s]
+[INFO] sparql-anything-parser ............................. SUCCESS [  2.118 s]
+[INFO] sparql-anything-csv ................................ SUCCESS [  3.070 s]
+[INFO] sparql-anything-testutils .......................... SUCCESS [  0.314 s]
+[INFO] sparql-anything-xml ................................ SUCCESS [  2.800 s]
+[INFO] sparql-anything-docs ............................... SUCCESS [  3.801 s]
+[INFO] sparql-anything-html ............................... FAILURE [ 15.153 s]
+[INFO] sparql-anything-text ............................... SKIPPED
+[INFO] sparql-anything-json ............................... SKIPPED
+[INFO] sparql-anything-yaml ............................... SKIPPED
+[INFO] sparql-anything-markdown ........................... SKIPPED
+[INFO] sparql-anything-bib ................................ SKIPPED
+[INFO] sparql-anything-archive ............................ SKIPPED
+[INFO] sparql-anything-binary ............................. SKIPPED
+[INFO] sparql-anything-spreadsheet ........................ SKIPPED
+[INFO] sparql-anything-rdf ................................ SKIPPED
+[INFO] sparql-anything-engine ............................. SKIPPED
+[INFO] sparql-anything-cli ................................ SKIPPED
+[INFO] sparql-anything-it ................................. SKIPPED
+[INFO] sparql-anything-fuseki ............................. SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  33.019 s
+[INFO] Finished at: 2026-03-18T15:02:21Z
+[INFO] ------------------------------------------------------------------------
+[WARNING] 
+[WARNING] Plugin validation issues were detected in 3 plugin(s)
+[WARNING] 
+[WARNING]  * org.apache.maven.plugins:maven-compiler-plugin:3.8.0
+[WARNING]  * org.antlr:antlr4-maven-plugin:4.7
+[WARNING]  * org.apache.maven.plugins:maven-resources-plugin:3.3.0
+[WARNING] 
+[WARNING] For more or less details, use 'maven.plugin.validation' property with one of the values (case insensitive): [BRIEF, DEFAULT, VERBOSE]
+[WARNING] 
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.0.0:test (default-test) on project sparql-anything-html: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /sparql.anything/sparql-anything-html/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :sparql-anything-html

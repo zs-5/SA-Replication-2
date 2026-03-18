@@ -1,0 +1,47 @@
+podman run --network none ghcr.io/chains-project/breaking-updates:919c808279d233d4babd9b2321606620786febaa-breaking
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Kauri                                                              [pom]
+[INFO] API                                                                [jar]
+[INFO] Impl                                                               [jar]
+[INFO] Detections                                                         [jar]
+[INFO] 
+[INFO] --------------------< dev.brighten.anticheat:Kauri >--------------------
+[INFO] Building Kauri 2.19                                                [1/4]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ Kauri ---
+[INFO] 
+[INFO] ---------------------< dev.brighten.anticheat:API >---------------------
+[INFO] Building API 2.19                                                  [2/4]
+[INFO]   from API/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from funkemunky-releases: https://nexus.funkemunky.cc/content/repositories/releases/cc/funkemunky/utils/lombok/1.18.24/lombok-1.18.24.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/cc/funkemunky/utils/lombok/1.18.24/lombok-1.18.24.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/cc/funkemunky/utils/lombok/1.18.24/lombok-1.18.24.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Kauri 2.19:
+[INFO] 
+[INFO] Kauri .............................................. SUCCESS [  0.368 s]
+[INFO] API ................................................ FAILURE [ 15.756 s]
+[INFO] Impl ............................................... SKIPPED
+[INFO] Detections ......................................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  16.388 s
+[INFO] Finished at: 2026-03-18T13:11:45Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project API: Could not resolve dependencies for project dev.brighten.anticheat:API:jar:2.19: Failed to collect dependencies at cc.funkemunky.utils:lombok:jar:1.18.24: Failed to read artifact descriptor for cc.funkemunky.utils:lombok:jar:1.18.24: The following artifacts could not be resolved: cc.funkemunky.utils:lombok:pom:1.18.24 (absent): Could not transfer artifact cc.funkemunky.utils:lombok:pom:1.18.24 from/to funkemunky-releases (https://nexus.funkemunky.cc/content/repositories/releases/): nexus.funkemunky.cc: Try again: Unknown host nexus.funkemunky.cc: Try again -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :API

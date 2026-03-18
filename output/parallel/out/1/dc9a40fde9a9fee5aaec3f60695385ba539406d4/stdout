@@ -1,0 +1,479 @@
+podman run --network none ghcr.io/chains-project/breaking-updates:dc9a40fde9a9fee5aaec3f60695385ba539406d4-breaking
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for io.arex:arex-attacher:jar:0.3.4
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ io.arex:arex-attacher:${revision}, /arex-agent-java/arex-attacher/pom.xml, line 27, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for io.arex:arex-common-integration-test:jar:0.3.4
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ io.arex:arex-common-integration-test:${revision}, /arex-agent-java/arex-integration-tests/arex-common-integration-test/pom.xml, line 16, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for io.arex:arex-main-integration-test:jar:0.3.4
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ io.arex:arex-main-integration-test:${revision}, /arex-agent-java/arex-integration-tests/arex-main-integration-test/pom.xml, line 27, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] arex-agent-java                                                    [pom]
+[INFO] arex-third-party                                                   [jar]
+[INFO] arex-agent-bootstrap                                               [jar]
+[INFO] arex-instrumentation-api                                           [jar]
+[INFO] arex-instrumentation-foundation                                    [jar]
+[INFO] arex-agent-core                                                    [jar]
+[INFO] arex-instrumentation-parent                                        [pom]
+[INFO] arex-executors                                                     [jar]
+[INFO] arex-loader                                                        [jar]
+[INFO] arex-httpservlet                                                   [jar]
+[INFO] arex-httpclient-common                                             [jar]
+[INFO] arex-httpclient-apache-v4                                          [jar]
+[INFO] arex-database-common                                               [jar]
+[INFO] arex-database-hibernate                                            [jar]
+[INFO] arex-database-mybatis3                                             [jar]
+[INFO] arex-redis-common                                                  [jar]
+[INFO] arex-jedis-v4                                                      [jar]
+[INFO] arex-lettuce-v6                                                    [jar]
+[INFO] arex-redission-v3                                                  [jar]
+[INFO] arex-serializer                                                    [jar]
+[INFO] arex-dynamic-common                                                [jar]
+[INFO] arex-dynamic                                                       [jar]
+[INFO] arex-cache                                                         [jar]
+[INFO] arex-time-machine                                                  [jar]
+[INFO] arex-httpclient-okhttp-v3                                          [jar]
+[INFO] arex-netty-v4                                                      [jar]
+[INFO] arex-jwt                                                           [jar]
+[INFO] arex-dubbo-common                                                  [jar]
+[INFO] arex-dubbo-apache-v2                                               [jar]
+[INFO] arex-dubbo-apache-v3                                               [jar]
+[INFO] arex-dubbo-alibaba                                                 [jar]
+[INFO] arex-spring-security                                               [jar]
+[INFO] arex-httpclient-webclient-v5                                       [jar]
+[INFO] arex-shiro                                                         [jar]
+[INFO] arex-jcasbin                                                       [jar]
+[INFO] arex-agent                                                         [jar]
+[INFO] arex-jedis-v2                                                      [jar]
+[INFO] arex-attacher                                                      [jar]
+[INFO] arex-integration-tests                                             [pom]
+[INFO] arex-common-integration-test                                       [jar]
+[INFO] arex-main-integration-test                                         [jar]
+[INFO] arex-dynamic-integration-test                                      [jar]
+[INFO] arex-jedis-v4-integration-test                                     [jar]
+[INFO] 
+[INFO] ---------------------< io.arex:arex-agent-parent >----------------------
+[INFO] Building arex-agent-java 0.3.4                                    [1/43]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ arex-agent-parent ---
+[INFO] 
+[INFO] --- flatten:1.4.1:clean (flatten.clean) @ arex-agent-parent ---
+[INFO] Deleting /arex-agent-java/.flattened-pom.xml
+[INFO] 
+[INFO] --- jacoco:0.8.8:prepare-agent (default) @ arex-agent-parent ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar=destfile=/arex-agent-java/target/jacoco.exec
+[INFO] 
+[INFO] --- flatten:1.4.1:flatten (flatten) @ arex-agent-parent ---
+[INFO] Generating flattened POM of project io.arex:arex-agent-parent:pom:0.3.4...
+[INFO] 
+[INFO] --- jacoco:0.8.8:report (report) @ arex-agent-parent ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO] 
+[INFO] ----------------------< io.arex:arex-third-party >----------------------
+[INFO] Building arex-third-party 0.3.4                                   [2/43]
+[INFO]   from arex-third-party/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ arex-third-party ---
+[INFO] Deleting /arex-agent-java/arex-third-party/target
+[INFO] 
+[INFO] --- flatten:1.4.1:clean (flatten.clean) @ arex-third-party ---
+[INFO] Deleting /arex-agent-java/arex-third-party/.flattened-pom.xml
+[INFO] 
+[INFO] --- jacoco:0.8.8:prepare-agent (default) @ arex-third-party ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar=destfile=/arex-agent-java/arex-third-party/target/jacoco.exec
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ arex-third-party ---
+[INFO] skip non existing resourceDirectory /arex-agent-java/arex-third-party/src/main/resources
+[INFO] 
+[INFO] --- flatten:1.4.1:flatten (flatten) @ arex-third-party ---
+[INFO] Generating flattened POM of project io.arex:arex-third-party:jar:0.3.4...
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ arex-third-party ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to /arex-agent-java/arex-third-party/target/classes
+[INFO] /arex-agent-java/arex-third-party/src/main/java/io/arex/agent/thirdparty/util/time/FastDatePrinter.java: /arex-agent-java/arex-third-party/src/main/java/io/arex/agent/thirdparty/util/time/FastDatePrinter.java uses or overrides a deprecated API.
+[INFO] /arex-agent-java/arex-third-party/src/main/java/io/arex/agent/thirdparty/util/time/FastDatePrinter.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ arex-third-party ---
+[INFO] skip non existing resourceDirectory /arex-agent-java/arex-third-party/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ arex-third-party ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ arex-third-party ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jacoco:0.8.8:report (report) @ arex-third-party ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO] 
+[INFO] --------------------< io.arex:arex-agent-bootstrap >--------------------
+[INFO] Building arex-agent-bootstrap 0.3.4                               [3/43]
+[INFO]   from arex-agent-bootstrap/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ arex-agent-bootstrap ---
+[INFO] Deleting /arex-agent-java/arex-agent-bootstrap/target
+[INFO] 
+[INFO] --- flatten:1.4.1:clean (flatten.clean) @ arex-agent-bootstrap ---
+[INFO] Deleting /arex-agent-java/arex-agent-bootstrap/.flattened-pom.xml
+[INFO] 
+[INFO] --- jacoco:0.8.8:prepare-agent (default) @ arex-agent-bootstrap ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar=destfile=/arex-agent-java/arex-agent-bootstrap/target/jacoco.exec
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ arex-agent-bootstrap ---
+[INFO] skip non existing resourceDirectory /arex-agent-java/arex-agent-bootstrap/src/main/resources
+[INFO] 
+[INFO] --- flatten:1.4.1:flatten (flatten) @ arex-agent-bootstrap ---
+[INFO] Generating flattened POM of project io.arex:arex-agent-bootstrap:jar:0.3.4...
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ arex-agent-bootstrap ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 30 source files to /arex-agent-java/arex-agent-bootstrap/target/classes
+[INFO] /arex-agent-java/arex-agent-bootstrap/src/main/java/io/arex/agent/bootstrap/AgentClassLoader.java: /arex-agent-java/arex-agent-bootstrap/src/main/java/io/arex/agent/bootstrap/AgentClassLoader.java uses or overrides a deprecated API.
+[INFO] /arex-agent-java/arex-agent-bootstrap/src/main/java/io/arex/agent/bootstrap/AgentClassLoader.java: Recompile with -Xlint:deprecation for details.
+[INFO] /arex-agent-java/arex-agent-bootstrap/src/main/java/io/arex/agent/bootstrap/internal/TrieCache.java: /arex-agent-java/arex-agent-bootstrap/src/main/java/io/arex/agent/bootstrap/internal/TrieCache.java uses unchecked or unsafe operations.
+[INFO] /arex-agent-java/arex-agent-bootstrap/src/main/java/io/arex/agent/bootstrap/internal/TrieCache.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ arex-agent-bootstrap ---
+[INFO] skip non existing resourceDirectory /arex-agent-java/arex-agent-bootstrap/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ arex-agent-bootstrap ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 16 source files to /arex-agent-java/arex-agent-bootstrap/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ arex-agent-bootstrap ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.arex.agent.bootstrap.ctx.RunnableWrapperTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s - in io.arex.agent.bootstrap.ctx.RunnableWrapperTest
+[INFO] Running io.arex.agent.bootstrap.ctx.ArexThreadLocalTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in io.arex.agent.bootstrap.ctx.ArexThreadLocalTest
+[INFO] Running io.arex.agent.bootstrap.ctx.CallableWrapperTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.arex.agent.bootstrap.ctx.CallableWrapperTest
+[INFO] Running io.arex.agent.bootstrap.ctx.TraceTransmitterTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.525 s - in io.arex.agent.bootstrap.ctx.TraceTransmitterTest
+[INFO] Running io.arex.agent.bootstrap.AgentInitializerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.452 s - in io.arex.agent.bootstrap.AgentInitializerTest
+[INFO] Running io.arex.agent.bootstrap.util.StringUtilTest
+[INFO] Tests run: 33, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.264 s - in io.arex.agent.bootstrap.util.StringUtilTest
+[INFO] Running io.arex.agent.bootstrap.util.CollectionUtilTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in io.arex.agent.bootstrap.util.CollectionUtilTest
+[INFO] Running io.arex.agent.bootstrap.util.ConcurrentHashSetTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.009 s - in io.arex.agent.bootstrap.util.ConcurrentHashSetTest
+[INFO] Running io.arex.agent.bootstrap.util.AdviceClassesCollectorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s - in io.arex.agent.bootstrap.util.AdviceClassesCollectorTest
+[INFO] Running io.arex.agent.bootstrap.util.ArrayUtilsTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in io.arex.agent.bootstrap.util.ArrayUtilsTest
+[INFO] Running io.arex.agent.bootstrap.util.ConcurrentCacheTest
+cache computed key: key0, value: value0
+cache computed key: key1, value: value1
+cache computed key: key2, value: value2
+cache computed key: key3, value: value3
+cache computed key: key4, value: value4
+cache get1 key: key0, value: value0
+cache get1 key: key1, value: value1
+cache get1 key: key2, value: value2
+cache get1 key: key3, value: value3
+cache get1 key: key4, value: value4
+longterm: {}
+eden: {key1=value1, key2=value2, key0=value0, key3=value3, key4=value4}
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.049 s - in io.arex.agent.bootstrap.util.ConcurrentCacheTest
+[INFO] Running io.arex.agent.bootstrap.util.NumberUtilTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in io.arex.agent.bootstrap.util.NumberUtilTest
+[INFO] Running io.arex.agent.bootstrap.cache.LoadedModuleCacheTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in io.arex.agent.bootstrap.cache.LoadedModuleCacheTest
+[INFO] Running io.arex.agent.bootstrap.internal.WeakCacheTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.194 s - in io.arex.agent.bootstrap.internal.WeakCacheTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 70, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jacoco:0.8.8:report (report) @ arex-agent-bootstrap ---
+[INFO] Loading execution data file /arex-agent-java/arex-agent-bootstrap/target/jacoco.exec
+[INFO] Analyzed bundle 'arex-agent-bootstrap' with 43 classes
+[INFO] 
+[INFO] ------------------< io.arex:arex-instrumentation-api >------------------
+[INFO] Building arex-instrumentation-api 0.3.4                           [4/43]
+[INFO]   from arex-instrumentation-api/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ arex-instrumentation-api ---
+[INFO] Deleting /arex-agent-java/arex-instrumentation-api/target
+[INFO] 
+[INFO] --- flatten:1.4.1:clean (flatten.clean) @ arex-instrumentation-api ---
+[INFO] Deleting /arex-agent-java/arex-instrumentation-api/.flattened-pom.xml
+[INFO] 
+[INFO] --- jacoco:0.8.8:prepare-agent (default) @ arex-instrumentation-api ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar=destfile=/arex-agent-java/arex-instrumentation-api/target/jacoco.exec
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ arex-instrumentation-api ---
+[INFO] skip non existing resourceDirectory /arex-agent-java/arex-instrumentation-api/src/main/resources
+[INFO] 
+[INFO] --- flatten:1.4.1:flatten (flatten) @ arex-instrumentation-api ---
+[INFO] Generating flattened POM of project io.arex:arex-instrumentation-api:jar:0.3.4...
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ arex-instrumentation-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 35 source files to /arex-agent-java/arex-instrumentation-api/target/classes
+[WARNING] /arex-agent-java/arex-instrumentation-api/src/main/java/io/arex/inst/runtime/util/TypeUtil.java:[19,46] sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl is internal proprietary API and may be removed in a future release
+[WARNING] /arex-agent-java/arex-instrumentation-api/src/main/java/io/arex/inst/runtime/util/TypeUtil.java:[19,46] sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl is internal proprietary API and may be removed in a future release
+[WARNING] /arex-agent-java/arex-instrumentation-api/src/main/java/io/arex/inst/runtime/util/TypeUtil.java:[19,46] sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl is internal proprietary API and may be removed in a future release
+[WARNING] /arex-agent-java/arex-instrumentation-api/src/main/java/io/arex/inst/runtime/util/TypeUtil.java:[58,27] sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl is internal proprietary API and may be removed in a future release
+[WARNING] /arex-agent-java/arex-instrumentation-api/src/main/java/io/arex/inst/runtime/util/TypeUtil.java:[58,69] sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl is internal proprietary API and may be removed in a future release
+[WARNING] /arex-agent-java/arex-instrumentation-api/src/main/java/io/arex/inst/runtime/util/TypeUtil.java:[66,21] sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl is internal proprietary API and may be removed in a future release
+[WARNING] /arex-agent-java/arex-instrumentation-api/src/main/java/io/arex/inst/runtime/util/TypeUtil.java:[66,63] sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl is internal proprietary API and may be removed in a future release
+[INFO] /arex-agent-java/arex-instrumentation-api/src/main/java/io/arex/inst/runtime/serializer/Serializer.java: /arex-agent-java/arex-instrumentation-api/src/main/java/io/arex/inst/runtime/serializer/Serializer.java uses unchecked or unsafe operations.
+[INFO] /arex-agent-java/arex-instrumentation-api/src/main/java/io/arex/inst/runtime/serializer/Serializer.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ arex-instrumentation-api ---
+[INFO] skip non existing resourceDirectory /arex-agent-java/arex-instrumentation-api/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ arex-instrumentation-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 13 source files to /arex-agent-java/arex-instrumentation-api/target/test-classes
+[WARNING] /arex-agent-java/arex-instrumentation-api/src/test/java/io/arex/inst/runtime/util/TypeUtilTest.java:[29,46] sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl is internal proprietary API and may be removed in a future release
+[WARNING] /arex-agent-java/arex-instrumentation-api/src/test/java/io/arex/inst/runtime/util/TypeUtilTest.java:[29,46] sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl is internal proprietary API and may be removed in a future release
+[WARNING] /arex-agent-java/arex-instrumentation-api/src/test/java/io/arex/inst/runtime/util/TypeUtilTest.java:[29,46] sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl is internal proprietary API and may be removed in a future release
+[WARNING] /arex-agent-java/arex-instrumentation-api/src/test/java/io/arex/inst/runtime/util/TypeUtilTest.java:[60,23] sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl is internal proprietary API and may be removed in a future release
+[WARNING] /arex-agent-java/arex-instrumentation-api/src/test/java/io/arex/inst/runtime/util/TypeUtilTest.java:[102,45] sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl is internal proprietary API and may be removed in a future release
+[INFO] /arex-agent-java/arex-instrumentation-api/src/test/java/io/arex/inst/runtime/config/listener/SerializeSkipInfoListenerTest.java: /arex-agent-java/arex-instrumentation-api/src/test/java/io/arex/inst/runtime/config/listener/SerializeSkipInfoListenerTest.java uses unchecked or unsafe operations.
+[INFO] /arex-agent-java/arex-instrumentation-api/src/test/java/io/arex/inst/runtime/config/listener/SerializeSkipInfoListenerTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ arex-instrumentation-api ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.arex.inst.runtime.util.IgnoreUtilsTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.797 s - in io.arex.inst.runtime.util.IgnoreUtilsTest
+[INFO] Running io.arex.inst.runtime.util.TypeUtilTest
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.207 s - in io.arex.inst.runtime.util.TypeUtilTest
+[INFO] Running io.arex.inst.runtime.context.ContextManagerTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.07 s - in io.arex.inst.runtime.context.ContextManagerTest
+[INFO] Running io.arex.inst.runtime.context.RecordLimiterTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.arex.inst.runtime.context.RecordLimiterTest
+[INFO] Running io.arex.inst.runtime.context.ResourceManagerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in io.arex.inst.runtime.context.ResourceManagerTest
+[INFO] Running io.arex.inst.runtime.model.SerializeSkipInfoTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in io.arex.inst.runtime.model.SerializeSkipInfoTest
+[INFO] Running io.arex.inst.runtime.model.DynamicClassEntityTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in io.arex.inst.runtime.model.DynamicClassEntityTest
+[INFO] Running io.arex.inst.runtime.config.ConfigTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in io.arex.inst.runtime.config.ConfigTest
+[INFO] Running io.arex.inst.runtime.config.listener.SerializeSkipInfoListenerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in io.arex.inst.runtime.config.listener.SerializeSkipInfoListenerTest
+[INFO] Running io.arex.inst.extension.matcher.IgnoreClassloaderMatcherTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in io.arex.inst.extension.matcher.IgnoreClassloaderMatcherTest
+[INFO] Running io.arex.inst.extension.matcher.ModuleVersionMatcherTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in io.arex.inst.extension.matcher.ModuleVersionMatcherTest
+[INFO] Running io.arex.inst.extension.matcher.HasClassNameMatcherTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.arex.inst.extension.matcher.HasClassNameMatcherTest
+[INFO] Running io.arex.inst.extension.matcher.IgnoredTypesMatcherTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.arex.inst.extension.matcher.IgnoredTypesMatcherTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 65, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jacoco:0.8.8:report (report) @ arex-instrumentation-api ---
+[INFO] Loading execution data file /arex-agent-java/arex-instrumentation-api/target/jacoco.exec
+[INFO] Analyzed bundle 'arex-instrumentation-api' with 36 classes
+[INFO] 
+[INFO] --------------< io.arex:arex-instrumentation-foundation >---------------
+[INFO] Building arex-instrumentation-foundation 0.3.4                    [5/43]
+[INFO]   from arex-instrumentation-foundation/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ arex-instrumentation-foundation ---
+[INFO] Deleting /arex-agent-java/arex-instrumentation-foundation/target
+[INFO] 
+[INFO] --- flatten:1.4.1:clean (flatten.clean) @ arex-instrumentation-foundation ---
+[INFO] Deleting /arex-agent-java/arex-instrumentation-foundation/.flattened-pom.xml
+[INFO] 
+[INFO] --- jacoco:0.8.8:prepare-agent (default) @ arex-instrumentation-foundation ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar=destfile=/arex-agent-java/arex-instrumentation-foundation/target/jacoco.exec
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ arex-instrumentation-foundation ---
+[INFO] skip non existing resourceDirectory /arex-agent-java/arex-instrumentation-foundation/src/main/resources
+[INFO] 
+[INFO] --- flatten:1.4.1:flatten (flatten) @ arex-instrumentation-foundation ---
+[INFO] Generating flattened POM of project io.arex:arex-instrumentation-foundation:jar:0.3.4...
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ arex-instrumentation-foundation ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 24 source files to /arex-agent-java/arex-instrumentation-foundation/target/classes
+[INFO] /arex-agent-java/arex-instrumentation-foundation/src/main/java/io/arex/foundation/services/ConfigService.java: Some input files use or override a deprecated API.
+[INFO] /arex-agent-java/arex-instrumentation-foundation/src/main/java/io/arex/foundation/services/ConfigService.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ arex-instrumentation-foundation ---
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ arex-instrumentation-foundation ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /arex-agent-java/arex-instrumentation-foundation/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ arex-instrumentation-foundation ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.arex.foundation.services.IgnoreServiceTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.362 s - in io.arex.foundation.services.IgnoreServiceTest
+[INFO] Running io.arex.foundation.services.ConfigServiceTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.194 s <<< FAILURE! - in io.arex.foundation.services.ConfigServiceTest
+[ERROR] loadAgentConfig  Time elapsed: 1.19 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+	at io.arex.foundation.services.ConfigServiceTest.loadAgentConfig(ConfigServiceTest.java:35)
+Caused by: java.lang.NullPointerException
+	at io.arex.foundation.services.ConfigServiceTest.loadAgentConfig(ConfigServiceTest.java:35)
+
+[INFO] Running io.arex.foundation.util.AsyncHttpClientUtilTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.446 s <<< FAILURE! - in io.arex.foundation.util.AsyncHttpClientUtilTest
+[ERROR] io.arex.foundation.util.AsyncHttpClientUtilTest  Time elapsed: 0.446 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class io.arex.foundation.config.ConfigManager
+	at io.arex.foundation.util.AsyncHttpClientUtilTest.setUp(AsyncHttpClientUtilTest.java:32)
+
+[INFO] Running io.arex.foundation.util.JdkUtilsTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in io.arex.foundation.util.JdkUtilsTest
+[INFO] Running io.arex.foundation.serializer.GsonSerializerTest
+{"localDateTime":"2026-03-18 14:56:56.407087000","localDate":"2026-03-18","localTime":"14:56:56.407245000","gregorianCalendar":"2026-03-18T13:56:56.407-01:00","calendar":"2026-03-18T13:56:56.407-01:00","xmlGregorianCalendar":"2026-03-18T13:56:56.407-01:00","date":"2026-03-18 14:56:56.440","timestamp":"2026-03-18 14:56:56.447","instant":"2026-03-18T14:56:56.447349Z"}
+{"localDateTime":"2026-03-18 14:56:56.407087000","localDate":"2026-03-18","localTime":"14:56:56.407245000","gregorianCalendar":"2026-03-18T13:56:56.407-01:00","calendar":"2026-03-18T13:56:56.407-01:00","xmlGregorianCalendar":"2026-03-18T13:56:56.407-01:00","date":"2026-03-18 14:56:56.440","timestamp":"2026-03-18 14:56:56.447","instant":"2026-03-18T14:56:56.447349Z"}
+{"localDateTime":"2026-03-18 14:56:56.407087000","localDate":"2026-03-18","localTime":"14:56:56.407245000","gregorianCalendar":"2026-03-18T13:56:56.407-01:00","calendar":"2026-03-18T13:56:56.407-01:00","xmlGregorianCalendar":"2026-03-18T13:56:56.407-01:00","date":"2026-03-18 14:56:56.440","timestamp":"2026-03-18 14:56:56.447","instant":"2026-03-18T14:56:56.447349Z"}
+"2026-03-18 14:56:57.816"
+"2026-03-18 14:56:57.824"
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.423 s - in io.arex.foundation.serializer.GsonSerializerTest
+[INFO] Running io.arex.foundation.serializer.JacksonSerializerTest
+{"localDateTime":"2026-03-18 14:56:57.954585000","localDate":"2026-03-18","localTime":"14:56:57.954616000","gregorianCalendar":"2026-03-18T13:56:57.954-01:00","calendar":"2026-03-18T13:56:57.954-01:00","xmlGregorianCalendar":"2026-03-18T13:56:57.954-01:00","date":"2026-03-18 14:56:57.955","timestamp":"2026-03-18 14:56:57.955","instant":"2026-03-18T14:56:57.955038Z"}
+{"localDateTime":"2026-03-18 14:56:57.954585000","localDate":"2026-03-18","localTime":"14:56:57.954616000","gregorianCalendar":"2026-03-18T13:56:57.954-01:00","calendar":"2026-03-18T13:56:57.954-01:00","xmlGregorianCalendar":"2026-03-18T13:56:57.954-01:00","date":"2026-03-18 14:56:57.955","timestamp":"2026-03-18 14:56:57.955","instant":"2026-03-18T14:56:57.955038Z"}
+{"localDateTime":"2026-03-18 14:56:57.954585000","localDate":"2026-03-18","localTime":"14:56:57.954616000","gregorianCalendar":"2026-03-18T13:56:57.954-01:00","calendar":"2026-03-18T13:56:57.954-01:00","xmlGregorianCalendar":"2026-03-18T13:56:57.954-01:00","date":"2026-03-18 14:56:57.955","timestamp":"2026-03-18 14:56:57.955","instant":"2026-03-18T14:56:57.955038Z"}
+"2026-03-18 14:56:59.098"
+"2026-03-18 14:56:59.111"
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.294 s - in io.arex.foundation.serializer.JacksonSerializerTest
+[INFO] Running io.arex.foundation.serializer.SerializerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in io.arex.foundation.serializer.SerializerTest
+[INFO] Running io.arex.foundation.healthy.HealthManagerTest
+[ERROR] Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.09 s <<< FAILURE! - in io.arex.foundation.healthy.HealthManagerTest
+[ERROR] acquire{int, boolean}[1]  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class io.arex.foundation.config.ConfigManager
+	at io.arex.foundation.healthy.HealthManagerTest.acquire(HealthManagerTest.java:18)
+
+[ERROR] acquire{int, boolean}[2]  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class io.arex.foundation.config.ConfigManager
+	at io.arex.foundation.healthy.HealthManagerTest.acquire(HealthManagerTest.java:18)
+
+[ERROR] acquire{int, boolean}[3]  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class io.arex.foundation.config.ConfigManager
+	at io.arex.foundation.healthy.HealthManagerTest.acquire(HealthManagerTest.java:18)
+
+[INFO] Running io.arex.foundation.config.ConfigManagerTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in io.arex.foundation.config.ConfigManagerTest
+[ERROR] io.arex.foundation.config.ConfigManagerTest  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class io.arex.foundation.config.ConfigManager
+	at io.arex.foundation.config.ConfigManagerTest.setUp(ConfigManagerTest.java:36)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   ConfigManagerTest.setUp:36 NoClassDefFound Could not initialize class io.arex....
+[ERROR]   HealthManagerTest.acquire:18 NoClassDefFound Could not initialize class io.are...
+[ERROR]   HealthManagerTest.acquire:18 NoClassDefFound Could not initialize class io.are...
+[ERROR]   HealthManagerTest.acquire:18 NoClassDefFound Could not initialize class io.are...
+[ERROR]   ConfigServiceTest.loadAgentConfig:35 » ExceptionInInitializer
+[ERROR]   AsyncHttpClientUtilTest.setUp:32 » NoClassDefFound Could not initialize class ...
+[INFO] 
+[ERROR] Tests run: 25, Failures: 0, Errors: 6, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for arex-agent-java 0.3.4:
+[INFO] 
+[INFO] arex-agent-java .................................... SUCCESS [  0.576 s]
+[INFO] arex-third-party ................................... SUCCESS [  1.745 s]
+[INFO] arex-agent-bootstrap ............................... SUCCESS [  9.017 s]
+[INFO] arex-instrumentation-api ........................... SUCCESS [  4.951 s]
+[INFO] arex-instrumentation-foundation .................... FAILURE [  9.940 s]
+[INFO] arex-agent-core .................................... SKIPPED
+[INFO] arex-instrumentation-parent ........................ SKIPPED
+[INFO] arex-executors ..................................... SKIPPED
+[INFO] arex-loader ........................................ SKIPPED
+[INFO] arex-httpservlet ................................... SKIPPED
+[INFO] arex-httpclient-common ............................. SKIPPED
+[INFO] arex-httpclient-apache-v4 .......................... SKIPPED
+[INFO] arex-database-common ............................... SKIPPED
+[INFO] arex-database-hibernate ............................ SKIPPED
+[INFO] arex-database-mybatis3 ............................. SKIPPED
+[INFO] arex-redis-common .................................. SKIPPED
+[INFO] arex-jedis-v4 ...................................... SKIPPED
+[INFO] arex-lettuce-v6 .................................... SKIPPED
+[INFO] arex-redission-v3 .................................. SKIPPED
+[INFO] arex-serializer .................................... SKIPPED
+[INFO] arex-dynamic-common ................................ SKIPPED
+[INFO] arex-dynamic ....................................... SKIPPED
+[INFO] arex-cache ......................................... SKIPPED
+[INFO] arex-time-machine .................................. SKIPPED
+[INFO] arex-httpclient-okhttp-v3 .......................... SKIPPED
+[INFO] arex-netty-v4 ...................................... SKIPPED
+[INFO] arex-jwt ........................................... SKIPPED
+[INFO] arex-dubbo-common .................................. SKIPPED
+[INFO] arex-dubbo-apache-v2 ............................... SKIPPED
+[INFO] arex-dubbo-apache-v3 ............................... SKIPPED
+[INFO] arex-dubbo-alibaba ................................. SKIPPED
+[INFO] arex-spring-security ............................... SKIPPED
+[INFO] arex-httpclient-webclient-v5 ....................... SKIPPED
+[INFO] arex-shiro ......................................... SKIPPED
+[INFO] arex-jcasbin ....................................... SKIPPED
+[INFO] arex-agent ......................................... SKIPPED
+[INFO] arex-jedis-v2 ...................................... SKIPPED
+[INFO] arex-attacher ...................................... SKIPPED
+[INFO] arex-integration-tests ............................. SKIPPED
+[INFO] arex-common-integration-test ....................... SKIPPED
+[INFO] arex-main-integration-test ......................... SKIPPED
+[INFO] arex-dynamic-integration-test ...................... SKIPPED
+[INFO] arex-jedis-v4-integration-test ..................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  26.629 s
+[INFO] Finished at: 2026-03-18T14:56:59Z
+[INFO] ------------------------------------------------------------------------
+[WARNING] 
+[WARNING] Plugin validation issues were detected in 4 plugin(s)
+[WARNING] 
+[WARNING]  * org.apache.maven.plugins:maven-compiler-plugin:3.8.1
+[WARNING]  * org.jacoco:jacoco-maven-plugin:0.8.8
+[WARNING]  * org.apache.maven.plugins:maven-surefire-plugin:2.22.2
+[WARNING]  * org.apache.maven.plugins:maven-resources-plugin:3.3.0
+[WARNING] 
+[WARNING] For more or less details, use 'maven.plugin.validation' property with one of the values (case insensitive): [BRIEF, DEFAULT, VERBOSE]
+[WARNING] 
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.22.2:test (default-test) on project arex-instrumentation-foundation: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /arex-agent-java/arex-instrumentation-foundation/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :arex-instrumentation-foundation

@@ -1,0 +1,17 @@
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+1:2 {action=migrate(vm=vm#0, from=node#0, to=node#1, bw=2147483647)}
+1:2 {action=migrate(vm=vm#1, from=node#0, to=node#1, bw=2147483647)}
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+{"mapping":{"readyVMs":[],"onlineNodes":{"0":{"sleepingVMs":[],"runningVMs":[]},"1":{"sleepingVMs":[],"runningVMs":[]}},"offlineNodes":[]},"attributes":{"nodes":{},"vms":{}},"views":[{"routing":{"routes":[{"nodes_map":{"dst":1,"src":0},"links":[{"link":0,"direction":"true"},{"link":1,"direction":"false"}]}],"type":"static"},"switches":[{"id":0,"capacity":1000}],"links":[{"physicalElement":{"id":0,"type":"node"},"id":0,"capacity":1000,"switch":0},{"physicalElement":{"id":1,"type":"node"},"id":1,"capacity":1000,"switch":0}],"id":"net"}]}
+{"mapping":{"readyVMs":[],"onlineNodes":{"0":{"sleepingVMs":[],"runningVMs":[]},"1":{"sleepingVMs":[],"runningVMs":[]}},"offlineNodes":[]},"attributes":{"nodes":{},"vms":{}},"views":[{"routing":{"type":"default"},"switches":[{"id":0,"capacity":1000}],"links":[{"physicalElement":{"id":0,"type":"node"},"id":0,"capacity":1000,"switch":0},{"physicalElement":{"id":1,"type":"node"},"id":1,"capacity":1000,"switch":0}],"id":"net"}]}
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+0:1 {action=migrate(vm=vm#1, from=node#1, to=node#2, bw=2147483647)}
+1:2 {action=migrate(vm=vm#0, from=node#0, to=node#1, bw=2147483647)}
+0:1 {action=migrate(vm=vm#0, from=node#0, to=node#1, bw=2147483647)}
+0:1 {action=migrate(vm=vm#1, from=node#1, to=node#0, bw=2147483647)}

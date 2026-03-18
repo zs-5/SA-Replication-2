@@ -1,0 +1,261 @@
+podman run --network none ghcr.io/chains-project/breaking-updates:52ba94ad488d562bce56eee92fb46c63fba6541b-breaking
+[INFO] Scanning for projects...
+[INFO] Artifact org.jenkins-ci.tools:maven-hpi-plugin:pom:3.20 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [incrementals (https://repo.jenkins-ci.org/incrementals/, default, releases), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.jenkins-ci.tools:maven-hpi-plugin:pom:3.20 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [incrementals (https://repo.jenkins-ci.org/incrementals/, default, releases), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Downloading from incrementals: https://repo.jenkins-ci.org/incrementals/org/jenkins-ci/tools/maven-hpi-plugin/3.20/maven-hpi-plugin-3.20.pom
+[WARNING] Failed to build parent project for org.jvnet.hudson.plugins:analysis-pom:pom:5.17.0
+[WARNING] Failed to build parent project for io.jenkins.plugins:github-checks:hpi:1.0.19-SNAPSHOT
+[INFO] 
+[INFO] ------------------< io.jenkins.plugins:github-checks >------------------
+[INFO] Building GitHub Checks plugin 1.0.19-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ hpi ]---------------------------------
+[WARNING] Parameter 'showDeprecation' is unknown for plugin 'maven-hpi-plugin:3.20:validate (default-validate)'
+[WARNING] Parameter 'showDeprecation' is unknown for plugin 'maven-hpi-plugin:3.20:validate-hpi (default-validate-hpi)'
+[WARNING] Parameter 'showDeprecation' is unknown for plugin 'maven-hpi-plugin:3.20:validate (default-validate)'
+[WARNING] Parameter 'showDeprecation' is unknown for plugin 'maven-hpi-plugin:3.20:validate-hpi (default-validate-hpi)'
+[WARNING] Parameter 'showDeprecation' is unknown for plugin 'maven-hpi-plugin:3.20:insert-test (default-insert-test)'
+[WARNING] Parameter 'showDeprecation' is unknown for plugin 'maven-hpi-plugin:3.20:test-hpl (default-test-hpl)'
+[WARNING] Parameter 'showDeprecation' is unknown for plugin 'maven-hpi-plugin:3.20:resolve-test-dependencies (default-resolve-test-dependencies)'
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ github-checks ---
+[INFO] Deleting /github-checks-plugin/target
+[INFO] 
+[INFO] --- hpi:3.20:validate (default-validate) @ github-checks ---
+[INFO] 
+[INFO] --- hpi:3.20:validate-hpi (default-validate-hpi) @ github-checks ---
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:display-info (display-info) @ github-checks ---
+[INFO] Maven Version: 3.9.2
+[INFO] JDK Version: 11.0.19 normalized as: 11.0.19
+[INFO] OS Info: Arch: amd64 Family: unix Name: linux Version: 6.19.7-200.fc43.x86_64
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (display-info) @ github-checks ---
+[INFO] Ignoring requireUpperBoundDeps in org.slf4j:slf4j-api
+[INFO] Ignoring requireUpperBoundDeps in com.google.guava:guava
+[INFO] Adding ignore: module-info
+[INFO] Adding ignore: module-info
+[INFO] Adding ignore: **/ModuleUtils*
+[WARNING] Invalid bytecodeVersion for com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.13.0:compile : META-INF/versions/11/module-info.class: expected 55, but was 53
+[WARNING] Invalid bytecodeVersion for com.fasterxml.jackson.datatype:jackson-datatype-json-org:jar:2.13.0:compile : META-INF/versions/11/module-info.class: expected 55, but was 53
+[WARNING] Invalid bytecodeVersion for com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.13.0:compile : META-INF/versions/11/module-info.class: expected 55, but was 53
+[WARNING] Invalid bytecodeVersion for com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.13.0:compile : META-INF/versions/11/module-info.class: expected 55, but was 53
+[WARNING] Invalid bytecodeVersion for com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.0:compile : META-INF/versions/11/module-info.class: expected 55, but was 53
+[WARNING] Invalid bytecodeVersion for com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.13.0:compile : META-INF/versions/11/module-info.class: expected 55, but was 53
+[WARNING] Invalid bytecodeVersion for com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.13.0:compile : META-INF/versions/11/module-info.class: expected 55, but was 53
+[WARNING] Invalid bytecodeVersion for com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.13.0:compile : META-INF/versions/11/module-info.class: expected 55, but was 53
+[WARNING] Rule 0: org.apache.maven.plugins.enforcer.RequireUpperBoundDeps warned with message:
+Failed while enforcing RequireUpperBoundDeps. The error(s) are [
+Require upper bound dependencies error for org.jenkins-ci.plugins:jackson2-api:2.13.0-230.v59243c64b0a5 paths to dependency are:
++-io.jenkins.plugins:github-checks:1.0.19-SNAPSHOT
+  +-org.jenkins-ci.plugins:github-branch-source:2.9.3
+    +-org.jenkins-ci.plugins:jackson2-api:2.13.0-230.v59243c64b0a5 (managed) <-- org.jenkins-ci.plugins:jackson2-api:2.11.1
+and
++-io.jenkins.plugins:github-checks:1.0.19-SNAPSHOT
+  +-org.jenkins-ci.plugins:github-api:1.303-400.v35c2d8258028
+    +-org.jenkins-ci.plugins:jackson2-api:2.13.0-230.v59243c64b0a5 (managed) <-- org.jenkins-ci.plugins:jackson2-api:2.13.2-260.v43d711474c77
+, 
+Require upper bound dependencies error for org.apache.httpcomponents:httpcore:4.4.13 paths to dependency are:
++-io.jenkins.plugins:github-checks:1.0.19-SNAPSHOT
+  +-org.apache.httpcomponents:httpclient:4.5.13
+    +-org.apache.httpcomponents:httpcore:4.4.13
+and
++-io.jenkins.plugins:github-checks:1.0.19-SNAPSHOT
+  +-org.jenkins-ci.plugins:github-branch-source:2.9.3
+    +-com.coravy.hudson.plugins.github:github:1.32.0
+      +-org.jenkins-ci.plugins:git:4.10.0 (managed) <-- org.jenkins-ci.plugins:git:3.4.0
+        +-org.jenkins-ci.plugins:git-client:3.10.0
+          +-org.jenkins-ci.plugins:apache-httpcomponents-client-4-api:4.5.13-1.0
+            +-org.apache.httpcomponents:httpcore:4.4.13
+and
++-io.jenkins.plugins:github-checks:1.0.19-SNAPSHOT
+  +-org.jenkins-ci.plugins:github-branch-source:2.9.3
+    +-com.coravy.hudson.plugins.github:github:1.32.0
+      +-org.jenkins-ci.plugins:git:4.10.0 (managed) <-- org.jenkins-ci.plugins:git:3.4.0
+        +-org.jenkins-ci.plugins:git-client:3.10.0
+          +-org.jenkins-ci.plugins:apache-httpcomponents-client-4-api:4.5.13-1.0
+            +-org.apache.httpcomponents:httpcore-nio:4.4.14
+              +-org.apache.httpcomponents:httpcore:4.4.14
+and
++-io.jenkins.plugins:github-checks:1.0.19-SNAPSHOT
+  +-org.jenkins-ci.plugins:github-branch-source:2.9.3
+    +-com.coravy.hudson.plugins.github:github:1.32.0
+      +-org.jenkins-ci.plugins:git:4.10.0 (managed) <-- org.jenkins-ci.plugins:git:3.4.0
+        +-org.jenkins-ci.plugins:git-client:3.10.0
+          +-org.jenkins-ci.plugins:apache-httpcomponents-client-4-api:4.5.13-1.0
+            +-org.apache.httpcomponents:httpasyncclient:4.1.4
+              +-org.apache.httpcomponents:httpcore:4.4.10
+, 
+Require upper bound dependencies error for commons-io:commons-io:2.8.0 paths to dependency are:
++-io.jenkins.plugins:github-checks:1.0.19-SNAPSHOT
+  +-com.github.tomakehurst:wiremock-jre8:2.32.0
+    +-commons-io:commons-io:2.8.0 (managed) <-- commons-io:commons-io:2.11.0
+and
++-io.jenkins.plugins:github-checks:1.0.19-SNAPSHOT
+  +-org.jenkins-ci.main:jenkins-core:2.289.1
+    +-commons-io:commons-io:2.8.0 (managed) <-- commons-io:commons-io:2.4
+and
++-io.jenkins.plugins:github-checks:1.0.19-SNAPSHOT
+  +-org.jenkins-ci.main:jenkins-core:2.289.1
+    +-org.jenkins-ci:crypto-util:1.5
+      +-commons-io:commons-io:2.8.0 (managed) <-- commons-io:commons-io:1.4
+and
++-io.jenkins.plugins:github-checks:1.0.19-SNAPSHOT
+  +-org.jenkins-ci.main:jenkins-core:2.289.1
+    +-org.kohsuke.stapler:stapler:1.263
+      +-commons-io:commons-io:2.8.0 (managed) <-- commons-io:commons-io:2.4
+and
++-io.jenkins.plugins:github-checks:1.0.19-SNAPSHOT
+  +-org.jenkins-ci.main:jenkins-core:2.289.1
+    +-org.jenkins-ci:bytecode-compatibility-transformer:2.0-beta-2
+      +-commons-io:commons-io:2.8.0 (managed) <-- commons-io:commons-io:2.4
+]
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (no-snapshots-in-release) @ github-checks ---
+[INFO] 
+[INFO] --- gplus:1.13.0:addTestSources (test-in-groovy) @ github-checks ---
+[INFO] 
+[INFO] --- localizer:1.31:generate (default) @ github-checks ---
+[INFO] 
+[INFO] >>> javadoc:3.3.1:javadoc (default) > generate-sources @ github-checks >>>
+[INFO] 
+[INFO] --- hpi:3.20:validate (default-validate) @ github-checks ---
+[INFO] 
+[INFO] --- hpi:3.20:validate-hpi (default-validate-hpi) @ github-checks ---
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:display-info (display-info) @ github-checks ---
+[INFO] Maven Version: 3.9.2
+[INFO] JDK Version: 11.0.19 normalized as: 11.0.19
+[INFO] OS Info: Arch: amd64 Family: unix Name: linux Version: 6.19.7-200.fc43.x86_64
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (display-info) @ github-checks ---
+[INFO] Ignoring requireUpperBoundDeps in org.slf4j:slf4j-api
+[INFO] Ignoring requireUpperBoundDeps in com.google.guava:guava
+[INFO] Adding ignore: module-info
+[INFO] Adding ignore: module-info
+[INFO] Adding ignore: **/ModuleUtils*
+[WARNING] Invalid bytecodeVersion for com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.13.0:compile : META-INF/versions/11/module-info.class: expected 55, but was 53
+[WARNING] Invalid bytecodeVersion for com.fasterxml.jackson.datatype:jackson-datatype-json-org:jar:2.13.0:compile : META-INF/versions/11/module-info.class: expected 55, but was 53
+[WARNING] Invalid bytecodeVersion for com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.13.0:compile : META-INF/versions/11/module-info.class: expected 55, but was 53
+[WARNING] Invalid bytecodeVersion for com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.13.0:compile : META-INF/versions/11/module-info.class: expected 55, but was 53
+[WARNING] Invalid bytecodeVersion for com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.13.0:compile : META-INF/versions/11/module-info.class: expected 55, but was 53
+[WARNING] Invalid bytecodeVersion for com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.13.0:compile : META-INF/versions/11/module-info.class: expected 55, but was 53
+[WARNING] Invalid bytecodeVersion for com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.13.0:compile : META-INF/versions/11/module-info.class: expected 55, but was 53
+[WARNING] Invalid bytecodeVersion for com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.13.0:compile : META-INF/versions/11/module-info.class: expected 55, but was 53
+[WARNING] Rule 0: org.apache.maven.plugins.enforcer.RequireUpperBoundDeps warned with message:
+Failed while enforcing RequireUpperBoundDeps. The error(s) are [
+Require upper bound dependencies error for org.jenkins-ci.plugins:jackson2-api:2.13.0-230.v59243c64b0a5 paths to dependency are:
++-io.jenkins.plugins:github-checks:1.0.19-SNAPSHOT
+  +-org.jenkins-ci.plugins:github-branch-source:2.9.3
+    +-org.jenkins-ci.plugins:jackson2-api:2.13.0-230.v59243c64b0a5 (managed) <-- org.jenkins-ci.plugins:jackson2-api:2.11.1
+and
++-io.jenkins.plugins:github-checks:1.0.19-SNAPSHOT
+  +-org.jenkins-ci.plugins:github-api:1.303-400.v35c2d8258028
+    +-org.jenkins-ci.plugins:jackson2-api:2.13.0-230.v59243c64b0a5 (managed) <-- org.jenkins-ci.plugins:jackson2-api:2.13.2-260.v43d711474c77
+, 
+Require upper bound dependencies error for org.apache.httpcomponents:httpcore:4.4.13 paths to dependency are:
++-io.jenkins.plugins:github-checks:1.0.19-SNAPSHOT
+  +-org.apache.httpcomponents:httpclient:4.5.13
+    +-org.apache.httpcomponents:httpcore:4.4.13
+and
++-io.jenkins.plugins:github-checks:1.0.19-SNAPSHOT
+  +-org.jenkins-ci.plugins:github-branch-source:2.9.3
+    +-com.coravy.hudson.plugins.github:github:1.32.0
+      +-org.jenkins-ci.plugins:git:4.10.0 (managed) <-- org.jenkins-ci.plugins:git:3.4.0
+        +-org.jenkins-ci.plugins:git-client:3.10.0
+          +-org.jenkins-ci.plugins:apache-httpcomponents-client-4-api:4.5.13-1.0
+            +-org.apache.httpcomponents:httpcore:4.4.13
+and
++-io.jenkins.plugins:github-checks:1.0.19-SNAPSHOT
+  +-org.jenkins-ci.plugins:github-branch-source:2.9.3
+    +-com.coravy.hudson.plugins.github:github:1.32.0
+      +-org.jenkins-ci.plugins:git:4.10.0 (managed) <-- org.jenkins-ci.plugins:git:3.4.0
+        +-org.jenkins-ci.plugins:git-client:3.10.0
+          +-org.jenkins-ci.plugins:apache-httpcomponents-client-4-api:4.5.13-1.0
+            +-org.apache.httpcomponents:httpcore-nio:4.4.14
+              +-org.apache.httpcomponents:httpcore:4.4.14
+and
++-io.jenkins.plugins:github-checks:1.0.19-SNAPSHOT
+  +-org.jenkins-ci.plugins:github-branch-source:2.9.3
+    +-com.coravy.hudson.plugins.github:github:1.32.0
+      +-org.jenkins-ci.plugins:git:4.10.0 (managed) <-- org.jenkins-ci.plugins:git:3.4.0
+        +-org.jenkins-ci.plugins:git-client:3.10.0
+          +-org.jenkins-ci.plugins:apache-httpcomponents-client-4-api:4.5.13-1.0
+            +-org.apache.httpcomponents:httpasyncclient:4.1.4
+              +-org.apache.httpcomponents:httpcore:4.4.10
+, 
+Require upper bound dependencies error for commons-io:commons-io:2.8.0 paths to dependency are:
++-io.jenkins.plugins:github-checks:1.0.19-SNAPSHOT
+  +-com.github.tomakehurst:wiremock-jre8:2.32.0
+    +-commons-io:commons-io:2.8.0 (managed) <-- commons-io:commons-io:2.11.0
+and
++-io.jenkins.plugins:github-checks:1.0.19-SNAPSHOT
+  +-org.jenkins-ci.main:jenkins-core:2.289.1
+    +-commons-io:commons-io:2.8.0 (managed) <-- commons-io:commons-io:2.4
+and
++-io.jenkins.plugins:github-checks:1.0.19-SNAPSHOT
+  +-org.jenkins-ci.main:jenkins-core:2.289.1
+    +-org.jenkins-ci:crypto-util:1.5
+      +-commons-io:commons-io:2.8.0 (managed) <-- commons-io:commons-io:1.4
+and
++-io.jenkins.plugins:github-checks:1.0.19-SNAPSHOT
+  +-org.jenkins-ci.main:jenkins-core:2.289.1
+    +-org.kohsuke.stapler:stapler:1.263
+      +-commons-io:commons-io:2.8.0 (managed) <-- commons-io:commons-io:2.4
+and
++-io.jenkins.plugins:github-checks:1.0.19-SNAPSHOT
+  +-org.jenkins-ci.main:jenkins-core:2.289.1
+    +-org.jenkins-ci:bytecode-compatibility-transformer:2.0-beta-2
+      +-commons-io:commons-io:2.8.0 (managed) <-- commons-io:commons-io:2.4
+]
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (no-snapshots-in-release) @ github-checks ---
+[INFO] 
+[INFO] --- gplus:1.13.0:addTestSources (test-in-groovy) @ github-checks ---
+[INFO] 
+[INFO] --- localizer:1.31:generate (default) @ github-checks ---
+[INFO] 
+[INFO] <<< javadoc:3.3.1:javadoc (default) < generate-sources @ github-checks <<<
+[INFO] 
+[INFO] 
+[INFO] --- javadoc:3.3.1:javadoc (default) @ github-checks ---
+[INFO] No previous run data found, generating javadoc.
+[INFO] 
+1 error
+4 warnings
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  34.528 s
+[INFO] Finished at: 2026-03-18T12:56:21Z
+[INFO] ------------------------------------------------------------------------
+[WARNING] 
+[WARNING] Plugin validation issues were detected in 6 plugin(s)
+[WARNING] 
+[WARNING]  * org.apache.maven.plugins:maven-clean-plugin:3.1.0
+[WARNING]  * org.codehaus.gmavenplus:gmavenplus-plugin:1.13.0
+[WARNING]  * org.jenkins-ci.tools:maven-hpi-plugin:3.20
+[WARNING]  * org.apache.maven.plugins:maven-enforcer-plugin:3.0.0-M3
+[WARNING]  * org.jvnet.localizer:localizer-maven-plugin:1.31
+[WARNING]  * org.apache.maven.plugins:maven-javadoc-plugin:3.3.1
+[WARNING] 
+[WARNING] For more or less details, use 'maven.plugin.validation' property with one of the values (case insensitive): [BRIEF, DEFAULT, VERBOSE]
+[WARNING] 
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-javadoc-plugin:3.3.1:javadoc (default) on project github-checks: An error has occurred in Javadoc report generation: 
+[ERROR] Exit code: 1 - warning: unknown enum constant Include.NON_NULL
+[ERROR]   reason: class file for com.fasterxml.jackson.annotation.JsonInclude$Include not found
+[ERROR] warning: unknown enum constant Include.NON_NULL
+[ERROR] warning: unknown enum constant Include.NON_NULL
+[ERROR] warning: unknown enum constant Include.NON_NULL
+[ERROR] javadoc: error - Error fetching URL: https://javadoc.jenkins.io/
+[ERROR] 
+[ERROR] Command line was: /usr/lib/jvm/java-11-openjdk/bin/javadoc @options @packages
+[ERROR] 
+[ERROR] Refer to the generated Javadoc files in '/github-checks-plugin/target/site/apidocs' dir.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

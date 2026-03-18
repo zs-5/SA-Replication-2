@@ -18,9 +18,9 @@ a pair of Docker images, ensuring long-term reproducibility across platforms.
 ### This Replication
 This replication study reproduces Table II of the original paper by 
 re-classifying all 571 breaking updates by failure category, and manually 
-reproduces five individual breaking updates using the provided Docker images. 
+reproduces five individual breaking updates using the provided Java program. 
 We additionally extend the original mining methodology to ten Java/Maven 
-projects — five from the original dataset and five new ones — targeting pull 
+projects (five from the original dataset and five new ones) targeting pull 
 requests submitted after the original collection cut-off date.
 
 ---
@@ -69,8 +69,8 @@ notes/                      # Notes taken during replication
   - `sudo apt install openjdk-11-jdk`
 - **Apache Maven**: 3.9.2 or higher
   - `sudo apt install maven`
-- **Python**: 3.9 or higher (for log parsing scripts)
-  - Required packages: `pip install -r requirements.txt`
+<!-- - **Python**: 3.9 or higher (for log parsing scripts)
+  - Required packages: `pip install -r requirements.txt` -->
 - **GitHub Personal Access Token**: required to run the BUMP miner
   - Generate one at https://github.com/settings/tokens with `repo` and 
     `read:packages` scopes
@@ -79,60 +79,65 @@ notes/                      # Notes taken during replication
 
 1. **Clone this repository**
 ```bash
-   git clone https://github.com/zs-5/SA-Replication-2.git
-   cd SA-Replication-2
+  git clone https://github.com/zs-5/SA-Replication-2.git
+  cd SA-Replication-2
 ```
 
 2. **Clone the original BUMP repository**
 ```bash
-   git clone https://github.com/chains-project/bump
+  git clone https://github.com/chains-project/bump
 ```
 
-3. **Download the BUMP metadata files**
+3. **Download the required BUMP metadata files and java jars (after building)**
 ```bash
-   cp -r bump/data/breaking-updates/ datasets/metadata/
+  mkdir SA-Replication-2/{benchmark-data,jars}
+  cp -r bump/data/benchmark/ SA-Replication-2/benchmark-data/
+  cp -r bump/target/*.jar SA-Replication-2/jars/
 ```
 
 4. **Set up your GitHub token for the miner**
+   <!-- export GITHUB_TOKEN=<your_token_here> -->
 ```bash
-   export GITHUB_TOKEN=your_token_here
+  echo "your_token" > .env
 ```
 
-5. **Install Python dependencies**
+<!-- 5. **Install Python dependencies**
 ```bash
    pip install -r requirements.txt
-```
+``` -->
 
-6. **Authenticate with the GitHub Docker registry to pull BUMP images**
+<!-- 6. **Authenticate with the GitHub Docker registry to pull BUMP images**
 ```bash
    echo $GITHUB_TOKEN | docker login ghcr.io -u YOUR_GITHUB_USERNAME --password-stdin
-```
+``` -->
 
 ### Reproducing Table II
 
 Run the failure classification script against the full metadata set:
 ```bash
-python replication_scripts/classify_failures.py \
-    --metadata datasets/metadata/ \
-    --output outputs/table2_replication.csv
+./scripts/calculate_failure_stats.sh
 ```
 Results will be written to `outputs/table2_replication.csv` and printed 
 to the console for direct comparison with Table II of the paper.
 
+Also run the following to execute all breaking updates
+```bash
+  parallel --use-cores-instead-of-threads -j 75% --delay 2 --bar -t -v -v --output-as-files --results out podman run --network none ghcr.io/chains-project/breaking-updates:{}-breaking ::: $(cat ./all_ids)
+```
+
 ### Reproducing the 5 Manual Breaking Updates
 ```bash
-bash replication_scripts/run_reproductions.sh
+bash replication_scripts/reproduce_breaking_commits.sh
 ```
-This script pulls and runs both Docker images for each of the 5 selected 
-breaking updates. Logs are saved to `logs/docker_logs/`. Results are 
-summarized in `outputs/reproduction_results.md`.
+This script runs the reproducer for each of the 5 selected 
+breaking updates. Logs are saved `outputs/reproductions`.
 
 ### Running the Extended Miner
 ```bash
-bash replication_scripts/run_miner.sh
+java -jar target/BreakingUpdateMiner.jar mine -a .env -o output/miner/ -r output/miner/repos.json
 ```
 This script runs the BUMP miner against all 10 projects. Ensure your 
-`GITHUB_TOKEN` environment variable is set before running. Output is 
+GitHub token is saved in `.env` before running. Output is 
 saved to `outputs/mining_results.csv` and logs to `logs/miner_logs/`.
 
 ---

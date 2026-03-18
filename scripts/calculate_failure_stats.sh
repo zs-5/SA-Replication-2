@@ -10,13 +10,13 @@ function get_fraction_as_percentage() {
 }
 
 # Calculate numbers concerning the reproduction process.
-num_compilation_failure=$(grep -ro "\"COMPILATION_FAILURE\"" data/benchmark | wc -l)
-num_test_failure=$(grep -ro "\"TEST_FAILURE\"" data/benchmark | wc -l)
-num_enforcer_failure=$(grep -ro "\"ENFORCER_FAILURE\"" data/benchmark | wc -l)
-num_dependency_lock_failure=$(grep -ro "\"DEPENDENCY_LOCK_FAILURE\"" data/benchmark | wc -l)
-num_dependency_resolution_failure=$(grep -ro "\"DEPENDENCY_RESOLUTION_FAILURE\"" data/benchmark | wc -l)
-num_reproduced=$(find data/benchmark -iname "*.json" | wc -l)
-num_unique_projects=$(jq -r '"\(.projectOrganisation)/\(.project)"' data/benchmark/*.json | sort -u | wc -l)
+num_compilation_failure=$(grep -ro "\"COMPILATION_FAILURE\"" benchmark-data | wc -l)
+num_test_failure=$(grep -ro "\"TEST_FAILURE\"" benchmark-data | wc -l)
+num_enforcer_failure=$(grep -ro "\"ENFORCER_FAILURE\"" benchmark-data | wc -l)
+num_dependency_lock_failure=$(grep -ro "\"DEPENDENCY_LOCK_FAILURE\"" benchmark-data | wc -l)
+num_dependency_resolution_failure=$(grep -ro "\"DEPENDENCY_RESOLUTION_FAILURE\"" benchmark-data | wc -l)
+num_reproduced=$(find benchmark-data -iname "*.json" | wc -l)
+num_unique_projects=$(jq -r '"\(.projectOrganisation)/\(.project)"' benchmark-data/*.json | sort -u | wc -l)
 
 # Normal table
 # echo "

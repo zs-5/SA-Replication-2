@@ -1,0 +1,8 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.internal.util.reflection.ReflectionMemberAccessor (file:/root/.m2/repository/org/mockito/mockito-core/4.3.1/mockito-core-4.3.1.jar) to field java.io.ByteArrayInputStream.buf
+WARNING: Please consider reporting this to the maintainers of org.mockito.internal.util.reflection.ReflectionMemberAccessor
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+log4j:WARN No appenders could be found for logger (net.jadler.JadlerMocker).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.

@@ -1,0 +1,27 @@
+Cleaning up unclosed ZipFile for archive /plexus-archiver/target/output/pasymlinks-archivedFileset.zip
+Cleaning up unclosed ZipFile for archive /plexus-archiver/src/test/resources/symlinks/symlinks.zip
+Cleaning up unclosed ZipFile for archive /plexus-archiver/target/output/zip-with-implicit-dirmode.zip
+Cleaning up unclosed ZipFile for archive /plexus-archiver/target/output/last-modified-time.zip
+Cleaning up unclosed ZipFile for archive /plexus-archiver/target/output/zip-with-modes-L2.zip
+Cleaning up unclosed ZipFile for archive /plexus-archiver/src/test/jars/namelessrootfolder.jar
+Cleaning up unclosed ZipFile for archive /plexus-archiver/src/test/resources/archiveWithIllegalHtmlFileName.zip
+Cleaning up unclosed ZipFile for archive /plexus-archiver/src/test/resources/zeroFileMode/mixed-file-mode.zip
+Cleaning up unclosed ZipFile for archive /plexus-archiver/src/test/resources/symlinks/symlinks.zip
+Cleaning up unclosed ZipFile for archive /plexus-archiver/src/test/jars/namelessrootfolder.jar
+Cleaning up unclosed ZipFile for archive /plexus-archiver/src/test/resources/bogusManifest.zip
+Cleaning up unclosed ZipFile for archive /plexus-archiver/src/test/resources/archiveWithIllegalHtmlFileName.zip
+Cleaning up unclosed ZipFile for archive /plexus-archiver/src/test/resources/unicodePathExtra/efsclear.zip
+Mar 18, 2026 12:47:36 PM java.util.jar.Attributes read
+WARNING: Duplicate name in Manifest: Class-Path.
+Ensure that the manifest does not have duplicate entries, and
+that blank lines separate individual sections in both your
+manifest and in the META-INF/MANIFEST.MF entry in the jar file.
+String: test:\s\tA\r\n\sB\r\n\s\t\sC\r\n\s\s\tD\r\n
+String: test:\s123456789\r\n\s123456789\r\n
+Mar 18, 2026 12:47:36 PM java.util.jar.Attributes read
+WARNING: Duplicate name in Manifest: Class-Path.
+Ensure that the manifest does not have duplicate entries, and
+that blank lines separate individual sections in both your
+manifest and in the META-INF/MANIFEST.MF entry in the jar file.
+Cleaning up unclosed ZipFile for archive /plexus-archiver/target/output/archive2.jar
+Cleaning up unclosed ZipFile for archive /plexus-archiver/target/output/archive2.jar

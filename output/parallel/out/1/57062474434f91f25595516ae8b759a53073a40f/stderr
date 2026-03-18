@@ -1,0 +1,1154 @@
+Mar 18, 2026 12:57:13 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:13 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer] Started.
+Mar 18, 2026 12:57:13 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:13 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:13 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-1] Started.
+Mar 18, 2026 12:57:13 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:14 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:14 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-2] Started.
+Mar 18, 2026 12:57:14 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:14 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:14 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-3] Started.
+Mar 18, 2026 12:57:14 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:14 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:14 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-4] Started.
+Mar 18, 2026 12:57:14 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:14 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:14 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-5] Started.
+Mar 18, 2026 12:57:14 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:15 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:15 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-6] Started.
+Mar 18, 2026 12:57:15 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:15 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:15 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-7] Started.
+Mar 18, 2026 12:57:15 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:15 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:15 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-8] Started.
+Mar 18, 2026 12:57:15 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:15 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:15 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-9] Started.
+Mar 18, 2026 12:57:15 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:16 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:16 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-10] Started.
+Mar 18, 2026 12:57:16 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:16 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:16 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-11] Started.
+Mar 18, 2026 12:57:16 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:16 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:16 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-12] Started.
+Mar 18, 2026 12:57:16 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:16 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:16 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-13] Started.
+Mar 18, 2026 12:57:16 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:17 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:17 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-14] Started.
+Mar 18, 2026 12:57:17 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:17 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:17 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-15] Started.
+Mar 18, 2026 12:57:17 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:17 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:17 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-16] Started.
+Mar 18, 2026 12:57:17 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:17 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:17 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-17] Started.
+Mar 18, 2026 12:57:17 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:18 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:18 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-18] Started.
+Mar 18, 2026 12:57:18 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:18 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:18 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-19] Started.
+Mar 18, 2026 12:57:18 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:18 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:18 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-20] Started.
+Mar 18, 2026 12:57:18 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:18 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:18 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-21] Started.
+Mar 18, 2026 12:57:18 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:18 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:18 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-22] Started.
+Mar 18, 2026 12:57:18 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:19 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:19 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-23] Started.
+Mar 18, 2026 12:57:19 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:19 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:19 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-24] Started.
+Mar 18, 2026 12:57:19 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:19 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:19 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-25] Started.
+Mar 18, 2026 12:57:19 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:20 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:20 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-26] Started.
+Mar 18, 2026 12:57:20 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:20 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:20 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-27] Started.
+Mar 18, 2026 12:57:20 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:20 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:20 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-28] Started.
+Mar 18, 2026 12:57:20 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:20 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:20 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-29] Started.
+Mar 18, 2026 12:57:20 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:20 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:20 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-30] Started.
+Mar 18, 2026 12:57:20 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:21 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:21 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-31] Started.
+Mar 18, 2026 12:57:21 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:21 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:21 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-32] Started.
+Mar 18, 2026 12:57:21 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:21 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:21 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-33] Started.
+Mar 18, 2026 12:57:21 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:21 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:21 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-34] Started.
+Mar 18, 2026 12:57:21 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:22 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:22 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-35] Started.
+Mar 18, 2026 12:57:22 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:22 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:22 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-36] Started.
+Mar 18, 2026 12:57:22 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:22 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:22 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-37] Started.
+Mar 18, 2026 12:57:22 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:22 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:22 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-38] Started.
+Mar 18, 2026 12:57:22 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:23 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:23 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-39] Started.
+Mar 18, 2026 12:57:23 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:23 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:23 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-40] Started.
+Mar 18, 2026 12:57:23 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:23 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:23 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-41] Started.
+Mar 18, 2026 12:57:23 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:23 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:23 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-42] Started.
+Mar 18, 2026 12:57:23 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:23 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:23 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-43] Started.
+Mar 18, 2026 12:57:23 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:24 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:24 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-44] Started.
+Mar 18, 2026 12:57:24 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:24 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:24 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-45] Started.
+Mar 18, 2026 12:57:24 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:24 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:24 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-46] Started.
+Mar 18, 2026 12:57:24 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:24 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:24 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-47] Started.
+Mar 18, 2026 12:57:24 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:24 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:24 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-48] Started.
+Mar 18, 2026 12:57:24 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:25 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:25 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-49] Started.
+Mar 18, 2026 12:57:25 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:25 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:25 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-50] Started.
+Mar 18, 2026 12:57:25 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:25 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:25 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-51] Started.
+Mar 18, 2026 12:57:25 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:25 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:25 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-52] Started.
+Mar 18, 2026 12:57:25 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:26 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:26 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-53] Started.
+Mar 18, 2026 12:57:26 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:26 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:26 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-54] Started.
+Mar 18, 2026 12:57:26 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:26 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:26 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-55] Started.
+Mar 18, 2026 12:57:26 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:26 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:26 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-56] Started.
+Mar 18, 2026 12:57:26 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:26 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:26 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-57] Started.
+Mar 18, 2026 12:57:26 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:27 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:27 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-58] Started.
+Mar 18, 2026 12:57:27 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:27 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:27 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-59] Started.
+Mar 18, 2026 12:57:27 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:27 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:27 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-60] Started.
+Mar 18, 2026 12:57:27 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:27 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:27 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-61] Started.
+Mar 18, 2026 12:57:27 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:28 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:28 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-62] Started.
+Mar 18, 2026 12:57:28 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:28 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:28 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-63] Started.
+Mar 18, 2026 12:57:28 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:28 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:28 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-64] Started.
+Mar 18, 2026 12:57:28 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:28 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:28 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-65] Started.
+Mar 18, 2026 12:57:28 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:28 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:28 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-66] Started.
+Mar 18, 2026 12:57:28 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:29 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:29 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-67] Started.
+Mar 18, 2026 12:57:29 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:29 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:29 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-68] Started.
+Mar 18, 2026 12:57:29 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:29 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:29 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-69] Started.
+Mar 18, 2026 12:57:29 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:29 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:29 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-70] Started.
+Mar 18, 2026 12:57:29 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:30 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:30 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-71] Started.
+Mar 18, 2026 12:57:30 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:30 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:30 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-72] Started.
+Mar 18, 2026 12:57:30 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:30 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:30 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-73] Started.
+Mar 18, 2026 12:57:30 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:30 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:30 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-74] Started.
+Mar 18, 2026 12:57:30 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:30 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:30 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-75] Started.
+Mar 18, 2026 12:57:30 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:31 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:31 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-76] Started.
+Mar 18, 2026 12:57:31 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:31 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:31 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-77] Started.
+Mar 18, 2026 12:57:31 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:31 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:31 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-78] Started.
+Mar 18, 2026 12:57:31 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:31 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:31 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-79] Started.
+Mar 18, 2026 12:57:31 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:32 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:32 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-80] Started.
+Mar 18, 2026 12:57:32 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:32 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:32 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-81] Started.
+Mar 18, 2026 12:57:32 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:32 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:32 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-82] Started.
+Mar 18, 2026 12:57:32 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:32 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:32 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-83] Started.
+Mar 18, 2026 12:57:32 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:33 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:33 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-84] Started.
+Mar 18, 2026 12:57:33 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:33 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:33 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-85] Started.
+Mar 18, 2026 12:57:33 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:33 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:33 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-86] Started.
+Mar 18, 2026 12:57:33 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:33 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:33 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-87] Started.
+Mar 18, 2026 12:57:33 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:33 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:33 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-88] Started.
+Mar 18, 2026 12:57:33 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:34 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:34 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-89] Started.
+Mar 18, 2026 12:57:34 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:34 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:34 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-90] Started.
+Mar 18, 2026 12:57:34 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:34 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:34 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-91] Started.
+Mar 18, 2026 12:57:34 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:34 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:34 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-92] Started.
+Mar 18, 2026 12:57:34 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:34 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:34 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-93] Started.
+Mar 18, 2026 12:57:34 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:35 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:35 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-94] Started.
+Mar 18, 2026 12:57:35 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:35 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:35 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-95] Started.
+Mar 18, 2026 12:57:35 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:35 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:35 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-96] Started.
+Mar 18, 2026 12:57:35 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:35 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:35 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-97] Started.
+Mar 18, 2026 12:57:35 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:36 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:36 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-98] Started.
+Mar 18, 2026 12:57:36 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:36 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:36 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-99] Started.
+Mar 18, 2026 12:57:36 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:36 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:36 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-100] Started.
+Mar 18, 2026 12:57:36 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:36 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:36 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-101] Started.
+Mar 18, 2026 12:57:36 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:36 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:36 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-102] Started.
+Mar 18, 2026 12:57:36 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:37 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:37 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-103] Started.
+Mar 18, 2026 12:57:37 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:37 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:37 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-104] Started.
+Mar 18, 2026 12:57:37 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:37 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:37 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-105] Started.
+Mar 18, 2026 12:57:37 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:37 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:37 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-106] Started.
+Mar 18, 2026 12:57:37 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:38 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:38 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-107] Started.
+Mar 18, 2026 12:57:38 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:38 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:38 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-108] Started.
+Mar 18, 2026 12:57:38 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:38 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:38 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-109] Started.
+Mar 18, 2026 12:57:38 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:38 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:38 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-110] Started.
+Mar 18, 2026 12:57:38 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:39 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:39 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-111] Started.
+Mar 18, 2026 12:57:39 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:39 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:39 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-112] Started.
+Mar 18, 2026 12:57:39 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:39 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:39 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-113] Started.
+Mar 18, 2026 12:57:39 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:39 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:39 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-114] Started.
+Mar 18, 2026 12:57:39 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:39 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:39 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-115] Started.
+Mar 18, 2026 12:57:39 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:40 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:40 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-116] Started.
+Mar 18, 2026 12:57:40 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:40 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:40 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-117] Started.
+Mar 18, 2026 12:57:40 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:40 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:40 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-118] Started.
+Mar 18, 2026 12:57:40 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:40 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:40 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-119] Started.
+Mar 18, 2026 12:57:40 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:41 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:41 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-120] Started.
+Mar 18, 2026 12:57:41 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:41 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:41 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-121] Started.
+Mar 18, 2026 12:57:41 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:41 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:41 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-122] Started.
+Mar 18, 2026 12:57:41 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:41 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:41 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-123] Started.
+Mar 18, 2026 12:57:41 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:41 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:41 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-124] Started.
+Mar 18, 2026 12:57:42 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:42 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:42 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-125] Started.
+Mar 18, 2026 12:57:42 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:42 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:42 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-126] Started.
+Mar 18, 2026 12:57:43 PM org.hsqldb.persist.Logger logInfoEvent
+INFO: dataFileCache open start
+Mar 18, 2026 12:57:43 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:43 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:43 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-127] Started.
+Mar 18, 2026 12:57:43 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:43 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:43 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-128] Started.
+Mar 18, 2026 12:57:43 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:44 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:44 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-129] Started.
+Mar 18, 2026 12:57:44 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:44 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:44 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-130] Started.
+Mar 18, 2026 12:57:44 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:44 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:44 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-131] Started.
+Mar 18, 2026 12:57:44 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:44 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:44 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-132] Started.
+Mar 18, 2026 12:57:44 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:44 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:44 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-133] Started.
+Mar 18, 2026 12:57:44 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:45 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:45 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-134] Started.
+Mar 18, 2026 12:57:45 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:45 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:45 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-135] Started.
+Mar 18, 2026 12:57:45 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:45 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:45 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-136] Started.
+Mar 18, 2026 12:57:45 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:45 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:45 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-137] Started.
+Mar 18, 2026 12:57:45 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:46 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:46 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-138] Started.
+Mar 18, 2026 12:57:46 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:46 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:46 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-139] Started.
+Mar 18, 2026 12:57:46 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:46 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:46 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-140] Started.
+Mar 18, 2026 12:57:46 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:46 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:46 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-141] Started.
+Mar 18, 2026 12:57:46 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:46 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:46 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-142] Started.
+Mar 18, 2026 12:57:46 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:47 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:47 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-143] Started.
+Mar 18, 2026 12:57:47 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:47 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:47 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-144] Started.
+Mar 18, 2026 12:57:47 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:47 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:47 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-145] Started.
+Mar 18, 2026 12:57:47 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:47 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:47 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-146] Started.
+Mar 18, 2026 12:57:47 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:48 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:48 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-147] Started.
+Mar 18, 2026 12:57:48 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:48 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:48 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-148] Started.
+Mar 18, 2026 12:57:48 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:48 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:48 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-149] Started.
+Mar 18, 2026 12:57:48 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:48 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:48 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-150] Started.
+Mar 18, 2026 12:57:48 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:49 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:49 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-151] Started.
+Mar 18, 2026 12:57:49 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:49 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:49 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-152] Started.
+Mar 18, 2026 12:57:49 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:49 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:49 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-153] Started.
+Mar 18, 2026 12:57:49 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:49 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:49 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-154] Started.
+Mar 18, 2026 12:57:49 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:50 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:50 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-155] Started.
+Mar 18, 2026 12:57:50 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:50 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:50 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-156] Started.
+Mar 18, 2026 12:57:50 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:50 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:50 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-157] Started.
+Mar 18, 2026 12:57:50 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:50 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:50 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-158] Started.
+Mar 18, 2026 12:57:50 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:50 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:50 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-159] Started.
+Mar 18, 2026 12:57:50 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:51 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:51 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-160] Started.
+Mar 18, 2026 12:57:51 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:51 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:51 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-161] Started.
+Mar 18, 2026 12:57:51 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:51 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:51 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-162] Started.
+Mar 18, 2026 12:57:51 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:51 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:51 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-163] Started.
+Mar 18, 2026 12:57:51 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:52 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:52 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-164] Started.
+Mar 18, 2026 12:57:52 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:52 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:52 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-165] Started.
+Mar 18, 2026 12:57:52 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:52 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:52 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-166] Started.
+Mar 18, 2026 12:57:52 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:52 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:52 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-167] Started.
+Mar 18, 2026 12:57:52 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:53 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:53 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-168] Started.
+Mar 18, 2026 12:57:53 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:53 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:53 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-169] Started.
+Mar 18, 2026 12:57:53 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:53 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:53 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-170] Started.
+Mar 18, 2026 12:57:53 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:53 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:53 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-171] Started.
+Mar 18, 2026 12:57:53 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:54 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:54 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-172] Started.
+Mar 18, 2026 12:57:54 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:54 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:54 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-173] Started.
+Mar 18, 2026 12:57:54 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:54 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:54 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-174] Started.
+Mar 18, 2026 12:57:54 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:54 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:54 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-175] Started.
+Mar 18, 2026 12:57:54 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:54 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:54 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-176] Started.
+Mar 18, 2026 12:57:54 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:55 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:55 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-177] Started.
+Mar 18, 2026 12:57:55 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:55 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:55 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-178] Started.
+Mar 18, 2026 12:57:55 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:55 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:55 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-179] Started.
+Mar 18, 2026 12:57:55 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:55 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:55 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-180] Started.
+Mar 18, 2026 12:57:55 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:56 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:56 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-181] Started.
+Mar 18, 2026 12:57:56 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:56 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:56 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-182] Started.
+Mar 18, 2026 12:57:56 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:56 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:56 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-183] Started.
+Mar 18, 2026 12:57:56 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:56 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:56 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-184] Started.
+Mar 18, 2026 12:57:56 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:57 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:57 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-185] Started.
+Mar 18, 2026 12:57:57 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:57 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:57 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-186] Started.
+Mar 18, 2026 12:57:57 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:57 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:57 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-187] Started.
+Mar 18, 2026 12:57:57 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:57 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:57 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-188] Started.
+Mar 18, 2026 12:57:57 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:58 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:58 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-189] Started.
+Mar 18, 2026 12:57:58 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:58 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:58 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-190] Started.
+Mar 18, 2026 12:57:58 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:58 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8888]
+Mar 18, 2026 12:57:58 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-191] Started.
+Mar 18, 2026 12:57:58 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:8888]

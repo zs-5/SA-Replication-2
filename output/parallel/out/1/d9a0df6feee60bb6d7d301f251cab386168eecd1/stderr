@@ -1,0 +1,93 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.jruby.ext.zlib.RubyZlib (file:/root/.m2/repository/org/jruby/jruby-core/9.1.17.0/jruby-core-9.1.17.0.jar) to field java.util.zip.CRC32.crc
+WARNING: Please consider reporting this to the maintainers of org.jruby.ext.zlib.RubyZlib
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+unknown format of /polyglot-maven/polyglot-ruby/target/rubygems-provided/gems/maven-tools-1.1.7/spec/pom_from_jarfile_and_empty_lock/Jarfile.lock - skip it
+DEPRECATED jruby declaration has no effect anymore
+DEPRECATED jruby declaration has no effect anymore
+
+# Jarfile DSL #
+          local "path-to-local-jar"
+          jar # nested element
+          pom # nested element
+          repository # nested element
+          snapshot_repository # nested element
+          scope # nested element
+
+# JAR #
+
+hash options: jar {:scope=>(:compile|:test|:provided|:runtime), :group_id=>"group_id", :artifact_id=>"artifact_id", :version=>"version", :classifier=>"classifier"}
+nested: jar do
+          scope (:compile|:test|:provided|:runtime)
+          exclusions # nested element
+          exclusion # nested element
+          group_id "group_id"
+          artifact_id "artifact_id"
+          version "version"
+          classifier "classifier"
+        end
+argument: jar 'group_id:artifact_id:version'
+argument: jar 'group_id:artifact_id:classifier:version'
+arguments: jar 'group_id:artifact_id','version'
+arguments: jar 'group_id:artifact_id','classifier,'version'
+arguments: jar 'group_id','artifact_id','version'
+arguments: jar 'group_id','artifact_id','classifier,'version'
+
+# EXCLUSIONS #
+
+nested: exclusions do
+          exclusion # nested element
+        end
+arguments: exclusions 'group_id:artifact_id1', 'group_id:artifact_id2'
+arguments: exclusions ['group_id','artifact_id1'], ['group_id','artifact_id2']
+
+# EXCLUSION #
+
+hash options: exclusion {:group_id=>"group_id", :artifact_id=>"artifact_id"}
+nested: exclusion do
+          group_id "group_id"
+          artifact_id "artifact_id"
+        end
+argument: exclusion 'group_id:artifact_id'
+arguments: exclusion 'group_id','artifact_id'
+
+# POM #
+
+hash options: pom {:scope=>(:compile|:test|:provided|:runtime), :group_id=>"group_id", :artifact_id=>"artifact_id", :version=>"version", :classifier=>"classifier"}
+nested: pom do
+          scope (:compile|:test|:provided|:runtime)
+          exclusions # nested element
+          exclusion # nested element
+          group_id "group_id"
+          artifact_id "artifact_id"
+          version "version"
+          classifier "classifier"
+        end
+argument: pom 'group_id:artifact_id:version'
+argument: pom 'group_id:artifact_id:classifier:version'
+arguments: pom 'group_id:artifact_id','version'
+arguments: pom 'group_id:artifact_id','classifier,'version'
+arguments: pom 'group_id','artifact_id','version'
+arguments: pom 'group_id','artifact_id','classifier,'version'
+DEPRECATED jruby declaration has no effect anymore
+Warning: *uncoerced-classes* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *uncoerced-classes* or change the name. (org/sonatype/maven/polyglot/clojure/dsl/reader.clj:14)
+Warning: *MODEL* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *MODEL* or change the name. (org/sonatype/maven/polyglot/clojure/dsl/reader.clj:178)
+WARNING: group-by already refers to: #'clojure.core/group-by in namespace: org.sonatype.maven.polyglot.clojure.dsl.writer, being replaced by: #'org.sonatype.maven.polyglot.clojure.dsl.writer/group-by
+Warning: *field-defaults* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *field-defaults* or change the name. (org/sonatype/maven/polyglot/clojure/dsl/writer.clj:156)
+Warning: *field-order* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *field-order* or change the name. (org/sonatype/maven/polyglot/clojure/dsl/writer.clj:164)
+Warning: *leiningen-defaults* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *leiningen-defaults* or change the name. (org/sonatype/maven/polyglot/clojure/dsl/leiningen.clj:21)
+Warning: *leiningen-valid-properties* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *leiningen-valid-properties* or change the name. (org/sonatype/maven/polyglot/clojure/dsl/leiningen.clj:33)
+Warning: *uncoerced-classes* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *uncoerced-classes* or change the name. (org/sonatype/maven/polyglot/clojure/dsl/reader.clj:14)
+Warning: *MODEL* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *MODEL* or change the name. (org/sonatype/maven/polyglot/clojure/dsl/reader.clj:178)
+Warning: *leiningen-defaults* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *leiningen-defaults* or change the name. (org/sonatype/maven/polyglot/clojure/dsl/leiningen.clj:21)
+Warning: *leiningen-valid-properties* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *leiningen-valid-properties* or change the name. (org/sonatype/maven/polyglot/clojure/dsl/leiningen.clj:33)
+WARNING: group-by already refers to: #'clojure.core/group-by in namespace: org.sonatype.maven.polyglot.clojure.dsl.writer, being replaced by: #'org.sonatype.maven.polyglot.clojure.dsl.writer/group-by
+Warning: *field-defaults* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *field-defaults* or change the name. (org/sonatype/maven/polyglot/clojure/dsl/writer.clj:156)
+Warning: *field-order* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *field-order* or change the name. (org/sonatype/maven/polyglot/clojure/dsl/writer.clj:164)

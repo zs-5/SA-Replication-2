@@ -1,0 +1,5 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.github.os72.protobuf351.UnsafeUtil (file:/root/.m2/repository/com/signalfx/public/signalfx-java/1.0.5/signalfx-java-1.0.5.jar) to field java.nio.Buffer.address
+WARNING: Please consider reporting this to the maintainers of com.github.os72.protobuf351.UnsafeUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release

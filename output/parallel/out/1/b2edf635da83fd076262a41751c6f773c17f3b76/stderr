@@ -1,0 +1,904 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.easymock.cglib.core.ReflectUtils$1 (file:/root/.m2/repository/org/easymock/easymock/4.3/easymock-4.3.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.easymock.cglib.core.ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Mar 18, 2026 2:47:57 PM org.jclouds.logging.jdk.JDKLogger logError
+SEVERE: Cannot retry after redirect, command exceeded retry limit 5: EasyMock for class org.jclouds.http.HttpCommand
+Mar 18, 2026 2:47:57 PM org.jclouds.logging.jdk.JDKLogger logError
+SEVERE: Cannot retry after redirect, no host header: EasyMock for class org.jclouds.http.HttpCommand
+Mar 18, 2026 2:47:58 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[42595] starting to accept connections
+Mar 18, 2026 2:47:58 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[52991] starting to accept connections
+Mar 18, 2026 2:47:58 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[47155] starting to accept connections
+Mar 18, 2026 2:47:58 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[44643] starting to accept connections
+Mar 18, 2026 2:47:58 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[40897] starting to accept connections
+Mar 18, 2026 2:47:58 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[47155] received request: GET /objects/ HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+Mar 18, 2026 2:47:58 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[40897] received request: GET /objects/ HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+Mar 18, 2026 2:47:58 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[42595] received request: GET /objects/ HTTP/1.1 and responded: HTTP/1.1 200 OK
+Mar 18, 2026 2:47:58 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[44643] received request: GET /objects/ HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+Mar 18, 2026 2:47:58 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[42595] done accepting connections: Socket closed
+Mar 18, 2026 2:47:58 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[40897] received request: GET /objects/ HTTP/1.1 and responded: HTTP/1.1 200 OK
+Mar 18, 2026 2:47:58 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[47155] received request: GET /objects/ HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+Mar 18, 2026 2:47:58 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[44643] received request: GET /objects/ HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+Mar 18, 2026 2:47:58 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[40897] done accepting connections: Socket closed
+Mar 18, 2026 2:47:58 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[52991] received request: GET /objects/ HTTP/1.1 and responded: HTTP/1.1 200 OK
+Mar 18, 2026 2:47:58 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[52991] received request: GET /objects/ HTTP/1.1 and responded: HTTP/1.1 200 OK
+Mar 18, 2026 2:47:58 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[52991] received request: GET /objects/ HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+Mar 18, 2026 2:47:58 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[52991] received request: GET /objects/ HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+Mar 18, 2026 2:47:58 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[47155] received request: GET /objects/ HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+Mar 18, 2026 2:47:58 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[44643] received request: GET /objects/ HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+Mar 18, 2026 2:47:59 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[52991] received request: GET /objects/ HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+Mar 18, 2026 2:47:59 PM org.jclouds.rest.functions.PresentWhenApiVersionLexicographicallyAtOrAfterSinceApiVersionTest testCacheIsFasterWhenNoAnnotationPresent
+INFO: lookup cache saved 780 microseconds when no annotation present
+Mar 18, 2026 2:47:59 PM org.jclouds.rest.functions.PresentWhenApiVersionLexicographicallyAtOrAfterSinceApiVersionTest testCacheIsFasterWhenAnnotationPresent
+INFO: lookup cache saved 134 microseconds when annotation present
+Mar 18, 2026 2:47:59 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[44643] received request: GET /objects/ HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+Mar 18, 2026 2:47:59 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[47155] received request: GET /objects/ HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+Mar 18, 2026 2:47:59 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[52991] received request: GET /objects/ HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+Mar 18, 2026 2:47:59 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[44643] received request: GET /objects/ HTTP/1.1 and responded: HTTP/1.1 200 OK
+Mar 18, 2026 2:47:59 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[44643] done accepting connections: Socket closed
+Mar 18, 2026 2:47:59 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[47155] received request: GET /objects/ HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+Mar 18, 2026 2:48:00 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[52991] received request: GET /objects/ HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+Mar 18, 2026 2:48:00 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[47155] received request: GET /objects/ HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+Mar 18, 2026 2:48:00 PM org.jclouds.logging.jdk.JDKLogger logError
+SEVERE: Cannot retry after server error, command has exceeded retry limit 5: [method=org.jclouds.http.IntegrationTestClient.public abstract java.lang.String org.jclouds.http.IntegrationTestClient.download(java.lang.String)[], request=GET http://localhost:47155/objects/ HTTP/1.1]
+Mar 18, 2026 2:48:00 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[47155] done accepting connections: Socket closed
+Mar 18, 2026 2:48:00 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[52991] received request: GET /objects/ HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+Mar 18, 2026 2:48:00 PM org.jclouds.logging.jdk.JDKLogger logError
+SEVERE: Cannot retry after server error, command has exceeded retry limit 5: [method=org.jclouds.http.IntegrationTestClient.public abstract java.lang.String org.jclouds.http.IntegrationTestClient.download(java.lang.String)[], request=GET http://localhost:52991/objects/ HTTP/1.1]
+Mar 18, 2026 2:48:00 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[52991] done accepting connections: Socket closed
+Command not considered safe to retry because request method is POST: [request=POST http://localhost HTTP/1.1]
+Cannot retry after server error, command has exceeded retry limit 5: [method=org.jclouds.http.IntegrationTestClient.public abstract java.lang.String org.jclouds.http.IntegrationTestClient.download(java.lang.String)[1], request=GET http://localhost/objects/1 HTTP/1.1]
+Cannot retry after rate limit error, no retry information provided in the response
+Cannot retry after rate limit error, command is not replayable: [request=GET http://localhost HTTP/1.1]
+Cannot retry after rate limit error, command has exceeded retry limit 5: [request=GET http://localhost HTTP/1.1]
+Max wait for rate limited requests is 120000ms but need to wait 400000ms, aborting
+Cannot retry after rate limit error, no retry information provided in the response
+Cannot retry after rate limit error, no retry information provided in the response
+Cannot retry after rate limit error, no retry information provided in the response
+Request execution was interrupted, aborting
+Mar 18, 2026 2:48:29 PM org.jclouds.rest.internal.BaseRestApiExpectTest createInjector
+WARNING: provider [mock] is not setup as META-INF/services/org.jclouds.apis.ApiMetadata or META-INF/services/org.jclouds.providers.ProviderMetadata
+Mar 18, 2026 2:48:29 PM org.jclouds.rest.internal.BaseRestApiExpectTest createInjector
+WARNING: provider [mock] is not setup as META-INF/services/org.jclouds.apis.ApiMetadata or META-INF/services/org.jclouds.providers.ProviderMetadata
+Mar 18, 2026 2:48:29 PM org.jclouds.rest.internal.BaseRestApiExpectTest createInjector
+WARNING: provider [mock] is not setup as META-INF/services/org.jclouds.apis.ApiMetadata or META-INF/services/org.jclouds.providers.ProviderMetadata
+Mar 18, 2026 2:48:30 PM org.jclouds.rest.internal.BaseRestApiExpectTest createInjector
+WARNING: provider [mock] is not setup as META-INF/services/org.jclouds.apis.ApiMetadata or META-INF/services/org.jclouds.providers.ProviderMetadata
+Mar 18, 2026 2:48:30 PM org.jclouds.rest.internal.BaseRestApiExpectTest createInjector
+WARNING: provider [mock] is not setup as META-INF/services/org.jclouds.apis.ApiMetadata or META-INF/services/org.jclouds.providers.ProviderMetadata
+Mar 18, 2026 2:48:30 PM org.jclouds.rest.internal.BaseRestApiExpectTest createInjector
+WARNING: provider [mock] is not setup as META-INF/services/org.jclouds.apis.ApiMetadata or META-INF/services/org.jclouds.providers.ProviderMetadata
+Mar 18, 2026 2:48:30 PM org.jclouds.rest.internal.BaseRestApiExpectTest createInjector
+WARNING: provider [mock] is not setup as META-INF/services/org.jclouds.apis.ApiMetadata or META-INF/services/org.jclouds.providers.ProviderMetadata
+Mar 18, 2026 2:48:30 PM org.jclouds.rest.internal.BaseRestApiExpectTest createInjector
+WARNING: provider [mock] is not setup as META-INF/services/org.jclouds.apis.ApiMetadata or META-INF/services/org.jclouds.providers.ProviderMetadata
+Mar 18, 2026 2:48:30 PM org.jclouds.rest.internal.BaseRestApiExpectTest createInjector
+WARNING: provider [mock] is not setup as META-INF/services/org.jclouds.apis.ApiMetadata or META-INF/services/org.jclouds.providers.ProviderMetadata
+Mar 18, 2026 2:48:30 PM org.jclouds.rest.internal.BaseRestApiExpectTest createInjector
+WARNING: provider [mock] is not setup as META-INF/services/org.jclouds.apis.ApiMetadata or META-INF/services/org.jclouds.providers.ProviderMetadata
+Mar 18, 2026 2:48:30 PM org.jclouds.rest.internal.BaseRestApiExpectTest createInjector
+WARNING: provider [mock] is not setup as META-INF/services/org.jclouds.apis.ApiMetadata or META-INF/services/org.jclouds.providers.ProviderMetadata
+Mar 18, 2026 2:48:30 PM org.jclouds.rest.internal.BaseRestApiExpectTest createInjector
+WARNING: provider [mock] is not setup as META-INF/services/org.jclouds.apis.ApiMetadata or META-INF/services/org.jclouds.providers.ProviderMetadata
+Mar 18, 2026 2:48:30 PM org.jclouds.rest.internal.BaseRestApiExpectTest createInjector
+WARNING: provider [mock] is not setup as META-INF/services/org.jclouds.apis.ApiMetadata or META-INF/services/org.jclouds.providers.ProviderMetadata
+Mar 18, 2026 2:48:30 PM org.jclouds.rest.internal.BaseRestApiExpectTest createInjector
+WARNING: provider [mock] is not setup as META-INF/services/org.jclouds.apis.ApiMetadata or META-INF/services/org.jclouds.providers.ProviderMetadata
+Mar 18, 2026 2:48:30 PM org.jclouds.rest.internal.BaseRestApiExpectTest createInjector
+WARNING: provider [mock] is not setup as META-INF/services/org.jclouds.apis.ApiMetadata or META-INF/services/org.jclouds.providers.ProviderMetadata
+, completed: 0/2, errors: 1, rate: 0ms/op
+java.util.concurrent.ExecutionException: org.jclouds.rest.AuthorizationException
+	at com.google.common.util.concurrent.AbstractFuture.getDoneValue(AbstractFuture.java:588)
+	at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:547)
+	at com.google.common.util.concurrent.AbstractFuture$TrustedFuture.get(AbstractFuture.java:113)
+	at org.jclouds.concurrent.FutureIterables$1.run(FutureIterables.java:123)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:323)
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1270)
+	at com.google.common.util.concurrent.AbstractFuture.addListener(AbstractFuture.java:761)
+	at com.google.common.util.concurrent.AbstractFuture$TrustedFuture.addListener(AbstractFuture.java:136)
+	at org.jclouds.concurrent.FutureIterables.awaitCompletion(FutureIterables.java:118)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:86)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:70)
+	at org.jclouds.concurrent.FutureIterablesTest.testAuthorizationExceptionPropagatesAndOnlyTriesOncePerElement(FutureIterablesTest.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.jclouds.rest.AuthorizationException
+	at org.jclouds.concurrent.FutureIterablesTest$1.apply(FutureIterablesTest.java:54)
+	at org.jclouds.concurrent.FutureIterablesTest$1.apply(FutureIterablesTest.java:51)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:82)
+	... 17 more
+, completed: 0/2, errors: 2, rate: 0ms/op
+java.util.concurrent.ExecutionException: org.jclouds.rest.AuthorizationException
+	at com.google.common.util.concurrent.AbstractFuture.getDoneValue(AbstractFuture.java:588)
+	at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:547)
+	at com.google.common.util.concurrent.AbstractFuture$TrustedFuture.get(AbstractFuture.java:113)
+	at org.jclouds.concurrent.FutureIterables$1.run(FutureIterables.java:123)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:323)
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1270)
+	at com.google.common.util.concurrent.AbstractFuture.addListener(AbstractFuture.java:761)
+	at com.google.common.util.concurrent.AbstractFuture$TrustedFuture.addListener(AbstractFuture.java:136)
+	at org.jclouds.concurrent.FutureIterables.awaitCompletion(FutureIterables.java:118)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:86)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:70)
+	at org.jclouds.concurrent.FutureIterablesTest.testAuthorizationExceptionPropagatesAndOnlyTriesOncePerElement(FutureIterablesTest.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.jclouds.rest.AuthorizationException
+	at org.jclouds.concurrent.FutureIterablesTest$1.apply(FutureIterablesTest.java:54)
+	at org.jclouds.concurrent.FutureIterablesTest$1.apply(FutureIterablesTest.java:51)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:82)
+	... 17 more
+, completed: 0/2, errors: 2, rate: 1ms/op
+java.lang.RuntimeException: , completed: 0/2, errors: 2, rate: 1ms/op
+	at org.jclouds.concurrent.FutureIterables.awaitCompletion(FutureIterables.java:153)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:86)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:70)
+	at org.jclouds.concurrent.FutureIterablesTest.testAuthorizationExceptionPropagatesAndOnlyTriesOncePerElement(FutureIterablesTest.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+, completed: 0/1, errors: 0, rate: 1001ms/op
+java.util.concurrent.TimeoutException: , completed: 0/1, errors: 0, rate: 1001ms/op
+	at org.jclouds.concurrent.FutureIterables.awaitCompletion(FutureIterables.java:144)
+	at org.jclouds.concurrent.FutureIterablesTest.testAwaitCompletionTimeout(FutureIterablesTest.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+ERROR: , completed: 0/2, errors: 1, rate: 0ms/op
+java.util.concurrent.ExecutionException: java.lang.RuntimeException
+	at com.google.common.util.concurrent.AbstractFuture.getDoneValue(AbstractFuture.java:588)
+	at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:547)
+	at com.google.common.util.concurrent.AbstractFuture$TrustedFuture.get(AbstractFuture.java:113)
+	at org.jclouds.concurrent.FutureIterables$1.run(FutureIterables.java:123)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:323)
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1270)
+	at com.google.common.util.concurrent.AbstractFuture.addListener(AbstractFuture.java:761)
+	at com.google.common.util.concurrent.AbstractFuture$TrustedFuture.addListener(AbstractFuture.java:136)
+	at org.jclouds.concurrent.FutureIterables.awaitCompletion(FutureIterables.java:118)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:86)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:70)
+	at org.jclouds.concurrent.FutureIterablesTest.testNormalExceptionPropagatesAsTransformParallelExceptionAndTries5XPerElement(FutureIterablesTest.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.RuntimeException
+	at org.jclouds.concurrent.FutureIterablesTest$2.apply(FutureIterablesTest.java:71)
+	at org.jclouds.concurrent.FutureIterablesTest$2.apply(FutureIterablesTest.java:68)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:82)
+	... 17 more
+Mar 18, 2026 2:48:36 PM com.google.common.util.concurrent.AbstractFuture executeListener
+SEVERE: RuntimeException while executing runnable callGetOnFuture(null,TrustedListenableFutureTask@25c36674[status=SUCCESS, result=[null]]) with executor com.google.common.util.concurrent.MoreExecutors$ListeningDecorator@2f3b0d04[java.util.concurrent.Executors$FinalizableDelegatedExecutorService@6a398687]
+java.util.concurrent.RejectedExecutionException: Task callGetOnFuture(null,TrustedListenableFutureTask@25c36674[status=SUCCESS, result=[null]]) rejected from java.util.concurrent.ThreadPoolExecutor@2b048cbc[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at java.base/java.util.concurrent.Executors$DelegatedExecutorService.execute(Executors.java:687)
+	at com.google.common.util.concurrent.MoreExecutors$ListeningDecorator.execute(MoreExecutors.java:631)
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1270)
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:1038)
+	at com.google.common.util.concurrent.AbstractFuture.set(AbstractFuture.java:783)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleTask.afterRanInterruptiblySuccess(TrustedListenableFutureTask.java:136)
+	at com.google.common.util.concurrent.InterruptibleTask.run(InterruptibleTask.java:86)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask.run(TrustedListenableFutureTask.java:82)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+ERROR: , completed: 0/2, errors: 2, rate: 0ms/op
+java.util.concurrent.ExecutionException: java.lang.RuntimeException
+	at com.google.common.util.concurrent.AbstractFuture.getDoneValue(AbstractFuture.java:588)
+	at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:547)
+	at com.google.common.util.concurrent.AbstractFuture$TrustedFuture.get(AbstractFuture.java:113)
+	at org.jclouds.concurrent.FutureIterables$1.run(FutureIterables.java:123)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:323)
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1270)
+	at com.google.common.util.concurrent.AbstractFuture.addListener(AbstractFuture.java:761)
+	at com.google.common.util.concurrent.AbstractFuture$TrustedFuture.addListener(AbstractFuture.java:136)
+	at org.jclouds.concurrent.FutureIterables.awaitCompletion(FutureIterables.java:118)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:86)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:70)
+	at org.jclouds.concurrent.FutureIterablesTest.testNormalExceptionPropagatesAsTransformParallelExceptionAndTries5XPerElement(FutureIterablesTest.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.RuntimeException
+	at org.jclouds.concurrent.FutureIterablesTest$2.apply(FutureIterablesTest.java:71)
+	at org.jclouds.concurrent.FutureIterablesTest$2.apply(FutureIterablesTest.java:68)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:82)
+	... 17 more
+ERROR: , completed: 0/2, errors: 2, rate: 1ms/op
+java.lang.RuntimeException: , completed: 0/2, errors: 2, rate: 1ms/op
+	at org.jclouds.concurrent.FutureIterables.awaitCompletion(FutureIterables.java:153)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:86)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:70)
+	at org.jclouds.concurrent.FutureIterablesTest.testNormalExceptionPropagatesAsTransformParallelExceptionAndTries5XPerElement(FutureIterablesTest.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+ERROR: , completed: 0/2, errors: 1, rate: 0ms/op
+java.util.concurrent.ExecutionException: java.lang.RuntimeException
+	at com.google.common.util.concurrent.AbstractFuture.getDoneValue(AbstractFuture.java:588)
+	at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:547)
+	at com.google.common.util.concurrent.AbstractFuture$TrustedFuture.get(AbstractFuture.java:113)
+	at org.jclouds.concurrent.FutureIterables$1.run(FutureIterables.java:123)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:323)
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1270)
+	at com.google.common.util.concurrent.AbstractFuture.addListener(AbstractFuture.java:761)
+	at com.google.common.util.concurrent.AbstractFuture$TrustedFuture.addListener(AbstractFuture.java:136)
+	at org.jclouds.concurrent.FutureIterables.awaitCompletion(FutureIterables.java:118)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:86)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:70)
+	at org.jclouds.concurrent.FutureIterablesTest.testNormalExceptionPropagatesAsTransformParallelExceptionAndTries5XPerElement(FutureIterablesTest.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.RuntimeException
+	at org.jclouds.concurrent.FutureIterablesTest$2.apply(FutureIterablesTest.java:71)
+	at org.jclouds.concurrent.FutureIterablesTest$2.apply(FutureIterablesTest.java:68)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:82)
+	... 17 more
+ERROR: , completed: 0/2, errors: 2, rate: 0ms/op
+java.util.concurrent.ExecutionException: java.lang.RuntimeException
+	at com.google.common.util.concurrent.AbstractFuture.getDoneValue(AbstractFuture.java:588)
+	at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:547)
+	at com.google.common.util.concurrent.AbstractFuture$TrustedFuture.get(AbstractFuture.java:113)
+	at org.jclouds.concurrent.FutureIterables$1.run(FutureIterables.java:123)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:323)
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1270)
+	at com.google.common.util.concurrent.AbstractFuture.addListener(AbstractFuture.java:761)
+	at com.google.common.util.concurrent.AbstractFuture$TrustedFuture.addListener(AbstractFuture.java:136)
+	at org.jclouds.concurrent.FutureIterables.awaitCompletion(FutureIterables.java:118)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:86)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:70)
+	at org.jclouds.concurrent.FutureIterablesTest.testNormalExceptionPropagatesAsTransformParallelExceptionAndTries5XPerElement(FutureIterablesTest.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.RuntimeException
+	at org.jclouds.concurrent.FutureIterablesTest$2.apply(FutureIterablesTest.java:71)
+	at org.jclouds.concurrent.FutureIterablesTest$2.apply(FutureIterablesTest.java:68)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:82)
+	... 17 more
+ERROR: , completed: 0/2, errors: 2, rate: 0ms/op
+java.lang.RuntimeException: , completed: 0/2, errors: 2, rate: 0ms/op
+	at org.jclouds.concurrent.FutureIterables.awaitCompletion(FutureIterables.java:153)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:86)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:70)
+	at org.jclouds.concurrent.FutureIterablesTest.testNormalExceptionPropagatesAsTransformParallelExceptionAndTries5XPerElement(FutureIterablesTest.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+ERROR: , completed: 0/2, errors: 1, rate: 0ms/op
+java.util.concurrent.ExecutionException: java.lang.RuntimeException
+	at com.google.common.util.concurrent.AbstractFuture.getDoneValue(AbstractFuture.java:588)
+	at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:547)
+	at com.google.common.util.concurrent.AbstractFuture$TrustedFuture.get(AbstractFuture.java:113)
+	at org.jclouds.concurrent.FutureIterables$1.run(FutureIterables.java:123)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:323)
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1270)
+	at com.google.common.util.concurrent.AbstractFuture.addListener(AbstractFuture.java:761)
+	at com.google.common.util.concurrent.AbstractFuture$TrustedFuture.addListener(AbstractFuture.java:136)
+	at org.jclouds.concurrent.FutureIterables.awaitCompletion(FutureIterables.java:118)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:86)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:70)
+	at org.jclouds.concurrent.FutureIterablesTest.testNormalExceptionPropagatesAsTransformParallelExceptionAndTries5XPerElement(FutureIterablesTest.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.RuntimeException
+	at org.jclouds.concurrent.FutureIterablesTest$2.apply(FutureIterablesTest.java:71)
+	at org.jclouds.concurrent.FutureIterablesTest$2.apply(FutureIterablesTest.java:68)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:82)
+	... 17 more
+ERROR: , completed: 0/2, errors: 2, rate: 0ms/op
+java.util.concurrent.ExecutionException: java.lang.RuntimeException
+	at com.google.common.util.concurrent.AbstractFuture.getDoneValue(AbstractFuture.java:588)
+	at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:547)
+	at com.google.common.util.concurrent.AbstractFuture$TrustedFuture.get(AbstractFuture.java:113)
+	at org.jclouds.concurrent.FutureIterables$1.run(FutureIterables.java:123)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:323)
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1270)
+	at com.google.common.util.concurrent.AbstractFuture.addListener(AbstractFuture.java:761)
+	at com.google.common.util.concurrent.AbstractFuture$TrustedFuture.addListener(AbstractFuture.java:136)
+	at org.jclouds.concurrent.FutureIterables.awaitCompletion(FutureIterables.java:118)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:86)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:70)
+	at org.jclouds.concurrent.FutureIterablesTest.testNormalExceptionPropagatesAsTransformParallelExceptionAndTries5XPerElement(FutureIterablesTest.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.RuntimeException
+	at org.jclouds.concurrent.FutureIterablesTest$2.apply(FutureIterablesTest.java:71)
+	at org.jclouds.concurrent.FutureIterablesTest$2.apply(FutureIterablesTest.java:68)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:82)
+	... 17 more
+ERROR: , completed: 0/2, errors: 2, rate: 0ms/op
+java.lang.RuntimeException: , completed: 0/2, errors: 2, rate: 0ms/op
+	at org.jclouds.concurrent.FutureIterables.awaitCompletion(FutureIterables.java:153)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:86)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:70)
+	at org.jclouds.concurrent.FutureIterablesTest.testNormalExceptionPropagatesAsTransformParallelExceptionAndTries5XPerElement(FutureIterablesTest.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+ERROR: , completed: 0/2, errors: 1, rate: 0ms/op
+java.util.concurrent.ExecutionException: java.lang.RuntimeException
+	at com.google.common.util.concurrent.AbstractFuture.getDoneValue(AbstractFuture.java:588)
+	at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:547)
+	at com.google.common.util.concurrent.AbstractFuture$TrustedFuture.get(AbstractFuture.java:113)
+	at org.jclouds.concurrent.FutureIterables$1.run(FutureIterables.java:123)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:323)
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1270)
+	at com.google.common.util.concurrent.AbstractFuture.addListener(AbstractFuture.java:761)
+	at com.google.common.util.concurrent.AbstractFuture$TrustedFuture.addListener(AbstractFuture.java:136)
+	at org.jclouds.concurrent.FutureIterables.awaitCompletion(FutureIterables.java:118)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:86)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:70)
+	at org.jclouds.concurrent.FutureIterablesTest.testNormalExceptionPropagatesAsTransformParallelExceptionAndTries5XPerElement(FutureIterablesTest.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.RuntimeException
+	at org.jclouds.concurrent.FutureIterablesTest$2.apply(FutureIterablesTest.java:71)
+	at org.jclouds.concurrent.FutureIterablesTest$2.apply(FutureIterablesTest.java:68)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:82)
+	... 17 more
+ERROR: , completed: 0/2, errors: 2, rate: 0ms/op
+java.util.concurrent.ExecutionException: java.lang.RuntimeException
+	at com.google.common.util.concurrent.AbstractFuture.getDoneValue(AbstractFuture.java:588)
+	at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:547)
+	at com.google.common.util.concurrent.AbstractFuture$TrustedFuture.get(AbstractFuture.java:113)
+	at org.jclouds.concurrent.FutureIterables$1.run(FutureIterables.java:123)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:323)
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1270)
+	at com.google.common.util.concurrent.AbstractFuture.addListener(AbstractFuture.java:761)
+	at com.google.common.util.concurrent.AbstractFuture$TrustedFuture.addListener(AbstractFuture.java:136)
+	at org.jclouds.concurrent.FutureIterables.awaitCompletion(FutureIterables.java:118)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:86)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:70)
+	at org.jclouds.concurrent.FutureIterablesTest.testNormalExceptionPropagatesAsTransformParallelExceptionAndTries5XPerElement(FutureIterablesTest.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.RuntimeException
+	at org.jclouds.concurrent.FutureIterablesTest$2.apply(FutureIterablesTest.java:71)
+	at org.jclouds.concurrent.FutureIterablesTest$2.apply(FutureIterablesTest.java:68)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:82)
+	... 17 more
+ERROR: , completed: 0/2, errors: 2, rate: 0ms/op
+java.lang.RuntimeException: , completed: 0/2, errors: 2, rate: 0ms/op
+	at org.jclouds.concurrent.FutureIterables.awaitCompletion(FutureIterables.java:153)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:86)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:70)
+	at org.jclouds.concurrent.FutureIterablesTest.testNormalExceptionPropagatesAsTransformParallelExceptionAndTries5XPerElement(FutureIterablesTest.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+ERROR: , completed: 0/2, errors: 1, rate: 0ms/op
+java.util.concurrent.ExecutionException: java.lang.RuntimeException
+	at com.google.common.util.concurrent.AbstractFuture.getDoneValue(AbstractFuture.java:588)
+	at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:547)
+	at com.google.common.util.concurrent.AbstractFuture$TrustedFuture.get(AbstractFuture.java:113)
+	at org.jclouds.concurrent.FutureIterables$1.run(FutureIterables.java:123)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:323)
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1270)
+	at com.google.common.util.concurrent.AbstractFuture.addListener(AbstractFuture.java:761)
+	at com.google.common.util.concurrent.AbstractFuture$TrustedFuture.addListener(AbstractFuture.java:136)
+	at org.jclouds.concurrent.FutureIterables.awaitCompletion(FutureIterables.java:118)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:86)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:70)
+	at org.jclouds.concurrent.FutureIterablesTest.testNormalExceptionPropagatesAsTransformParallelExceptionAndTries5XPerElement(FutureIterablesTest.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.RuntimeException
+	at org.jclouds.concurrent.FutureIterablesTest$2.apply(FutureIterablesTest.java:71)
+	at org.jclouds.concurrent.FutureIterablesTest$2.apply(FutureIterablesTest.java:68)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:82)
+	... 17 more
+ERROR: , completed: 0/2, errors: 2, rate: 0ms/op
+java.util.concurrent.ExecutionException: java.lang.RuntimeException
+	at com.google.common.util.concurrent.AbstractFuture.getDoneValue(AbstractFuture.java:588)
+	at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:547)
+	at com.google.common.util.concurrent.AbstractFuture$TrustedFuture.get(AbstractFuture.java:113)
+	at org.jclouds.concurrent.FutureIterables$1.run(FutureIterables.java:123)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:323)
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1270)
+	at com.google.common.util.concurrent.AbstractFuture.addListener(AbstractFuture.java:761)
+	at com.google.common.util.concurrent.AbstractFuture$TrustedFuture.addListener(AbstractFuture.java:136)
+	at org.jclouds.concurrent.FutureIterables.awaitCompletion(FutureIterables.java:118)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:86)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:70)
+	at org.jclouds.concurrent.FutureIterablesTest.testNormalExceptionPropagatesAsTransformParallelExceptionAndTries5XPerElement(FutureIterablesTest.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.RuntimeException
+	at org.jclouds.concurrent.FutureIterablesTest$2.apply(FutureIterablesTest.java:71)
+	at org.jclouds.concurrent.FutureIterablesTest$2.apply(FutureIterablesTest.java:68)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:82)
+	... 17 more
+ERROR: , completed: 0/2, errors: 2, rate: 0ms/op
+java.lang.RuntimeException: , completed: 0/2, errors: 2, rate: 0ms/op
+	at org.jclouds.concurrent.FutureIterables.awaitCompletion(FutureIterables.java:153)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:86)
+	at org.jclouds.concurrent.FutureIterables.transformParallel(FutureIterables.java:70)
+	at org.jclouds.concurrent.FutureIterablesTest.testNormalExceptionPropagatesAsTransformParallelExceptionAndTries5XPerElement(FutureIterablesTest.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.easymock.cglib.core.ReflectUtils$1 (file:/root/.m2/repository/org/easymock/easymock/4.3/easymock-4.3.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.easymock.cglib.core.ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.easymock.cglib.core.ReflectUtils$1 (file:/root/.m2/repository/org/easymock/easymock/4.3/easymock-4.3.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.easymock.cglib.core.ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.easymock.cglib.core.ReflectUtils$1 (file:/root/.m2/repository/org/easymock/easymock/4.3/easymock-4.3.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.easymock.cglib.core.ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+<< problem customizing node(id): << problem customizing node(id): 
+java.lang.IllegalStateException: bad state!
+	at org.jclouds.compute.strategy.CustomizeNodeAndAddToGoodMapOrPutExceptionIntoBadMapTest$1.apply(CustomizeNodeAndAddToGoodMapOrPutExceptionIntoBadMapTest.java:73)
+	at org.jclouds.compute.strategy.CustomizeNodeAndAddToGoodMapOrPutExceptionIntoBadMapTest$1.apply(CustomizeNodeAndAddToGoodMapOrPutExceptionIntoBadMapTest.java:68)
+	at org.jclouds.compute.strategy.CustomizeNodeAndAddToGoodMapOrPutExceptionIntoBadMap.call(CustomizeNodeAndAddToGoodMapOrPutExceptionIntoBadMap.java:118)
+	at org.jclouds.compute.strategy.CustomizeNodeAndAddToGoodMapOrPutExceptionIntoBadMap.apply(CustomizeNodeAndAddToGoodMapOrPutExceptionIntoBadMap.java:144)
+	at org.jclouds.compute.strategy.CustomizeNodeAndAddToGoodMapOrPutExceptionIntoBadMapTest.testBreakOnIllegalStateExceptionDuringPollNode(CustomizeNodeAndAddToGoodMapOrPutExceptionIntoBadMapTest.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+java.util.NoSuchElementException: could not connect to any ip address port
+	at org.easymock.internal.MockInvocationHandler.invoke(MockInvocationHandler.java:46)
+	at org.easymock.internal.ObjectMethodsFilter.invoke(ObjectMethodsFilter.java:102)
+	at com.sun.proxy.$Proxy79.findOpenSocketOnNode(Unknown Source)
+	at org.jclouds.compute.strategy.CustomizeNodeAndAddToGoodMapOrPutExceptionIntoBadMap.call(CustomizeNodeAndAddToGoodMapOrPutExceptionIntoBadMap.java:128)
+	at org.jclouds.compute.strategy.CustomizeNodeAndAddToGoodMapOrPutExceptionIntoBadMap.apply(CustomizeNodeAndAddToGoodMapOrPutExceptionIntoBadMap.java:144)
+	at org.jclouds.compute.strategy.CustomizeNodeAndAddToGoodMapOrPutExceptionIntoBadMapTest.testBreakGraceWhenNodeSocketFailsToOpen(CustomizeNodeAndAddToGoodMapOrPutExceptionIntoBadMapTest.java:129)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+java.util.NoSuchElementException: could not connect to any ip address port
+	at org.easymock.internal.MockInvocationHandler.invoke(MockInvocationHandler.java:46)
+	at org.easymock.internal.ObjectMethodsFilter.invoke(ObjectMethodsFilter.java:102)
+	at com.sun.proxy.$Proxy79.findOpenSocketOnNode(Unknown Source)
+	at org.jclouds.compute.strategy.CustomizeNodeAndAddToGoodMapOrPutExceptionIntoBadMap.call(CustomizeNodeAndAddToGoodMapOrPutExceptionIntoBadMap.java:128)
+	at org.jclouds.compute.strategy.CustomizeNodeAndAddToGoodMapOrPutExceptionIntoBadMap.apply(CustomizeNodeAndAddToGoodMapOrPutExceptionIntoBadMap.java:144)
+	at org.jclouds.compute.strategy.CustomizeNodeAndAddToGoodMapOrPutExceptionIntoBadMapTest.testBreakGraceWhenNodeSocketFailsToOpen(CustomizeNodeAndAddToGoodMapOrPutExceptionIntoBadMapTest.java:129)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Unexpected error loading image region/imageId2
+com.google.common.cache.CacheLoader$InvalidCacheLoadException: CacheLoader returned null for key region/imageId2.
+	at com.google.common.cache.LocalCache$Segment.getAndRecordStats(LocalCache.java:2319)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2283)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2159)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2049)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3966)
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3989)
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4950)
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4956)
+	at org.jclouds.compute.suppliers.ImageCacheSupplier.get(ImageCacheSupplier.java:160)
+	at org.jclouds.compute.domain.internal.TemplateBuilderImpl.loadImageWithId(TemplateBuilderImpl.java:717)
+	at org.jclouds.compute.domain.internal.TemplateBuilderImpl.build(TemplateBuilderImpl.java:672)
+	at org.jclouds.compute.domain.internal.TemplateBuilderImplTest.testDefaultLocationWithNoOptionsNoSuchElement(TemplateBuilderImplTest.java:650)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Unexpected error loading image region/ami
+com.google.common.cache.CacheLoader$InvalidCacheLoadException: CacheLoader returned null for key region/ami.
+	at com.google.common.cache.LocalCache$Segment.getAndRecordStats(LocalCache.java:2319)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2283)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2159)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2049)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3966)
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3989)
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4950)
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4956)
+	at org.jclouds.compute.suppliers.ImageCacheSupplier.get(ImageCacheSupplier.java:160)
+	at org.jclouds.compute.domain.internal.TemplateBuilderImpl.loadImageWithId(TemplateBuilderImpl.java:717)
+	at org.jclouds.compute.domain.internal.TemplateBuilderImpl.build(TemplateBuilderImpl.java:672)
+	at org.jclouds.compute.domain.internal.TemplateBuilderImplTest.testDefaultLocationWithOptions(TemplateBuilderImplTest.java:718)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Mar 18, 2026 2:49:14 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[39681] starting to accept connections
+Mar 18, 2026 2:49:14 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[60385] starting to accept connections
+Mar 18, 2026 2:49:14 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[57433] starting to accept connections
+Mar 18, 2026 2:49:14 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[35233] starting to accept connections
+Mar 18, 2026 2:49:15 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[39681] received request: POST / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Mar 18, 2026 2:49:15 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[35233] received request: POST / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Mar 18, 2026 2:49:15 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[60385] received request: POST / HTTP/1.1 and responded: HTTP/1.1 400 Client Error
+Mar 18, 2026 2:49:15 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[57433] received request: POST / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Mar 18, 2026 2:49:15 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[57433] done accepting connections: Socket closed
+Mar 18, 2026 2:49:15 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[60385] done accepting connections: Socket closed
+Mar 18, 2026 2:49:15 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[35233] done accepting connections: Socket closed
+Mar 18, 2026 2:49:15 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[39681] done accepting connections: Socket closed
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.easymock.cglib.core.ReflectUtils$1 (file:/root/.m2/repository/org/easymock/easymock/4.3/easymock-4.3.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.easymock.cglib.core.ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.easymock.cglib.core.ReflectUtils$1 (file:/root/.m2/repository/org/easymock/easymock/4.3/easymock-4.3.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.easymock.cglib.core.ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.easymock.cglib.core.ReflectUtils$1 (file:/root/.m2/repository/org/easymock/easymock/4.3/easymock-4.3.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.easymock.cglib.core.ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release

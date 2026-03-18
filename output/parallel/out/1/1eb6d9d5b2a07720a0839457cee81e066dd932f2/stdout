@@ -1,0 +1,547 @@
+podman run --network none ghcr.io/chains-project/breaking-updates:1eb6d9d5b2a07720a0839457cee81e066dd932f2-breaking
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< ai.elimu:webapp >---------------------------
+[INFO] Building webapp 2.2.125-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[WARNING] The artifact org.hibernate:hibernate-validator:jar:6.1.7.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.1.7.Final
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ webapp ---
+[INFO] Deleting /webapp/target
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ webapp ---
+[INFO] Copying 1 resource
+[INFO] Copying 273 resources
+[INFO] The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ webapp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 288 source files to /webapp/target/classes
+[WARNING] /webapp/src/main/java/ai/elimu/model/content/Number.java:[19,6] org.hibernate.validator.constraints.NotEmpty in org.hibernate.validator.constraints has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/model/content/Number.java:[19,6] org.hibernate.validator.constraints.NotEmpty in org.hibernate.validator.constraints has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/model/content/Number.java:[19,6] org.hibernate.validator.constraints.NotEmpty in org.hibernate.validator.constraints has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/model/content/Word.java:[23,6] org.hibernate.validator.constraints.NotEmpty in org.hibernate.validator.constraints has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/model/content/Word.java:[23,6] org.hibernate.validator.constraints.NotEmpty in org.hibernate.validator.constraints has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/model/content/Word.java:[23,6] org.hibernate.validator.constraints.NotEmpty in org.hibernate.validator.constraints has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/model/contributor/Contributor.java:[25,6] org.hibernate.validator.constraints.NotEmpty in org.hibernate.validator.constraints has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/model/contributor/Contributor.java:[25,6] org.hibernate.validator.constraints.NotEmpty in org.hibernate.validator.constraints has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/model/contributor/Contributor.java:[25,6] org.hibernate.validator.constraints.NotEmpty in org.hibernate.validator.constraints has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/web/content/letter/LetterCsvExportController.java:[43,17] withHeader(java.lang.String...) in org.apache.commons.csv.CSVFormat has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/util/csv/CsvAnalyticsExtractionHelper.java:[45,21] withHeader(java.lang.String...) in org.apache.commons.csv.CSVFormat has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/util/csv/CsvAnalyticsExtractionHelper.java:[54,21] withSkipHeaderRecord() in org.apache.commons.csv.CSVFormat has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/analytics/WordAssessmentEventsRestController.java:[31,90] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/analytics/WordAssessmentEventsRestController.java:[31,90] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/analytics/WordAssessmentEventsRestController.java:[31,90] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/analytics/WordAssessmentEventsRestController.java:[96,21] withHeader(java.lang.String...) in org.apache.commons.csv.CSVFormat has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/analytics/WordAssessmentEventsRestController.java:[106,21] withSkipHeaderRecord() in org.apache.commons.csv.CSVFormat has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/crowdsource/ContributorsRestControllerGoogle.java:[34,82] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/crowdsource/ContributorsRestControllerGoogle.java:[34,82] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/crowdsource/ContributorsRestControllerGoogle.java:[34,82] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/web/content/sound/SoundCsvExportController.java:[41,17] withHeader(java.lang.String...) in org.apache.commons.csv.CSVFormat has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/content/AudiosRestController.java:[20,72] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/content/AudiosRestController.java:[20,72] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/content/AudiosRestController.java:[20,72] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/crowdsource/AudioContributionsRestController.java:[45,89] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/crowdsource/AudioContributionsRestController.java:[45,89] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/crowdsource/AudioContributionsRestController.java:[45,89] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/crowdsource/AudioContributionsRestController.java:[228,32] getText() in ai.elimu.model.content.Word has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/crowdsource/AudioContributionsRestController.java:[229,40] getText() in ai.elimu.model.content.Word has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/analytics/StoryBookLearningEventsRestController.java:[37,93] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/analytics/StoryBookLearningEventsRestController.java:[37,93] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/analytics/StoryBookLearningEventsRestController.java:[37,93] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/analytics/StoryBookLearningEventsRestController.java:[102,21] withHeader(java.lang.String...) in org.apache.commons.csv.CSVFormat has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/analytics/StoryBookLearningEventsRestController.java:[111,21] withSkipHeaderRecord() in org.apache.commons.csv.CSVFormat has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/web/context/EnvironmentContextLoaderListener.java:[150,13] org.springframework.beans.factory.config.PropertyPlaceholderConfigurer in org.springframework.beans.factory.config has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/web/context/EnvironmentContextLoaderListener.java:[150,79] org.springframework.beans.factory.config.PropertyPlaceholderConfigurer in org.springframework.beans.factory.config has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/web/context/EnvironmentContextLoaderListener.java:[155,21] org.springframework.beans.factory.config.PropertyPlaceholderConfigurer in org.springframework.beans.factory.config has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/web/context/EnvironmentContextLoaderListener.java:[155,87] org.springframework.beans.factory.config.PropertyPlaceholderConfigurer in org.springframework.beans.factory.config has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/content/LetterSoundCorrespondencesRestController.java:[19,94] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/content/LetterSoundCorrespondencesRestController.java:[19,94] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/content/LetterSoundCorrespondencesRestController.java:[19,94] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/web/content/contributor/AddEmailController.java:[43,14] org.apache.commons.validator.EmailValidator in org.apache.commons.validator has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/applications/ApplicationsRestController.java:[25,70] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/applications/ApplicationsRestController.java:[25,70] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/applications/ApplicationsRestController.java:[25,70] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/web/content/word/WordCsvExportController.java:[44,17] withHeader(java.lang.String...) in org.apache.commons.csv.CSVFormat has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/web/content/word/WordCsvExportController.java:[58,52] getText() in ai.elimu.model.content.Word has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/web/content/word/WordCsvExportController.java:[84,50] getText() in ai.elimu.model.content.Word has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/web/content/word/WordCsvExportController.java:[89,25] getText() in ai.elimu.model.content.Word has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/dao/jpa/WordLearningEventDaoJpa.java:[29,144] getText() in ai.elimu.model.content.Word has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/crowdsource/ContributorsRestControllerWeb3.java:[34,87] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/crowdsource/ContributorsRestControllerWeb3.java:[34,87] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/crowdsource/ContributorsRestControllerWeb3.java:[34,87] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/content/WordsRestController.java:[19,71] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/content/WordsRestController.java:[19,71] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/content/WordsRestController.java:[19,71] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/web/analytics/StoryBookLearningEventCsvExportController.java:[49,17] withHeader(java.lang.String...) in org.apache.commons.csv.CSVFormat has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/crowdsource/WordPeerReviewsRestController.java:[43,87] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/crowdsource/WordPeerReviewsRestController.java:[43,87] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/crowdsource/WordPeerReviewsRestController.java:[43,87] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/crowdsource/WordPeerReviewsRestController.java:[185,59] getText() in ai.elimu.model.content.Word has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/crowdsource/WordContributionRestController.java:[40,88] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/crowdsource/WordContributionRestController.java:[40,88] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/crowdsource/WordContributionRestController.java:[40,88] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/crowdsource/WordContributionRestController.java:[131,56] getText() in ai.elimu.model.v2.gson.content.WordGson has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/crowdsource/WordContributionRestController.java:[146,34] getText() in ai.elimu.model.v2.gson.content.WordGson has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/crowdsource/WordContributionRestController.java:[146,17] setText(java.lang.String) in ai.elimu.model.content.Word has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/crowdsource/WordContributionRestController.java:[173,59] getText() in ai.elimu.model.content.Word has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/crowdsource/AudioPeerReviewsRestController.java:[42,88] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/crowdsource/AudioPeerReviewsRestController.java:[42,88] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/crowdsource/AudioPeerReviewsRestController.java:[42,88] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/content/ImagesRestController.java:[20,72] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/content/ImagesRestController.java:[20,72] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/rest/v2/content/ImagesRestController.java:[20,72] APPLICATION_JSON_UTF8_VALUE in org.springframework.http.MediaType has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/web/content/word/WordCreateController.java:[90,17] setText(java.lang.String) in ai.elimu.model.content.Word has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/web/content/word/WordCreateController.java:[116,52] getText() in ai.elimu.model.content.Word has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/web/content/word/WordCreateController.java:[121,41] getText() in ai.elimu.model.content.Word has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/web/content/word/WordCreateController.java:[152,59] getText() in ai.elimu.model.content.Word has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/web/content/word/WordCreateController.java:[161,53] getText() in ai.elimu.model.content.Word has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/web/content/word/WordCreateController.java:[172,60] getText() in ai.elimu.model.content.Word has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/web/content/word/WordCreateController.java:[183,90] getText() in ai.elimu.model.content.Word has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/web/content/word/WordCreateController.java:[191,52] getText() in ai.elimu.model.content.Word has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/web/content/word/WordCreateController.java:[243,31] getText() in ai.elimu.model.content.Word has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/util/SyllableHelper.java:[29,59] getText() in ai.elimu.model.content.Word has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/web/content/storybook/StoryBookCsvExportController.java:[59,17] withHeader(java.lang.String...) in org.apache.commons.csv.CSVFormat has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/util/csv/CsvContentExtractionHelper.java:[64,21] withHeader(java.lang.String...) in org.apache.commons.csv.CSVFormat has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/util/csv/CsvContentExtractionHelper.java:[73,21] withSkipHeaderRecord() in org.apache.commons.csv.CSVFormat has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/util/csv/CsvContentExtractionHelper.java:[119,21] withHeader(java.lang.String...) in org.apache.commons.csv.CSVFormat has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/util/csv/CsvContentExtractionHelper.java:[125,21] withSkipHeaderRecord() in org.apache.commons.csv.CSVFormat has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/util/csv/CsvContentExtractionHelper.java:[163,21] withHeader(java.lang.String...) in org.apache.commons.csv.CSVFormat has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/util/csv/CsvContentExtractionHelper.java:[171,21] withSkipHeaderRecord() in org.apache.commons.csv.CSVFormat has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/util/csv/CsvContentExtractionHelper.java:[233,21] withHeader(java.lang.String...) in org.apache.commons.csv.CSVFormat has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/util/csv/CsvContentExtractionHelper.java:[243,21] withSkipHeaderRecord() in org.apache.commons.csv.CSVFormat has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/util/csv/CsvContentExtractionHelper.java:[251,21] setText(java.lang.String) in ai.elimu.model.content.Word has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/util/csv/CsvContentExtractionHelper.java:[319,21] withHeader(java.lang.String...) in org.apache.commons.csv.CSVFormat has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/util/csv/CsvContentExtractionHelper.java:[326,21] withSkipHeaderRecord() in org.apache.commons.csv.CSVFormat has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/util/csv/CsvContentExtractionHelper.java:[376,21] withHeader(java.lang.String...) in org.apache.commons.csv.CSVFormat has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/util/csv/CsvContentExtractionHelper.java:[384,21] withSkipHeaderRecord() in org.apache.commons.csv.CSVFormat has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/util/csv/CsvContentExtractionHelper.java:[439,21] withHeader(java.lang.String...) in org.apache.commons.csv.CSVFormat has been deprecated
+[WARNING] /webapp/src/main/java/ai/elimu/util/csv/CsvContentExtractionHelper.java:[449,21] withSkipHeaderRecord() in org.apache.commons.csv.CSVFormat has been deprecated
+[INFO] /webapp/src/main/java/ai/elimu/rest/v2/content/SoundsRestController.java: Some input files additionally use or override a deprecated API.
+[INFO] /webapp/src/main/java/ai/elimu/dao/jpa/GenericDaoJpa.java: Some input files use unchecked or unsafe operations.
+[INFO] /webapp/src/main/java/ai/elimu/dao/jpa/GenericDaoJpa.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ webapp ---
+[INFO] Copying 47 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ webapp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 44 source files to /webapp/target/test-classes
+[WARNING] /webapp/src/test/java/ai/elimu/rest/v2/content/SoundsRestControllerTest.java:[24,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/rest/v2/content/SoundsRestControllerTest.java:[27,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/rest/v2/content/SoundsRestControllerTest.java:[28,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/SyllableFrequencyHelperTest.java:[19,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/SyllableFrequencyHelperTest.java:[20,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/SyllableFrequencyHelperTest.java:[21,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/SyllableFrequencyHelperTest.java:[22,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/SyllableFrequencyHelperTest.java:[23,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/SyllableFrequencyHelperTest.java:[24,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/dao/ImageDaoTest.java:[34,16] setText(java.lang.String) in ai.elimu.model.content.Word has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/dao/ImageDaoTest.java:[38,16] setText(java.lang.String) in ai.elimu.model.content.Word has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/dao/ImageDaoTest.java:[42,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/dao/ImageDaoTest.java:[53,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/dao/ImageDaoTest.java:[56,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/dao/ImageDaoTest.java:[57,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/dao/ImageDaoTest.java:[64,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/dao/ImageDaoTest.java:[65,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubImageExtractionHelperTest.java:[26,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubImageExtractionHelperTest.java:[37,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubImageExtractionHelperTest.java:[48,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubImageExtractionHelperTest.java:[59,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/dao/NumberDaoTest.java:[48,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[28,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[29,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[40,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[41,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[42,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[53,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[54,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[55,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[66,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[67,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[68,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[79,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[80,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[81,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[92,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[93,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[104,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[105,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[116,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[117,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[128,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[129,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[130,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[131,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[142,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[143,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[144,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[155,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[156,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[168,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[169,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[180,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[181,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[192,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[193,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[194,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[205,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[206,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[207,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[218,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[219,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[220,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[221,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[232,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[233,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[244,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubParagraphExtractionHelperTest.java:[245,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/rest/v2/crowdsource/AudioPeerReviewsRestControllerTest.java:[25,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/rest/v2/crowdsource/AudioPeerReviewsRestControllerTest.java:[26,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubChapterExtractionHelperTest.java:[27,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubChapterExtractionHelperTest.java:[38,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubChapterExtractionHelperTest.java:[49,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/epub/EPubChapterExtractionHelperTest.java:[60,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/rest/v2/content/EmojisRestControllerTest.java:[24,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/rest/v2/content/EmojisRestControllerTest.java:[27,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/VersionHelperTest.java:[13,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/VersionHelperTest.java:[16,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/VersionHelperTest.java:[19,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/VersionHelperTest.java:[22,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/VersionHelperTest.java:[25,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/VersionHelperTest.java:[28,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/VersionHelperTest.java:[31,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/rest/v2/crowdsource/NumberPeerReviewsRestControllerTest.java:[25,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/rest/v2/crowdsource/NumberPeerReviewsRestControllerTest.java:[26,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/dao/ApplicationDaoTest.java:[28,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/audio/AudioMetadataExtractionHelperTest.java:[27,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/audio/AudioMetadataExtractionHelperTest.java:[28,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/audio/AudioMetadataExtractionHelperTest.java:[39,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/audio/AudioMetadataExtractionHelperTest.java:[40,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/audio/AudioMetadataExtractionHelperTest.java:[51,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/audio/AudioMetadataExtractionHelperTest.java:[52,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/rest/v2/content/LetterSoundCorrespondencesRestControllerTest.java:[24,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/rest/v2/content/LetterSoundCorrespondencesRestControllerTest.java:[27,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/rest/v2/content/LetterSoundCorrespondencesRestControllerTest.java:[28,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/rest/v2/content/LetterSoundCorrespondencesRestControllerTest.java:[29,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/WordFrequencyHelperTest.java:[20,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/WordFrequencyHelperTest.java:[21,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[WARNING] /webapp/src/test/java/ai/elimu/util/WordFrequencyHelperTest.java:[22,9] <T>assertThat(T,org.hamcrest.Matcher<? super T>) in org.junit.Assert has been deprecated
+[INFO] /webapp/src/test/java/ai/elimu/util/WordFrequencyHelperTest.java: Some input files additionally use or override a deprecated API.
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ webapp ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running ai.elimu.util.audio.AudioMetadataExtractionHelperTest
+[ERROR] Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.312 s <<< FAILURE! - in ai.elimu.util.audio.AudioMetadataExtractionHelperTest
+[ERROR] testGetDurationInMillisecondsMP3(ai.elimu.util.audio.AudioMetadataExtractionHelperTest)  Time elapsed: 0.226 s  <<< ERROR!
+java.lang.NoSuchMethodError: 'java.lang.ClassLoader[] org.apache.logging.log4j.util.LoaderUtil.getClassLoaders()'
+	at ai.elimu.util.audio.AudioMetadataExtractionHelperTest.<init>(AudioMetadataExtractionHelperTest.java:17)
+
+[ERROR] testGetDurationInMillisecondsOGG(ai.elimu.util.audio.AudioMetadataExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.audio.AudioMetadataExtractionHelperTest.<init>(AudioMetadataExtractionHelperTest.java:17)
+
+[ERROR] testGetDurationInMillisecondsWAV(ai.elimu.util.audio.AudioMetadataExtractionHelperTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.audio.AudioMetadataExtractionHelperTest.<init>(AudioMetadataExtractionHelperTest.java:17)
+
+[INFO] Running ai.elimu.util.audio.CrowdsourceHelperTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ai.elimu.util.audio.CrowdsourceHelperTest
+[INFO] Running ai.elimu.util.epub.EPubImageExtractionHelperTest
+[ERROR] Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ai.elimu.util.epub.EPubImageExtractionHelperTest
+[ERROR] testExtractImageReferenceFromChapterFile_ENG_LRA_377b7e63(ai.elimu.util.epub.EPubImageExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubImageExtractionHelperTest.<init>(EPubImageExtractionHelperTest.java:16)
+
+[ERROR] testExtractImageReferenceFromChapterFile_BEN_SW_11791(ai.elimu.util.epub.EPubImageExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubImageExtractionHelperTest.<init>(EPubImageExtractionHelperTest.java:16)
+
+[ERROR] testExtractImageReferenceFromChapterFile_FIL_LRA_faa0d66e(ai.elimu.util.epub.EPubImageExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubImageExtractionHelperTest.<init>(EPubImageExtractionHelperTest.java:16)
+
+[ERROR] testExtractImageReferenceFromChapterFile_BEN_GDL_761(ai.elimu.util.epub.EPubImageExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubImageExtractionHelperTest.<init>(EPubImageExtractionHelperTest.java:16)
+
+[INFO] Running ai.elimu.util.epub.EPubParagraphExtractionHelperTest
+[ERROR] Tests run: 18, Failures: 0, Errors: 17, Skipped: 1, Time elapsed: 0.001 s <<< FAILURE! - in ai.elimu.util.epub.EPubParagraphExtractionHelperTest
+[ERROR] testExtractParagraphsFromChapterFile_HIN_SW_141016_ch8(ai.elimu.util.epub.EPubParagraphExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubParagraphExtractionHelperTest.<init>(EPubParagraphExtractionHelperTest.java:18)
+
+[ERROR] testExtractParagraphsFromChapterFile_HIN_SW_99651_ch3(ai.elimu.util.epub.EPubParagraphExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubParagraphExtractionHelperTest.<init>(EPubParagraphExtractionHelperTest.java:18)
+
+[ERROR] testExtractParagraphsFromChapterFile_FIL_LRA_7f877260_ch4(ai.elimu.util.epub.EPubParagraphExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubParagraphExtractionHelperTest.<init>(EPubParagraphExtractionHelperTest.java:18)
+
+[ERROR] testExtractParagraphsFromChapterFile_FIL_LRA_7f877260_ch13(ai.elimu.util.epub.EPubParagraphExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubParagraphExtractionHelperTest.<init>(EPubParagraphExtractionHelperTest.java:18)
+
+[ERROR] testExtractParagraphsFromChapterFile_HIN_GDL_1296(ai.elimu.util.epub.EPubParagraphExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubParagraphExtractionHelperTest.<init>(EPubParagraphExtractionHelperTest.java:18)
+
+[ERROR] testExtractParagraphsFromChapterFile_SWA_GDL_30(ai.elimu.util.epub.EPubParagraphExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubParagraphExtractionHelperTest.<init>(EPubParagraphExtractionHelperTest.java:18)
+
+[ERROR] testExtractParagraphsFromChapterFile_FIL_LRA_faa0d66e(ai.elimu.util.epub.EPubParagraphExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubParagraphExtractionHelperTest.<init>(EPubParagraphExtractionHelperTest.java:18)
+
+[ERROR] testExtractParagraphsFromChapterFile_ENG_GDL_1349(ai.elimu.util.epub.EPubParagraphExtractionHelperTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubParagraphExtractionHelperTest.<init>(EPubParagraphExtractionHelperTest.java:18)
+
+[ERROR] testExtractParagraphsFromChapterFile_ENG_GDL_1855(ai.elimu.util.epub.EPubParagraphExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubParagraphExtractionHelperTest.<init>(EPubParagraphExtractionHelperTest.java:18)
+
+[ERROR] testExtractParagraphsFromChapterFile_ENG_LRA_377b7e63_ch1(ai.elimu.util.epub.EPubParagraphExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubParagraphExtractionHelperTest.<init>(EPubParagraphExtractionHelperTest.java:18)
+
+[ERROR] testExtractParagraphsFromChapterFile_ENG_LRA_377b7e63_ch5(ai.elimu.util.epub.EPubParagraphExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubParagraphExtractionHelperTest.<init>(EPubParagraphExtractionHelperTest.java:18)
+
+[ERROR] testExtractParagraphsFromChapterFile_ENG_LRA_377b7e63_ch6(ai.elimu.util.epub.EPubParagraphExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubParagraphExtractionHelperTest.<init>(EPubParagraphExtractionHelperTest.java:18)
+
+[ERROR] testExtractParagraphsFromChapterFile_HIN_GDL_1296_ch3(ai.elimu.util.epub.EPubParagraphExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubParagraphExtractionHelperTest.<init>(EPubParagraphExtractionHelperTest.java:18)
+
+[ERROR] testExtractParagraphsFromChapterFile_BEN_SW_11791(ai.elimu.util.epub.EPubParagraphExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubParagraphExtractionHelperTest.<init>(EPubParagraphExtractionHelperTest.java:18)
+
+[ERROR] testExtractParagraphsFromChapterFile_ENG_GDL_1855_ch4(ai.elimu.util.epub.EPubParagraphExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubParagraphExtractionHelperTest.<init>(EPubParagraphExtractionHelperTest.java:18)
+
+[ERROR] testExtractParagraphsFromChapterFile_BEN_GDL_761(ai.elimu.util.epub.EPubParagraphExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubParagraphExtractionHelperTest.<init>(EPubParagraphExtractionHelperTest.java:18)
+
+[ERROR] testExtractParagraphsFromChapterFile_HIN_SW_10145_ch4(ai.elimu.util.epub.EPubParagraphExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubParagraphExtractionHelperTest.<init>(EPubParagraphExtractionHelperTest.java:18)
+
+[INFO] Running ai.elimu.util.epub.EPubChapterExtractionHelperTest
+[ERROR] Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ai.elimu.util.epub.EPubChapterExtractionHelperTest
+[ERROR] testExtractChapterReferencesFromTableOfContentsFile_GLOBAL_DIGITAL_LIBRARY(ai.elimu.util.epub.EPubChapterExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubChapterExtractionHelperTest.<init>(EPubChapterExtractionHelperTest.java:17)
+
+[ERROR] testExtractChapterReferencesFromTableOfContentsFile_GLOBAL_DIGITAL_LIBRARY_hin_nav(ai.elimu.util.epub.EPubChapterExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubChapterExtractionHelperTest.<init>(EPubChapterExtractionHelperTest.java:17)
+
+[ERROR] testExtractChapterReferencesFromTableOfContentsFile_STORYWEAVER(ai.elimu.util.epub.EPubChapterExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubChapterExtractionHelperTest.<init>(EPubChapterExtractionHelperTest.java:17)
+
+[ERROR] testExtractChapterReferencesFromTableOfContentsFile_LETS_READ_ASIA(ai.elimu.util.epub.EPubChapterExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubChapterExtractionHelperTest.<init>(EPubChapterExtractionHelperTest.java:17)
+
+[INFO] Running ai.elimu.util.epub.EPubMetadataExtractionHelperTest
+[ERROR] Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ai.elimu.util.epub.EPubMetadataExtractionHelperTest
+[ERROR] testExtractTitleFromOpfFile_FIL_LETS_READ_ASIA_0acfe340(ai.elimu.util.epub.EPubMetadataExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubMetadataExtractionHelperTest.<init>(EPubMetadataExtractionHelperTest.java:17)
+
+[ERROR] testExtractTitleFromOpfFile_BEN_GLOBAL_DIGITAL_LIBRARY(ai.elimu.util.epub.EPubMetadataExtractionHelperTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubMetadataExtractionHelperTest.<init>(EPubMetadataExtractionHelperTest.java:17)
+
+[ERROR] testExtractTitleFromOpfFile_FIL_LETS_READ_ASIA_627f64f8(ai.elimu.util.epub.EPubMetadataExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubMetadataExtractionHelperTest.<init>(EPubMetadataExtractionHelperTest.java:17)
+
+[ERROR] testExtractCoverImageReferenceFromOpfFile_FIL_LETS_READ_ASIA_0acfe340(ai.elimu.util.epub.EPubMetadataExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubMetadataExtractionHelperTest.<init>(EPubMetadataExtractionHelperTest.java:17)
+
+[ERROR] testExtractTitleFromOpfFile_BEN_STORYWEAVER_11791(ai.elimu.util.epub.EPubMetadataExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubMetadataExtractionHelperTest.<init>(EPubMetadataExtractionHelperTest.java:17)
+
+[ERROR] testExtractTitleFromOpfFile_FIL_STORYWEAVER_105391(ai.elimu.util.epub.EPubMetadataExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubMetadataExtractionHelperTest.<init>(EPubMetadataExtractionHelperTest.java:17)
+
+[ERROR] testExtractCoverImageReferenceFromOpfFile_BEN_STORYWEAVER_11791(ai.elimu.util.epub.EPubMetadataExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubMetadataExtractionHelperTest.<init>(EPubMetadataExtractionHelperTest.java:17)
+
+[ERROR] testExtractCoverImageReferenceFromOpfFile_FIL_GLOBAL_DIGITAL_LIBRARY_761(ai.elimu.util.epub.EPubMetadataExtractionHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.epub.EPubMetadataExtractionHelperTest.<init>(EPubMetadataExtractionHelperTest.java:17)
+
+[INFO] Running ai.elimu.util.SyllableFrequencyHelperTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ai.elimu.util.SyllableFrequencyHelperTest
+[ERROR] testGetSyllableFrequency(ai.elimu.util.SyllableFrequencyHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.SyllableFrequencyHelperTest.testGetSyllableFrequency(SyllableFrequencyHelperTest.java:18)
+
+[INFO] Running ai.elimu.util.VersionHelperTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in ai.elimu.util.VersionHelperTest
+[INFO] Running ai.elimu.util.WordFrequencyHelperTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in ai.elimu.util.WordFrequencyHelperTest
+[INFO] Running ai.elimu.util.LetterFrequencyHelperTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in ai.elimu.util.LetterFrequencyHelperTest
+[INFO] Running ai.elimu.util.SyllableHelperTest
+[ERROR] Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! - in ai.elimu.util.SyllableHelperTest
+[ERROR] testGetDiSyllables_languageEN(ai.elimu.util.SyllableHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+	at ai.elimu.util.SyllableHelperTest.testGetDiSyllables_languageEN(SyllableHelperTest.java:39)
+
+[ERROR] testGetTriSyllables_languageEN(ai.elimu.util.SyllableHelperTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class ai.elimu.util.SyllableHelper
+	at ai.elimu.util.SyllableHelperTest.testGetTriSyllables_languageEN(SyllableHelperTest.java:78)
+
+[ERROR] testGetMonoSyllables_languageEN(ai.elimu.util.SyllableHelperTest)  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class ai.elimu.util.SyllableHelper
+	at ai.elimu.util.SyllableHelperTest.testGetMonoSyllables_languageEN(SyllableHelperTest.java:18)
+
+[INFO] Running ai.elimu.util.AnalyticsHelperTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ai.elimu.util.AnalyticsHelperTest
+[INFO] Running ai.elimu.util.WordExtractionHelperTest
+[This, is, a, girl, called, Norah, Her, doll’s, name, is, Selah]
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in ai.elimu.util.WordExtractionHelperTest
+[INFO] Running ai.elimu.util.LetterExtractionHelperTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ai.elimu.util.LetterExtractionHelperTest
+[INFO] Running ai.elimu.dao.ImageDaoTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ai.elimu.dao.ImageDaoTest
+[ERROR] initializationError(ai.elimu.dao.ImageDaoTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.core.LoggerContext
+
+[INFO] Running ai.elimu.dao.NumberDaoTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ai.elimu.dao.NumberDaoTest
+[ERROR] initializationError(ai.elimu.dao.NumberDaoTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.springframework.test.context.junit4.SpringJUnit4ClassRunner
+
+[INFO] Running ai.elimu.dao.ApplicationDaoTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ai.elimu.dao.ApplicationDaoTest
+[ERROR] initializationError(ai.elimu.dao.ApplicationDaoTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.springframework.test.context.junit4.SpringJUnit4ClassRunner
+
+[INFO] Running ai.elimu.dao.WordContributionEventDaoTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ai.elimu.dao.WordContributionEventDaoTest
+[ERROR] initializationError(ai.elimu.dao.WordContributionEventDaoTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.springframework.test.context.junit4.SpringJUnit4ClassRunner
+
+[INFO] Running ai.elimu.dao.ApplicationVersionDaoTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ai.elimu.dao.ApplicationVersionDaoTest
+[ERROR] initializationError(ai.elimu.dao.ApplicationVersionDaoTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.springframework.test.context.junit4.SpringJUnit4ClassRunner
+
+[INFO] Running ai.elimu.dao.BaseDaoTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ai.elimu.dao.BaseDaoTest
+[ERROR] initializationError(ai.elimu.dao.BaseDaoTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.springframework.test.context.junit4.SpringJUnit4ClassRunner
+
+[INFO] Running ai.elimu.dao.SoundDaoTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ai.elimu.dao.SoundDaoTest
+[ERROR] initializationError(ai.elimu.dao.SoundDaoTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.springframework.test.context.junit4.SpringJUnit4ClassRunner
+
+[INFO] Running ai.elimu.dao.ContributorDaoTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ai.elimu.dao.ContributorDaoTest
+[ERROR] initializationError(ai.elimu.dao.ContributorDaoTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.springframework.test.context.junit4.SpringJUnit4ClassRunner
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   ApplicationDaoTest.initializationError » NoClassDefFound Could not initialize ...
+[ERROR]   ApplicationVersionDaoTest.initializationError » NoClassDefFound Could not init...
+[ERROR]   BaseDaoTest.initializationError » NoClassDefFound Could not initialize class o...
+[ERROR]   ContributorDaoTest.initializationError » NoClassDefFound Could not initialize ...
+[ERROR]   ImageDaoTest.initializationError » NoClassDefFound Could not initialize class ...
+[ERROR]   NumberDaoTest.initializationError » NoClassDefFound Could not initialize class...
+[ERROR]   SoundDaoTest.initializationError » NoClassDefFound Could not initialize class ...
+[ERROR]   WordContributionEventDaoTest.initializationError » NoClassDefFound Could not i...
+[ERROR]   SyllableFrequencyHelperTest.testGetSyllableFrequency:18 » NoClassDefFound Coul...
+[ERROR]   SyllableHelperTest.testGetDiSyllables_languageEN:39 » NoClassDefFound Could no...
+[ERROR]   SyllableHelperTest.testGetMonoSyllables_languageEN:18 NoClassDefFound Could no...
+[ERROR]   SyllableHelperTest.testGetTriSyllables_languageEN:78 NoClassDefFound Could not...
+[ERROR]   AudioMetadataExtractionHelperTest.<init>:17 » NoSuchMethod 'java.lang.ClassLoa...
+[ERROR]   AudioMetadataExtractionHelperTest.<init>:17 » NoClassDefFound Could not initia...
+[ERROR]   AudioMetadataExtractionHelperTest.<init>:17 » NoClassDefFound Could not initia...
+[ERROR]   EPubChapterExtractionHelperTest.<init>:17 » NoClassDefFound Could not initiali...
+[ERROR]   EPubChapterExtractionHelperTest.<init>:17 » NoClassDefFound Could not initiali...
+[ERROR]   EPubChapterExtractionHelperTest.<init>:17 » NoClassDefFound Could not initiali...
+[ERROR]   EPubChapterExtractionHelperTest.<init>:17 » NoClassDefFound Could not initiali...
+[ERROR]   EPubImageExtractionHelperTest.<init>:16 » NoClassDefFound Could not initialize...
+[ERROR]   EPubImageExtractionHelperTest.<init>:16 » NoClassDefFound Could not initialize...
+[ERROR]   EPubImageExtractionHelperTest.<init>:16 » NoClassDefFound Could not initialize...
+[ERROR]   EPubImageExtractionHelperTest.<init>:16 » NoClassDefFound Could not initialize...
+[ERROR]   EPubMetadataExtractionHelperTest.<init>:17 » NoClassDefFound Could not initial...
+[ERROR]   EPubMetadataExtractionHelperTest.<init>:17 » NoClassDefFound Could not initial...
+[ERROR]   EPubMetadataExtractionHelperTest.<init>:17 » NoClassDefFound Could not initial...
+[ERROR]   EPubMetadataExtractionHelperTest.<init>:17 » NoClassDefFound Could not initial...
+[ERROR]   EPubMetadataExtractionHelperTest.<init>:17 » NoClassDefFound Could not initial...
+[ERROR]   EPubMetadataExtractionHelperTest.<init>:17 » NoClassDefFound Could not initial...
+[ERROR]   EPubMetadataExtractionHelperTest.<init>:17 » NoClassDefFound Could not initial...
+[ERROR]   EPubMetadataExtractionHelperTest.<init>:17 » NoClassDefFound Could not initial...
+[ERROR]   EPubParagraphExtractionHelperTest.<init>:18 » NoClassDefFound Could not initia...
+[ERROR]   EPubParagraphExtractionHelperTest.<init>:18 » NoClassDefFound Could not initia...
+[ERROR]   EPubParagraphExtractionHelperTest.<init>:18 » NoClassDefFound Could not initia...
+[ERROR]   EPubParagraphExtractionHelperTest.<init>:18 » NoClassDefFound Could not initia...
+[ERROR]   EPubParagraphExtractionHelperTest.<init>:18 » NoClassDefFound Could not initia...
+[ERROR]   EPubParagraphExtractionHelperTest.<init>:18 » NoClassDefFound Could not initia...
+[ERROR]   EPubParagraphExtractionHelperTest.<init>:18 » NoClassDefFound Could not initia...
+[ERROR]   EPubParagraphExtractionHelperTest.<init>:18 » NoClassDefFound Could not initia...
+[ERROR]   EPubParagraphExtractionHelperTest.<init>:18 » NoClassDefFound Could not initia...
+[ERROR]   EPubParagraphExtractionHelperTest.<init>:18 » NoClassDefFound Could not initia...
+[ERROR]   EPubParagraphExtractionHelperTest.<init>:18 » NoClassDefFound Could not initia...
+[ERROR]   EPubParagraphExtractionHelperTest.<init>:18 » NoClassDefFound Could not initia...
+[ERROR]   EPubParagraphExtractionHelperTest.<init>:18 » NoClassDefFound Could not initia...
+[ERROR]   EPubParagraphExtractionHelperTest.<init>:18 » NoClassDefFound Could not initia...
+[ERROR]   EPubParagraphExtractionHelperTest.<init>:18 » NoClassDefFound Could not initia...
+[ERROR]   EPubParagraphExtractionHelperTest.<init>:18 » NoClassDefFound Could not initia...
+[ERROR]   EPubParagraphExtractionHelperTest.<init>:18 » NoClassDefFound Could not initia...
+[INFO] 
+[ERROR] Tests run: 61, Failures: 0, Errors: 48, Skipped: 1
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  18.538 s
+[INFO] Finished at: 2026-03-18T12:18:48Z
+[INFO] ------------------------------------------------------------------------
+[WARNING] 
+[WARNING] Plugin validation issues were detected in 3 plugin(s)
+[WARNING] 
+[WARNING]  * org.apache.maven.plugins:maven-compiler-plugin:3.8.1
+[WARNING]  * org.apache.maven.plugins:maven-surefire-plugin:2.22.2
+[WARNING]  * org.apache.maven.plugins:maven-resources-plugin:3.3.0
+[WARNING] 
+[WARNING] For more or less details, use 'maven.plugin.validation' property with one of the values (case insensitive): [BRIEF, DEFAULT, VERBOSE]
+[WARNING] 
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.22.2:test (default-test) on project webapp: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /webapp/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

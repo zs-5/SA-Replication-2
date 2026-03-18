@@ -1,0 +1,267 @@
+Mar 18, 2026 12:50:53 PM org.nem.core.serialization.Deserializer readOptionalString
+INFO: truncated 'description' string from 'abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd!' to 'abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd'
+Mar 18, 2026 12:50:59 PM org.nem.core.async.AsyncTimer getNextChainLink
+WARNING: Timer unknown timer raised exception during start: java.lang.RuntimeException: CountableExceptionFuture
+Mar 18, 2026 12:50:59 PM org.nem.core.async.AsyncTimer getNextChainLink
+WARNING: Timer unknown timer raised exception during start: java.lang.RuntimeException: CountableExceptionFuture
+Mar 18, 2026 12:50:59 PM org.nem.core.async.AsyncTimer getNextChainLink
+WARNING: Timer unknown timer raised exception during start: java.lang.RuntimeException: CountableExceptionFuture
+Mar 18, 2026 12:51:05 PM org.nem.core.async.NemAsyncTimerVisitor notifyOperationCompleteExceptionally
+WARNING: Timer timer a raised exception: test exception
+java.lang.RuntimeException: test exception
+	at org.nem.core.async.NemAsyncTimerVisitorTest.averageOperationTimeIsCalculatedCorrectlyWhenThereAreMultipleCompletions(NemAsyncTimerVisitorTest.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+Mar 18, 2026 12:51:05 PM org.nem.core.async.NemAsyncTimerVisitor notifyOperationCompleteExceptionally
+WARNING: Timer timer a raised exception: test exception
+java.lang.RuntimeException: test exception
+	at org.nem.core.async.NemAsyncTimerVisitorTest.assertVisitorSerialization(NemAsyncTimerVisitorTest.java:152)
+	at org.nem.core.async.NemAsyncTimerVisitorTest.visitorCanBeSerializedWhileNotExecuting(NemAsyncTimerVisitorTest.java:141)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+Mar 18, 2026 12:51:05 PM org.nem.core.async.NemAsyncTimerVisitor notifyOperationCompleteExceptionally
+WARNING: Timer timer a raised exception: test exception
+java.lang.RuntimeException: test exception
+	at org.nem.core.async.NemAsyncTimerVisitorTest.assertVisitorSerialization(NemAsyncTimerVisitorTest.java:152)
+	at org.nem.core.async.NemAsyncTimerVisitorTest.visitorCanBeSerializedWhileExecuting(NemAsyncTimerVisitorTest.java:135)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+Mar 18, 2026 12:51:05 PM org.nem.core.async.NemAsyncTimerVisitor notifyOperationCompleteExceptionally
+WARNING: Timer timer a raised exception: test exception
+java.lang.RuntimeException: test exception
+	at org.nem.core.async.NemAsyncTimerVisitorTest.notifyOperationCompleteExceptionallyUpdatesVisitorStateCorrectly(NemAsyncTimerVisitorTest.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+Mar 18, 2026 12:51:05 PM org.nem.core.serialization.Deserializer readOptionalString
+INFO: truncated 'val' string from 'dxjwfaqfanuupdpjnrapwfvvmjhwcgngtrsdbmwwjjudhaeatzdilisbdzbkxnsahyhhfikkzxillxiodnsedzwzvookyaycmkbvglxtittlqhzybsuaewgzloizvoggjzrhgsrwttmrchmmqtjrsorxmuluhkyllojzxltwuggjwskvcshnjrueyjohlawkdupidfolsqtlmhdiegbpklgyflljfvsxjnaoguumvmbxpqbzpevzgdqxytplkejycscqkastgtiwryotydhpxqfqgsdomstdpzutjmdmgvjmsefoujzholyvemwucfnkdtpxbfthabtldfuyoqakgxdsjlyhglxvrsifhhdzghugykluhysjvujygalmxbtf' to 'dxjwfaqfanuupdpjnrapwfvvmjhwcgngtrsdbmwwjjudhaeatzdilisbdzbkxnsahyhhfikkzxillxiodnsedzwzvookyaycmkbvglxtittlqhzybsuaewgzloizvogg'
+Mar 18, 2026 12:51:05 PM org.nem.core.serialization.Deserializer readOptionalString
+INFO: truncated 'val' string from 'kiwkuhhziqsxaftrrgoj' to 'kiwku'
+Mar 18, 2026 12:51:05 PM org.nem.core.serialization.Serializer writeString
+INFO: truncated 'val' string from 'yeagordctvdhrkjeqyhgckwgsmgjxemyarntkcekvqghgyheyvmsrdfaaithrilkhueikeobsgphivnzinuqkccmesxxgivcdfejpejaxtlzyqhvvavrkqcfkusgdmiahrypeetrmbycvtqnqvukymailcmeplkwdxyotdbpbshksmiyebxziauikiffevmluoobadypbmellbmiutbzomlojbgqhiggjyixprosqboeqfirndcsgrhfcxvfncfphptnztmfmozvhbchhcnyeuveabxwgcqxydyvmjljobcggeymjftvqnrxcbiajtcsqniwggubereydkpdgiqliitmdsbiqyxudtmsotnvugxkvjghmymqctgrwhpojynb' to 'yeagordctvdhrkjeqyhgckwgsmgjxemyarntkcekvqghgyheyvmsrdfaaithrilkhueikeobsgphivnzinuqkccmesxxgivcdfejpejaxtlzyqhvvavrkqcfkusgdmia'
+Mar 18, 2026 12:51:05 PM org.nem.core.serialization.Serializer writeString
+INFO: truncated 'val' string from 'jgtkrcbylcbkidpaqgxu' to 'jgtkr'
+Mar 18, 2026 12:51:05 PM org.nem.core.serialization.Deserializer readOptionalBytes
+INFO: truncated 'val' bytes from '6144' to '2048'
+Mar 18, 2026 12:51:05 PM org.nem.core.serialization.Deserializer readOptionalBytes
+INFO: truncated 'val' bytes from '20' to '5'
+Mar 18, 2026 12:51:05 PM org.nem.core.serialization.Serializer writeBytes
+INFO: truncated 'val' bytes from '6144' to '2048'
+Mar 18, 2026 12:51:05 PM org.nem.core.serialization.Serializer writeBytes
+INFO: truncated 'val' bytes from '20' to '5'
+Mar 18, 2026 12:51:05 PM org.nem.core.serialization.Deserializer readOptionalString
+INFO: truncated 'val' string from 'dbznbutrxqeodxlxwvjpxcietmjyxkuhhttsnrfxjfrkiuuizvkuzmjauyrnhkjmifwytlrprbbktvnbsjwvonpswbfnaxhrhgxlpdkwmorkqnczbmsstcqhaooddtqiopxivvgpfnndpayoqddfimmkyggjdcbhyesypljouvevaqpnsqcmixkkrjbdlmvdactnniafgulcvkzzoitwsxjmbpjfznefwwpldkuhhctdgzfdootkpzvgmzqnxurgugdkpluqqwpmeuhdwcibottvkvptafnepvxmyvhqmrmhqgnmscxfeiolgvwlebzpkvwnctqgnvbspqeccrpeaqxntiegryezutgwqxldakrsptocajazluwbhimkmcek' to 'dbznbutrxqeodxlxwvjpxcietmjyxkuhhttsnrfxjfrkiuuizvkuzmjauyrnhkjmifwytlrprbbktvnbsjwvonpswbfnaxhrhgxlpdkwmorkqnczbmsstcqhaooddtqi'
+Mar 18, 2026 12:51:05 PM org.nem.core.serialization.Deserializer readOptionalString
+INFO: truncated 'val' string from 'hfnourwbscpctfkzwled' to 'hfnou'
+Mar 18, 2026 12:51:05 PM org.nem.core.serialization.Serializer writeString
+INFO: truncated 'val' string from 'jutignxkmbloexldomvoweizbsokkvyryctusqoglpixzazvlxqhgmbuxsjxnapsjheuxjakplodmirmvbkeortypsjgtkipdowvaqtueqldaiwrngngujwlnavlugmmpbkkckajglofqzyllnqbquazobvvrxqkuvvhtihswpcoujcfzpuuxuvkvqocgalsqviijjawoxpfrhxrnxhdcdlenissxtfixpfftkdutxfzotnsxgolldglkcntrdtqgptggfenuqnizvlsmxkkrjumjudmdxejobgazjamsnpdweqgvlvxkeeigbgnaytccnvtrltleusejnfywialtybdpaiiazzfgzldnhmibqimcyklefwpytcnpregeezt' to 'jutignxkmbloexldomvoweizbsokkvyryctusqoglpixzazvlxqhgmbuxsjxnapsjheuxjakplodmirmvbkeortypsjgtkipdowvaqtueqldaiwrngngujwlnavlugmm'
+Mar 18, 2026 12:51:05 PM org.nem.core.serialization.Serializer writeString
+INFO: truncated 'val' string from 'jmpodbgqntafldjhosfj' to 'jmpod'
+Mar 18, 2026 12:51:05 PM org.nem.core.serialization.Deserializer readOptionalBytes
+INFO: truncated 'val' bytes from '6144' to '2048'
+Mar 18, 2026 12:51:05 PM org.nem.core.serialization.Deserializer readOptionalBytes
+INFO: truncated 'val' bytes from '20' to '5'
+Mar 18, 2026 12:51:05 PM org.nem.core.serialization.Serializer writeBytes
+INFO: truncated 'val' bytes from '6144' to '2048'
+Mar 18, 2026 12:51:05 PM org.nem.core.serialization.Serializer writeBytes
+INFO: truncated 'val' bytes from '20' to '5'
+Mar 18, 2026 12:51:06 PM org.nem.core.connect.ErrorResponse <init>
+INFO: Http Status Code 404: exception message
+Mar 18, 2026 12:51:06 PM org.nem.core.connect.ErrorResponse <init>
+SEVERE: Http Status Code 500: badness
+Mar 18, 2026 12:51:06 PM org.nem.core.connect.ErrorResponse <init>
+INFO: Http Status Code 404: badness
+Mar 18, 2026 12:51:06 PM org.nem.core.connect.ErrorResponse <init>
+INFO: Http Status Code 404: Not Found
+Mar 18, 2026 12:51:06 PM org.nem.core.connect.ErrorResponse <init>
+INFO: Http Status Code -123: badness
+Mar 18, 2026 12:51:06 PM org.nem.core.connect.ErrorResponse <init>
+INFO: Http Status Code -123
+Mar 18, 2026 12:51:06 PM org.nem.core.connect.ErrorResponse <init>
+SEVERE: Http Status Code 500: badness
+Mar 18, 2026 12:51:06 PM org.nem.core.connect.ErrorResponse <init>
+SEVERE: Http Status Code 890
+Mar 18, 2026 12:51:06 PM org.nem.core.connect.ErrorResponse <init>
+INFO: Http Status Code -123: exception message
+Mar 18, 2026 12:51:06 PM org.nem.core.connect.ErrorResponse <init>
+SEVERE: Http Status Code 500: badness
+Mar 18, 2026 12:51:06 PM org.nem.core.connect.ErrorResponse <init>
+SEVERE: Http Status Code 700: badness
+Mar 18, 2026 12:51:06 PM org.nem.core.connect.ErrorResponse <init>
+SEVERE: Http Status Code 700: badness
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Mar 18, 2026 12:51:10 PM org.nem.core.connect.VersionProvider getLatestVersion
+WARNING: unable to determine latest version: java.util.concurrent.CompletionException: java.lang.IllegalStateException: cannot retrieve deserializer when an error has occurred
+Mar 18, 2026 12:51:15 PM org.nem.core.connect.VersionProvider getLatestVersion
+WARNING: unable to determine latest version: java.lang.IllegalStateException: other error
+Mar 18, 2026 12:51:15 PM org.nem.core.connect.VersionProvider getLatestVersion
+WARNING: unable to determine latest version: java.util.concurrent.CompletionException: java.lang.IllegalStateException: cannot retrieve deserializer when an error has occurred
+Mar 18, 2026 12:51:15 PM org.nem.core.metadata.CodeSourceFacade <init>
+WARNING: no certificate found for (file:/nem/core/target/classes/ <no signer certificates>)
+Mar 18, 2026 12:51:15 PM org.nem.core.metadata.JarFacade <init>
+INFO: Analyzing meta data in <classes>
+Mar 18, 2026 12:51:15 PM org.nem.core.metadata.JarFacade loadAttributes
+WARNING: could not find manifest for classes
+Mar 18, 2026 12:51:15 PM org.nem.core.metadata.JarFacade <init>
+INFO: Meta data title <NEM>, version <0.6.0-DEVELOPER BUILD>
+Mar 18, 2026 12:51:15 PM org.nem.core.connect.ErrorResponse <init>
+SEVERE: Http Status Code 500: badness
+Mar 18, 2026 12:51:15 PM org.nem.core.connect.ErrorResponse <init>
+SEVERE: Http Status Code 500: badness
+Mar 18, 2026 12:51:15 PM org.nem.core.connect.ErrorResponse <init>
+SEVERE: Http Status Code 500: badness
+Mar 18, 2026 12:51:25 PM org.nem.core.metadata.JarFacade <init>
+INFO: Analyzing meta data in <nem.jar>
+Mar 18, 2026 12:51:25 PM org.nem.core.metadata.JarFacade loadAttributes
+WARNING: could not find manifest for nem.jar
+Mar 18, 2026 12:51:25 PM org.nem.core.metadata.JarFacade <init>
+INFO: Meta data title <NEM>, version <0.6.0-DEVELOPER BUILD>
+Mar 18, 2026 12:51:25 PM org.nem.core.metadata.JarFacade <init>
+INFO: Analyzing meta data in <nem.jar>
+Mar 18, 2026 12:51:25 PM org.nem.core.metadata.JarFacade <init>
+WARNING: Analyzing meta data not possible <null>
+Mar 18, 2026 12:51:25 PM org.nem.core.metadata.JarFacade <init>
+INFO: Meta data title <NEM>, version <0.6.0-DEVELOPER BUILD>
+Mar 18, 2026 12:51:25 PM org.nem.core.metadata.JarFacade <init>
+INFO: Analyzing meta data in <nem.jar>
+Mar 18, 2026 12:51:25 PM org.nem.core.metadata.JarFacade <init>
+WARNING: Analyzing meta data not possible <null>
+Mar 18, 2026 12:51:25 PM org.nem.core.metadata.JarFacade <init>
+INFO: Meta data title <NEM>, version <0.6.0-DEVELOPER BUILD>
+Mar 18, 2026 12:51:25 PM org.nem.core.metadata.JarFacade <init>
+INFO: Analyzing meta data in <nem.jar>
+Mar 18, 2026 12:51:25 PM org.nem.core.metadata.JarFacade <init>
+INFO: Meta data title <test-title>, version <test-version>
+Mar 18, 2026 12:51:25 PM org.nem.core.metadata.JarFacade <init>
+INFO: Analyzing meta data in <nem.jar>
+Mar 18, 2026 12:51:25 PM org.nem.core.metadata.JarFacade <init>
+INFO: Meta data title <test-title>, version <test-version>
+Mar 18, 2026 12:51:25 PM org.nem.core.metadata.JarFacade <init>
+INFO: Analyzing meta data in <nem.jar>
+Mar 18, 2026 12:51:25 PM org.nem.core.metadata.JarFacade <init>
+WARNING: Analyzing meta data not possible <null>
+Mar 18, 2026 12:51:25 PM org.nem.core.metadata.JarFacade <init>
+INFO: Meta data title <NEM>, version <0.6.0-DEVELOPER BUILD>
+Mar 18, 2026 12:51:25 PM org.nem.core.metadata.JarFacade <init>
+INFO: Analyzing meta data in <nem.jar>
+Mar 18, 2026 12:51:25 PM org.nem.core.metadata.JarFacade loadAttributes
+WARNING: unexpected implementation vendor for manifest in nem.jar
+Mar 18, 2026 12:51:25 PM org.nem.core.metadata.JarFacade <init>
+INFO: Meta data title <NEM>, version <0.6.0-DEVELOPER BUILD>
+Mar 18, 2026 12:51:25 PM org.nem.core.metadata.JarFacade <init>
+INFO: Analyzing meta data in <nem.jar>
+Mar 18, 2026 12:51:25 PM org.nem.core.metadata.JarFacade <init>
+INFO: Meta data title <test-title>, version <test-version>
+Mar 18, 2026 12:51:30 PM org.nem.core.metadata.CodeSourceFacade <init>
+WARNING: no certificate found for (http://nem.com/foo/n.jar <no signer certificates>)
+Mar 18, 2026 12:51:30 PM org.nem.core.metadata.CodeSourceFacade <init>
+WARNING: no certificate found for (http://nem.com/foo/n.jar <no signer certificates>)

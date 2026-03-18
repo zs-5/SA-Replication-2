@@ -1,0 +1,1652 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Mar 18, 2026 12:55:21 PM org.springframework.test.context.support.AbstractTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Mar 18, 2026 12:55:21 PM org.springframework.test.context.support.AbstractTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1c852c0f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@a37aefe, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5d99c6b5, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@266374ef, org.springframework.test.context.support.DirtiesContextTestExecutionListener@13b3d178, org.springframework.test.context.event.EventPublishingTestExecutionListener@24c4ddae]
+Mar 18, 2026 12:55:22 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:22 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:22 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 2 ms
+Mar 18, 2026 12:55:22 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:22 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:22 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:22 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:22 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:22 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:22 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:22 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:22 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:22 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:22 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:22 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:22 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:22 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:22 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:23 PM org.springframework.test.context.support.AbstractTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Mar 18, 2026 12:55:23 PM org.springframework.test.context.support.AbstractTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@77cb452c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2213639b, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2c26ba07, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6f25bf88, org.springframework.test.context.support.DirtiesContextTestExecutionListener@42ea7565, org.springframework.test.context.event.EventPublishingTestExecutionListener@7b5cc918]
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:23 PM org.springframework.test.web.reactive.server.ExchangeResult assertWithDiagnostics
+SEVERE: Request details for assertion failure:
+
+> GET /sample
+> WebTestClient-Request-Id: [1]
+> Accept: [application/json]
+
+No content
+
+< 200 OK OK
+< Content-Type: [application/json]
+
+{"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+
+======================  MockMvc (Server) ===============================
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /sample
+       Parameters = {}
+          Headers = [WebTestClient-Request-Id:"1", Accept:"application/json"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController
+           Method = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController#get()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:23 PM org.springframework.test.web.reactive.server.ExchangeResult assertWithDiagnostics
+SEVERE: Request details for assertion failure:
+
+> GET /sample
+> WebTestClient-Request-Id: [1]
+> Accept: [application/json]
+
+No content
+
+< 200 OK OK
+< Content-Type: [application/json]
+
+{"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+
+======================  MockMvc (Server) ===============================
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /sample
+       Parameters = {}
+          Headers = [WebTestClient-Request-Id:"1", Accept:"application/json"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController
+           Method = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController#get()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:23 PM org.springframework.test.web.reactive.server.ExchangeResult assertWithDiagnostics
+SEVERE: Request details for assertion failure:
+
+> GET /sample
+> WebTestClient-Request-Id: [1]
+> Accept: [application/json]
+
+No content
+
+< 200 OK OK
+< Content-Type: [application/json]
+
+{"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+
+======================  MockMvc (Server) ===============================
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /sample
+       Parameters = {}
+          Headers = [WebTestClient-Request-Id:"1", Accept:"application/json"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController
+           Method = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController#get()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:23 PM org.springframework.test.web.reactive.server.ExchangeResult assertWithDiagnostics
+SEVERE: Request details for assertion failure:
+
+> GET /empty
+> WebTestClient-Request-Id: [1]
+> Accept: [application/json]
+
+No content
+
+< 200 OK OK
+< 
+
+0 bytes of content (unknown content-type).
+
+======================  MockMvc (Server) ===============================
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /empty
+       Parameters = {}
+          Headers = [WebTestClient-Request-Id:"1", Accept:"application/json"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController
+           Method = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController#empty()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:23 PM org.springframework.test.context.support.AbstractTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Mar 18, 2026 12:55:23 PM org.springframework.test.context.support.AbstractTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@f882465, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@72ecbcb3, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4a50c746, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3709748f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@79ecc507, org.springframework.test.context.event.EventPublishingTestExecutionListener@6ef2f7ad]
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:23 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:23 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:24 PM org.springframework.test.context.support.AbstractTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Mar 18, 2026 12:55:24 PM org.springframework.test.context.support.AbstractTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4a62062a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7ec08115, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@53dd42d6, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1e76afeb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@447fa959, org.springframework.test.context.event.EventPublishingTestExecutionListener@3e4d40ea]
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:24 PM org.springframework.test.web.reactive.server.ExchangeResult assertWithDiagnostics
+SEVERE: Request details for assertion failure:
+
+> GET /sample
+> WebTestClient-Request-Id: [1]
+> Accept: [application/json]
+
+No content
+
+< 200 OK OK
+< Content-Type: [application/json]
+
+{"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+
+======================  MockMvc (Server) ===============================
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /sample
+       Parameters = {}
+          Headers = [WebTestClient-Request-Id:"1", Accept:"application/json"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController
+           Method = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController#get()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:24 PM org.springframework.test.web.reactive.server.ExchangeResult assertWithDiagnostics
+SEVERE: Request details for assertion failure:
+
+> GET /sample
+> WebTestClient-Request-Id: [1]
+> Accept: [application/json]
+
+No content
+
+< 200 OK OK
+< Content-Type: [application/json]
+
+{"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+
+======================  MockMvc (Server) ===============================
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /sample
+       Parameters = {}
+          Headers = [WebTestClient-Request-Id:"1", Accept:"application/json"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController
+           Method = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController#get()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:24 PM org.springframework.test.web.reactive.server.ExchangeResult assertWithDiagnostics
+SEVERE: Request details for assertion failure:
+
+> GET /sample
+> WebTestClient-Request-Id: [1]
+> Accept: [application/json]
+
+No content
+
+< 200 OK OK
+< Content-Type: [application/json]
+
+{"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+
+======================  MockMvc (Server) ===============================
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /sample
+       Parameters = {}
+          Headers = [WebTestClient-Request-Id:"1", Accept:"application/json"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController
+           Method = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController#get()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:24 PM org.springframework.test.web.reactive.server.ExchangeResult assertWithDiagnostics
+SEVERE: Request details for assertion failure:
+
+> GET /sample
+> WebTestClient-Request-Id: [1]
+> Accept: [application/json]
+
+No content
+
+< 200 OK OK
+< Content-Type: [application/json]
+
+{"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+
+======================  MockMvc (Server) ===============================
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /sample
+       Parameters = {}
+          Headers = [WebTestClient-Request-Id:"1", Accept:"application/json"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController
+           Method = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController#get()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:24 PM org.springframework.test.web.reactive.server.ExchangeResult assertWithDiagnostics
+SEVERE: Request details for assertion failure:
+
+> GET /sample
+> WebTestClient-Request-Id: [1]
+> Accept: [application/json]
+
+No content
+
+< 200 OK OK
+< Content-Type: [application/json]
+
+{"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+
+======================  MockMvc (Server) ===============================
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /sample
+       Parameters = {}
+          Headers = [WebTestClient-Request-Id:"1", Accept:"application/json"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController
+           Method = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController#get()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:24 PM org.springframework.test.web.reactive.server.ExchangeResult assertWithDiagnostics
+SEVERE: Request details for assertion failure:
+
+> GET /sample
+> WebTestClient-Request-Id: [1]
+> Accept: [application/json]
+
+No content
+
+< 200 OK OK
+< Content-Type: [application/json]
+
+{"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+
+======================  MockMvc (Server) ===============================
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /sample
+       Parameters = {}
+          Headers = [WebTestClient-Request-Id:"1", Accept:"application/json"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController
+           Method = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController#get()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:24 PM org.springframework.test.web.reactive.server.ExchangeResult assertWithDiagnostics
+SEVERE: Request details for assertion failure:
+
+> GET /sample
+> WebTestClient-Request-Id: [1]
+> Accept: [application/json]
+
+No content
+
+< 200 OK OK
+< Content-Type: [application/json]
+
+{"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+
+======================  MockMvc (Server) ===============================
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /sample
+       Parameters = {}
+          Headers = [WebTestClient-Request-Id:"1", Accept:"application/json"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController
+           Method = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController#get()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:24 PM org.springframework.test.web.reactive.server.ExchangeResult assertWithDiagnostics
+SEVERE: Request details for assertion failure:
+
+> GET /sample
+> WebTestClient-Request-Id: [1]
+> Accept: [application/json]
+
+No content
+
+< 200 OK OK
+< Content-Type: [application/json]
+
+{"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+
+======================  MockMvc (Server) ===============================
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /sample
+       Parameters = {}
+          Headers = [WebTestClient-Request-Id:"1", Accept:"application/json"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController
+           Method = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController#get()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:24 PM org.springframework.test.web.reactive.server.ExchangeResult assertWithDiagnostics
+SEVERE: Request details for assertion failure:
+
+> GET /sample
+> WebTestClient-Request-Id: [1]
+> Accept: [application/json]
+
+No content
+
+< 200 OK OK
+< Content-Type: [application/json]
+
+{"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+
+======================  MockMvc (Server) ===============================
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /sample
+       Parameters = {}
+          Headers = [WebTestClient-Request-Id:"1", Accept:"application/json"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController
+           Method = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController#get()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:24 PM org.springframework.test.web.reactive.server.ExchangeResult assertWithDiagnostics
+SEVERE: Request details for assertion failure:
+
+> GET /sample
+> WebTestClient-Request-Id: [1]
+> Accept: [application/json]
+
+No content
+
+< 200 OK OK
+< Content-Type: [application/json]
+
+{"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+
+======================  MockMvc (Server) ===============================
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /sample
+       Parameters = {}
+          Headers = [WebTestClient-Request-Id:"1", Accept:"application/json"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController
+           Method = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController#get()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:24 PM org.springframework.test.web.reactive.server.ExchangeResult assertWithDiagnostics
+SEVERE: Request details for assertion failure:
+
+> GET /sample
+> WebTestClient-Request-Id: [1]
+> Accept: [application/json]
+
+No content
+
+< 200 OK OK
+< Content-Type: [application/json]
+
+{"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+
+======================  MockMvc (Server) ===============================
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /sample
+       Parameters = {}
+          Headers = [WebTestClient-Request-Id:"1", Accept:"application/json"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController
+           Method = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController#get()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:24 PM org.springframework.test.web.reactive.server.ExchangeResult assertWithDiagnostics
+SEVERE: Request details for assertion failure:
+
+> GET /sample
+> WebTestClient-Request-Id: [1]
+> Accept: [application/json]
+
+No content
+
+< 200 OK OK
+< Content-Type: [application/json]
+
+{"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+
+======================  MockMvc (Server) ===============================
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /sample
+       Parameters = {}
+          Headers = [WebTestClient-Request-Id:"1", Accept:"application/json"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController
+           Method = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController#get()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:24 PM org.springframework.test.web.reactive.server.ExchangeResult assertWithDiagnostics
+SEVERE: Request details for assertion failure:
+
+> GET /sample
+> WebTestClient-Request-Id: [1]
+> Accept: [application/json]
+
+No content
+
+< 200 OK OK
+< Content-Type: [application/json]
+
+{"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+
+======================  MockMvc (Server) ===============================
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /sample
+       Parameters = {}
+          Headers = [WebTestClient-Request-Id:"1", Accept:"application/json"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController
+           Method = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController#get()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:24 PM org.springframework.test.web.reactive.server.ExchangeResult assertWithDiagnostics
+SEVERE: Request details for assertion failure:
+
+> GET /sample
+> WebTestClient-Request-Id: [1]
+> Accept: [application/json]
+
+No content
+
+< 200 OK OK
+< Content-Type: [application/json]
+
+{"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+
+======================  MockMvc (Server) ===============================
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /sample
+       Parameters = {}
+          Headers = [WebTestClient-Request-Id:"1", Accept:"application/json"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController
+           Method = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController#get()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:24 PM org.springframework.test.web.reactive.server.ExchangeResult assertWithDiagnostics
+SEVERE: Request details for assertion failure:
+
+> GET /sample
+> WebTestClient-Request-Id: [1]
+> Accept: [application/json]
+
+No content
+
+< 200 OK OK
+< Content-Type: [application/json]
+
+{"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+
+======================  MockMvc (Server) ===============================
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /sample
+       Parameters = {}
+          Headers = [WebTestClient-Request-Id:"1", Accept:"application/json"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController
+           Method = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController#get()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:24 PM org.springframework.test.web.reactive.server.ExchangeResult assertWithDiagnostics
+SEVERE: Request details for assertion failure:
+
+> GET /sample
+> WebTestClient-Request-Id: [1]
+> Accept: [application/json]
+
+No content
+
+< 200 OK OK
+< Content-Type: [application/json]
+
+{"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+
+======================  MockMvc (Server) ===============================
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /sample
+       Parameters = {}
+          Headers = [WebTestClient-Request-Id:"1", Accept:"application/json"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController
+           Method = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController#get()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 1 ms
+Mar 18, 2026 12:55:24 PM org.springframework.test.web.reactive.server.ExchangeResult assertWithDiagnostics
+SEVERE: Request details for assertion failure:
+
+> GET /sample
+> WebTestClient-Request-Id: [1]
+> Accept: [application/json]
+
+No content
+
+< 200 OK OK
+< Content-Type: [application/json]
+
+{"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+
+======================  MockMvc (Server) ===============================
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /sample
+       Parameters = {}
+          Headers = [WebTestClient-Request-Id:"1", Accept:"application/json"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController
+           Method = net.javacrumbs.jsonunit.spring.testit.demo.ExampleController#get()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"result":{"decimal":1.00001,"null":null,"utf8":"€","array":[1,2,3],"string":"stringValue","boolean":true}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Mar 18, 2026 12:55:24 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Mar 18, 2026 12:55:24 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/root/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/root/.m2/repository/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/root/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/root/.m2/repository/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/root/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/root/.m2/repository/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/root/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/root/.m2/repository/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/root/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/root/.m2/repository/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]

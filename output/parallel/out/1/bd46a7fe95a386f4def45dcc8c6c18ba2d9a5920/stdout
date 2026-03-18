@@ -1,0 +1,1584 @@
+podman run --network none ghcr.io/chains-project/breaking-updates:bd46a7fe95a386f4def45dcc8c6c18ba2d9a5920-breaking
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.jcabi:jcabi-http >------------------------
+[INFO] Building jcabi-http 2.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ jcabi-http ---
+[INFO] Deleting /jcabi-http/target
+[INFO] 
+[INFO] --- enforcer:3.1.0:enforce (enforce-maven) @ jcabi-http ---
+[INFO] 
+[INFO] --- buildnumber:3.0.0:create (jcabi-build-number) @ jcabi-http ---
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd '/jcabi-http' && 'git' 'rev-parse' '--verify' '--short=7' 'HEAD'
+[INFO] Working directory: /jcabi-http
+[INFO] Storing buildNumber: null at timestamp: 2026-03-18T14:50:33
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: not a git repository (or any of the parent directories): .git
+
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd '/jcabi-http' && 'git' 'rev-parse' '--verify' '--short=7' 'HEAD'
+[INFO] Working directory: /jcabi-http
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- buildnumber:3.0.0:create-timestamp (jcabi-build-number) @ jcabi-http ---
+[INFO] Skipping because we are not in root module.
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ jcabi-http ---
+[INFO] skip non existing resourceDirectory /jcabi-http/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ jcabi-http ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 53 source files to /jcabi-http/target/classes
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ jcabi-http ---
+[INFO] Copying 1 resource
+[INFO] The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ jcabi-http ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 37 source files to /jcabi-http/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.0.0-M7:test (default-test) @ jcabi-http ---
+[INFO] Tests will run in random order. To reproduce ordering use flag -Dsurefire.runOrder.random.seed=5192647587811
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.jcabi.http.request.BaseRequestTest
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #34897
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(POST localhost:34897 /): [200 OK] in 193ms
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.503 s - in com.jcabi.http.request.BaseRequestTest
+[INFO] Running com.jcabi.http.ImmutableHeaderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.jcabi.http.ImmutableHeaderTest
+[INFO] Running com.jcabi.http.wire.AutoRedirectingWireTest
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #44467
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:44467 /): [302 Found] in 3s
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #44467
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #42769
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42769 /): [200 OK] in 3s
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #42769
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.215 s - in com.jcabi.http.wire.AutoRedirectingWireTest
+[INFO] Running com.jcabi.http.request.DefaultResponseTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in com.jcabi.http.request.DefaultResponseTest
+[INFO] Running com.jcabi.http.wire.BasicAuthWireTest
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #40561
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:40561 /): [404 Not Found] in 6ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #40561
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #45569
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:45569 /): [200 OK] in 4ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #45569
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #46819
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:46819 /): [200 OK] in 4ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #46819
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #35463
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:35463 /): [200 OK] in 5ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #35463
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.217 s - in com.jcabi.http.wire.BasicAuthWireTest
+[INFO] Running com.jcabi.http.wire.RetryWireTest
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #44889
+[WARN] main com.jcabi.http.wire.RetryWire: GET http://localhost:44889/ (auth: j***j) returns 500 status (attempt #1)
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:44889 /): [200 OK] in 7ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #44889
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #39761
+[WARN] main com.jcabi.http.wire.RetryWire: GET http://localhost:39761/ returns 500 status (attempt #1)
+[WARN] main com.jcabi.http.wire.RetryWire: GET http://localhost:39761/ returns 500 status (attempt #2)
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:39761 /): [200 OK] in 14ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #39761
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 s - in com.jcabi.http.wire.RetryWireTest
+[INFO] Running com.jcabi.http.mock.GrizzlyQueryTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.414 s - in com.jcabi.http.mock.GrizzlyQueryTest
+[INFO] Running com.jcabi.http.response.RestResponseTest
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:12345 /see-FakeRequest-class): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:12345 /see-FakeRequest-class): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET locahost:888 /tt): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:12345 /see-FakeRequest-class): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:12345 /see-FakeRequest-class): [200 OK] in 0ms
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in com.jcabi.http.response.RestResponseTest
+[INFO] Running com.jcabi.http.mock.MkQueryMatchersTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.jcabi.http.mock.MkQueryMatchersTest
+[INFO] Running com.jcabi.http.wire.LastModifiedCachingWireTest
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #45273
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:45273 /): [200 OK] in 7ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:45273 /): [200 OK] in 3ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #45273
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #46283
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:46283 /): [200 OK] in 6ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:46283 /): [200 OK] in 2ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:46283 /): [200 OK] in 2ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #46283
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #45057
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:45057 /): [200 OK] in 5ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #45057
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #37631
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:37631 /): [200 OK] in 6ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:37631 /): [404 Not Found] in 5ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:37631 /): [200 OK] in 7ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #37631
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #42285
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42285 /): [200 OK] in 7ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42285 /): [200 OK] in 3ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42285 /): [200 OK] in 10ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42285 /): [200 OK] in 7ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42285 /): [200 OK] in 4ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42285 /): [200 OK] in 9ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42285 /): [200 OK] in 6ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42285 /): [200 OK] in 2ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42285 /): [200 OK] in 2ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42285 /): [200 OK] in 3ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #42285
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #38021
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:38021 /): [200 OK] in 17ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:38021 /): [200 OK] in 2ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:38021 /): [200 OK] in 5ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:38021 /): [200 OK] in 4ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #38021
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.526 s - in com.jcabi.http.wire.LastModifiedCachingWireTest
+[INFO] Running com.jcabi.http.RequestTest
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #36489
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:36489 /helloall): [200 OK] in 596ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #36489
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #42251
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42251 /helloall): [200 OK] in 9ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #42251
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #36501
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:36501 /): [404 Not Found] in 5ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #36501
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #40973
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:40973 /): [404 Not Found] in 16ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #40973
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #41745
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(POST localhost:41745 /): [200 OK] in 6ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #41745
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #37503
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(POST localhost:37503 /): [200 OK] in 9ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #37503
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #45023
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:45023 /): [200 OK] in 4ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #45023
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #38801
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:38801 /): [200 OK] in 7ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #38801
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #39407
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:39407 /): [200 OK] in 11ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #39407
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #42503
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42503 /): [200 OK] in 8ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #42503
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #42049
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42049 /abcde): [200 OK] in 11ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #42049
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #38069
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:38069 /abcde): [200 OK] in 5ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #38069
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #37463
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:37463 /abcdefff): [200 OK] in 7ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #37463
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #45507
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:45507 /abcdefff): [200 OK] in 7ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #45507
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #42573
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(POST localhost:42573 /): [200 OK] in 8ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #42573
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #44927
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(POST localhost:44927 /): [200 OK] in 7ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #44927
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #34135
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #34135
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #40451
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #40451
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #40041
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(POST localhost:40041 /): [200 OK] in 5ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #40041
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #42091
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(POST localhost:42091 /): [200 OK] in 6ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #42091
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #45497
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:45497 /): [303 See Other] in 12ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #45497
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #38981
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:38981 /): [303 See Other] in 4ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #38981
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #39595
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:39595 /): [200 OK] in 9ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #39595
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #34345
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:34345 /): [200 OK] in 11ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #34345
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #40203
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(POST localhost:40203 /): [200 OK] in 4ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #40203
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #44157
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(POST localhost:44157 /): [200 OK] in 3ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #44157
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #34165
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:34165 /): [200 OK] in 7ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #34165
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #46593
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:46593 /): [200 OK] in 4ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #46593
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #42343
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(POST localhost:42343 /): [200 OK] in 4ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #42343
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #45477
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(POST localhost:45477 /): [200 OK] in 3ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #45477
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #39373
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:39373 /barbar): [200 OK] in 14ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #39373
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #43703
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:43703 /barbar): [200 OK] in 3ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #43703
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #42583
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(POST localhost:42583 /): [200 OK] in 4ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #42583
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #44589
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(POST localhost:44589 /): [200 OK] in 4ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #44589
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #36891
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:36891 /foo1): [200 OK] in 9ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #36891
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #39699
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:39699 /foo1): [200 OK] in 2ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #39699
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #39229
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:39229 /foo-X): [200 OK] in 9ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(POST localhost:39229 /foo-X): [200 OK] in 6ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:39229 /foo-X): [200 OK] in 14ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #39229
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #42277
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42277 /foo-X): [200 OK] in 3ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(POST localhost:42277 /foo-X): [200 OK] in 4ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42277 /foo-X): [200 OK] in 1ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #42277
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #36817
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(POST localhost:36817 /): [200 OK] in 6ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #36817
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #43929
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(POST localhost:43929 /): [200 OK] in 4ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #43929
+[INFO] Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.382 s - in com.jcabi.http.RequestTest
+[INFO] Running com.jcabi.http.wire.CachingWireTest
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #39843
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:39843 /): [200 OK] in 30ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:39843 /): [200 OK] in 1ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:39843 /): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:39843 /): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:39843 /): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:39843 /): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:39843 /): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:39843 /): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:39843 /): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:39843 /): [200 OK] in 0ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #39843
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #43411
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:43411 /): [200 OK] in 6ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:43411 /): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(POST localhost:43411 /flush): [200 OK] in 9ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:43411 /): [200 OK] in 4ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #43411
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #42171
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(PUT localhost:42171 /): [200 OK] in 3ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(PUT localhost:42171 /): [200 OK] in 1ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #42171
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #42267
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42267 /): [200 OK] in 3ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42267 /): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42267 /): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42267 /): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42267 /): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42267 /): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42267 /): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42267 /): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42267 /): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42267 /): [200 OK] in 0ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #42267
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.297 s - in com.jcabi.http.wire.CachingWireTest
+[INFO] Running com.jcabi.http.wire.TrustedWireTest
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #42903
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42903 /): [200 OK] in 4ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #42903
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 s - in com.jcabi.http.wire.TrustedWireTest
+[INFO] Running com.jcabi.http.wire.ETagCachingWireTest
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #42969
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42969 /): [200 OK] in 3ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42969 /): [200 OK] in 3ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #42969
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #39219
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:39219 /): [200 OK] in 3ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:39219 /): [200 OK] in 2ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #39219
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in com.jcabi.http.wire.ETagCachingWireTest
+[INFO] Running com.jcabi.http.request.FakeRequestTest
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(POST localhost:12345 /see-FakeRequest-class/helloall): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET google.com /): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(POST localhost:12345 /see-FakeRequest-class/binContent): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:12345 /see-FakeRequest-class): [200 OK] in 0ms
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in com.jcabi.http.request.FakeRequestTest
+[INFO] Running com.jcabi.http.response.JacksonResponseTest
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:12345 /see-FakeRequest-class): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:12345 /see-FakeRequest-class): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:12345 /see-FakeRequest-class): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:12345 /see-FakeRequest-class): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:12345 /see-FakeRequest-class): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:12345 /see-FakeRequest-class): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:12345 /see-FakeRequest-class): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:12345 /see-FakeRequest-class): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:12345 /see-FakeRequest-class): [200 OK] in 0ms
+[ERROR] Tests run: 9, Failures: 5, Errors: 4, Skipped: 0, Time elapsed: 0.272 s <<< FAILURE! - in com.jcabi.http.response.JacksonResponseTest
+[ERROR] com.jcabi.http.response.JacksonResponseTest.canParseUnquotedControlCharacters  Time elapsed: 0.245 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/exc/StreamConstraintsException
+	at com.fasterxml.jackson.databind.node.JsonNodeFactory.objectNode(JsonNodeFactory.java:353)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:100)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:25)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readTreeAndClose(ObjectMapper.java:4867)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:3233)
+	at com.jcabi.http.response.JacksonResponse$JsonReader.read(JacksonResponse.java:139)
+	at com.jcabi.http.response.JacksonResponse$JsonReader.readObject(JacksonResponse.java:123)
+	at com.jcabi.http.response.JacksonResponseTest.canParseUnquotedControlCharacters(JacksonResponseTest.java:79)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.core.exc.StreamConstraintsException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 80 more
+
+[ERROR] com.jcabi.http.response.JacksonResponseTest.invalidJsonObjectErrorIsLeftToJackson  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.io.IOException> but was: <java.lang.NoClassDefFoundError>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3083)
+	at com.jcabi.http.response.JacksonResponseTest.invalidJsonObjectErrorIsLeftToJackson(JacksonResponseTest.java:200)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+Caused by: java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/exc/StreamConstraintsException
+	at com.fasterxml.jackson.databind.node.JsonNodeFactory.objectNode(JsonNodeFactory.java:353)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:100)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:25)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readTreeAndClose(ObjectMapper.java:4867)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:3233)
+	at com.jcabi.http.response.JacksonResponse$JsonReader.read(JacksonResponse.java:139)
+	at com.jcabi.http.response.JacksonResponse$JsonReader.readObject(JacksonResponse.java:123)
+	at com.jcabi.http.response.JacksonResponseTest$4.execute(JacksonResponseTest.java:205)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 74 more
+Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.core.exc.StreamConstraintsException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 84 more
+
+[ERROR] com.jcabi.http.response.JacksonResponseTest.invalidJsonErrorHandlingIsLeftToJackson  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.io.IOException> but was: <java.lang.NoClassDefFoundError>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3083)
+	at com.jcabi.http.response.JacksonResponseTest.invalidJsonErrorHandlingIsLeftToJackson(JacksonResponseTest.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+Caused by: java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/exc/StreamConstraintsException
+	at com.fasterxml.jackson.databind.node.JsonNodeFactory.objectNode(JsonNodeFactory.java:353)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:100)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:25)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readTreeAndClose(ObjectMapper.java:4867)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:3233)
+	at com.jcabi.http.response.JacksonResponse$JsonReader.read(JacksonResponse.java:139)
+	at com.jcabi.http.response.JacksonResponseTest$1.execute(JacksonResponseTest.java:102)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 74 more
+Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.core.exc.StreamConstraintsException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 83 more
+
+[ERROR] com.jcabi.http.response.JacksonResponseTest.invalidJsonArrayErrorHandlingIsLeftToJackson  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.io.IOException> but was: <java.lang.NoClassDefFoundError>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3083)
+	at com.jcabi.http.response.JacksonResponseTest.invalidJsonArrayErrorHandlingIsLeftToJackson(JacksonResponseTest.java:126)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+Caused by: java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/exc/StreamConstraintsException
+	at com.fasterxml.jackson.databind.node.JsonNodeFactory.objectNode(JsonNodeFactory.java:353)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:100)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:25)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readTreeAndClose(ObjectMapper.java:4867)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:3233)
+	at com.jcabi.http.response.JacksonResponse$JsonReader.read(JacksonResponse.java:139)
+	at com.jcabi.http.response.JacksonResponse$JsonReader.readArray(JacksonResponse.java:106)
+	at com.jcabi.http.response.JacksonResponseTest$2.execute(JacksonResponseTest.java:131)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 74 more
+Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.core.exc.StreamConstraintsException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 84 more
+
+[ERROR] com.jcabi.http.response.JacksonResponseTest.canReadJsonDocument  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/exc/StreamConstraintsException
+	at com.fasterxml.jackson.databind.node.JsonNodeFactory.objectNode(JsonNodeFactory.java:353)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:100)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:25)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readTreeAndClose(ObjectMapper.java:4867)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:3233)
+	at com.jcabi.http.response.JacksonResponse$JsonReader.read(JacksonResponse.java:139)
+	at com.jcabi.http.response.JacksonResponseTest.canReadJsonDocument(JacksonResponseTest.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.core.exc.StreamConstraintsException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 79 more
+
+[ERROR] com.jcabi.http.response.JacksonResponseTest.canReadAsArrayIfOne  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/exc/StreamConstraintsException
+	at com.fasterxml.jackson.databind.node.JsonNodeFactory.arrayNode(JsonNodeFactory.java:339)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:104)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:25)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readTreeAndClose(ObjectMapper.java:4867)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:3233)
+	at com.jcabi.http.response.JacksonResponse$JsonReader.read(JacksonResponse.java:139)
+	at com.jcabi.http.response.JacksonResponse$JsonReader.readArray(JacksonResponse.java:106)
+	at com.jcabi.http.response.JacksonResponseTest.canReadAsArrayIfOne(JacksonResponseTest.java:179)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.core.exc.StreamConstraintsException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 80 more
+
+[ERROR] com.jcabi.http.response.JacksonResponseTest.canReadAsObjectIfOne  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/exc/StreamConstraintsException
+	at com.fasterxml.jackson.databind.node.JsonNodeFactory.objectNode(JsonNodeFactory.java:353)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:100)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:25)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readTreeAndClose(ObjectMapper.java:4867)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:3233)
+	at com.jcabi.http.response.JacksonResponse$JsonReader.read(JacksonResponse.java:139)
+	at com.jcabi.http.response.JacksonResponse$JsonReader.readObject(JacksonResponse.java:123)
+	at com.jcabi.http.response.JacksonResponseTest.canReadAsObjectIfOne(JacksonResponseTest.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.core.exc.StreamConstraintsException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 80 more
+
+[ERROR] com.jcabi.http.response.JacksonResponseTest.cannotReadJsonAsObjectIfNotOne  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.io.IOException> but was: <java.lang.NoClassDefFoundError>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3083)
+	at com.jcabi.http.response.JacksonResponseTest.cannotReadJsonAsObjectIfNotOne(JacksonResponseTest.java:228)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+Caused by: java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/exc/StreamConstraintsException
+	at com.fasterxml.jackson.databind.node.JsonNodeFactory.arrayNode(JsonNodeFactory.java:339)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:104)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:25)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readTreeAndClose(ObjectMapper.java:4867)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:3233)
+	at com.jcabi.http.response.JacksonResponse$JsonReader.read(JacksonResponse.java:139)
+	at com.jcabi.http.response.JacksonResponse$JsonReader.readObject(JacksonResponse.java:123)
+	at com.jcabi.http.response.JacksonResponseTest$5.execute(JacksonResponseTest.java:233)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 74 more
+Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.core.exc.StreamConstraintsException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 84 more
+
+[ERROR] com.jcabi.http.response.JacksonResponseTest.cannotReadJsonAsArrayIfNotOne  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.io.IOException> but was: <java.lang.NoClassDefFoundError>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3083)
+	at com.jcabi.http.response.JacksonResponseTest.cannotReadJsonAsArrayIfNotOne(JacksonResponseTest.java:152)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+Caused by: java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/exc/StreamConstraintsException
+	at com.fasterxml.jackson.databind.node.JsonNodeFactory.objectNode(JsonNodeFactory.java:353)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:100)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:25)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readTreeAndClose(ObjectMapper.java:4867)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:3233)
+	at com.jcabi.http.response.JacksonResponse$JsonReader.read(JacksonResponse.java:139)
+	at com.jcabi.http.response.JacksonResponse$JsonReader.readArray(JacksonResponse.java:106)
+	at com.jcabi.http.response.JacksonResponseTest$3.execute(JacksonResponseTest.java:157)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 74 more
+Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.core.exc.StreamConstraintsException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 84 more
+
+[INFO] Running com.jcabi.http.response.XmlResponseTest
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:12345 /see-FakeRequest-class): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:12345 /see-FakeRequest-class): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:12345 /see-FakeRequest-class): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:12345 /see-FakeRequest-class): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:12345 /see-FakeRequest-class): [200 OK] in 0ms
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in com.jcabi.http.response.XmlResponseTest
+[INFO] Running com.jcabi.http.response.JsonResponseTest
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:12345 /see-FakeRequest-class): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:12345 /see-FakeRequest-class): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:12345 /see-FakeRequest-class): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:12345 /see-FakeRequest-class): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:12345 /see-FakeRequest-class): [200 OK] in 0ms
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in com.jcabi.http.response.JsonResponseTest
+[INFO] Running com.jcabi.http.wire.CookieOptimizingWireTest
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #45043
+[INFO] main com.jcabi.http.wire.VerboseWire: #send(GET http://localhost:45043/):
+HTTP Request (com.jcabi.http.request.BaseRequest):
+  Cookie: second=initial-value
+  
+  <<empty>>
+HTTP Response (com.jcabi.http.request.DefaultResponse):
+  200 OK [http://localhost:45043/]
+  Server: com.jcabi.http.mock.MkGrizzlyAdapter query #1, 2 answer(s) left
+  Set-Cookie: third=B; path=/
+  Set-Cookie: second=; path=/
+  Set-Cookie: first=A; path=/
+  Content-Length: 0
+  Location: /a
+  
+  <<empty>>
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:45043 /): [200 OK] in 3ms
+[INFO] main com.jcabi.http.wire.VerboseWire: #send(GET http://localhost:45043/a):
+HTTP Request (com.jcabi.http.request.BaseRequest):
+  Cookie: third=B; first=A
+  
+  <<empty>>
+HTTP Response (com.jcabi.http.request.DefaultResponse):
+  200 OK [http://localhost:45043/a]
+  Server: com.jcabi.http.mock.MkGrizzlyAdapter query #2, 1 answer(s) left
+  Content-Length: 0
+  
+  <<empty>>
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:45043 /a): [200 OK] in 2ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #45043
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #39681
+[INFO] main com.jcabi.http.wire.VerboseWire: #send(GET http://localhost:39681/):
+HTTP Request (com.jcabi.http.request.BaseRequest):
+  Cookie: alpha=boom5
+  
+  <<empty>>
+HTTP Response (com.jcabi.http.request.DefaultResponse):
+  200 OK [http://localhost:39681/]
+  Server: com.jcabi.http.mock.MkGrizzlyAdapter query #1, 2 answer(s) left
+  Set-Cookie: gamma=something; path=/
+  Set-Cookie: alpha=boom1; path=/
+  Set-Cookie: beta=something; path=/
+  Content-Length: 0
+  Location: /
+  
+  <<empty>>
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:39681 /): [200 OK] in 3ms
+[INFO] main com.jcabi.http.wire.VerboseWire: #send(GET http://localhost:39681/):
+HTTP Request (com.jcabi.http.request.BaseRequest):
+  Cookie: gamma=something; beta=something; alpha=boom1
+  
+  <<empty>>
+HTTP Response (com.jcabi.http.request.DefaultResponse):
+  200 OK [http://localhost:39681/]
+  Server: com.jcabi.http.mock.MkGrizzlyAdapter query #2, 1 answer(s) left
+  Content-Length: 0
+  
+  <<empty>>
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:39681 /): [200 OK] in 2ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #39681
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in com.jcabi.http.wire.CookieOptimizingWireTest
+[INFO] Running com.jcabi.http.wire.VerboseWireTest
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #42415
+[INFO] main com.jcabi.http.wire.VerboseWire: #send(GET http://localhost:42415/):
+HTTP Request (com.jcabi.http.request.BaseRequest):
+  User-Agent: it's me
+  
+  <<empty>>
+HTTP Response (com.jcabi.http.request.DefaultResponse):
+  200 OK [http://localhost:42415/]
+  Server: com.jcabi.http.mock.MkGrizzlyAdapter query #1, 1 answer(s) left
+  Content-Length: 0
+  
+  <<empty>>
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:42415 /): [200 OK] in 3ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #42415
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #40133
+[INFO] main com.jcabi.http.wire.VerboseWire: #send(POST http://localhost:40133/):
+HTTP Request (com.jcabi.http.request.BaseRequest):
+  
+  hello, world!
+HTTP Response (com.jcabi.http.request.DefaultResponse):
+  200 OK [http://localhost:40133/]
+  Server: com.jcabi.http.mock.MkGrizzlyAdapter query #1, 1 answer(s) left
+  Content-Length: 0
+  
+  <<empty>>
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(POST localhost:40133 /): [200 OK] in 3ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #40133
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in com.jcabi.http.wire.VerboseWireTest
+[INFO] Running com.jcabi.http.response.JsoupResponseTest
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:12345 /see-FakeRequest-class): [200 OK] in 0ms
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.096 s - in com.jcabi.http.response.JsoupResponseTest
+[INFO] Running com.jcabi.http.response.WebLinkingResponseTest
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost /test): [200 OK] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:12345 /see-FakeRequest-class): [200 OK] in 1ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:12345 /see-FakeRequest-class): [200 OK] in 0ms
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.jcabi.http.response.WebLinkingResponseTest
+[INFO] Running com.jcabi.http.RequestTimeoutLossTest
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost /api): [0 null] in 1ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost /api): [0 null] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost /): [0 null] in 1ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost /): [0 null] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost /): [0 null] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost /): [0 null] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost /): [0 null] in 1ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost /): [0 null] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost /): [0 null] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost /): [0 null] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost /): [0 null] in 0ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost /): [0 null] in 1ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET null fake-url): [0 null] in 1ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost /): [0 null] in 1ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost /): [0 null] in 0ms
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.099 s - in com.jcabi.http.RequestTimeoutLossTest
+[INFO] Running com.jcabi.http.wire.UserAgentWireTest
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #36239
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:36239 /): [200 OK] in 2ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #36239
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #39297
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:39297 /): [200 OK] in 11ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #39297
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.091 s - in com.jcabi.http.wire.UserAgentWireTest
+[INFO] Running com.jcabi.http.wire.FcWireTest
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #36081
+[DEBUG] main com.jcabi.http.wire.FcCache: directory created for /tmp/com.jcabi.http.wire.FcCache-5207757208626/GET_/_2F.json
+[DEBUG] main com.jcabi.http.wire.FcCache: cache saved into /tmp/com.jcabi.http.wire.FcCache-5207757208626/GET_/_2F.json
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:36081 /): [200 OK] in 5ms
+[DEBUG] main com.jcabi.http.wire.FcCache: cache loaded from /tmp/com.jcabi.http.wire.FcCache-5207757208626/GET_/_2F.json
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:36081 /): [200 OK] in 11ms
+[DEBUG] main com.jcabi.http.wire.FcCache: cache invalidated in /tmp/com.jcabi.http.wire.FcCache-5207757208626
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(POST localhost:36081 /flush): [200 OK] in 8ms
+[DEBUG] main com.jcabi.http.wire.FcCache: directory created for /tmp/com.jcabi.http.wire.FcCache-5207757208626/GET_/_2F.json
+[DEBUG] main com.jcabi.http.wire.FcCache: cache saved into /tmp/com.jcabi.http.wire.FcCache-5207757208626/GET_/_2F.json
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:36081 /): [200 OK] in 3ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #36081
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #43275
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(PUT localhost:43275 /): [200 OK] in 2ms
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(PUT localhost:43275 /): [200 OK] in 2ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #43275
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #35727
+[DEBUG] main com.jcabi.http.wire.FcCache: directory created for /tmp/com.jcabi.http.wire.FcCache-5207822081897/GET_/_2F.json
+[DEBUG] main com.jcabi.http.wire.FcCache: cache saved into /tmp/com.jcabi.http.wire.FcCache-5207822081897/GET_/_2F.json
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:35727 /): [200 OK] in 4ms
+[DEBUG] main com.jcabi.http.wire.FcCache: cache loaded from /tmp/com.jcabi.http.wire.FcCache-5207822081897/GET_/_2F.json
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:35727 /): [200 OK] in 0ms
+[DEBUG] main com.jcabi.http.wire.FcCache: cache loaded from /tmp/com.jcabi.http.wire.FcCache-5207822081897/GET_/_2F.json
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:35727 /): [200 OK] in 1ms
+[DEBUG] main com.jcabi.http.wire.FcCache: cache loaded from /tmp/com.jcabi.http.wire.FcCache-5207822081897/GET_/_2F.json
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:35727 /): [200 OK] in 1ms
+[DEBUG] main com.jcabi.http.wire.FcCache: cache loaded from /tmp/com.jcabi.http.wire.FcCache-5207822081897/GET_/_2F.json
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:35727 /): [200 OK] in 0ms
+[DEBUG] main com.jcabi.http.wire.FcCache: cache loaded from /tmp/com.jcabi.http.wire.FcCache-5207822081897/GET_/_2F.json
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:35727 /): [200 OK] in 1ms
+[DEBUG] main com.jcabi.http.wire.FcCache: cache loaded from /tmp/com.jcabi.http.wire.FcCache-5207822081897/GET_/_2F.json
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:35727 /): [200 OK] in 1ms
+[DEBUG] main com.jcabi.http.wire.FcCache: cache loaded from /tmp/com.jcabi.http.wire.FcCache-5207822081897/GET_/_2F.json
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:35727 /): [200 OK] in 0ms
+[DEBUG] main com.jcabi.http.wire.FcCache: cache loaded from /tmp/com.jcabi.http.wire.FcCache-5207822081897/GET_/_2F.json
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:35727 /): [200 OK] in 1ms
+[DEBUG] main com.jcabi.http.wire.FcCache: cache loaded from /tmp/com.jcabi.http.wire.FcCache-5207822081897/GET_/_2F.json
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:35727 /): [200 OK] in 1ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #35727
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 s - in com.jcabi.http.wire.FcWireTest
+[INFO] Running com.jcabi.http.request.BoundaryTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.jcabi.http.request.BoundaryTest
+[INFO] Running com.jcabi.http.mock.MkContainerTest
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #35059
+[INFO] main com.jcabi.http.wire.VerboseWire: #send(POST http://localhost:35059/):
+HTTP Request (com.jcabi.http.request.BaseRequest):
+  
+  reqBodyMatches
+HTTP Response (com.jcabi.http.request.DefaultResponse):
+  200 OK [http://localhost:35059/]
+  Server: com.jcabi.http.mock.MkGrizzlyAdapter query #1, 2 answer(s) left
+  Content-Length: 15
+  
+  respBodyMatches
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(POST localhost:35059 /): [200 OK] in 2ms
+[INFO] main com.jcabi.http.wire.VerboseWire: #send(POST http://localhost:35059/):
+HTTP Request (com.jcabi.http.request.BaseRequest):
+  
+  reqBodyMismatches
+HTTP Response (com.jcabi.http.request.DefaultResponse):
+  200 OK [http://localhost:35059/]
+  Server: com.jcabi.http.mock.MkGrizzlyAdapter query #2, 1 answer(s) left
+  Content-Length: 4
+  
+  bleh
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(POST localhost:35059 /): [200 OK] in 5ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #35059
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #38059
+[INFO] main com.jcabi.http.wire.VerboseWire: #send(GET http://localhost:38059/):
+HTTP Request (com.jcabi.http.request.BaseRequest):
+  
+  <<empty>>
+HTTP Response (com.jcabi.http.request.DefaultResponse):
+  500 Internal Server Error [http://localhost:38059/]
+  Connection: close
+  Content-Length: 462
+  
+  java.util.NoSuchElementException: No matching answers found.
+  	at com.jcabi.http.mock.MkGrizzlyAdapter.service(MkGrizzlyAdapter.java:127)
+  	at org.glassfish.grizzly.http.server.HttpHandler$1.run(HttpHandler.java:200)
+  	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:569)
+  	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:549)
+  	at java.base/java.lang.Thread.run(Thread.java:829)
+  
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:38059 /): [500 Internal Server Error] in 4ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #38059
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #35165
+[INFO] main com.jcabi.http.wire.VerboseWire: #send(GET http://localhost:35165/):
+HTTP Request (com.jcabi.http.request.BaseRequest):
+  X-Something: text/html
+  X-Something: text/xml
+  
+  <<empty>>
+HTTP Response (com.jcabi.http.request.DefaultResponse):
+  200 OK [http://localhost:35165/]
+  Server: com.jcabi.http.mock.MkGrizzlyAdapter query #1, 1 answer(s) left
+  Content-Length: 0
+  
+  <<empty>>
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:35165 /): [200 OK] in 1ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #35165
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #45663
+[INFO] main com.jcabi.http.wire.VerboseWire: #send(GET http://localhost:45663/):
+HTTP Request (com.jcabi.http.request.BaseRequest):
+  
+  <<empty>>
+HTTP Response (com.jcabi.http.request.DefaultResponse):
+  200 OK [http://localhost:45663/]
+  Server: com.jcabi.http.mock.MkGrizzlyAdapter query #1, 2 answer(s) left
+  Content-Length: 8
+  
+  matching
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:45663 /): [200 OK] in 2ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #45663
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #36023
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:36023 /): [200 OK] in 2ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #36023
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #45139
+[INFO] main com.jcabi.http.wire.VerboseWire: #send(GET http://localhost:45139/):
+HTTP Request (com.jcabi.http.request.BaseRequest):
+  
+  <<empty>>
+HTTP Response (com.jcabi.http.request.DefaultResponse):
+  200 OK [http://localhost:45139/]
+  Server: com.jcabi.http.mock.MkGrizzlyAdapter query #1, 1 answer(s) left
+  Content-Length: 5
+  
+   E!\ufffd
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:45139 /): [200 OK] in 3ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #45139
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #35203
+[INFO] main com.jcabi.http.wire.VerboseWire: #send(POST http://localhost:35203/):
+HTTP Request (com.jcabi.http.request.BaseRequest):
+  
+  multipleRequestMatches
+HTTP Response (com.jcabi.http.request.DefaultResponse):
+  200 OK [http://localhost:35203/]
+  Server: com.jcabi.http.mock.MkGrizzlyAdapter query #1, 2 answer(s) left
+  Content-Length: 23
+  
+  multipleResponseMatches
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(POST localhost:35203 /): [200 OK] in 3ms
+[INFO] main com.jcabi.http.wire.VerboseWire: #send(POST http://localhost:35203/):
+HTTP Request (com.jcabi.http.request.BaseRequest):
+  
+  multipleRequestMatches
+HTTP Response (com.jcabi.http.request.DefaultResponse):
+  200 OK [http://localhost:35203/]
+  Server: com.jcabi.http.mock.MkGrizzlyAdapter query #2, 2 answer(s) left
+  Content-Length: 23
+  
+  multipleResponseMatches
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(POST localhost:35203 /): [200 OK] in 3ms
+[INFO] main com.jcabi.http.wire.VerboseWire: #send(POST http://localhost:35203/):
+HTTP Request (com.jcabi.http.request.BaseRequest):
+  
+  multipleRequestNotMatching
+HTTP Response (com.jcabi.http.request.DefaultResponse):
+  200 OK [http://localhost:35203/]
+  Server: com.jcabi.http.mock.MkGrizzlyAdapter query #3, 1 answer(s) left
+  Content-Length: 4
+  
+  blaa
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(POST localhost:35203 /): [200 OK] in 2ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #35203
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #37021
+[INFO] main com.jcabi.http.wire.VerboseWire: #send(GET http://localhost:37021/):
+HTTP Request (com.jcabi.http.request.BaseRequest):
+  
+  <<empty>>
+HTTP Response (com.jcabi.http.request.DefaultResponse):
+  200 OK [http://localhost:37021/]
+  Server: com.jcabi.http.mock.MkGrizzlyAdapter query #1, 1 answer(s) left
+  Content-Length: 8
+  
+  multiple
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:37021 /): [200 OK] in 2ms
+[INFO] main com.jcabi.http.wire.VerboseWire: #send(GET http://localhost:37021/):
+HTTP Request (com.jcabi.http.request.BaseRequest):
+  
+  <<empty>>
+HTTP Response (com.jcabi.http.request.DefaultResponse):
+  200 OK [http://localhost:37021/]
+  Server: com.jcabi.http.mock.MkGrizzlyAdapter query #2, 1 answer(s) left
+  Content-Length: 8
+  
+  multiple
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:37021 /): [200 OK] in 1ms
+[INFO] main com.jcabi.http.wire.VerboseWire: #send(GET http://localhost:37021/):
+HTTP Request (com.jcabi.http.request.BaseRequest):
+  
+  <<empty>>
+HTTP Response (com.jcabi.http.request.DefaultResponse):
+  200 OK [http://localhost:37021/]
+  Server: com.jcabi.http.mock.MkGrizzlyAdapter query #3, 1 answer(s) left
+  Content-Length: 8
+  
+  multiple
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:37021 /): [200 OK] in 2ms
+[INFO] main com.jcabi.http.wire.VerboseWire: #send(GET http://localhost:37021/):
+HTTP Request (com.jcabi.http.request.BaseRequest):
+  
+  <<empty>>
+HTTP Response (com.jcabi.http.request.DefaultResponse):
+  200 OK [http://localhost:37021/]
+  Server: com.jcabi.http.mock.MkGrizzlyAdapter query #4, 1 answer(s) left
+  Content-Length: 8
+  
+  multiple
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:37021 /): [200 OK] in 1ms
+[INFO] main com.jcabi.http.wire.VerboseWire: #send(GET http://localhost:37021/):
+HTTP Request (com.jcabi.http.request.BaseRequest):
+  
+  <<empty>>
+HTTP Response (com.jcabi.http.request.DefaultResponse):
+  200 OK [http://localhost:37021/]
+  Server: com.jcabi.http.mock.MkGrizzlyAdapter query #5, 1 answer(s) left
+  Content-Length: 8
+  
+  multiple
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:37021 /): [200 OK] in 2ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #37021
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: started on port #36741
+[INFO] main com.jcabi.http.wire.VerboseWire: #send(GET http://localhost:36741/):
+HTTP Request (com.jcabi.http.request.BaseRequest):
+  
+  <<empty>>
+HTTP Response (com.jcabi.http.request.DefaultResponse):
+  200 OK [http://localhost:36741/]
+  Server: com.jcabi.http.mock.MkGrizzlyAdapter query #1, 2 answer(s) left
+  Content-Length: 5
+  
+  first
+[INFO] main com.jcabi.http.request.BaseRequest: #fetch(GET localhost:36741 /): [200 OK] in 2ms
+[INFO] main com.jcabi.http.mock.MkGrizzlyContainer: stopped on port #36741
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.157 s - in com.jcabi.http.mock.MkContainerTest
+[INFO] Running com.jcabi.http.mock.MkAnswerMatchersTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in com.jcabi.http.mock.MkAnswerMatchersTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   JacksonResponseTest.cannotReadJsonAsArrayIfNotOne:152 Unexpected exception type thrown, expected: <java.io.IOException> but was: <java.lang.NoClassDefFoundError>
+[ERROR]   JacksonResponseTest.cannotReadJsonAsObjectIfNotOne:228 Unexpected exception type thrown, expected: <java.io.IOException> but was: <java.lang.NoClassDefFoundError>
+[ERROR]   JacksonResponseTest.invalidJsonArrayErrorHandlingIsLeftToJackson:126 Unexpected exception type thrown, expected: <java.io.IOException> but was: <java.lang.NoClassDefFoundError>
+[ERROR]   JacksonResponseTest.invalidJsonErrorHandlingIsLeftToJackson:97 Unexpected exception type thrown, expected: <java.io.IOException> but was: <java.lang.NoClassDefFoundError>
+[ERROR]   JacksonResponseTest.invalidJsonObjectErrorIsLeftToJackson:200 Unexpected exception type thrown, expected: <java.io.IOException> but was: <java.lang.NoClassDefFoundError>
+[ERROR] Errors: 
+[ERROR]   JacksonResponseTest.canParseUnquotedControlCharacters:79 » NoClassDefFound com/fasterxml/jackson/core/exc/StreamConstraintsException
+[ERROR]   JacksonResponseTest.canReadAsArrayIfOne:179 » NoClassDefFound com/fasterxml/jackson/core/exc/StreamConstraintsException
+[ERROR]   JacksonResponseTest.canReadAsObjectIfOne:255 » NoClassDefFound com/fasterxml/jackson/core/exc/StreamConstraintsException
+[ERROR]   JacksonResponseTest.canReadJsonDocument:59 » NoClassDefFound com/fasterxml/jackson/core/exc/StreamConstraintsException
+[INFO] 
+[ERROR] Tests run: 148, Failures: 5, Errors: 4, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  24.828 s
+[INFO] Finished at: 2026-03-18T14:50:56Z
+[INFO] ------------------------------------------------------------------------
+[WARNING] 
+[WARNING] Plugin validation issues were detected in 5 plugin(s)
+[WARNING] 
+[WARNING]  * org.codehaus.mojo:buildnumber-maven-plugin:3.0.0
+[WARNING]  * org.apache.maven.plugins:maven-compiler-plugin:3.10.1
+[WARNING]  * org.apache.maven.plugins:maven-enforcer-plugin:3.1.0
+[WARNING]  * org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M7
+[WARNING]  * org.apache.maven.plugins:maven-resources-plugin:3.3.0
+[WARNING] 
+[WARNING] For more or less details, use 'maven.plugin.validation' property with one of the values (case insensitive): [BRIEF, DEFAULT, VERBOSE]
+[WARNING] 
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M7:test (default-test) on project jcabi-http: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /jcabi-http/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

@@ -1,0 +1,158 @@
+podman run --network none ghcr.io/chains-project/breaking-updates:863f64e40b3dce33fe357e8096138830254c15ea-breaking
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 5 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 5 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Google Cloud Datastore Parent                                      [pom]
+[INFO] proto-google-cloud-datastore-v1                                    [jar]
+[INFO] datastore-v1-proto-client                                          [jar]
+[INFO] Google Cloud Datastore                                             [jar]
+[INFO] Google Cloud datastore BOM                                         [pom]
+[INFO] 
+[INFO] -----------< com.google.cloud:google-cloud-datastore-parent >-----------
+[INFO] Building Google Cloud Datastore Parent 2.2.3-SNAPSHOT              [1/5]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ google-cloud-datastore-parent ---
+[INFO] Deleting /java-datastore/target
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ google-cloud-datastore-parent ---
+[INFO] Adding ignore: module-info
+[INFO] Adding ignore: META-INF/versions/*/module-info
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (checkstyle) @ google-cloud-datastore-parent ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ google-cloud-datastore-parent ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/java-datastore/target/jacoco.exec
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-resource (add-main-proto-resources) @ google-cloud-datastore-parent ---
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-test-resource (add-test-proto-resources) @ google-cloud-datastore-parent ---
+[INFO] 
+[INFO] --- animal-sniffer:1.20:check (java8) @ google-cloud-datastore-parent ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[INFO] 
+[INFO] --- jacoco:0.8.7:report (report) @ google-cloud-datastore-parent ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO] 
+[INFO] --------< com.google.api.grpc:proto-google-cloud-datastore-v1 >---------
+[INFO] Building proto-google-cloud-datastore-v1 0.93.3-SNAPSHOT           [2/5]
+[INFO]   from proto-google-cloud-datastore-v1/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ proto-google-cloud-datastore-v1 ---
+[INFO] Deleting /java-datastore/proto-google-cloud-datastore-v1/target
+[INFO] 
+[INFO] --- flatten:1.2.7:clean (flatten.clean) @ proto-google-cloud-datastore-v1 ---
+[INFO] Deleting /java-datastore/proto-google-cloud-datastore-v1/.flattened-pom.xml
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ proto-google-cloud-datastore-v1 ---
+[INFO] Adding ignore: module-info
+[INFO] Adding ignore: META-INF/versions/*/module-info
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (checkstyle) @ proto-google-cloud-datastore-v1 ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ proto-google-cloud-datastore-v1 ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/java-datastore/proto-google-cloud-datastore-v1/target/jacoco.exec
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-resource (add-main-proto-resources) @ proto-google-cloud-datastore-v1 ---
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ proto-google-cloud-datastore-v1 ---
+[INFO] skip non existing resourceDirectory /java-datastore/proto-google-cloud-datastore-v1/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- flatten:1.2.7:flatten (flatten) @ proto-google-cloud-datastore-v1 ---
+[INFO] Generating flattened POM of project com.google.api.grpc:proto-google-cloud-datastore-v1:jar:0.93.3-SNAPSHOT...
+[INFO] 
+[INFO] --- compiler:3.9.0:compile (default-compile) @ proto-google-cloud-datastore-v1 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 73 source files to /java-datastore/proto-google-cloud-datastore-v1/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-test-resource (add-test-proto-resources) @ proto-google-cloud-datastore-v1 ---
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ proto-google-cloud-datastore-v1 ---
+[INFO] skip non existing resourceDirectory /java-datastore/proto-google-cloud-datastore-v1/src/test/resources
+[INFO] skip non existing resourceDirectory /java-datastore/proto-google-cloud-datastore-v1/src/test/proto
+[INFO] 
+[INFO] --- compiler:3.9.0:testCompile (default-testCompile) @ proto-google-cloud-datastore-v1 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- animal-sniffer:1.20:check (java8) @ proto-google-cloud-datastore-v1 ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[INFO] 
+[INFO] --- surefire:3.0.0-M5:test (default-test) @ proto-google-cloud-datastore-v1 ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jacoco:0.8.7:report (report) @ proto-google-cloud-datastore-v1 ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO] 
+[INFO] --------< com.google.cloud.datastore:datastore-v1-proto-client >--------
+[INFO] Building datastore-v1-proto-client 2.2.3-SNAPSHOT                  [3/5]
+[INFO]   from datastore-v1-proto-client/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ datastore-v1-proto-client ---
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ datastore-v1-proto-client ---
+[INFO] Adding ignore: module-info
+[INFO] Adding ignore: META-INF/versions/*/module-info
+[WARNING] Rule 2: org.apache.maven.plugins.enforcer.RequireUpperBoundDeps failed with message:
+Failed while enforcing RequireUpperBoundDeps. The error(s) are [
+Require upper bound dependencies error for com.google.oauth-client:google-oauth-client:1.32.1 paths to dependency are:
++-com.google.cloud.datastore:datastore-v1-proto-client:2.2.3-SNAPSHOT
+  +-com.google.oauth-client:google-oauth-client:1.32.1
+and
++-com.google.cloud.datastore:datastore-v1-proto-client:2.2.3-SNAPSHOT
+  +-com.google.api-client:google-api-client:1.33.1
+    +-com.google.oauth-client:google-oauth-client:1.32.1 (managed) <-- com.google.oauth-client:google-oauth-client:1.33.0
+]
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Google Cloud Datastore Parent 2.2.3-SNAPSHOT ....... SUCCESS [  2.678 s]
+[INFO] proto-google-cloud-datastore-v1 0.93.3-SNAPSHOT .... SUCCESS [  9.311 s]
+[INFO] datastore-v1-proto-client 2.2.3-SNAPSHOT ........... FAILURE [  0.304 s]
+[INFO] Google Cloud Datastore 2.2.3-SNAPSHOT .............. SKIPPED
+[INFO] Google Cloud datastore BOM 2.2.3-SNAPSHOT .......... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  14.002 s
+[INFO] Finished at: 2026-03-18T13:07:01Z
+[INFO] ------------------------------------------------------------------------
+[WARNING] 
+[WARNING] Plugin validation issues were detected in 9 plugin(s)
+[WARNING] 
+[WARNING]  * org.apache.maven.plugins:maven-checkstyle-plugin:3.1.2
+[WARNING]  * org.jacoco:jacoco-maven-plugin:0.8.7
+[WARNING]  * org.apache.maven.plugins:maven-compiler-plugin:3.9.0
+[WARNING]  * org.codehaus.mojo:build-helper-maven-plugin:3.3.0
+[WARNING]  * org.codehaus.mojo:flatten-maven-plugin:1.2.7
+[WARNING]  * org.codehaus.mojo:animal-sniffer-maven-plugin:1.20
+[WARNING]  * org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M5
+[WARNING]  * org.apache.maven.plugins:maven-enforcer-plugin:3.0.0-M3
+[WARNING]  * org.apache.maven.plugins:maven-resources-plugin:3.3.0
+[WARNING] 
+[WARNING] For more or less details, use 'maven.plugin.validation' property with one of the values (case insensitive): [BRIEF, DEFAULT, VERBOSE]
+[WARNING] 
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-enforcer-plugin:3.0.0-M3:enforce (enforce) on project datastore-v1-proto-client: Some Enforcer rules have failed. Look above for specific messages explaining why the rule failed. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :datastore-v1-proto-client

@@ -8,8 +8,8 @@ ids=($(jq --raw-output 'to_entries | sort_by(.value.breakingImageTime)[:5] | .[]
 mkdir -p outputs/{reproductions/{successful,in-progress,unsuccessful},{maven,workflow}-logs,jars}
 
 for id in "${ids[@]}"; do
-	# Copy JSON files for commits from data/benchmark, and remove extra keys (since it fails otherwise)
-	jq '.updatedDependency |= {dependencyGroupID, dependencyArtifactID, previousVersion, newVersion, dependencyScope, versionUpdateType, dependencySection} | {url, project, projectOrganisation, breakingCommit, prAuthor, preCommitAuthor, breakingCommitAuthor, updatedDependency, licenseInfo}' "data/benchmark/$id.json" > "outputs/reproductions/in-progress/$id.json"
+	# Copy JSON files for commits from benchmark-data, and remove extra keys (since it fails otherwise)
+	jq '.updatedDependency |= {dependencyGroupID, dependencyArtifactID, previousVersion, newVersion, dependencyScope, versionUpdateType, dependencySection} | {url, project, projectOrganisation, breakingCommit, prAuthor, preCommitAuthor, breakingCommitAuthor, updatedDependency, licenseInfo}' "benchmark-data/$id.json" > "outputs/reproductions/in-progress/$id.json"
 	
 	# Run reproducer in parallel
 	java -jar target/BreakingUpdateReproducer.jar -a .env -b outputs/reproductions/successful/ -c github_packages_credentials.json -d outputs/reproductions/in-progress/ -f "outputs/reproductions/in-progress/$id.json" -j outputs/jars/ -l outputs/maven-logs/ -u outputs/reproductions/unsuccessful/ -w outputs/workflow-logs/ &
@@ -24,7 +24,7 @@ wait
 # for id in "${ids[@]}"; do
 # 	benchmarkFailureCategory=($(jq --raw-output '.failureCategory' "data/benchmark/$id.json"))
 # 	reproductionFailureCategory=($(jq --raw-output '.failureCategory' "outputs/reproductions/successful/$id.json"))
-# 	if [[ $benchmarkFailureCategory == $reproductionFailureCategory ]]; then
+# 	if [[ $benchmarkFailureCategory 							== $reproductionFailureCategory ]]; then
 # 		echo "$id: Matches"
 # 	else
 # 		echo "$id: DOESN'T MATCH! - Category of failure in reproduction is \"$reproductionFailureCategory\", while in benchmark it's \"$benchmarkFailureCategory\"."
