@@ -80,7 +80,7 @@ notes/                      # Notes taken during replication
 1. **Clone this repository**
 ```bash
    git clone https://github.com/zs-5/SA-Replication-2.git
-   cd YOUR_REPO_HERE
+   cd SA-Replication-2
 ```
 
 2. **Clone the original BUMP repository**
