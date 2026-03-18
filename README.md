@@ -1,101 +1,146 @@
-<p style="border:1px; border-style:solid; border-color:black; padding: 1em;">
-CS-UH 3260 Software Analytics<br/>
-Replication Study Guidelines<br/>
-Dr. Sarah Nadi, NYUAD
-</p>
+# BUMP Replication Study
 
-# Replication Repository README Template -- CS-UH-3260 Software Analytics
-
-
-## Overview
-
-This repo provides a template and and guidelines for creating a README file for your replication study repository. The README serves as the primary documentation for your repository and helps evaluators understand your work, navigate your repository structure, and reproduce your replication. You can create a repo based on this template and modify the README and content as needed.
-
-
-## README Structure Template
-
-Your repository README should include the following sections:
-
-### 1. Project Title and Overview
+## 1. Project Title and Overview
 
 - **Paper Title**: BUMP: A Benchmark of Reproducible Breaking Dependency Updates
-- **Authors**: Frank Reyes, Yogya Gamage, Gabriel Skoglund, Benoit Baudry, Martin Monperrus
+- **Authors**: Frank Reyes, Yogya Gamage, Gabriel Skoglund, Benoit Baudry, 
+  Martin Monperrus
 - **Replication Team**: John Yun Moe & Zavier Shaikh
 - **Course**: CS-UH 3260 Software Analytics, NYUAD
-- **Brief Description**: 
-  - 2-3 sentences summarizing what the original paper is about
-  - 2-3 sentences summarizing what this replication study does
 
-### 2. Repository Structure
+### Original Paper
+BUMP is a benchmark of 571 reproducible breaking dependency updates collected 
+from 153 real-world Java/Maven projects on GitHub. Each breaking update 
+corresponds to a pull request that bumps a single dependency version and causes 
+the project's CI build to fail. The benchmark packages each breaking update as 
+a pair of Docker images, ensuring long-term reproducibility across platforms.
 
-Document your repository structure clearly. Organize your repository using the following standard structure:
+### This Replication
+This replication study reproduces Table II of the original paper by 
+re-classifying all 571 breaking updates by failure category, and manually 
+reproduces five individual breaking updates using the provided Docker images. 
+We additionally extend the original mining methodology to ten Java/Maven 
+projects — five from the original dataset and five new ones — targeting pull 
+requests submitted after the original collection cut-off date.
 
+---
+
+## 2. Repository Structure
 ```
-README                    # Documentation for your repository
-datasets/                 # Subset of data you used (if any). If you used the whole dataset, include instructions on how to download it
-replication_scripts/      # Scripts used in your replication:
-                          #   - If you used scripts as-is: document which scripts you ran
-                          #   - If you modified scripts: include the modified scripts
-                          #   - If you created new scripts: include all new scripts
-outputs/                  # Your generated results only
-logs/                     # Console output, errors, screenshots
-notes/                    # Optional if you have any notes you took during reproduction (E.g., where you noted discrepencies etc)
+README.md                   # This file
+datasets/                   # Data used in the replication
+    metadata/               # JSON metadata files for all 571 breaking updates
+                            # downloaded from the original BUMP repository
+    selected_updates/       # JSON files for the 5 manually reproduced updates
+    extended_mining/        # Data for the 10 projects used in the extended 
+                            # mining task (5 original + 5 new)
+replication_scripts/        # Scripts used in the replication
+    classify_failures.py    # Script to parse build logs and classify failures
+                            # into the 5 categories from Table II
+    run_reproductions.sh    # Shell script to pull and run the 5 selected
+                            # Docker image pairs for manual reproduction
+    run_miner.sh            # Shell script to run the BUMP miner against
+                            # the 10 selected projects
+outputs/                    # Generated results
+    table2_replication.csv  # Our failure category counts vs. paper's Table II
+    reproduction_results.md # Results of the 5 manual reproductions
+    mining_results.csv      # Output of the extended mining task for all
+                            # 10 projects
+logs/                       # Console output and build logs
+    docker_logs/            # Build logs from Docker image executions
+    miner_logs/             # Console output from running the BUMP miner
+notes/                      # Notes taken during replication
+    discrepancies.md        # Notes on any discrepancies observed vs. 
+                            # the original paper
+    setup_issues.md         # Notes on setup and configuration issues 
+                            # encountered
 ```
 
-**For each folder and file, provide a brief description of what it contains.**
+---
 
-### 3. Setup Instructions
+## 3. Setup Instructions
 
-- **Prerequisites**: Required software, tools, and versions
-  - OS requirements
-  - Programming language versions (Python, R, etc.)
-  - Required packages/libraries and versions
-  - Any other dependencies
-- **Installation Steps**: Step-by-step instructions to set up the environment
-  - How to install dependencies
-  - How to configure paths or settings
-  - Any environment variables needed
+### Prerequisites
 
-### 4. GenAI Usage
+- **OS**: Linux (Ubuntu 22.04 LTS recommended) or Windows 11 with WSL2
+- **Docker**: version 23.0.3 or higher
+  - Installation: https://docs.docker.com/engine/install/
+- **Java**: OpenJDK 11
+  - `sudo apt install openjdk-11-jdk`
+- **Apache Maven**: 3.9.2 or higher
+  - `sudo apt install maven`
+- **Python**: 3.9 or higher (for log parsing scripts)
+  - Required packages: `pip install -r requirements.txt`
+- **GitHub Personal Access Token**: required to run the BUMP miner
+  - Generate one at https://github.com/settings/tokens with `repo` and 
+    `read:packages` scopes
 
-**GenAI Usage**: Briefly document any use of generative AI tools (e.g., ChatGPT, GitHub Copilot, Cursor) during the replication process. Include:
+### Installation Steps
 
-  - Which tools were used
-  - How they were used (e.g., understanding scripts, exploring datasets, understanding data fields, debugging)
-  - Brief description of the assistance provided
+1. **Clone this repository**
+```bash
+   git clone https://github.com/zs-5/SA-Replication-2.git
+   cd YOUR_REPO_HERE
+```
 
+2. **Clone the original BUMP repository**
+```bash
+   git clone https://github.com/chains-project/bump
+```
 
-## Grading Criteria for README
+3. **Download the BUMP metadata files**
+```bash
+   cp -r bump/data/breaking-updates/ datasets/metadata/
+```
 
-Your README will be evaluated based on the following aspects (Total: 40 points):
+4. **Set up your GitHub token for the miner**
+```bash
+   export GITHUB_TOKEN=your_token_here
+```
 
-### 1. Completeness (10 points)
-- [ ] All required sections are present
-- [ ] Each section contains sufficient detail
-- [ ] Repository structure is fully documented
-- [ ] All files and folders are explained
-- [ ] GenAI usage is documented (if any AI tools were used)
+5. **Install Python dependencies**
+```bash
+   pip install -r requirements.txt
+```
 
-### 2. Clarity and Organization (5 points)
-- [ ] Information is well-organized and easy to follow
-- [ ] Instructions are clear and unambiguous
-- [ ] Professional writing and formatting
-- [ ] Proper use of markdown formatting (headers, code blocks, lists)
+6. **Authenticate with the GitHub Docker registry to pull BUMP images**
+```bash
+   echo $GITHUB_TOKEN | docker login ghcr.io -u YOUR_GITHUB_USERNAME --password-stdin
+```
 
-### 3. Setup and Reproducibility (10 points)
-- [ ] Setup instructions are complete and accurate, i.e., we were able to rerun the scripts following your instructions and obtain the results you reported
+### Reproducing Table II
 
+Run the failure classification script against the full metadata set:
+```bash
+python replication_scripts/classify_failures.py \
+    --metadata datasets/metadata/ \
+    --output outputs/table2_replication.csv
+```
+Results will be written to `outputs/table2_replication.csv` and printed 
+to the console for direct comparison with Table II of the paper.
 
-## Best Practices
+### Reproducing the 5 Manual Breaking Updates
+```bash
+bash replication_scripts/run_reproductions.sh
+```
+This script pulls and runs both Docker images for each of the 5 selected 
+breaking updates. Logs are saved to `logs/docker_logs/`. Results are 
+summarized in `outputs/reproduction_results.md`.
 
-1. **Be Specific**: Include exact versions, paths, and commands rather than vague descriptions
-2. **Keep It Updated**: Ensure the README reflects the current state of your repository
-3. **Test Your Instructions**: Have someone else (or yourself in a fresh environment) follow the setup instructions
-4. **Document AI Usage**: If you used any GenAI tools, be transparent about how they were used (e.g., understanding scripts, exploring datasets, understanding data fields)
+### Running the Extended Miner
+```bash
+bash replication_scripts/run_miner.sh
+```
+This script runs the BUMP miner against all 10 projects. Ensure your 
+`GITHUB_TOKEN` environment variable is set before running. Output is 
+saved to `outputs/mining_results.csv` and logs to `logs/miner_logs/`.
 
+---
 
-## Acknowledgement
+## 4. GenAI Usage
 
-This guideline was developed with the assistance of [Cursor](https://www.cursor.com/), an AI-powered code editor. This tool was used to:
-
-- Draft and refine this documentation iteratively
+Claude (Anthropic) was used during this replication for two purposes: 
+improving the readability and clarity of this README, and providing 
+guidance on Java and Maven usage conventions encountered during the 
+reproduction process. All technical decisions, experimental results, 
+and analysis are the work of the replication team.
