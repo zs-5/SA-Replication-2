@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/eng-floe/floecat/pull/20",
+  "project" : "floecat",
+  "projectOrganisation" : "eng-floe",
+  "breakingCommit" : "a778860ab870779c17b3d997b6b2d47add8ba914",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.datasketches",
+    "dependencyArtifactID" : "datasketches-java",
+    "previousVersion" : "6.0.0",
+    "newVersion" : "9.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

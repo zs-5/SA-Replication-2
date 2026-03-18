@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/socketio4j/netty-socketio/pull/138",
+  "project" : "netty-socketio",
+  "projectOrganisation" : "socketio4j",
+  "breakingCommit" : "3ad3b503f71e909e89c81bf927a3c287b20f7f61",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "ch.qos.logback",
+    "dependencyArtifactID" : "logback-core",
+    "previousVersion" : "1.5.19",
+    "newVersion" : "1.5.25",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

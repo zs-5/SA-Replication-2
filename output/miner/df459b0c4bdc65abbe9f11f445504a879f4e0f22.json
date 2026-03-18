@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/parttimenerd/jstall/pull/26",
+  "project" : "jstall",
+  "projectOrganisation" : "parttimenerd",
+  "breakingCommit" : "df459b0c4bdc65abbe9f11f445504a879f4e0f22",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jetbrains",
+    "dependencyArtifactID" : "annotations",
+    "previousVersion" : "26.0.2-1",
+    "newVersion" : "26.1.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

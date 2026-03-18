@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/GregorStocks/mage-bench/pull/1027",
+  "project" : "mage-bench",
+  "projectOrganisation" : "GregorStocks",
+  "breakingCommit" : "ed4cf6b32bece61f431d5580fec669c1ba425e03",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.shiro",
+    "dependencyArtifactID" : "shiro-core",
+    "previousVersion" : "1.13.0",
+    "newVersion" : "2.1.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

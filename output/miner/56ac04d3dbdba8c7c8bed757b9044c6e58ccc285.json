@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/genkit-ai/genkit-java/pull/19",
+  "project" : "genkit-java",
+  "projectOrganisation" : "genkit-ai",
+  "breakingCommit" : "56ac04d3dbdba8c7c8bed757b9044c6e58ccc285",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.dashjoin",
+    "dependencyArtifactID" : "jsonata",
+    "previousVersion" : "0.9.7",
+    "newVersion" : "0.9.9",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

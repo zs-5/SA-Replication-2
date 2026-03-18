@@ -27,33 +27,20 @@ requests submitted after the original collection cut-off date.
 
 ## 2. Repository Structure
 ```
-README.md                   # This file
-datasets/                   # Data used in the replication
-    metadata/               # JSON metadata files for all 571 breaking updates
-                            # downloaded from the original BUMP repository
-    selected_updates/       # JSON files for the 5 manually reproduced updates
-    extended_mining/        # Data for the 10 projects used in the extended 
-                            # mining task (5 original + 5 new)
-replication_scripts/        # Scripts used in the replication
-    classify_failures.py    # Script to parse build logs and classify failures
-                            # into the 5 categories from Table II
-    run_reproductions.sh    # Shell script to pull and run the 5 selected
-                            # Docker image pairs for manual reproduction
-    run_miner.sh            # Shell script to run the BUMP miner against
-                            # the 10 selected projects
-outputs/                    # Generated results
-    table2_replication.csv  # Our failure category counts vs. paper's Table II
-    reproduction_results.md # Results of the 5 manual reproductions
-    mining_results.csv      # Output of the extended mining task for all
-                            # 10 projects
-logs/                       # Console output and build logs
-    docker_logs/            # Build logs from Docker image executions
-    miner_logs/             # Console output from running the BUMP miner
-notes/                      # Notes taken during replication
-    discrepancies.md        # Notes on any discrepancies observed vs. 
-                            # the original paper
-    setup_issues.md         # Notes on setup and configuration issues 
-                            # encountered
+README.md                         # This file
+benchmark-data                    # Will contain the JSON metadata files for all 571 breaking
+                                  # updates downloaded from the original BUMP repository
+scripts/                          # Scripts used in the replication
+    calculate_failure_stats.sh    # Script to build table of failure categories
+    reproduce_breaking_commits.sh # Script to reproduce 5 breaking updates
+output/                           # Generated results
+    parallel/                     # Output of reproducing 5 breaking updates,
+                                  # as they were done with GNU parallel
+    miner/                        # Contains the repos.json file used, and
+                                  # the corresponding breaking updates found
+notes/                            # Notes taken during replication
+    discrepancies.md              # Notes on any discrepancies observed vs. 
+                                  # the original paper
 ```
 
 ---
@@ -79,20 +66,18 @@ notes/                      # Notes taken during replication
 
 1. **Clone this repository**
 ```bash
-  git clone https://github.com/zs-5/SA-Replication-2.git
-  cd SA-Replication-2
+git clone https://github.com/zs-5/SA-Replication-2.git
 ```
-
 2. **Clone the original BUMP repository**
 ```bash
-  git clone https://github.com/chains-project/bump
+git clone https://github.com/chains-project/bump
 ```
 
 3. **Download the required BUMP metadata files and java jars (after building)**
 ```bash
-  mkdir SA-Replication-2/{benchmark-data,jars}
-  cp -r bump/data/benchmark/ SA-Replication-2/benchmark-data/
-  cp -r bump/target/*.jar SA-Replication-2/jars/
+mkdir SA-Replication-2/{benchmark-data,target}
+cp -r bump/data/benchmark/ SA-Replication-2/benchmark-data/
+cp -r bump/target/*.jar SA-Replication-2/target/
 ```
 
 4. **Set up your GitHub token for the miner**
@@ -117,12 +102,11 @@ Run the failure classification script against the full metadata set:
 ```bash
 ./scripts/calculate_failure_stats.sh
 ```
-Results will be written to `outputs/table2_replication.csv` and printed 
-to the console for direct comparison with Table II of the paper.
+Results will be printed to the console for direct comparison with Table II of the paper.
 
 Also run the following to execute all breaking updates
 ```bash
-  parallel --use-cores-instead-of-threads -j 75% --delay 2 --bar -t -v -v --output-as-files --results out podman run --network none ghcr.io/chains-project/breaking-updates:{}-breaking ::: $(cat ./all_ids)
+parallel --use-cores-instead-of-threads -j 75% --delay 2 --bar -t -v -v --output-as-files --results out podman run --network none ghcr.io/chains-project/breaking-updates:{}-breaking ::: $(cat ./all_ids)
 ```
 
 ### Reproducing the 5 Manual Breaking Updates
@@ -138,7 +122,7 @@ java -jar target/BreakingUpdateMiner.jar mine -a .env -o output/miner/ -r output
 ```
 This script runs the BUMP miner against all 10 projects. Ensure your 
 GitHub token is saved in `.env` before running. Output is 
-saved to `outputs/mining_results.csv` and logs to `logs/miner_logs/`.
+saved to `output/miner`.
 
 ---
 

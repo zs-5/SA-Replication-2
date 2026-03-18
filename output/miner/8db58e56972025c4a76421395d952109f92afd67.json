@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/GregorStocks/mage-bench/pull/1016",
+  "project" : "mage-bench",
+  "projectOrganisation" : "GregorStocks",
+  "breakingCommit" : "8db58e56972025c4a76421395d952109f92afd67",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.openjfx",
+    "dependencyArtifactID" : "javafx-web",
+    "previousVersion" : "21.0.10",
+    "newVersion" : "25.0.2",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

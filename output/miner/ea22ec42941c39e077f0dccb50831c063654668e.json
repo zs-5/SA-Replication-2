@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/volodya-lombrozo/jtcop/pull/466",
+  "project" : "jtcop",
+  "projectOrganisation" : "volodya-lombrozo",
+  "breakingCommit" : "ea22ec42941c39e077f0dccb50831c063654668e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.opennlp",
+    "dependencyArtifactID" : "opennlp-tools",
+    "previousVersion" : "2.2.0",
+    "newVersion" : "2.5.7",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

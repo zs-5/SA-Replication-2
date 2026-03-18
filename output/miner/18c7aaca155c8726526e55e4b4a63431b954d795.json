@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/GregorStocks/mage-bench/pull/1024",
+  "project" : "mage-bench",
+  "projectOrganisation" : "GregorStocks",
+  "breakingCommit" : "18c7aaca155c8726526e55e4b4a63431b954d795",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jboss.remoting",
+    "dependencyArtifactID" : "jboss-remoting",
+    "previousVersion" : "2.5.4.SP5",
+    "newVersion" : "5.0.20.Final",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Other"
+}

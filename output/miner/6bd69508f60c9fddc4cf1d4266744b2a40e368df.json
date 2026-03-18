@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/wesleyosantos91/poc-multi-module-arch-hexagonal-springboot/pull/156",
+  "project" : "poc-multi-module-arch-hexagonal-springboot",
+  "projectOrganisation" : "wesleyosantos91",
+  "breakingCommit" : "6bd69508f60c9fddc4cf1d4266744b2a40e368df",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.mapstruct",
+    "dependencyArtifactID" : "mapstruct",
+    "previousVersion" : "1.5.5.Final",
+    "newVersion" : "1.6.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

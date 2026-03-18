@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/wesleyosantos91/poc-multi-module-arch-hexagonal-springboot/pull/160",
+  "project" : "poc-multi-module-arch-hexagonal-springboot",
+  "projectOrganisation" : "wesleyosantos91",
+  "breakingCommit" : "dca32058dc00898064cd6856a703994d0a6866d7",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.springdoc",
+    "dependencyArtifactID" : "springdoc-openapi-starter-webmvc-ui",
+    "previousVersion" : "2.6.0",
+    "newVersion" : "2.8.6",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "MIT License"
+}

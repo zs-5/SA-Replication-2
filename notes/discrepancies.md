@@ -1,0 +1,2 @@
+There are 243 compilation failures in the original paper, but 235 found by their (and our) script on the provided data.
+This is due to 8 of them having an error a failure category of "WERROR_FAILURE" instead of "COMPILATION_ERROR", which their script doesn't check for, and wasn't mentioned in their paper.
